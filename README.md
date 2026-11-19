@@ -2,11 +2,13 @@
 
 Asistente de decisiones para móvil y escritorio, con enciclopedia secundaria y apoyo para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 2.1
+## Estado actual · versión 2.2
 
 - **45 fichas de referencia**: 10 tipos de aeronaves, 6 buques, 20 entradas de armamento (incluida una variante de Mk 46), 3 sonoboyas y 6 amenazas soviéticas.
 - **Copiloto táctico interactivo** con decisiones basadas en misión, distancia, identificación, munición, disponibilidad y mods seleccionados.
-- **S-3A Viking ASW (18) verificado mediante captura del juego**: Mk-46 Mod 5 NEARTIP ×4, AN/SSQ-53 DIFAR ×42, AN/SSQ-62 DICASS ×12 y AN/SSQ-77 VLAD ×8, preparación 30 min. Los otros cinco perfiles visibles se registran sin inventar su composición.
+- **52 loadouts de 10 aeronaves extraídos de `original.zip`, resueltos para 1985**, con 35 tipos de munición/equipo y tiempos de preparación. `source_1985.json` guarda datos estructurados, no los INI completos.
+- **S-3A Viking**: siete perfiles originales (ASW, ASWBomb, Strike, StrikeHeavy, StrikeLongRange, AntiShip, CAS). La carga ASW está verificada en los INI y en la captura: cuatro Mk-46 Mod 5 NEARTIP, 42 DIFAR, 12 DICASS y 8 VLAD, preparación de 30 min. Los números entre paréntesis del menú no son IDs de perfiles.
+- **Copiloto con desglose real de carga** para la configuración sugerida, distinguiendo bombas, misiles, sonoboyas y depósitos.
 - **21 mods de Steam Workshop** catalogados, con opciones de armamento añadidas y advertencias.
 - Búsqueda global, filtros por tipo/bando/campaña/año, favoritos y comparador de dos fichas.
 - Ventana de detalle con funciones, ventajas, limitaciones, loadouts orientativos, enlaces a armas y notas privadas.
@@ -37,12 +39,24 @@ En Windows la IP se consulta con `ipconfig`; en Linux con `hostname -I`. Puede s
 
 1. Crea un repositorio dedicado (comprueba si será público; GitHub Pages puede publicar contenidos que no quieres compartir).
 2. Sube **el contenido de esta carpeta** (index.html, app.js, styles.css, data.json, assets/, packs/, etc.) a la raíz del repositorio.
-3. En GitHub: **Settings → Pages → Deploy from a branch → main / (root)**.
-4. Abre la URL HTTPS de Pages en tus dispositivos. Usa **Añadir a pantalla de inicio / Instalar aplicación** para disponer de ella como PWA.
+3. En este repositorio ya funciona **Settings → Pages → GitHub Actions** mediante `.github/workflows/pages.yml` (sin servicios de pago).
+4. Abre `https://juanjitodevelop.github.io/SeaPower-Atlas/` y usa **Añadir a pantalla de inicio** para instalarla como PWA.
 
 La publicación **no sincroniza tus datos privados**: favoritos, notas y paquetes importados se almacenan localmente en cada navegador. Para migrarlos, usa Mods y datos → Exportar/Restaurar. Si deseas sincronización real multi-dispositivo, una futura versión necesitará backend y autenticación (o integración específica con algún almacenamiento remoto).
 
 **No publiques notas privadas dentro de `data.json`, `app.js` ni archivos del repositorio.** La app guarda las notas en `localStorage` en cada navegador, pero una copia JSON exportada sí contiene datos privados.
+
+## Regenerar los datos del juego
+
+Tras actualizar Sea Power, comprime el contenido de la carpeta `Sea Power_Data/StreamingAssets/original` preservando rutas internas (`aircraft/...`, `ammunition/...`, etc.). En el equipo donde tengas Python 3:
+
+```bash
+python tools/extract_sea_power.py original.zip --year 1985 --output source_1985.json
+```
+
+Comprueba los cambios del JSON y sustitúyelo en el repositorio. La herramienta no altera ningún archivo de tu instalación. También puedes exportar auditoría extendida de estaciones con `--full` y otro nombre de archivo.
+
+**Límite:** el extractor abarca únicamente los diez tipos de aeronaves de la campaña actual. No mezcla automáticamente archivos del Workshop ni calcula almacenes disponibles en una partida.
 
 ## Paquetes de mods
 
@@ -73,13 +87,13 @@ El importador admite JSON de este esquema:
 }
 ```
 
-Categorías: `aircraft`, `ship`, `weapon`, `enemy`. Requiere `id`, `name`, `category`, `summary`. El ID debe ser único en toda la biblioteca; utiliza un prefijo de mod. Se admiten hasta 500 fichas por paquete, 2 MB máximo en la interfaz. `packs/ejemplo-euromod.json` incluye un ejemplo **didáctico**, no una extracción del mod.
+Categorías: `aircraft`, `ship`, `weapon`, `sensor`, `enemy`. Requiere `id`, `name`, `category`, `summary`. El ID debe ser único en toda la biblioteca; utiliza un prefijo de mod. Se admiten hasta 500 fichas por paquete, 2 MB máximo en la interfaz. `packs/ejemplo-euromod.json` incluye un ejemplo **didáctico**, no una extracción del mod.
 
-**La v1 no convierte automáticamente los INI ni el Workshop de Sea Power a fichas.** Una futura herramienta de escritorio podría extraer los archivos del juego y mods instalados, normalizar sus unidades, sensores, armamento y loadouts y generar paquetes JSON verificados. No se han copiado archivos propietarios del juego.
+**Los mods de Workshop no están incorporados en esta extracción.** `source_1985.json` procede de los archivos `StreamingAssets/original` facilitados por el jugador. Los perfiles modificados por Workshop, los sistemas de buques y los sensores de `systems/` deberán comprobarse por separado; no se han copiado los INI completos ni los recursos gráficos del juego.
 
 ## Precisión y limitaciones
 
-Las 45 fichas son una **base educativa editorial**. Los datos reales de alcance y disponibilidad cambian según versión, fecha, unidad, configuración y mod. En particular, el USS Missouri (BB-63) volvió al servicio en **mayo de 1986** y la fragata USS Samuel B. Roberts (FFG-58) entró en servicio en **abril de 1986**, aunque ambas figuren en la campaña personal de 1985. No se incluye información obtenida de una extracción del juego y no se prometen valores exactos de sus archivos internos.
+Las 45 fichas son una **base educativa editorial**. Los 52 perfiles de `source_1985.json` se han calculado desde archivos originales para 1985. Las cantidades se deducen de estaciones/racks y son orientativas cuando hay contenedores, reglas internas y mods. Las reservas reales de Task Force no están sincronizadas con la web. En particular, el USS Missouri (BB-63) volvió al servicio en **mayo de 1986** y la fragata USS Samuel B. Roberts (FFG-58) entró en servicio en **abril de 1986**, aunque ambas figuren en la campaña personal de 1985.
 
 Fuentes para contrastar futuras ampliaciones:
 
@@ -93,7 +107,11 @@ Fuentes para contrastar futuras ampliaciones:
 - `index.html`: interfaz.
 - `styles.css`: diseño responsive y tema oscuro.
 - `app.js`: navegación, filtros, notas, favoritos, mod packs y comparación.
-- `data.json`: catálogo editable.
+- `data.json`: catálogo editorial editable.
+- `source_1985.json`: datos compactos calculados de los INI de 10 aeronaves para 1985.
+- `source.js`: visualizador y relaciones entre cargas del juego y el copiloto.
+- `planner.js`, `planner.test.cjs`: motor de decisiones y pruebas.
+- `tools/extract_sea_power.py`: extractor reproducible para regenerar datos tras actualizar el juego.
 - `sw.js`: caché PWA.
 - `manifest.webmanifest`, `assets/icon.svg`: instalación y marca.
 - `packs/`: ejemplos de archivos de datos.
