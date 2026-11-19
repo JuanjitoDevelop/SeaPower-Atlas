@@ -169,7 +169,7 @@ function computePlan(p){
  const e2=()=>add("support","e2c","AEW","Mantener un cuadro táctico actualizado");
  const cap=()=>{if(ready("f14a"))add("support","f14a","Air to Air / Intercept","Cobertura aérea");else if(ready("fa18a"))add("support","fa18a","Air to Air","Cobertura aérea alternativa");else note("No has registrado cazas disponibles para cobertura.")};
  const ew=()=>{if(ready("ea6b"))add("support","ea6b","EW","Apoyo electrónico");else note("No hay EA-6B disponibles: falta la opción habitual de apoyo EW.")};
- const patrol=()=>{if(ready("s3a"))add("primary","s3a",ammo("torpedo")==="empty"?"Búsqueda ASW (verificar carga sin torpedos)":"ASW (18)","Localizar y seguir el contacto");if(ready("sh2f"))add("support","sh2f","ASW","Búsqueda próxima");else if(ready("sh3h"))add("support","sh3h","ASW","Apoyo helicóptero")};
+ const patrol=()=>{if(ready("s3a"))add("primary","s3a",ammo("torpedo")==="empty"?"Búsqueda ASW (verificar carga sin torpedos)":"ASW","Localizar y seguir el contacto");if(ready("sh2f"))add("support","sh2f","ASW","Búsqueda próxima");else if(ready("sh3h"))add("support","sh3h","ASW","Apoyo helicóptero")};
  const weaponWarning=(name,word)=>{if(ammo(name)==="unknown")note("No has registrado existencias de "+word+". Verifica el almacén antes de preparar la salida.")};
  const surfaceTarget=p.mission==="surface"||p.mission==="land";
  if(surfaceTarget&&!known){
@@ -296,7 +296,7 @@ function plannerCurrent(){
 
 function plannerResultMarkup(){
  const p=plannerCurrent(),result=computePlan(p);
- const unit=(u)=>{const x=entry(u.id);const preset=u.id==="s3a"&&u.profile==="ASW (18)"?x?.loadouts?.find(l=>l.id==="s3a-asw-18"&&l.verified==="screenshot"):null;const payload=preset?`<div class="plan-payload"><span>Contenido observado en tu juego</span><div>${preset.items.map(i=>`<span>${esc(entry(i.id)?.name||i.id)} × ${esc(i.qty)}</span>`).join("")}</div></div>`:"";return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(u.profile)}</strong><p>${esc(u.why)}</p>${payload}</div>`};
+ const unit=(u)=>{const x=entry(u.id);const payload=gamePlanLoadoutMarkup(u.id,u.profile);return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(u.profile)}</strong><p>${esc(u.why)}</p>${payload}</div>`};
  const list=arr=>`<ul class="plan-points">${arr.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
  const unique=[...new Set(result.related||[])];
  return `<section id="planner-result" class="plan-result" aria-label="Plan sugerido"><div class="plan-result-head"><div class="plan-kicker">PROPUESTA ACTUAL · REGLAS TRANSPARENTES</div><span class="plan-status">${esc(result.status)}</span><h2 aria-live="polite">${esc(result.headline)}</h2><p>${esc(result.why)}</p></div>
