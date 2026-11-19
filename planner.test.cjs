@@ -3,6 +3,11 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const vm=require('node:vm');
 const context={};
+const sourceData=JSON.parse(fs.readFileSync('source_1985.json','utf8'));
+context.gameData=sourceData;
+context.esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+context.entry=id=>({id,name:id});
+vm.runInNewContext(fs.readFileSync('source.js','utf8')+'\nthis.sourceFns={gameUnit,gameAmmoName,gameItemsMarkup,gamePlanProfile,gamePlanLoadoutMarkup}',context);
 vm.runInNewContext(fs.readFileSync('planner.js','utf8')+'\nthis.engine={computePlan,PLAN_DEFAULT,PLAN_MISSIONS,renderPlanner}',context);
 const {computePlan,PLAN_DEFAULT,PLAN_MISSIONS}=context.engine;
 let count=0;
@@ -29,29 +34,36 @@ check('Defensa sin escoltas principales se advierte',{mission:'defend',inventory
 check('Torpedos agotados bloquea suposición de munición',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.warnings.some(w=>w.includes('agotados')));
 check('Identificación radar no propone ataque',{mission:'identify',scenario:'esm'},x=>x.primary.every(u=>u.id!=='a6e'));
 check('Ataque costero con SAM incluye SEAD',{mission:'land',scenario:'sam',identified:'confirmed'},x=>x.primary.some(u=>u.id==='a6e'&&u.profile.includes('SEAD')));
-// Validación de datos tomados de la captura del S-3A.
+// Datos de los INI originales, resueltos en 1985.
 const catalog=JSON.parse(fs.readFileSync('data.json','utf8'));
-const s3a=catalog.entries.find(x=>x.id==='s3a');
-assert.ok(s3a,'Ficha del S-3A');
-const preset=s3a.loadouts.find(x=>x.name==='ASW (18)');
-assert.equal(preset.verified,'screenshot','ASW (18) verificado');
-assert.deepEqual(Array.from(preset.items,x=>[x.id,x.qty]),[
- ['mk46mod5',4],['ssq53',42],['ssq62',12],['ssq77',8]
-],'Carga exacta del S-3A en la captura');
-assert.equal(preset.prepMinutes,30);
-assert.equal(preset.items.filter(x=>x.id!=='mk46mod5').reduce((n,x)=>n+x.qty,0),62);
-assert.equal(s3a.loadouts.length,6,'Seis opciones visibles del S-3A');
-for(const other of s3a.loadouts.filter(x=>x.id!==preset.id)){
- assert.equal(other.verified,'name-only',other.name+' no tiene inventario confirmado');
- assert.equal(other.items.length,0,other.name+' sin cargas inventadas');
+assert.equal(sourceData.aircraft.length,10);
+assert.equal(sourceData.aircraft.reduce((n,x)=>n+x.loadouts.length,0),52);
+const s3a=sourceData.aircraft.find(x=>x.id==='s3a');
+assert.equal(s3a.loadouts.length,7,'Los originales definen siete perfiles del S-3A');
+const preset=s3a.loadouts.find(x=>x.code==='ASW');
+assert.ok(preset);
+assert.equal(preset.ready,30);
+assert.deepEqual(preset.items.filter(x=>x.type==='Sonobuoy').map(x=>[x.id,x.qty]),
+ [['usn_ssq-53',42],['usn_ssq-62',12],['usn_ssq-77',8]]);
+assert.deepEqual(preset.items.filter(x=>x.type==='Torpedo').map(x=>[x.id,x.qty]),[['usn_mk46_mod5_air',4]]);
+const s3Attack=s3a.loadouts.find(x=>x.code==='AntiShip');
+assert.ok(!s3Attack.items.some(x=>x.id.includes('agm-84')),'S-3A antibuque sin Harpoon en original');
+assert.equal(s3Attack.items.find(x=>x.id==='usn_lau-10a').qty,4);
+assert.equal(sourceData.ammo['usn_lau-10a'].attachments,'4');
+const a6=sourceData.aircraft.find(x=>x.id==='a6e');
+for(const [code,quantity] of [['AntiShip',2],['AntiShipLongRange',1],['AntiShipHeavy',4]]){
+ assert.equal(a6.loadouts.find(x=>x.code===code).items.find(x=>x.id==='usn_agm-84c').qty,quantity,code);
 }
-for(const row of preset.items){
- assert.ok(catalog.entries.some(x=>x.id===row.id),'Componente enlazado '+row.id);
-}
-assert.equal(catalog.entries.find(x=>x.id==='ssq53').category,'sensor');
-check('S-3A propone carga ASW comprobada',{mission:'sub',ammo:{torpedo:'stock'}},x=>x.primary.some(u=>u.id==='s3a'&&u.profile==='ASW (18)'));
-check('S-3A evita carga con torpedos agotados',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.primary.some(u=>u.id==='s3a'&&!u.profile.includes('(18)')));
-console.log('OK: S-3A, seis perfiles y cuatro componentes verificados');
+const prowler=sourceData.aircraft.find(x=>x.id==='ea6b');
+assert.ok(!prowler.loadouts.some(x=>x.code==='SEADAdvanced'),'No SEADAdvanced en el Prowler para 1985');
+const allLoaded=catalog.entries.find(x=>x.id==='s3a');
+assert.equal(allLoaded.loadouts.length,7,'Ficha actualizada');
+check('S-3A ASW respaldado por datos',{mission:'sub',ammo:{torpedo:'stock'}},x=>x.primary.some(u=>u.id==='s3a'&&u.profile==='ASW'));
+check('Sin torpedos usa SH-2F cazador',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.primary.some(u=>u.id==='sh2f'&&u.profile==='ASWHunter')&&!x.primary.some(u=>u.id==='s3a'));
+const visible=context.sourceFns.gamePlanLoadoutMarkup('a6e','AntiShip');
+assert.match(visible,/AGM-84C Harpoon/);
+assert.match(visible,/×2/);
+console.log('OK: 52 perfiles verificados, S-3A y tres cargas Harpoon 1985');
 
 // Renderizado mínimo sin navegador: detecta fallos de la interfaz antes de publicar.
 const root={innerHTML:''};
