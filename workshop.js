@@ -50,7 +50,8 @@ function workshopScenarioHints(id){
  'contacto-sin-identificar':[{mod:'Identify Expanded',text:'Puede ayudarte con la identificación; verifica el resultado antes de tratar el contacto como hostil.'}],
  'misiles-entrantes':[{mod:'Alternative Weapons Control',text:'Consulta su nueva pestaña de armas para revisar medios disponibles. No sustituye la gestión de defensa aérea.'}],
  'retiro-rearme':[{mod:'Custom Loadout Editor',text:'Las cargas personalizadas deben contrastarse con la munición disponible en Task Force, sin asumir reabastecimiento ilimitado.'}],
- 'convoy':[{mod:'Automatic SAR / One Click Formation Manager',text:'Ofrecen funciones de apoyo para rescate y organización de escoltas. Comprueba primero sus controles en el juego.'}]
+ 'convoy':[{mod:'Automatic SAR / One Click Formation Manager',text:'Ofrecen funciones de apoyo para rescate y organización de escoltas. Comprueba primero sus controles en el juego.'}],
+ 'helicopteros-con-mods':[{mod:'Better SH-2 Loadouts',text:'Las cargas Anti-ship, CAS, Air to Air y SEAD son opciones del mod, no capacidades históricas originales.'},{mod:'Harpoon SH-3H',text:'El perfil de cuatro Harpoon es intencionadamente ficticio; conserva ASW si prevés submarinos.'},{mod:'Custom Loadout Editor',text:'Comprueba la configuración exacta y las existencias disponibles en tu campaña antes de despegar.'}]
  };
  const list=hints[id];if(!list?.length)return '';
  return `<section class="guide-block workshop-scenario-block"><h2>Opciones de tus mods</h2><p class="guide-helper">Solo si esos mods están activos; no sustituyen a los perfiles históricos.</p>${list.map(x=>`<div class="workshop-scenario-hint"><strong>${esc(x.mod)}</strong><p>${esc(x.text)}</p></div>`).join('')}<button type="button" class="workshop-more" data-page="packs">Ver catálogo de mods →</button></section>`;
