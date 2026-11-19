@@ -1,0 +1,35 @@
+{
+  "name": "EuroMod — ejemplo editable",
+  "description": "Ejemplo ficticio de integración de una ficha: no representa una importación automática ni asegura fidelidad con la configuración de EuroMod.",
+  "entries": [
+    {
+      "id": "euromod-ejemplo-ddg-arleigh-burke",
+      "name": "Arleigh Burke (ejemplo de ficha)",
+      "category": "ship",
+      "role": "Destructor moderno polivalente",
+      "summary": "Ejemplo de cómo describir una unidad incluida mediante un mod. Revisa armamento, sensores, fecha y variante concreta en la versión instalada de EuroMod.",
+      "nation": "EE. UU.",
+      "year": 1991,
+      "tags": [
+        "Defensa aérea",
+        "Mod",
+        "Ejemplo"
+      ],
+      "stats": [
+        {
+          "label": "Disponibilidad 1985",
+          "value": "No; posterior a 1985"
+        }
+      ],
+      "loadouts": [],
+      "equipment": [],
+      "strengths": [
+        "Muestra cómo ampliar el catálogo sin tocar las fichas originales."
+      ],
+      "cautions": [
+        "No representa valores extraídos del mod."
+      ],
+      "tip": "Sustituye esta ficha por datos verificados de tu versión instalada del mod."
+    }
+  ]
+}
