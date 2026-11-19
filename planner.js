@@ -319,7 +319,7 @@ function renderPlanner(){
  const select=(name,label,opts,val)=>`<label class="plan-field"><span>${esc(label)}</span><select data-plan-control="${esc(name)}">${opts.map(([v,l])=>`<option value="${esc(v)}" ${v===val?'selected':''}>${esc(l)}</option>`).join('')}</select></label>`;
  const ammoOpts=[["unknown","No lo he comprobado"],["stock","Hay existencias"],["empty","Agotado"]];
  const ammoFields=[["harpoon","Harpoon"],["phoenix","AIM-54 Phoenix"],["torpedo","Torpedos"]].map(([id,name])=>select("ammo:"+id,name,ammoOpts,p.ammo[id])).join('');
- root.innerHTML=`<main class="planner-screen"><header class="planner-head"><div class="plan-kicker">SEA POWER ATLAS · COPILOTO TÁCTICO</div><h1>¿Qué necesitas conseguir?</h1><p>Describe la situación y Atlas propondrá una respuesta con los medios que tienes registrados. Cambia cualquier dato para comparar alternativas.</p></header>
+ root.innerHTML=`<div class="planner-screen"><header class="planner-head"><div class="plan-kicker">SEA POWER ATLAS · COPILOTO TÁCTICO</div><h1>¿Qué necesitas conseguir?</h1><p>Describe la situación y Atlas propondrá una respuesta con los medios que tienes registrados. Cambia cualquier dato para comparar alternativas.</p></header>
  <section class="planner-form" aria-label="Situación de misión"><div class="planner-section-title"><span>1</span><h2>Objetivo</h2></div><div class="plan-missions">${PLAN_MISSIONS.map(m=>`<button type="button" class="plan-mission ${p.mission===m.id?'is-active':''}" aria-pressed="${p.mission===m.id}" data-plan-mission="${esc(m.id)}"><span class="plan-mission-icon" aria-hidden="true">${m.icon}</span><strong>${esc(m.name)}</strong><small>${esc(m.hint)}</small></button>`).join('')}</div>
  <div class="planner-section-title"><span>2</span><h2>Situación</h2></div>
  <div class="plan-select-grid">
@@ -341,7 +341,7 @@ function renderPlanner(){
  <div class="planner-section-title planner-answer-title"><span>✓</span><h2>Qué te recomiendo</h2><span class="plan-auto">Se actualiza al cambiar datos</span></div>
  ${plannerResultMarkup()}
  <div class="plan-footer-links"><button type="button" data-page="tactics">Ver procedimientos detallados ↗</button><button type="button" data-page="library">Consultar fichas técnicas ↗</button></div>
- </main>`;
+ </div>`;
 }
 
 function refreshPlannerResult(){
