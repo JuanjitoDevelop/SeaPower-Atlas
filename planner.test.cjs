@@ -11,6 +11,8 @@ context.esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'
 context.entry=id=>({id,name:id});
 vm.runInNewContext(fs.readFileSync('source.js','utf8')+'\nthis.sourceFns={gameUnit,gameAmmoName,gameItemsMarkup,gamePlanProfile,gamePlanLoadoutMarkup}',context);
 vm.runInNewContext(fs.readFileSync('mod_source.js','utf8')+'\nthis.modFns={modUnit,modIsActive,modSelectedProfile,modLoadoutsMarkup,modPlanLoadoutMarkup,editorModOverview}',context);
+vm.runInNewContext(fs.readFileSync('campaign.js','utf8')+'\nthis.campaignFns={campaignInit,campaignUpdateUnit,campaignUpdateStock,campaignPlatformsForAmmo}',context);
+vm.runInNewContext(fs.readFileSync('operations.js','utf8')+'\nthis.opsFns={computeOperations,opsRank,OPS_THREATS}',context);
 vm.runInNewContext(fs.readFileSync('planner.js','utf8')+'\nthis.engine={computePlan,PLAN_DEFAULT,PLAN_MISSIONS,renderPlanner}',context);
 const {computePlan,PLAN_DEFAULT,PLAN_MISSIONS}=context.engine;
 let count=0;
