@@ -153,6 +153,7 @@ const PLAN_DEFAULT={
   },
   "ammo": {
     "harpoon": "unknown",
+    "penguin": "unknown",
     "phoenix": "unknown",
     "torpedo": "unknown"
   }
@@ -191,11 +192,11 @@ function computePlan(p){
     out.status="recursos limitados";
     if(!ready("a6e"))note("Has indicado cero A-6E disponibles.");
     if(ammo("harpoon")==="empty")note("Has indicado que no quedan Harpoon.");
-    if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&!far){
+    if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&!far&&ammo("penguin")!=="empty"){
       add("primary","sh2f","AntiShip","Alternativa del mod con dos Penguin Mk 2; confirmar disponibilidad y supervivencia del helicóptero");
       out.related.push("sh2f");
       out.status="alternativa del mod";
-      note("El SH-2F modificado lleva Penguin Mk 2, NO Harpoon. No podemos deducir sus existencias a partir del indicador de Harpoon.");
+      note("El SH-2F modificado lleva Penguin Mk 2, NO Harpoon. Su almacén es independiente.");if(ammo("penguin")==="unknown")weaponWarning("penguin","Penguin Mk 2");
     }
     if(p.mods?.sh3&&ready("sh3h")&&!p.aswRisk&&!far&&ammo("harpoon")!=="empty"){
       add("primary","sh3h","AntiShip","Alternativa ficticia de mod con cuatro AGM-84A Harpoon");
@@ -288,7 +289,7 @@ function computePlan(p){
   default:out.headline="Selecciona una misión";
  }
  if(p.aswRisk&&p.mission!=="sub"&&p.mission!=="identify")out.notes.push("Has indicado riesgo submarino: reserva aeronaves ASW en vez de dedicar todos los helicópteros a ataque.");
- if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&near&&p.mission==="surface")out.alternatives.push("Better SH-2 Loadouts: perfil AntiShip con 2 Penguin Mk 2 (15 min definidos en INI). No consume Harpoon; su almacén debe revisarse por separado.");
+ if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&near&&p.mission==="surface"&&ammo("penguin")!=="empty")out.alternatives.push("Better SH-2 Loadouts: perfil AntiShip con 2 Penguin Mk 2 (15 min definidos en INI). No consume Harpoon; su almacén debe revisarse por separado.");
  if(p.mission==="surface"&&p.mods?.sh3&&ready("sh3h")&&!p.aswRisk&&!far&&ammo("harpoon")!=="empty")out.alternatives.push("Harpoon SH-3H: 4 AGM-84A según INI del mod, no AGM-84C; su tiempo de preparación no está indicado en el archivo.");
  return out;
 }
@@ -325,7 +326,7 @@ function renderPlanner(){
  const inventory=(items)=>items.map(([id,name])=>`<label class="plan-count"><span>${esc(name)}</span><input type="number" inputmode="numeric" min="0" max="99" step="1" data-plan-inv="${esc(id)}" value="${Math.max(0,Number(p.inventory[id])||0)}" aria-label="${esc(name)} disponibles"></label>`).join('');
  const select=(name,label,opts,val)=>`<label class="plan-field"><span>${esc(label)}</span><select data-plan-control="${esc(name)}">${opts.map(([v,l])=>`<option value="${esc(v)}" ${v===val?'selected':''}>${esc(l)}</option>`).join('')}</select></label>`;
  const ammoOpts=[["unknown","No lo he comprobado"],["stock","Hay existencias"],["empty","Agotado"]];
- const ammoFields=[["harpoon","Harpoon"],["phoenix","AIM-54 Phoenix"],["torpedo","Torpedos"]].map(([id,name])=>select("ammo:"+id,name,ammoOpts,p.ammo[id])).join('');
+ const ammoFields=[["harpoon","Harpoon"],["penguin","Penguin Mk 2"],["phoenix","AIM-54 Phoenix"],["torpedo","Torpedos"]].map(([id,name])=>select("ammo:"+id,name,ammoOpts,p.ammo[id])).join('');
  root.innerHTML=`<div class="planner-screen"><header class="planner-head"><div class="plan-kicker">SEA POWER ATLAS · COPILOTO TÁCTICO</div><h1>¿Qué necesitas conseguir?</h1><p>Describe la situación y Atlas propondrá una respuesta con los medios que tienes registrados. Cambia cualquier dato para comparar alternativas.</p></header>
  <section class="planner-form" aria-label="Situación de misión"><div class="planner-section-title"><span>1</span><h2>Objetivo</h2></div><div class="plan-missions">${PLAN_MISSIONS.map(m=>`<button type="button" class="plan-mission ${p.mission===m.id?'is-active':''}" aria-pressed="${p.mission===m.id}" data-plan-mission="${esc(m.id)}"><span class="plan-mission-icon" aria-hidden="true">${m.icon}</span><strong>${esc(m.name)}</strong><small>${esc(m.hint)}</small></button>`).join('')}</div>
  <div class="planner-section-title"><span>2</span><h2>Situación</h2></div>
