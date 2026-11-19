@@ -296,7 +296,7 @@ function plannerCurrent(){
 
 function plannerResultMarkup(){
  const p=plannerCurrent(),result=computePlan(p);
- const unit=(u)=>{const x=entry(u.id);const payload=gamePlanLoadoutMarkup(u.id,u.profile);return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(u.profile)}</strong><p>${esc(u.why)}</p>${payload}</div>`};
+ const unit=(u)=>{const x=entry(u.id);const payload=gamePlanLoadoutMarkup(u.id,u.profile);const resolved=gamePlanProfile(u.id,u.profile);const profileTitle=resolved?resolved.name:u.profile;return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(profileTitle)}</strong>${resolved?`<div class="plan-profile-code">${esc(resolved.code)}</div>`:""}<p>${esc(u.why)}</p>${payload}</div>`};
  const list=arr=>`<ul class="plan-points">${arr.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
  const unique=[...new Set(result.related||[])];
  return `<section id="planner-result" class="plan-result" aria-label="Plan sugerido"><div class="plan-result-head"><div class="plan-kicker">PROPUESTA ACTUAL · REGLAS TRANSPARENTES</div><span class="plan-status">${esc(result.status)}</span><h2 aria-live="polite">${esc(result.headline)}</h2><p>${esc(result.why)}</p></div>
