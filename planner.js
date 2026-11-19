@@ -185,8 +185,8 @@ function computePlan(p){
    e2();cap();
    if(p.scenario!=="light")ew();
    if(ready("a6e")&&ammo("harpoon")!=="empty"){
-    add("primary","a6e",far?"Anti Ship Long Range (verificar carga)":"Anti Ship / Anti Ship Heavy (según existencias)","Ataque con AGM-84C Harpoon");
-    out.related=["a6e","agm84c"];weaponWarning("harpoon","Harpoon");
+    add("primary","a6e",far?"AntiShipLongRange":"AntiShip","Ataque con AGM-84C Harpoon, con carga y preparación distintas según el perfil");
+    out.related=["a6e","agm84c"];weaponWarning("harpoon","Harpoon");out.alternatives.push("En los originales de 1985, AntiShip usa 2 Harpoon (30 min), AntiShipLongRange 1 (30 min) y AntiShipHeavy 4 (60 min). Elige según munición y autonomía.");
    }else{
     out.status="recursos limitados";
     if(!ready("a6e"))note("Has indicado cero A-6E disponibles.");
