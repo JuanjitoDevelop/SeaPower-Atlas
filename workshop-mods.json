@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "source": "Capturas de la colección de Steam Workshop facilitadas por el usuario el 19/11/2026",
+  "collection": "https://steamcommunity.com/sharedfiles/filedetails/?id=3842583544",
+  "confirmedInstallation": false,
+  "note": "La presencia en la colección no garantiza por sí sola que todos los mods estén activos; las capacidades exactas se deben verificar dentro del juego.",
+  "categories": [
+    {
+      "id": "armamento",
+      "title": "Armamento y loadouts",
+      "icon": "⌁"
+    },
+    {
+      "id": "operaciones",
+      "title": "Operaciones y automatización",
+      "icon": "⌖"
+    },
+    {
+      "id": "interfaz",
+      "title": "Interfaz y mapa",
+      "icon": "▤"
+    },
+    {
+      "id": "sistemas",
+      "title": "Cargadores y dependencias",
+      "icon": "⚙"
+    },
+    {
+      "id": "visual",
+      "title": "Visual y audio",
+      "icon": "◈"
+    }
+  ],
+  "warnings": [
+    {
+      "title": "Flight Deck Ops y Deck Crew",
+      "text": "La descripción de Deck Crew indica que no es compatible con Flight Deck Ops. Revisa cuál de los dos mantener activo.",
+      "ids": [
+        "deck-crew",
+        "flight-deck-ops"
+      ]
+    },
+    {
+      "title": "Anchor Chain y R.A.T.S. Keel",
+      "text": "Keel es la continuación de Anchor Chain; revisa el proceso de migración y mantén un único precargador operativo. La suscripción no demuestra doble carga.",
+      "ids": [
+        "anchor-chain",
+        "rats-keel",
+        "blue-chain"
+      ]
+    },
+    {
+      "title": "Harpoon en SH-3H",
+      "text": "Carga alternativa de cuatro Harpoon: funcionalidad del mod, no equipamiento histórico del SH-3H. No la confundas con una capacidad ASW.",
+      "ids": [
+        "harpoon-sh3h"
+      ]
+    }
+  ],
+  "mods": [
+    {
+      "id": "blue-chain",
+      "name": "Blue Chain (AC-Compatible)",
+      "category": "sistemas",
+      "role": "Cargador compatible con el ecosistema Anchor Chain",
+      "note": "Mod loader compatible con AC; no incorpora por sí mismo barcos ni armas.",
+      "watch": "Verifica qué cargador se inicia realmente y evita duplicar precargadores.",
+      "related": []
+    },
+    {
+      "id": "rats-keel",
+      "name": "R.A.T.S. Keel",
+      "category": "sistemas",
+      "role": "Cargador moderno de mods de código",
+      "note": "Sucesor de Anchor Chain; incorpora comprobaciones de compatibilidad e informes de carga.",
+      "watch": "Comprueba en el juego y en los logs qué cargador está operativo.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3835527459",
+      "related": []
+    },
+    {
+      "id": "seapower-multiplayer",
+      "name": "Seapower Multiplayer",
+      "category": "operaciones",
+      "role": "Multijugador",
+      "note": "Añade funcionalidades multijugador. No altera por sí solo las fichas de armas.",
+      "related": []
+    },
+    {
+      "id": "deck-crew",
+      "name": "Deck Crew - Animated flight deck crews for every carrier",
+      "category": "visual",
+      "role": "Personal animado en la cubierta",
+      "note": "Añade personal de cubierta animado.",
+      "watch": "La descripción visible advierte incompatibilidad con Flight Deck Ops; conviene elegir uno.",
+      "related": []
+    },
+    {
+      "id": "quick-start",
+      "name": "Quick Start (Multiplayer or Singleplayer Task Force Mode)",
+      "category": "operaciones",
+      "role": "Inicio rápido de partidas",
+      "note": "Facilita entrar en modos de juego; no se asumen cambios exactos en armas.",
+      "related": []
+    },
+    {
+      "id": "harpoon-sh3h",
+      "name": "Harpoon SH-3H",
+      "category": "armamento",
+      "role": "Nueva carga antibuque para SH-3H",
+      "note": "Añade una configuración de cuatro Harpoon en lugar de cuatro torpedos, según la descripción del autor.",
+      "watch": "Opción de mod no histórica ni realista; tu único SH-3H queda apartado de ASW mientras usa esta carga.",
+      "related": [
+        "sh3h",
+        "agm84c"
+      ]
+    },
+    {
+      "id": "better-sh2",
+      "name": "Better SH-2 Loadouts (Anti-ship, CAS, Air to Air, SEAD)",
+      "category": "armamento",
+      "role": "Cargas ofensivas adicionales para SH-2F",
+      "note": "Añade perfiles Anti-ship, CAS, Air to Air y SEAD al helicóptero, sujetos a las opciones efectivamente disponibles en el juego.",
+      "watch": "Capacidades añadidas por el mod; verifica armas, alcance y compatibilidad con 1985.",
+      "related": [
+        "sh2f"
+      ]
+    },
+    {
+      "id": "custom-loadout",
+      "name": "Custom Loadout Editor",
+      "category": "armamento",
+      "role": "Editor de armamentos personalizados",
+      "note": "Permite crear configuraciones de aeronaves propias; hay que comprobar qué almacenes y variantes utiliza cada una.",
+      "watch": "No equivale a que una carga sea histórica, compatible o esté disponible en Task Force.",
+      "related": [
+        "a6e",
+        "sh2f",
+        "sh3h"
+      ]
+    },
+    {
+      "id": "vopsound",
+      "name": "Vopsound - Immersive Naval Combat Audio for Sea Power",
+      "category": "visual",
+      "role": "Audio de combate",
+      "note": "Mejora la ambientación sonora. No se incorporan efectos tácticos no documentados.",
+      "related": []
+    },
+    {
+      "id": "alternative-interface",
+      "name": "Alternative Game Interface",
+      "category": "interfaz",
+      "role": "Interfaz alternativa",
+      "note": "Modifica la disposición o el manejo de elementos de la interfaz del juego.",
+      "related": []
+    },
+    {
+      "id": "flight-deck-ops",
+      "name": "Flight Deck Ops",
+      "category": "operaciones",
+      "role": "Operaciones de cubierta del portaaviones",
+      "note": "Amplía las operaciones de cubierta, los ascensores y el flujo de lanzamiento/recuperación.",
+      "watch": "Revisar compatibilidad con Deck Crew; la descripción de este último señala incompatibilidad.",
+      "related": [
+        "nimitz"
+      ]
+    },
+    {
+      "id": "better-tacmap",
+      "name": "Better TacMap",
+      "category": "interfaz",
+      "role": "Herramientas para el mapa táctico",
+      "note": "Incorpora herramientas adicionales para visualizar información sobre el mapa.",
+      "watch": "R.A.T.S. Topographic Map declara compatibilidad con Better TacMap.",
+      "related": []
+    },
+    {
+      "id": "automatic-sar",
+      "name": "Automatic SAR - Search and Rescue",
+      "category": "operaciones",
+      "role": "Búsqueda y rescate",
+      "note": "Añade funciones orientadas a operaciones SAR. Revisa sus requisitos de instalación.",
+      "related": [
+        "hh3e"
+      ]
+    },
+    {
+      "id": "alternative-weapons",
+      "name": "Alternative Weapons Control",
+      "category": "interfaz",
+      "role": "Control de armamento",
+      "note": "Añade una pestaña de armas a la ventana de estado de unidad, según la descripción visible.",
+      "related": []
+    },
+    {
+      "id": "formation-manager",
+      "name": "One Click Formation Manager",
+      "category": "operaciones",
+      "role": "Gestión de formaciones",
+      "note": "Simplifica la organización de formaciones. No modifica las características del armamento.",
+      "related": [
+        "nimitz",
+        "kidd"
+      ]
+    },
+    {
+      "id": "identify-expanded",
+      "name": "Identify Expanded",
+      "category": "operaciones",
+      "role": "Identificación de contactos",
+      "note": "Amplía las funciones de identificación de contactos; sus atajos dependen de la versión instalada.",
+      "related": [
+        "e2c"
+      ]
+    },
+    {
+      "id": "asw-prosecute",
+      "name": "ASW Find, Fix and Prosecute (Beta)",
+      "category": "operaciones",
+      "role": "Herramientas de búsqueda y ataque antisubmarino",
+      "note": "Añade asistencia en procedimientos ASW. Al ser una beta, no hay que asumir resultados garantizados.",
+      "watch": "Prueba sus funciones en una misión sencilla antes de depender de ellas en Task Force.",
+      "related": [
+        "s3a",
+        "sh2f",
+        "sh3h"
+      ]
+    },
+    {
+      "id": "rats-radio",
+      "name": "R.A.T.S. Radio",
+      "category": "interfaz",
+      "role": "Comunicaciones y mensajes tácticos",
+      "note": "Añade comunicaciones y mensajes de estado contextualizados.",
+      "related": []
+    },
+    {
+      "id": "rats-topography",
+      "name": "R.A.T.S. Topographic Map",
+      "category": "interfaz",
+      "role": "Topografía y batimetría del mapa",
+      "note": "Añade elevaciones, profundidad y capas visuales; útil al planificar vuelos bajos y operaciones submarinas.",
+      "watch": "El autor indica compatibilidad con Better TacMap.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3826122523",
+      "related": [
+        "losangeles"
+      ]
+    },
+    {
+      "id": "anchor-chain",
+      "name": "Anchor Chain → continued as R.A.T.S. Keel",
+      "category": "sistemas",
+      "role": "Cargador anterior",
+      "note": "La página del autor remite a R.A.T.S. Keel como continuación. No es un pack de unidades.",
+      "watch": "Evita activar simultáneamente dos precargadores sin seguir las instrucciones de migración.",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=3380210757",
+      "related": []
+    },
+    {
+      "id": "rats-borders",
+      "name": "R.A.T.S. Cities and Borders",
+      "category": "interfaz",
+      "role": "Ciudades, fronteras y bases navales históricas",
+      "note": "Superpone localizaciones y fronteras según la fecha de la misión. No cambia el combate.",
+      "related": []
+    }
+  ]
+}
