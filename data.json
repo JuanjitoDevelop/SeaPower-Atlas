@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "title": "Sea Power Atlas",
   "campaign": {
     "year": 1985,
@@ -294,14 +294,17 @@
       "name": "S-3A Viking",
       "category": "aircraft",
       "role": "Patrulla antisubmarina",
-      "summary": "Avión embarcado especializado en búsqueda y ataque de submarinos.",
+      "summary": "Avión embarcado especializado en detección, clasificación y ataque antisubmarino. En tu instalación también ofrece cargas de ataque y antibuque.",
       "nation": "EE. UU.",
       "year": 1974,
       "pack": "core",
       "inFleet": true,
       "tags": [
         "ASW",
-        "Patrulla"
+        "Patrulla",
+        "Sonoboyas",
+        "Ataque",
+        "Antibuque"
       ],
       "stats": [
         {
@@ -314,16 +317,72 @@
         }
       ],
       "equipment": [
-        "mk46"
+        "mk46mod5",
+        "ssq53",
+        "ssq62",
+        "ssq77"
       ],
       "loadouts": [
         {
-          "name": "ASW",
-          "description": "Sonoboyas y armamento antisubmarino, según preset."
+          "id": "s3a-asw-18",
+          "name": "ASW (18)",
+          "description": "Carga de búsqueda y ataque antisubmarino observada en tu captura del menú de vuelo.",
+          "verified": "screenshot",
+          "items": [
+            {
+              "id": "mk46mod5",
+              "qty": 4
+            },
+            {
+              "id": "ssq53",
+              "qty": 42
+            },
+            {
+              "id": "ssq62",
+              "qty": 12
+            },
+            {
+              "id": "ssq77",
+              "qty": 8
+            }
+          ],
+          "prepMinutes": 30,
+          "sourceNote": "Composición y tiempo de preparación visibles en la captura del usuario. El número (18) forma parte del nombre del preset, no es una cantidad de sonoboyas."
         },
         {
-          "name": "ASW Hunter",
-          "description": "Perfil de búsqueda si está disponible."
+          "id": "s3a-asw-depth",
+          "name": "ASW (Cargas de profundidad)",
+          "description": "Perfil ASW con cargas de profundidad. La composición exacta no aparece en esta captura.",
+          "verified": "name-only",
+          "items": []
+        },
+        {
+          "id": "s3a-attack-510",
+          "name": "Ataque (510)",
+          "description": "Perfil de ataque visible en el juego. Armamento y cantidades pendientes de comprobar.",
+          "verified": "name-only",
+          "items": []
+        },
+        {
+          "id": "s3a-heavy-635",
+          "name": "Ataque Pesado (635)",
+          "description": "Perfil de ataque pesado visible en el juego. Armamento y cantidades pendientes de comprobar.",
+          "verified": "name-only",
+          "items": []
+        },
+        {
+          "id": "s3a-longrange",
+          "name": "Ataque Largo Alcance",
+          "description": "El menú muestra esta variante; el código y el armamento quedan parcialmente tapados en la captura.",
+          "verified": "name-only",
+          "items": []
+        },
+        {
+          "id": "s3a-antiship-636",
+          "name": "Antibuque (636)",
+          "description": "Perfil antibuque visible en el juego. No se presupone el misil o la bomba hasta inspeccionar su detalle.",
+          "verified": "name-only",
+          "items": []
         }
       ],
       "strengths": [
@@ -331,9 +390,11 @@
         "Esencial frente a submarinos soviéticos."
       ],
       "cautions": [
-        "La munición y las sonoboyas son recursos limitados en operaciones persistentes."
+        "Las sonoboyas y los torpedos son consumibles de la carga ASW.",
+        "Los nombres entre paréntesis que aparecen en el menú son identificadores del preset, no cantidades de armamento.",
+        "Los perfiles de ataque/antibuque aún no tienen composición verificada: consultar el tooltip del juego."
       ],
-      "tip": "Mantén una búsqueda exterior y reserva otra pareja para investigar contactos.",
+      "tip": "ASW (18) embarca 4 Mk-46 Mod 5, 42 DIFAR, 12 DICASS y 8 VLAD. En Sea Power Atlas puedes abrir cada componente y comparar su función. Verifica el perfil exacto antes de la salida.",
       "source": "",
       "aliases": [
         "Viking"
@@ -1633,6 +1694,154 @@
       "tip": "La vigilancia ASW no debe interrumpirse durante operaciones de ataque.",
       "source": "",
       "aliases": []
+    },
+    {
+      "nation": "EE. UU.",
+      "pack": "core",
+      "inFleet": false,
+      "equipment": [],
+      "loadouts": [],
+      "source": "",
+      "year": null,
+      "id": "mk46mod5",
+      "name": "Mk-46 Mod 5 (NEARTIP)",
+      "category": "weapon",
+      "role": "Torpedo ligero ASW del preset S-3A",
+      "summary": "Variante de Mk 46 que figura explícitamente como Mk-46 Mod 5 (NEARTIP) en el tooltip ASW (18) del S-3A.",
+      "tags": [
+        "Torpedo",
+        "ASW",
+        "Mk-46",
+        "NEARTIP"
+      ],
+      "aliases": [
+        "Mk 46 Mod 5",
+        "NEARTIP"
+      ],
+      "stats": [
+        {
+          "label": "En ASW (18) S-3A",
+          "value": "4 unidades"
+        }
+      ],
+      "strengths": [
+        "Es el arma de ataque antisubmarino identificada en este preset."
+      ],
+      "cautions": [
+        "No debe confundirse con los sensores sonoboya del mismo perfil."
+      ],
+      "tip": "Cuatro torpedos no significan cuatro objetivos garantizados. Clasifica el contacto y comprueba las condiciones de lanzamiento."
+    },
+    {
+      "nation": "EE. UU.",
+      "pack": "core",
+      "inFleet": false,
+      "equipment": [],
+      "loadouts": [],
+      "source": "",
+      "year": null,
+      "id": "ssq53",
+      "name": "AN/SSQ-53 (DIFAR)",
+      "category": "sensor",
+      "role": "Sonoboya de escucha direccional",
+      "summary": "Sonoboya DIFAR para detectar o seguir ruido submarino. Su presencia en el S-3A está confirmada por tu captura.",
+      "tags": [
+        "ASW",
+        "Sonoboya",
+        "DIFAR",
+        "Acústica"
+      ],
+      "aliases": [
+        "SSQ-53",
+        "DIFAR"
+      ],
+      "stats": [
+        {
+          "label": "En ASW (18) S-3A",
+          "value": "42 unidades"
+        }
+      ],
+      "strengths": [
+        "Permite establecer y ampliar una zona de escucha mediante sonoboyas."
+      ],
+      "cautions": [
+        "Detectar un ruido no identifica automáticamente un submarino hostil."
+      ],
+      "tip": "Úsala como parte de una barrera de búsqueda acústica; interpreta varios contactos antes de atacar."
+    },
+    {
+      "nation": "EE. UU.",
+      "pack": "core",
+      "inFleet": false,
+      "equipment": [],
+      "loadouts": [],
+      "source": "",
+      "year": null,
+      "id": "ssq62",
+      "name": "AN/SSQ-62 (DICASS)",
+      "category": "sensor",
+      "role": "Sonoboya de búsqueda acústica activa",
+      "summary": "Sonoboya DICASS para obtener datos acústicos activos en una investigación ASW; figura en el preset ASW (18).",
+      "tags": [
+        "ASW",
+        "Sonoboya",
+        "DICASS",
+        "Acústica"
+      ],
+      "aliases": [
+        "SSQ-62",
+        "DICASS"
+      ],
+      "stats": [
+        {
+          "label": "En ASW (18) S-3A",
+          "value": "12 unidades"
+        }
+      ],
+      "strengths": [
+        "Complementa a las sonoboyas de escucha pasiva durante la localización."
+      ],
+      "cautions": [
+        "La transmisión activa puede revelar actividad de búsqueda al adversario."
+      ],
+      "tip": "Resérvala para estrechar la posición de un contacto investigado, en lugar de consumirla indiscriminadamente."
+    },
+    {
+      "nation": "EE. UU.",
+      "pack": "core",
+      "inFleet": false,
+      "equipment": [],
+      "loadouts": [],
+      "source": "",
+      "year": null,
+      "id": "ssq77",
+      "name": "AN/SSQ-77 (VLAD)",
+      "category": "sensor",
+      "role": "Sonoboya acústica VLAD",
+      "summary": "Sonoboya VLAD de escucha pasiva mediante matriz vertical; figura en la carga ASW (18) del S-3A.",
+      "tags": [
+        "ASW",
+        "Sonoboya",
+        "VLAD",
+        "Acústica"
+      ],
+      "aliases": [
+        "SSQ-77",
+        "VLAD"
+      ],
+      "stats": [
+        {
+          "label": "En ASW (18) S-3A",
+          "value": "8 unidades"
+        }
+      ],
+      "strengths": [
+        "Añade otra herramienta acústica a la búsqueda."
+      ],
+      "cautions": [
+        "Su rendimiento depende del entorno acústico y de cómo lo simule el juego."
+      ],
+      "tip": "Combínala con otras fuentes de contacto; no presupongas que sustituye todos los tipos de sonoboya."
     }
   ]
 }
