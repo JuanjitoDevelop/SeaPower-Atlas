@@ -468,3 +468,120 @@
 .mod-editor-row strong{font-size:13px;color:#dbf4ef}
 .mod-editor-row span,.mod-editor-row small{color:#b2cad2;font-size:12px;line-height:1.4}
 .mod-editor-info summary:focus-visible{outline:3px solid #a2f7d9;outline-offset:2px}
+
+
+/* Atlas v3 · estado de campaña, arsenal y centro multiamenaza */
+.ops-page,.campaign-page,.armory-page{max-width:1100px;margin:0 auto;color:#e5f0f2}
+.ops-page h1,.campaign-page h1,.armory-page h1{font-size:clamp(27px,4vw,37px);line-height:1.15;letter-spacing:-.6px;margin:9px 0}
+.ops-page .lead,.campaign-page .lead,.armory-page .lead{font-size:14px;line-height:1.6;color:#bbd2d8;max-width:820px;margin-bottom:18px}
+.ops-page h2,.campaign-page h2,.armory-page h2{font-size:19px;margin:25px 0 13px;line-height:1.35}
+.ops-headstats,.campaign-metrics,.armory-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:16px 0}
+.ops-headstats{grid-template-columns:repeat(2,minmax(0,1fr))}
+.ops-headstats>div,.campaign-metrics>div,.armory-stats>div{background:#102c36;border:1px solid #345661;padding:14px;border-radius:10px;display:grid;gap:5px}
+.ops-headstats strong,.campaign-metrics strong,.armory-stats strong{font-size:25px;line-height:1.2;color:#c1ffe9}
+.ops-headstats span,.campaign-metrics span,.campaign-metrics small,.armory-stats small{color:#aac5cd;font-size:11px;line-height:1.45}
+.ops-threat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.ops-threat{min-width:0;min-height:109px;display:grid;grid-template-columns:33px 1fr;align-items:center;gap:4px 9px;padding:12px;border:1px solid #345763;border-radius:11px;background:#122d37;text-align:left;color:#e2f1f2;touch-action:manipulation}
+.ops-threat.selected{background:#1a4944;border-color:#74d7bc;box-shadow:inset 0 0 0 1px #418579}
+.ops-threat-icon{grid-row:1 / 3;display:grid;place-items:center;background:#295057;color:#b5ffe8;width:33px;height:38px;border-radius:8px;font-size:20px}
+.ops-threat strong{font-size:14px;line-height:1.3}
+.ops-threat-toggle{font-size:11px;color:#9fdfce;font-weight:750}
+.ops-selected{padding:14px;border:1px solid #3a5c66;background:#102833;border-radius:12px;margin:23px 0}
+.ops-selected h2{margin:3px 0 14px}
+.ops-active-row{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(110px,.7fr) minmax(100px,.7fr) 40px;align-items:end;gap:10px;padding:12px 0;border-top:1px solid #34515d}
+.ops-active-row>div:first-child{align-self:center;display:grid;gap:5px;min-width:0}
+.ops-active-row strong{font-size:13px;line-height:1.3}
+.ops-active-row small{font-size:11px;color:#9ebbc6}
+.ops-active-row label{display:grid;gap:5px;font-size:11px;color:#abc9d2;font-weight:700}
+.ops-active-row select{width:100%;min-width:0;min-height:45px;background:#143844;color:#dff3ef;border:1px solid #507782;border-radius:8px;padding:8px;font-size:13px}
+.ops-active-row>button{background:#473439;border:1px solid #866068;color:#ffd4d9;border-radius:8px;min-width:40px;min-height:44px;font-size:25px}
+.ops-results{margin-top:26px}
+.ops-explanation{font-size:12px;color:#afcbd3;line-height:1.6;border-left:3px solid #5ccdb3;padding:10px 14px;background:#143439;border-radius:4px}
+.ops-responses{display:grid;gap:14px}
+.ops-response{background:#102a34;border:1px solid #385762;border-radius:13px;padding:20px}
+.ops-response:first-child{border-color:#78c9ad}
+.ops-response-heading{display:flex;gap:12px;align-items:center}
+.ops-priority{background:#1d574c;color:#bbffe4;border-radius:9px;font-size:20px;font-weight:800;min-width:39px;height:43px;display:grid;place-items:center}
+.ops-response-heading span{font-size:11px;color:#99cecc;letter-spacing:.6px;text-transform:uppercase}
+.ops-response-heading h3{font-size:19px;margin:5px 0 0}
+.ops-rationale{font-size:13px;color:#b8d2d7;line-height:1.55;margin:13px 0}
+.ops-steps{margin:12px 0 18px;padding-left:22px;color:#e0efef}
+.ops-steps li{font-size:13px;line-height:1.6;margin:8px 0}
+.ops-steps li::marker{color:#7ee2c5;font-weight:800}
+.ops-assigned>strong{font-size:12px;color:#afd5d4;display:block;margin-bottom:9px}
+.ops-assigned>div,.ops-chip-list{display:flex;gap:7px;flex-wrap:wrap}
+.ops-assignment,.ops-chip-list>span{padding:8px 10px;font-size:12px;background:#1a4546;color:#d3f6e7;border:1px solid #4e8378;border-radius:7px;line-height:1.4}
+.ops-shared,.ops-note,.ops-gap{padding:11px 12px;font-size:12px;line-height:1.6;border-radius:8px;margin:11px 0 0}
+.ops-shared{background:#183942;color:#b4dfe7}
+.ops-note{background:#2b343a;color:#d8e4e9}
+.ops-gap{background:#41332d;border:1px solid #866c59;color:#f9dbb9}
+.ops-overview{padding:19px;border:1px solid #456a69;border-radius:12px;margin-top:19px;background:#12333b}
+.ops-overview h3{font-size:14px;margin:8px 0}
+.ops-overview p,.ops-empty p{font-size:12px;color:#aec9d2;line-height:1.55}
+.ops-empty{border:1px dashed #517f78;padding:24px;border-radius:13px;background:#112d35}
+.ops-empty strong{font-size:16px}
+.ops-navigation,.campaign-foot-actions{display:flex;flex-wrap:wrap;gap:8px;margin:23px 0}
+.ops-navigation button,.campaign-foot-actions button{min-height:48px;background:#183d41;color:#caf6e6;border:1px solid #4a7b77;border-radius:9px;padding:11px 15px;font-weight:750;font-size:13px}
+.campaign-units{display:grid;gap:8px}
+.campaign-unit{border:1px solid #355766;border-radius:10px;padding:12px 14px;background:#102d38;display:grid;grid-template-columns:minmax(0,1fr) 96px 96px;gap:12px;align-items:center}
+.campaign-unit-main{display:grid;gap:5px;min-width:0}
+.campaign-unit-main strong{font-size:15px;line-height:1.3}
+.campaign-unit-main small{font-size:11px;color:#acc6d0;line-height:1.4}
+.campaign-unit label{display:grid;gap:5px;font-size:11px;font-weight:750;color:#b2d2d7}
+.campaign-unit input{width:100%;min-height:45px;border:1px solid #456e7b;border-radius:8px;background:#0b232d;text-align:center;color:#edfffa;font-size:16px}
+.campaign-reset{background:#342d30!important;border-color:#72545f!important;color:#ffd4d4!important}
+.armory-page>p.asset-notice{margin:12px 0 20px}
+.armory-search-label{display:block;color:#c7e4df;font-size:13px;font-weight:700;margin:17px 0 8px}
+#armory-search{display:block;width:100%;min-height:51px;background:#102e39;border:1px solid #4c6d79;color:#f5fffc;font-size:16px;border-radius:10px;padding:12px 14px}
+.armory-controls{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0}
+.armory-controls label,.armory-edits label{display:grid;gap:6px;font-size:12px;color:#b8d4d7;font-weight:750}
+.armory-controls select,.armory-edits select,.armory-edits input{width:100%;min-width:0;min-height:45px;background:#102b36;color:#e8f8f2;border:1px solid #4a707c;border-radius:8px;padding:9px;font-size:13px}
+.armory-results-heading{font-size:12px;color:#a9c7ce;margin:16px 0 9px}
+.armory-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;align-items:start}
+.armory-item{min-width:0;background:#122d38;border:1px solid #355562;border-radius:12px;padding:14px;display:grid;gap:10px}
+.armory-item-top{display:flex;justify-content:space-between;align-items:start;gap:8px}
+.armory-kind{font-size:10px;color:#9fcdd0;letter-spacing:.6px;text-transform:uppercase;font-weight:750}
+.armory-item h3{font-size:15px;line-height:1.35;margin:7px 0 5px}
+.armory-item code{font-size:11px;color:#9bb9c3;overflow-wrap:anywhere}
+.armory-link-status{white-space:nowrap;font-size:10px;font-weight:800;padding:6px 8px;border-radius:24px}
+.armory-link-status.present{background:#1e534a;color:#b9f9e3}
+.armory-link-status.inactive{background:#303a42;color:#b9ced2}
+.armory-attrs{display:flex;flex-wrap:wrap;gap:6px}
+.armory-attrs span{font-size:11px;border:1px solid #3b5e68;border-radius:5px;background:#1b3a43;color:#bdd7df;padding:5px 7px}
+.armory-carriers{font-size:12px;color:#b8cbd5;line-height:1.5;margin:0}
+.armory-edits{display:grid;grid-template-columns:minmax(0,1fr) 112px;gap:10px;margin-top:auto}
+.armory-edits input{text-align:center;font-size:16px}
+.armory-more{width:100%;min-height:48px;margin-top:13px;border:1px solid #4a8274;border-radius:9px;background:#1c4843;color:#d0ffeb;font-weight:800}
+.armory-empty,.armory-warning{padding:17px;border:1px dashed #5b7a7b;background:#1b353e;border-radius:10px;font-size:13px;line-height:1.6;color:#c8dce0;grid-column:1/-1}
+.armory-warning{border-color:#987e53;background:#353229;color:#f4d7a6}
+.ops-threat:focus-visible,.ops-active-row select:focus-visible,.ops-active-row button:focus-visible,.campaign-unit input:focus-visible,.armory-edits input:focus-visible,.armory-edits select:focus-visible,.armory-controls select:focus-visible,#armory-search:focus-visible,.armory-more:focus-visible{outline:3px solid #afffe5;outline-offset:2px}
+@media(max-width:1000px){.ops-threat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.armory-list{grid-template-columns:1fr}}
+@media(max-width:760px){
+ .ops-page h1,.campaign-page h1,.armory-page h1{font-size:28px}
+ .ops-headstats,.campaign-metrics,.armory-stats{gap:7px}
+ .ops-headstats>div,.campaign-metrics>div,.armory-stats>div{padding:11px}
+ .ops-headstats strong,.campaign-metrics strong,.armory-stats strong{font-size:23px}
+ .ops-threat-grid{gap:8px}
+ .ops-threat{min-height:91px;grid-template-columns:27px 1fr;gap:5px 7px;padding:9px}
+ .ops-threat-icon{width:27px;height:31px;font-size:17px}
+ .ops-threat strong{font-size:13px}
+ .ops-threat-toggle{font-size:11px}
+ .ops-active-row{grid-template-columns:minmax(0,1fr) minmax(0,1fr) 40px;gap:7px}
+ .ops-active-row>div:first-child{grid-column:1/-1}
+ .ops-active-row select{font-size:12px}
+ .ops-response{padding:15px}
+ .ops-response-heading h3{font-size:18px}
+ .ops-navigation,.campaign-foot-actions{display:grid;grid-template-columns:1fr}
+ .campaign-unit{grid-template-columns:minmax(0,1fr) 79px 79px;gap:7px;padding:10px}
+ .campaign-unit-main strong{font-size:13px}
+ .campaign-unit-main small{font-size:10px}
+ .campaign-unit input{font-size:16px}
+ .campaign-metrics>div:nth-child(3){grid-column:1/-1}
+ .armory-controls{grid-template-columns:1fr 1fr}
+ .armory-controls>label:first-child{grid-column:1/-1}
+ .armory-item-top{display:grid}
+ .armory-link-status{justify-self:start}
+ .armory-edits{grid-template-columns:minmax(0,1fr) 100px}
+ .armory-list{grid-template-columns:1fr}
+}
+@media(max-width:370px){.campaign-unit{grid-template-columns:minmax(0,1fr) 67px 67px}.ops-threat{grid-template-columns:1fr}.ops-threat-icon{grid-row:auto}}
