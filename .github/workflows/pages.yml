@@ -26,6 +26,8 @@ jobs:
       - name: Validar JavaScript y guía táctica
         run: |
           node --check app.js
+          node --check planner.js
+          node planner.test.cjs
           node --check tactics.js
           node --check workshop.js
           node -e "const fs=require('node:fs');const d=JSON.parse(fs.readFileSync('workshop-mods.json','utf8'));if(d.mods.length!==21||new Set(d.mods.map(x=>x.id)).size!==21)process.exit(1);console.log('21 mods sin duplicados: OK')"
