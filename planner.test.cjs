@@ -1,0 +1,32 @@
+'use strict';
+const assert=require('node:assert/strict');
+const fs=require('node:fs');
+const vm=require('node:vm');
+const context={};
+vm.runInNewContext(fs.readFileSync('planner.js','utf8')+'\nthis.engine={computePlan,PLAN_DEFAULT,PLAN_MISSIONS}',context);
+const {computePlan,PLAN_DEFAULT,PLAN_MISSIONS}=context.engine;
+let count=0;
+function check(name,partial,verify){
+ const p={...PLAN_DEFAULT,...partial,mods:{...PLAN_DEFAULT.mods,...(partial.mods||{})},inventory:{...PLAN_DEFAULT.inventory,...(partial.inventory||{})},ammo:{...PLAN_DEFAULT.ammo,...(partial.ammo||{})}};
+ const result=computePlan(p);
+ assert.equal(Boolean(verify(result)),true,name+' | '+JSON.stringify(result).slice(0,450));
+ console.log('OK',name);count++;
+}
+const airIds=['a6e','fa18a','f14a','ea6b','e2c','s3a','sh2f','sh3h','hh3e','ah1t'];
+assert.equal(airIds.reduce((n,id)=>n+PLAN_DEFAULT.inventory[id],0),55,'inventario de 55 aeronaves');
+assert.equal(PLAN_MISSIONS.length,6);
+check('No atacar contacto sin identificar',{mission:'surface',identified:'uncertain'},x=>x.primary.every(u=>u.id!=='a6e')&&x.headline.includes('identifica'));
+check('Ataque Harpoon identificado',{mission:'surface',identified:'confirmed',ammo:{harpoon:'stock'}},x=>x.primary.some(u=>u.id==='a6e'));
+check('Harpoon agotados bloquea Intruder',{mission:'surface',identified:'confirmed',ammo:{harpoon:'empty'}},x=>!x.primary.some(u=>u.id==='a6e'));
+check('A6E no disponibles cambia alternativa',{mission:'surface',identified:'confirmed',inventory:{a6e:0}},x=>!x.primary.some(u=>u.id==='a6e'));
+check('SH-3H mod activo cambia resultado',{mission:'surface',identified:'confirmed',range:'near',aswRisk:false,inventory:{a6e:0},mods:{sh3:true},ammo:{harpoon:'stock'}},x=>x.primary.some(u=>u.id==='sh3h'));
+check('SH-3H no se usa si ASW necesario',{mission:'surface',identified:'confirmed',range:'near',aswRisk:true,inventory:{a6e:0},mods:{sh3:true},ammo:{harpoon:'stock'}},x=>!x.primary.some(u=>u.id==='sh3h'));
+check('SH-3H no se recomienda lejos',{mission:'surface',identified:'confirmed',range:'far',aswRisk:false,inventory:{a6e:0},mods:{sh3:true},ammo:{harpoon:'stock'}},x=>!x.primary.some(u=>u.id==='sh3h'));
+check('Hornet suplanta F14 si éste no está',{mission:'air',scenario:'bombers',identified:'confirmed',inventory:{f14a:0}},x=>x.primary.some(u=>u.id==='fa18a'));
+check('Sin cazas no afirma disponer de CAP',{mission:'air',scenario:'bombers',identified:'confirmed',inventory:{f14a:0,fa18a:0}},x=>x.primary.length===0&&x.status==='sin cazas');
+check('Phoenix agotados produce advertencia',{mission:'air',scenario:'bombers',identified:'confirmed',ammo:{phoenix:'empty'}},x=>x.warnings.some(w=>w.includes('cero Phoenix')));
+check('Defensa sin escoltas principales se advierte',{mission:'defend',inventory:{virginia:0,kidd:0}},x=>x.status==='defensa comprometida');
+check('Torpedos agotados bloquea suposición de munición',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.warnings.some(w=>w.includes('agotados')));
+check('Identificación radar no propone ataque',{mission:'identify',scenario:'esm'},x=>x.primary.every(u=>u.id!=='a6e'));
+check('Ataque costero con SAM incluye SEAD',{mission:'land',scenario:'sam',identified:'confirmed'},x=>x.primary.some(u=>u.id==='a6e'&&u.profile.includes('SEAD')));
+console.log('Pruebas del planificador correctas:',count);
