@@ -175,3 +175,28 @@
  .guide-action strong{font-size:15px}
  .guide-back-row>span{display:none}
 }
+
+
+/* Mejoras de lectura de la enciclopedia en pantallas pequeñas */
+@media(max-width:760px){
+ .hero,.hero + .metrics{display:none}
+ .section-title{margin-top:5px;margin-bottom:12px}
+ .section-title h2{font-size:21px}
+ .toolbar{gap:8px;margin-bottom:12px}
+ .search{height:50px;font-size:16px}
+ .select{min-height:46px;font-size:14px}
+ .filters{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin;scrollbar-color:#416977 transparent;padding:2px 0 10px;gap:8px;overscroll-behavior-x:contain}
+ .filters>.filter,.filters>.switch{flex:0 0 auto;width:auto;min-height:44px;display:flex;align-items:center;margin:0}
+ .filters .switch{padding:0 5px}
+ .filters .switch input{width:19px;height:19px}
+ .entry-card{min-height:0;padding:17px}
+ .entry-card h3{font-size:18px}
+ .card-desc{font-size:14px;line-height:1.5}
+ .card-category{font-size:11px}
+ .mini-tag{font-size:11px}
+ .open-link{font-size:13px;min-height:44px;padding:10px 5px}
+ .detail-top{margin-bottom:12px}
+ .detail-panel{height:96dvh}
+ .btn{min-height:44px}
+ .pill.click{min-height:44px;align-items:center;font-size:13px}
+}
