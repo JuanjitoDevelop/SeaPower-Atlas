@@ -354,7 +354,7 @@ function setPlannerValue(kind,key,value){
  const p=plannerCurrent();
  if(kind==="mission"){
   const m=PLAN_MISSIONS.find(x=>x.id===value);if(!m)return;
-  p.mission=value;p.scenario=m.choices[0][0];p.identified=(value==="identify"||value==="sub")?"uncertain":"confirmed";
+  p.mission=value;p.scenario=m.choices[0][0];p.identified="uncertain";
  }else if(kind==="range"){if(!["near","medium","far"].includes(value))return;p.range=value}
  else if(kind==="field"){
   if(key==="scenario")p.scenario=value;
