@@ -63,7 +63,9 @@ function gameLoadoutsMarkup(unit){
 }
 function gamePlanProfile(unitId,profile){
  const unit=gameUnit(unitId);if(!unit)return null;
+ const direct=unit.loadouts.find(l=>l.code===profile);if(direct)return direct;
  const s=String(profile||'').toLowerCase();
+ if(s.includes('sin torpedos'))return null;
  let ids=[];
  if(unitId==='a6e'){
   if(s.includes('sead'))ids=s.includes('advanced')?['SEADAdvanced','SEAD']:['SEAD','SEADAdvanced'];
@@ -73,8 +75,8 @@ function gamePlanProfile(unitId,profile){
  if(unitId==='s3a' && s.includes('asw'))ids=['ASW','ASWBomb'];
  if(unitId==='f14a')ids=s.includes('intercept')?['AirToAirIntercept','AirToAirLongRange']:['AirToAir','AirToAirIntercept'];
  if(unitId==='fa18a')ids=s.includes('strike')?['Strike','StrikePrecision']:['AirToAir','AirToAirLongRange'];
- if(unitId==='sh2f' && s.includes('asw'))ids=['ASW','ASWHunter','ASWKiller'];
- if(unitId==='sh3h' && s.includes('asw'))ids=['ASW','ASWHunter','ASWKiller'];
+ if(unitId==='sh2f' && s.includes('asw'))ids=s.includes('hunter')?['ASWHunter']:['ASW','ASWHunter','ASWKiller'];
+ if(unitId==='sh3h' && s.includes('asw'))ids=s.includes('hunter')?['ASWHunter']:['ASW','ASWHunter','ASWKiller'];
  if(unitId==='e2c')ids=['AEW'];
  if(unitId==='ea6b')ids=['EW'];
  if(unitId==='ah1t')ids=['CAS','AntiArmor'];
