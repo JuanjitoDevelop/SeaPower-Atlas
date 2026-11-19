@@ -32,6 +32,7 @@ function renderTactics(){
       <section class="guide-target" aria-label="Objetivo de la situación"><span>OBJETIVO</span><p>${esc(selected.goal)}</p></section>
       <section class="guide-block"><h2>1. Qué hacer primero</h2><ol class="guide-first-steps">${firstSteps.map((t,i)=>`<li><span class="guide-number" aria-hidden="true">${i+1}</span><span>${esc(t)}</span></li>`).join('')}</ol></section>
       <section class="guide-block"><h2>2. Qué preparar</h2><p class="guide-helper">Pulsa una unidad para ver su ficha completa.</p><div class="guide-unit-list">${unitCards}</div></section>
+      ${workshopScenarioHints(selected.id)}
       <section class="guide-block"><h2>3. Antes de actuar</h2>${checklist((selected.check||[]).slice(0,2))}
         ${selected.check?.length>2?`<details class="guide-disclosure"><summary>Ver más comprobaciones</summary>${checklist(selected.check.slice(2))}</details>`:''}
       </section>
