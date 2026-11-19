@@ -294,7 +294,7 @@
       "name": "S-3A Viking",
       "category": "aircraft",
       "role": "Patrulla antisubmarina",
-      "summary": "Avión embarcado especializado en detección, clasificación y ataque antisubmarino. En tu instalación también ofrece cargas de ataque y antibuque.",
+      "summary": "Avión embarcado de patrulla antisubmarina con siete perfiles originales disponibles en 1985: ASW, cargas de profundidad, ataque, ataque pesado, ataque de largo alcance, antibuque y CAS.",
       "nation": "EE. UU.",
       "year": 1974,
       "pack": "core",
@@ -324,65 +324,67 @@
       ],
       "loadouts": [
         {
-          "id": "s3a-asw-18",
-          "name": "ASW (18)",
-          "description": "Carga de búsqueda y ataque antisubmarino observada en tu captura del menú de vuelo.",
-          "verified": "screenshot",
-          "items": [
-            {
-              "id": "mk46mod5",
-              "qty": 4
-            },
-            {
-              "id": "ssq53",
-              "qty": 42
-            },
-            {
-              "id": "ssq62",
-              "qty": 12
-            },
-            {
-              "id": "ssq77",
-              "qty": 8
-            }
-          ],
+          "name": "ASW",
+          "code": "ASW",
+          "description": "Perfil ASW: preparación 30 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
+          "verified": "name-only",
+          "items": [],
           "prepMinutes": 30,
-          "sourceNote": "Composición y tiempo de preparación visibles en la captura del usuario. El número (18) forma parte del nombre del preset, no es una cantidad de sonoboyas."
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
         },
         {
-          "id": "s3a-asw-depth",
           "name": "ASW (Cargas de profundidad)",
-          "description": "Perfil ASW con cargas de profundidad. La composición exacta no aparece en esta captura.",
+          "code": "ASWBomb",
+          "description": "Perfil ASWBomb: preparación 30 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
           "verified": "name-only",
-          "items": []
+          "items": [],
+          "prepMinutes": 30,
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
         },
         {
-          "id": "s3a-attack-510",
-          "name": "Ataque (510)",
-          "description": "Perfil de ataque visible en el juego. Armamento y cantidades pendientes de comprobar.",
+          "name": "Ataque",
+          "code": "Strike",
+          "description": "Perfil Strike: preparación 15 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
           "verified": "name-only",
-          "items": []
+          "items": [],
+          "prepMinutes": 15,
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
         },
         {
-          "id": "s3a-heavy-635",
-          "name": "Ataque Pesado (635)",
-          "description": "Perfil de ataque pesado visible en el juego. Armamento y cantidades pendientes de comprobar.",
+          "name": "Ataque Pesado",
+          "code": "StrikeHeavy",
+          "description": "Perfil StrikeHeavy: preparación 15 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
           "verified": "name-only",
-          "items": []
+          "items": [],
+          "prepMinutes": 15,
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
         },
         {
-          "id": "s3a-longrange",
           "name": "Ataque Largo Alcance",
-          "description": "El menú muestra esta variante; el código y el armamento quedan parcialmente tapados en la captura.",
+          "code": "StrikeLongRange",
+          "description": "Perfil StrikeLongRange: preparación 15 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
           "verified": "name-only",
-          "items": []
+          "items": [],
+          "prepMinutes": 15,
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
         },
         {
-          "id": "s3a-antiship-636",
-          "name": "Antibuque (636)",
-          "description": "Perfil antibuque visible en el juego. No se presupone el misil o la bomba hasta inspeccionar su detalle.",
+          "name": "Antibuque",
+          "code": "AntiShip",
+          "description": "Perfil AntiShip: preparación 15 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
           "verified": "name-only",
-          "items": []
+          "items": [],
+          "prepMinutes": 15,
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
+        },
+        {
+          "name": "Apoyo Aéreo Cercano",
+          "code": "CAS",
+          "description": "Perfil CAS: preparación 15 min. El desglose exacto se encuentra en la tabla extraída de los INI originales.",
+          "verified": "name-only",
+          "items": [],
+          "prepMinutes": 15,
+          "sourceNote": "Perfil del juego original de 1985. El número entre paréntesis mostrado por la interfaz no es el ID interno."
         }
       ],
       "strengths": [
@@ -390,11 +392,11 @@
         "Esencial frente a submarinos soviéticos."
       ],
       "cautions": [
-        "Las sonoboyas y los torpedos son consumibles de la carga ASW.",
-        "Los nombres entre paréntesis que aparecen en el menú son identificadores del preset, no cantidades de armamento.",
-        "Los perfiles de ataque/antibuque aún no tienen composición verificada: consultar el tooltip del juego."
+        "Los perfiles antibuque y de ataque no equivalen a portar misiles Harpoon.",
+        "La disponibilidad de munición en Task Force puede restringir un perfil aunque esté definido en el INI.",
+        "Los mods Workshop pueden sobrescribir estos datos del juego original."
       ],
-      "tip": "ASW (18) embarca 4 Mk-46 Mod 5, 42 DIFAR, 12 DICASS y 8 VLAD. En Sea Power Atlas puedes abrir cada componente y comparar su función. Verifica el perfil exacto antes de la salida.",
+      "tip": "Consulta el desglose de cada carga real. En su perfil ASW lleva 4 torpedos Mk-46 Mod 5, 42 DIFAR, 12 DICASS y 8 VLAD. El perfil antibuque original utiliza bombas y cohetes Zuni, no Harpoon.",
       "source": "",
       "aliases": [
         "Viking"
