@@ -14,15 +14,11 @@ function armoryNormalizePayload(p){
 }
 async function armoryLoad(){
  try{
-  const r=await fetch('./armory_1985.b64');
+  const r=await fetch('./armory_1985.json');
   if(!r.ok)throw Error('No se ha encontrado el catálogo');
-  if(typeof DecompressionStream!=='function')throw Error('Este navegador no admite descompresión integrada');
-  const base64=(await r.text()).trim();
-  const zipped=Uint8Array.from(atob(base64),c=>c.charCodeAt(0));
-  const bytes=new Blob([zipped]).stream().pipeThrough(new DecompressionStream('gzip'));
-  armoryData=armoryNormalizePayload(await new Response(bytes).json());
+  armoryData=armoryNormalizePayload(await r.json());
  }catch(e){
-  // Versión mínima funcional para navegadores que no soporten gzip nativo.
+  // Versión mínima si no se puede cargar el JSON completo.
   const records=new Map();
   for(const [id,d] of Object.entries(gameData?.ammo||{}))records.set(id,{id,name:typeof gameAmmoName==='function'?gameAmmoName(id):id,type:d.type||'Sin clasificar',target:d.target||'',ioc:d.ioc?Number(d.ioc):null,foc:d.foc?Number(d.foc):null,era:Number(d.ioc)>1985||Number(d.foc)>1985?'future':'undated',origin:'USN'});
   for(const [id,d] of Object.entries(modData?.ammo||{}))if(!records.has(id))records.set(id,{id,name:d.name||id,type:d.type||'Sin clasificar',target:'',ioc:Number(d.ioc)||null,foc:Number(d.foc)||null,era:Number(d.ioc)>1985||Number(d.foc)>1985?'future':'undated',origin:'Workshop'});
