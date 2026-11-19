@@ -259,3 +259,126 @@
  .workshop-mod summary{min-height:75px}
  .workshop-catalog{margin:18px 0 28px}
 }
+
+
+/* SEA POWER ATLAS 2.0 · Copiloto táctico mobile-first */
+.planner-screen{max-width:1120px;margin:0 auto;display:grid;gap:18px}
+.planner-head{border:1px solid #365d67;background:linear-gradient(120deg,#0e2a36,#14403f);border-radius:15px;padding:25px}
+.plan-kicker{font-size:11px;letter-spacing:1.25px;color:#9be9d5;font-weight:800;line-height:1.5}
+.planner-head h1{font-size:clamp(29px,4vw,40px);letter-spacing:-.8px;margin:8px 0 12px;line-height:1.15}
+.planner-head p{font-size:14px;color:#c3d7dc;line-height:1.6;margin:0;max-width:820px}
+.planner-form{border:1px solid #304d5b;background:#0e222d;padding:20px;border-radius:14px}
+.planner-section-title{display:flex;align-items:center;gap:11px;margin:2px 0 14px}
+.planner-section-title>span:first-child{width:32px;height:32px;display:grid;place-items:center;border-radius:9px;background:#1a5149;color:#b7ffe4;font-size:16px;font-weight:800}
+.planner-section-title h2{font-size:20px;line-height:1.3;letter-spacing:-.25px}
+.plan-missions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-bottom:25px}
+.plan-mission{min-width:0;min-height:100px;border:1px solid #3a5d6a;background:#132f3c;border-radius:12px;padding:13px;display:grid;grid-template-columns:39px 1fr;grid-template-rows:auto 1fr;align-items:center;gap:4px 9px;color:#d7ebee;text-align:left;touch-action:manipulation}
+.plan-mission-icon{grid-row:span 2;display:grid;place-items:center;color:#abf0df;background:#265059;border-radius:10px;width:39px;height:42px;font-size:25px}
+.plan-mission strong{font-size:15px;line-height:1.3}
+.plan-mission small{font-size:12px;line-height:1.4;color:#a7c0cb}
+.plan-mission.is-active{border-color:#6bd6b6;background:#1b4544;box-shadow:inset 0 0 0 1px #377c6d}
+.plan-mission:hover,.plan-range-buttons button:hover{border-color:#83d8c2}
+.plan-select-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.plan-field{display:grid;gap:7px;color:#c6dee5;font-size:13px;font-weight:750;min-width:0}
+.plan-field select{appearance:auto;background:#112f3b;border:1px solid #4a6975;border-radius:10px;color:#f0faf8;min-height:49px;min-width:0;width:100%;font-size:15px;padding:11px 13px}
+.plan-range{padding:0;margin:17px 0 14px;border:0}
+.plan-range legend{color:#c6dee5;font-size:13px;font-weight:750;margin-bottom:9px}
+.plan-range-buttons{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.plan-range-buttons button{border:1px solid #456672;border-radius:10px;background:#102e3a;color:#d5e7eb;min-height:46px;padding:9px 7px;font-size:14px;font-weight:750}
+.plan-range-buttons button.is-active{background:#1c554a;color:#d9ffef;border-color:#80d8b8}
+.plan-toggle{display:flex;align-items:center;gap:12px;background:#102c36;border:1px solid #34515e;border-radius:10px;padding:12px 13px;margin:10px 0;min-height:58px;cursor:pointer}
+.plan-toggle input{width:22px;height:22px;accent-color:#7fe5c4;flex:none}
+.plan-toggle>span{display:grid;gap:3px;min-width:0}
+.plan-toggle strong{font-size:13px;line-height:1.4;color:#e3f3f3}
+.plan-toggle small{font-size:12px;line-height:1.4;color:#a7c0c9}
+.plan-settings{margin-top:18px;border:1px solid #416577;border-radius:12px;background:#0b2833;overflow:hidden}
+.plan-settings>summary{cursor:pointer;list-style:none;padding:15px;display:grid;gap:4px;min-height:63px;position:relative;padding-right:41px}
+.plan-settings>summary::-webkit-details-marker{display:none}
+.plan-settings>summary:after{content:"⌄";position:absolute;right:15px;top:15px;font-size:22px;color:#a9e5d7}
+.plan-settings[open]>summary:after{content:"⌃"}
+.plan-settings>summary>span{font-size:15px;font-weight:800;color:#d9f4ef}
+.plan-settings>summary>small{font-size:12px;color:#accbd1;line-height:1.4}
+.plan-settings-body{padding:0 16px 18px;border-top:1px solid #38515f}
+.plan-settings-body>p{font-size:13px;line-height:1.55;color:#afc8d1}
+.plan-settings-body h3{margin:20px 0 10px;font-size:14px;color:#d3eced}
+.plan-inventory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.plan-count{display:flex;align-items:center;justify-content:space-between;gap:8px;min-width:0;padding:9px 11px;background:#14323e;border:1px solid #305561;border-radius:9px}
+.plan-count span{color:#ccdee5;font-size:12px;line-height:1.35}
+.plan-count input{width:65px;min-height:42px;flex:none;border:1px solid #4e7281;border-radius:8px;background:#091f29;color:#f5fffd;text-align:center;font-size:16px}
+.plan-ammo{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.plan-ammo .plan-field select{min-height:44px;font-size:13px}
+.plan-reset{border:1px solid #80635c;border-radius:9px;background:#382d2d;color:#ffd4cb;padding:12px 15px;min-height:44px;font-size:13px;font-weight:750;margin-top:18px}
+.planner-answer-title{margin:4px 0 -4px}
+.planner-answer-title>span:first-child{background:#396953}
+.plan-auto{font-size:12px;color:#abc9cc;margin-left:auto;font-weight:500}
+.plan-result{border:1px solid #397267;border-radius:15px;background:#0d242e;overflow:hidden}
+.plan-result-head{padding:24px 25px 22px;background:linear-gradient(115deg,#15463f,#163840)}
+.plan-status{display:inline-flex;border:1px solid #609587;border-radius:30px;padding:6px 10px;font-size:11px;color:#d3ffe9;margin:9px 0 3px;text-transform:uppercase;letter-spacing:.65px;font-weight:800}
+.plan-result-head h2{font-size:clamp(25px,3vw,32px);margin:8px 0 7px;color:#f0fff9}
+.plan-result-head p{font-size:14px;line-height:1.6;color:#c7e1df;max-width:800px;margin:0}
+.plan-result-body{padding:20px 24px 23px}
+.plan-section{margin-bottom:20px}
+.plan-section h3{font-size:13px;text-transform:uppercase;letter-spacing:1px;color:#add9d7;margin:0 0 10px}
+.plan-steps{list-style:none;padding:0;margin:0;display:grid;gap:9px}
+.plan-steps li{display:flex;align-items:flex-start;gap:11px;background:#14323c;padding:12px;border:1px solid #315563;border-radius:9px}
+.plan-steps li>span{display:grid;place-items:center;flex:none;width:27px;height:27px;border-radius:8px;background:#79dcc3;color:#0c2924;font-weight:850}
+.plan-steps li p{font-size:13px;line-height:1.55;color:#dfeded;margin:2px 0 0}
+.plan-units{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.plan-unit{padding:14px;background:#122e3a;border:1px solid #345867;border-radius:10px;min-width:0}
+.plan-unit-heading{display:grid;gap:4px}
+.plan-unit-heading>span{font-size:11px;color:#a9bfca}
+.plan-unit-link{background:none;border:0;color:#bdfbe9;text-align:left;padding:4px 0;min-height:38px;font-size:15px;font-weight:800;line-height:1.3}
+.plan-unit>strong{display:block;color:#f5ce99;font-size:13px;line-height:1.4;margin:10px 0 4px;overflow-wrap:anywhere}
+.plan-unit p{font-size:12px;color:#b5ced5;line-height:1.5;margin:0}
+.plan-empty{border:1px solid #6c624b;background:#302e29;padding:15px;border-radius:9px;font-size:13px;line-height:1.6;color:#f8dfb6}
+.plan-points{list-style:disc;margin:0;padding:0 0 0 20px;color:#c9dfe4}
+.plan-points li{font-size:13px;line-height:1.6;margin:8px 0}
+.plan-warnings{border-left:3px solid #dbb26e;background:#302f29;padding:12px 15px;border-radius:6px}
+.plan-warnings h3{color:#f3d7a7}
+.plan-warnings .plan-points{color:#eddcbf}
+.plan-extra{border:1px solid #406775;border-radius:10px;padding:0 14px;margin:16px 0}
+.plan-extra summary{cursor:pointer;min-height:46px;display:flex;align-items:center;color:#caefe4;font-weight:750;font-size:13px}
+.plan-extra[open]{padding-bottom:10px}
+.plan-related{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:19px 0}
+.plan-related>span{font-size:12px;color:#a7c9cf;flex-basis:100%}
+.plan-related button{min-height:44px;border:1px solid #4d807a;background:#1b4548;border-radius:8px;color:#d0ffec;padding:9px 12px;text-align:left;font-size:12px}
+.plan-disclaimer{color:#a7c3cb;line-height:1.6;font-size:12px;margin:19px 0 0}
+.plan-footer-links{display:flex;flex-wrap:wrap;gap:9px}
+.plan-footer-links button{min-height:48px;border-radius:9px;border:1px solid #426a74;background:#14323c;color:#d8f4ed;padding:11px 16px;font-size:13px;font-weight:750}
+.more-page{max-width:860px;margin:auto}
+.more-page h1{font-size:clamp(28px,3vw,38px)}
+.more-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:22px 0}
+.more-grid button{display:grid;grid-template-columns:1fr auto;gap:5px;padding:19px;background:#102d37;color:#eaf8f8;text-align:left;border:1px solid #375e69;border-radius:12px;min-height:110px}
+.more-grid button strong{font-size:16px}
+.more-grid button span{font-size:13px;color:#b6cdd6;line-height:1.5;grid-column:1}
+.more-grid button b{font-size:21px;color:#a5ffe0;grid-column:2;grid-row:1/3}
+.plan-mission:focus-visible,.plan-range-buttons button:focus-visible,.plan-related button:focus-visible,.plan-settings summary:focus-visible,.plan-footer-links button:focus-visible,.more-grid button:focus-visible{outline:3px solid #b9ffe8;outline-offset:2px}
+@media(max-width:1000px){.plan-missions{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){
+ .planner-screen{gap:14px}
+ .planner-head{padding:17px}
+ .planner-head h1{font-size:29px}
+ .planner-head p{font-size:13px}
+ .planner-form{padding:13px}
+ .plan-missions{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:23px}
+ .plan-mission{min-height:84px;grid-template-columns:28px 1fr;padding:9px;column-gap:8px}
+ .plan-mission-icon{width:28px;height:35px;font-size:21px}
+ .plan-mission strong{font-size:14px}
+ .plan-mission small{font-size:11px}
+ .plan-select-grid{grid-template-columns:1fr;gap:10px}
+ .plan-inventory{grid-template-columns:1fr}
+ .plan-ammo{grid-template-columns:1fr}
+ .planner-section-title h2{font-size:18px}
+ .planner-answer-title{flex-wrap:wrap}
+ .plan-auto{flex-basis:100%;margin-left:43px}
+ .plan-result-head{padding:18px}
+ .plan-result-head h2{font-size:25px}
+ .plan-result-body{padding:16px}
+ .plan-units{grid-template-columns:1fr}
+ .plan-unit{padding:12px 14px}
+ .plan-steps li p{font-size:13px}
+ .plan-footer-links{display:grid;grid-template-columns:1fr}
+ .more-grid{grid-template-columns:1fr}
+ .plan-related button{font-size:13px}
+}
+@media(max-width:360px){.plan-mission{grid-template-columns:1fr}.plan-mission-icon{grid-row:auto;width:32px}.plan-mission strong{font-size:14px}}
