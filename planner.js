@@ -296,8 +296,14 @@ function computePlan(p){
 
 let plannerResourcesOpen=false;
 function plannerCurrent(){
+ const c=campaignInit();
  const x=state.planner&&typeof state.planner==='object'?state.planner:{};
- return {...PLAN_DEFAULT,...x,inventory:{...PLAN_DEFAULT.inventory,...(x.inventory||{})},ammo:{...PLAN_DEFAULT.ammo,...(x.ammo||{})},mods:{...PLAN_DEFAULT.mods,...(x.mods||{})}};
+ const inv={...PLAN_DEFAULT.inventory,...(x.inventory||{}),...Object.fromEntries(CAMPAIGN_UNITS.map(([id])=>[id,c.roster[id].ready]))};
+ const ammo={...PLAN_DEFAULT.ammo,...(x.ammo||{})};
+ for(const [id,key] of [['usn_agm-84c','harpoon'],['knm_penguin_mk2','penguin'],['usn_aim-54a','phoenix'],['usn_mk46_mod5_air','torpedo']]){
+  if(Object.prototype.hasOwnProperty.call(c.stock,id))ammo[key]=campaignStockStatus(id);
+ }
+ return {...PLAN_DEFAULT,...x,inventory:inv,ammo,mods:{...PLAN_DEFAULT.mods,...(x.mods||{})}};
 }
 
 function plannerResultMarkup(){
@@ -368,7 +374,7 @@ function setPlannerValue(kind,key,value){
  }else if(kind==="flag")p.aswRisk=Boolean(value);
  else if(kind==="mod")p.mods[key]=Boolean(value);
  else if(kind==="ammo"){if(!["unknown","stock","empty"].includes(value))return;p.ammo[key]=value}
- else if(kind==="inventory"){const n=Number(value);if(!Number.isFinite(n))return;p.inventory[key]=Math.min(99,Math.max(0,Math.floor(n)))}
+ else if(kind==="inventory"){const n=Number(value);if(!Number.isFinite(n))return;campaignUpdateUnit(key,'ready',n);p.inventory[key]=campaignUnit(key).ready}
  else if(kind==="reset"){state.planner=JSON.parse(JSON.stringify(PLAN_DEFAULT));save();renderPlanner();return}
  else return;
  state.planner=p;save();
