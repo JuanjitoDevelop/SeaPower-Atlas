@@ -285,3 +285,84 @@ function computePlan(p){
  if(p.mission==="surface"&&p.mods?.sh3&&ready("sh3h")&&!p.aswRisk&&!far&&ammo("harpoon")!=="empty")out.alternatives.push("Harpoon SH-3H es una opción ficticia de mod: no sustituye automáticamente al ataque del A-6E.");
  return out;
 }
+
+let plannerResourcesOpen=false;
+function plannerCurrent(){
+ const x=state.planner&&typeof state.planner==='object'?state.planner:{};
+ return {...PLAN_DEFAULT,...x,inventory:{...PLAN_DEFAULT.inventory,...(x.inventory||{})},ammo:{...PLAN_DEFAULT.ammo,...(x.ammo||{})},mods:{...PLAN_DEFAULT.mods,...(x.mods||{})}};
+}
+
+function plannerResultMarkup(){
+ const p=plannerCurrent(),result=computePlan(p);
+ const unit=(u)=>{const x=entry(u.id);return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(u.profile)}</strong><p>${esc(u.why)}</p></div>`};
+ const list=arr=>`<ul class="plan-points">${arr.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
+ const unique=[...new Set(result.related||[])];
+ return `<section id="planner-result" class="plan-result" aria-label="Plan sugerido"><div class="plan-result-head"><div class="plan-kicker">PROPUESTA ACTUAL · REGLAS TRANSPARENTES</div><span class="plan-status">${esc(result.status)}</span><h2 aria-live="polite">${esc(result.headline)}</h2><p>${esc(result.why)}</p></div>
+ <div class="plan-result-body"><section class="plan-section"><h3>Primeros pasos</h3><ol class="plan-steps">${result.steps.map((s,i)=>`<li><span>${i+1}</span><p>${esc(s)}</p></li>`).join('')}</ol></section>
+ <section class="plan-section"><h3>Fuerza principal</h3><div class="plan-units">${result.primary.length?result.primary.map(unit).join(''):'<p class="plan-empty">No hay un medio principal aconsejable con los datos registrados. Revisa la identificación y los recursos.</p>'}</div></section>
+ ${result.support.length?`<section class="plan-section"><h3>Apoyo y cobertura</h3><div class="plan-units">${result.support.map(unit).join('')}</div></section>`:''}
+ ${result.warnings.length?`<section class="plan-section plan-warnings"><h3>Atención antes de actuar</h3>${list(result.warnings)}</section>`:''}
+ ${result.notes.length?`<section class="plan-section"><h3>Consideración operativa</h3>${list(result.notes)}</section>`:''}
+ ${result.alternatives.length?`<details class="plan-extra"><summary>Otras opciones y compromisos (${result.alternatives.length})</summary>${list(result.alternatives)}</details>`:''}
+ ${unique.length?`<div class="plan-related"><span>Consultar detalles técnicos</span>${unique.map(id=>{const x=entry(id);return x?`<button type="button" data-open="${esc(id)}">${esc(x.name)} ↗</button>`:''}).join('')}</div>`:''}
+ <p class="plan-disclaimer">Orientación basada en reglas y datos que has registrado, no en una conexión con Sea Power. Verifica sensores, presets, reservas y distancias dentro del juego.</p></div></section>`;
+}
+
+function renderPlanner(){
+ const root=$('#page-content');const p=plannerCurrent();
+ const mission=PLAN_MISSIONS.find(m=>m.id===p.mission)||PLAN_MISSIONS[0];
+ const choices=mission.choices;const scenario=choices.some(x=>x[0]===p.scenario)?p.scenario:choices[0][0];
+ const controls=[{id:"range",label:"Distancia",options:[["near","Próxima"],["medium","Intermedia"],["far","Lejana"]]}];
+ const ships=[["virginia","Crucero Virginia"],["kidd","Destructor Kidd"],["samuel","Fragata Samuel B. Roberts"],["losangeles","USS Los Angeles"]];
+ const aircraft=[["a6e","A-6E Intruder"],["f14a","F-14A Tomcat"],["fa18a","F/A-18A Hornet"],["ea6b","EA-6B Prowler"],["e2c","E-2C Hawkeye"],["s3a","S-3A Viking"],["sh2f","SH-2F Seasprite"],["sh3h","SH-3H Sea King"]];
+ const inventory=(items)=>items.map(([id,name])=>`<label class="plan-count"><span>${esc(name)}</span><input type="number" inputmode="numeric" min="0" max="99" step="1" data-plan-inv="${esc(id)}" value="${Math.max(0,Number(p.inventory[id])||0)}" aria-label="${esc(name)} disponibles"></label>`).join('');
+ const select=(name,label,opts,val)=>`<label class="plan-field"><span>${esc(label)}</span><select data-plan-control="${esc(name)}">${opts.map(([v,l])=>`<option value="${esc(v)}" ${v===val?'selected':''}>${esc(l)}</option>`).join('')}</select></label>`;
+ const ammoOpts=[["unknown","No lo he comprobado"],["stock","Hay existencias"],["empty","Agotado"]];
+ const ammoFields=[["harpoon","Harpoon"],["phoenix","AIM-54 Phoenix"],["torpedo","Torpedos"]].map(([id,name])=>select("ammo:"+id,name,ammoOpts,p.ammo[id])).join('');
+ root.innerHTML=`<main class="planner-screen"><header class="planner-head"><div class="plan-kicker">SEA POWER ATLAS · COPILOTO TÁCTICO</div><h1>¿Qué necesitas conseguir?</h1><p>Describe la situación y Atlas propondrá una respuesta con los medios que tienes registrados. Cambia cualquier dato para comparar alternativas.</p></header>
+ <section class="planner-form" aria-label="Situación de misión"><div class="planner-section-title"><span>1</span><h2>Objetivo</h2></div><div class="plan-missions">${PLAN_MISSIONS.map(m=>`<button type="button" class="plan-mission ${p.mission===m.id?'is-active':''}" aria-pressed="${p.mission===m.id}" data-plan-mission="${esc(m.id)}"><span class="plan-mission-icon" aria-hidden="true">${m.icon}</span><strong>${esc(m.name)}</strong><small>${esc(m.hint)}</small></button>`).join('')}</div>
+ <div class="planner-section-title"><span>2</span><h2>Situación</h2></div>
+ <div class="plan-select-grid">
+ ${select("scenario","Qué ocurre",choices,scenario)}
+ ${select("identified","Identificación", [["confirmed","Objetivo confirmado"],["uncertain","Todavía hay dudas"]],p.identified)}
+ </div>
+ <fieldset class="plan-range"><legend>¿A qué distancia?</legend><div class="plan-range-buttons">${controls[0].options.map(([v,l])=>`<button type="button" data-plan-range="${v}" aria-pressed="${v===p.range}" class="${v===p.range?'is-active':''}">${l}</button>`).join('')}</div></fieldset>
+ <label class="plan-toggle"><input type="checkbox" data-plan-flag="aswRisk" ${p.aswRisk?'checked':''}><span><strong>Debo mantener protección antisubmarina</strong><small>No dedicaría todos los helicópteros a funciones ofensivas</small></span></label>
+ <details class="plan-settings" id="plan-resources" ${plannerResourcesOpen?'open':''}><summary><span>3 · Disponibilidad y mods</span><small>Ajustar medios y munición · Se guarda en este dispositivo</small></summary>
+ <div class="plan-settings-body"><p>Valores iniciales de tu Task Force de referencia. Son editables y NO indican qué aviones están operativos ahora mismo.</p>
+ <h3>Aeronaves disponibles</h3><div class="plan-inventory">${inventory(aircraft)}</div>
+ <h3>Escoltas y submarino disponibles</h3><div class="plan-inventory">${inventory(ships)}</div>
+ <h3>Existencias de armamento</h3><div class="plan-ammo">${ammoFields}</div>
+ <h3>Modificaciones de armamento activas</h3>
+ <label class="plan-toggle"><input type="checkbox" data-plan-mod="sh2" ${p.mods.sh2?'checked':''}><span><strong>Better SH-2 Loadouts</strong><small>Habilitar alternativas SH-2F solo si funciona en tu instalación</small></span></label>
+ <label class="plan-toggle"><input type="checkbox" data-plan-mod="sh3" ${p.mods.sh3?'checked':''}><span><strong>Harpoon SH-3H</strong><small>Carga ficticia de cuatro Harpoon; no es históricamente realista</small></span></label>
+ <button type="button" id="plan-reset" class="plan-reset">Restablecer únicamente el planificador</button></div></details>
+ </section>
+ <div class="planner-section-title planner-answer-title"><span>✓</span><h2>Qué te recomiendo</h2><span class="plan-auto">Se actualiza al cambiar datos</span></div>
+ ${plannerResultMarkup()}
+ <div class="plan-footer-links"><button type="button" data-page="tactics">Ver procedimientos detallados ↗</button><button type="button" data-page="library">Consultar fichas técnicas ↗</button></div>
+ </main>`;
+}
+
+function refreshPlannerResult(){
+ const el=$('#planner-result');if(el)el.outerHTML=plannerResultMarkup();
+}
+
+function setPlannerValue(kind,key,value){
+ const p=plannerCurrent();
+ if(kind==="mission"){
+  const m=PLAN_MISSIONS.find(x=>x.id===value);if(!m)return;
+  p.mission=value;p.scenario=m.choices[0][0];p.identified=(value==="identify"||value==="sub")?"uncertain":"confirmed";
+ }else if(kind==="range"){if(!["near","medium","far"].includes(value))return;p.range=value}
+ else if(kind==="field"){
+  if(key==="scenario")p.scenario=value;
+  if(key==="identified")p.identified=value;
+ }else if(kind==="flag")p.aswRisk=Boolean(value);
+ else if(kind==="mod")p.mods[key]=Boolean(value);
+ else if(kind==="ammo"){if(!["unknown","stock","empty"].includes(value))return;p.ammo[key]=value}
+ else if(kind==="inventory"){const n=Number(value);if(!Number.isFinite(n))return;p.inventory[key]=Math.min(99,Math.max(0,Math.floor(n)))}
+ else if(kind==="reset"){state.planner=JSON.parse(JSON.stringify(PLAN_DEFAULT));save();renderPlanner();return}
+ else return;
+ state.planner=p;save();
+ if(kind==="mission"||kind==="range")renderPlanner();else refreshPlannerResult();
+}
