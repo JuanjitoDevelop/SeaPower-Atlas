@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#091720">
+  <meta name="description" content="Enciclopedia táctica personal de Sea Power: buques, aeronaves, armas y amenazas. Preparada para Task Force 1985.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sea Power Atlas — Task Force 1985</title>
+</head>
+<body>
+ <div class="shell">
+  <aside class="sidebar">
+   <div class="brand"><span class="brand-icon">◈</span><span><strong>SEA POWER</strong><small>ATLAS / TACTICAL REFERENCE</small></span></div>
+   <div class="slabel">NAVEGACIÓN</div>
+   <nav class="nav" aria-label="Secciones">
+    <button class="nav-btn selected" data-page="library"><span>▤</span> Enciclopedia <span class="nav-arrow">↗</span></button>
+    <button class="nav-btn" data-page="fleet"><span>◉</span> Mi Task Force</button>
+    <button class="nav-btn" data-page="glossary"><span>≡</span> Glosario táctico</button>
+    <button class="nav-btn" data-page="packs"><span>⊞</span> Mods y datos</button>
+   </nav>
+   <div class="side-lower"><div class="slabel">CAMPAÑA ACTIVA</div><div class="campaign-mini"><span class="dot"></span><div><strong>Pacific Strike '85</strong><small>Grupo Nimitz · 1985</small></div></div><div class="side-info">Base educativa independiente. Los datos de alcance y loadout pueden variar según la versión del juego.</div><div class="side-footer">SISTEMA · <span id="online-status">CARGANDO</span></div></div>
+  </aside>
+  <div class="main-shell">
+   <header class="topbar"><div class="mobile-brand">◈ <strong>SEA POWER ATLAS</strong></div><div class="breadcrumb">ARCHIVO TÁCTICO <span>/</span> <span id="page-path">ENCICLOPEDIA</span></div><div class="top-actions"><span class="date-tag">1985 <span class="green-dot"></span></span><button id="export-mini" class="icon-button" title="Exportar mis datos" aria-label="Exportar mis datos">⇩</button></div></header>
+   <main id="page-content" tabindex="-1"></main>
+   <footer class="site-footer">SEA POWER ATLAS · GUÍA NO OFICIAL · DATOS ORIENTATIVOS PARA APRENDER</footer>
+  </div>
+ </div>
+ <nav class="mobile-nav" aria-label="Navegación móvil">
+  <button class="mnav selected" data-page="library"><span>▤</span>Fichas</button><button class="mnav" data-page="fleet"><span>◉</span>Flota</button><button class="mnav" data-page="glossary"><span>≡</span>Glosario</button><button class="mnav" data-page="packs"><span>⊞</span>Mods</button>
+ </nav>
+ <div class="modal-scrim" id="modal-scrim" hidden></div>
+ <section id="detail-panel" class="detail-panel" role="dialog" aria-modal="true" aria-label="Detalle de ficha" aria-hidden="true"></section>
+ <div class="toast" id="toast" role="status" aria-live="polite"></div>
+ <input type="file" id="import-file" accept=".json,application/json" hidden>
+ <script src="app.js" defer></script>
+</body>
+</html>
