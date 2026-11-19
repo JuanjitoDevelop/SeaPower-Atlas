@@ -144,6 +144,8 @@ const PLAN_DEFAULT={
     "s3a": 4,
     "sh2f": 4,
     "sh3h": 1,
+    "hh3e": 6,
+    "ah1t": 2,
     "virginia": 1,
     "kidd": 1,
     "samuel": 1,
@@ -314,7 +316,7 @@ function renderPlanner(){
  const choices=mission.choices;const scenario=choices.some(x=>x[0]===p.scenario)?p.scenario:choices[0][0];
  const controls=[{id:"range",label:"Distancia",options:[["near","Próxima"],["medium","Intermedia"],["far","Lejana"]]}];
  const ships=[["virginia","Crucero Virginia"],["kidd","Destructor Kidd"],["samuel","Fragata Samuel B. Roberts"],["losangeles","USS Los Angeles"]];
- const aircraft=[["a6e","A-6E Intruder"],["f14a","F-14A Tomcat"],["fa18a","F/A-18A Hornet"],["ea6b","EA-6B Prowler"],["e2c","E-2C Hawkeye"],["s3a","S-3A Viking"],["sh2f","SH-2F Seasprite"],["sh3h","SH-3H Sea King"]];
+ const aircraft=[["a6e","A-6E Intruder"],["f14a","F-14A Tomcat"],["fa18a","F/A-18A Hornet"],["ea6b","EA-6B Prowler"],["e2c","E-2C Hawkeye"],["s3a","S-3A Viking"],["sh2f","SH-2F Seasprite"],["sh3h","SH-3H Sea King"],["hh3e","HH-3E SAR"],["ah1t","AH-1T Cobra"]];
  const inventory=(items)=>items.map(([id,name])=>`<label class="plan-count"><span>${esc(name)}</span><input type="number" inputmode="numeric" min="0" max="99" step="1" data-plan-inv="${esc(id)}" value="${Math.max(0,Number(p.inventory[id])||0)}" aria-label="${esc(name)} disponibles"></label>`).join('');
  const select=(name,label,opts,val)=>`<label class="plan-field"><span>${esc(label)}</span><select data-plan-control="${esc(name)}">${opts.map(([v,l])=>`<option value="${esc(v)}" ${v===val?'selected':''}>${esc(l)}</option>`).join('')}</select></label>`;
  const ammoOpts=[["unknown","No lo he comprobado"],["stock","Hay existencias"],["empty","Agotado"]];
