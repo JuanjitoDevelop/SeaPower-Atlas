@@ -3,7 +3,7 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const vm=require('node:vm');
 const context={};
-vm.runInNewContext(fs.readFileSync('planner.js','utf8')+'\nthis.engine={computePlan,PLAN_DEFAULT,PLAN_MISSIONS}',context);
+vm.runInNewContext(fs.readFileSync('planner.js','utf8')+'\nthis.engine={computePlan,PLAN_DEFAULT,PLAN_MISSIONS,renderPlanner}',context);
 const {computePlan,PLAN_DEFAULT,PLAN_MISSIONS}=context.engine;
 let count=0;
 function check(name,partial,verify){
@@ -29,4 +29,19 @@ check('Defensa sin escoltas principales se advierte',{mission:'defend',inventory
 check('Torpedos agotados bloquea suposición de munición',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.warnings.some(w=>w.includes('agotados')));
 check('Identificación radar no propone ataque',{mission:'identify',scenario:'esm'},x=>x.primary.every(u=>u.id!=='a6e'));
 check('Ataque costero con SAM incluye SEAD',{mission:'land',scenario:'sam',identified:'confirmed'},x=>x.primary.some(u=>u.id==='a6e'&&u.profile.includes('SEAD')));
+// Renderizado mínimo sin navegador: detecta fallos de la interfaz antes de publicar.
+const root={innerHTML:''};
+context.state={planner:{...PLAN_DEFAULT,identified:'confirmed'}};
+context.$=()=>root;
+context.esc=v=>String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+context.entry=id=>({id,name:id});
+context.engine.renderPlanner();
+assert.match(root.innerHTML,/Qué necesitas conseguir/);
+assert.match(root.innerHTML,/data-plan-mission=/);
+assert.match(root.innerHTML,/data-plan-inv=/);
+assert.match(root.innerHTML,/data-plan-mod=/);
+assert.match(root.innerHTML,/Fuerza principal/);
+const html=fs.readFileSync('index.html','utf8');
+assert.ok(html.indexOf('src="planner.js"')<html.indexOf('src="app.js"'),'script del motor antes del controlador');
+console.log('OK: renderizado y orden de scripts del asistente');
 console.log('Pruebas del planificador correctas:',count);
