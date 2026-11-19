@@ -27,6 +27,7 @@ jobs:
         run: |
           node --check app.js
           node --check planner.js
+          node --check source.js
           node planner.test.cjs
           node --check tactics.js
           node --check workshop.js
