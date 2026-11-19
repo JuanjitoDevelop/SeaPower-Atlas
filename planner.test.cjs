@@ -67,7 +67,7 @@ assert.match(context.modFns.modPlanLoadoutMarkup('sh2f','AntiShip'),/Penguin Mk 
 assert.match(context.modFns.modPlanLoadoutMarkup('sh3h','AntiShip'),/AGM-84A Harpoon/);
 assert.match(context.modFns.modPlanLoadoutMarkup('sh2f','SEADAdvanced'),/posterior a 1985/);
 assert.match(context.modFns.modLoadoutsMarkup({id:'sh3h'}),/ASWHunterLight/);
-assert.match(context.modFns.editorModOverview(),/no incluye Penguin/i);
+assert.match(context.modFns.editorModOverview(),/no incluyen Penguin/i);
 console.log('OK: 16 perfiles de mods, editor compatible y disponibilidad cronológica');
 
 // Datos de los INI originales, resueltos en 1985.
