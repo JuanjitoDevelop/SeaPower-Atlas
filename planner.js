@@ -191,11 +191,16 @@ function computePlan(p){
     out.status="recursos limitados";
     if(!ready("a6e"))note("Has indicado cero A-6E disponibles.");
     if(ammo("harpoon")==="empty")note("Has indicado que no quedan Harpoon.");
+    if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&!far){
+      add("primary","sh2f","AntiShip","Alternativa del mod con dos Penguin Mk 2; confirmar disponibilidad y supervivencia del helicóptero");
+      out.related.push("sh2f");
+      out.status="alternativa del mod";
+      note("El SH-2F modificado lleva Penguin Mk 2, NO Harpoon. No podemos deducir sus existencias a partir del indicador de Harpoon.");
+    }
     if(p.mods?.sh3&&ready("sh3h")&&!p.aswRisk&&!far&&ammo("harpoon")!=="empty"){
-      add("primary","sh3h","Anti-ship · 4 Harpoon (mod)","Alternativa experimental, no histórica");
+      add("primary","sh3h","AntiShip","Alternativa ficticia de mod con cuatro AGM-84A Harpoon");
       note("Usar Harpoon SH-3H aparta a tu único Sea King de ASW y no reproduce una capacidad histórica.");
     }
-    if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&!far)out.alternatives.push("Better SH-2 Loadouts podría ofrecer un perfil Anti-ship; confirma las armas exactas antes de usarlo.");
     if(!out.primary.length){out.headline="No hay ataque antibuque listo";out.why="Con los recursos registrados, es preferible reconocer o conservar la fuerza antes que suponer misiles o aviones que no están disponibles.";}
    }
    out.steps=["Confirma composición del grupo enemigo y defensas de sus escoltas.","Mantén vigilancia AEW, escolta aérea y apoyo EW si hay SAM.","Lanza una oleada proporcionada; observa resultados y reservas antes de repetir."];
@@ -283,8 +288,8 @@ function computePlan(p){
   default:out.headline="Selecciona una misión";
  }
  if(p.aswRisk&&p.mission!=="sub"&&p.mission!=="identify")out.notes.push("Has indicado riesgo submarino: reserva aeronaves ASW en vez de dedicar todos los helicópteros a ataque.");
- if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&near&&p.mission==="surface")out.alternatives.push("Better SH-2 Loadouts aporta una opción Anti-ship para SH-2F, sujeta a verificación en tu instalación.");
- if(p.mission==="surface"&&p.mods?.sh3&&ready("sh3h")&&!p.aswRisk&&!far&&ammo("harpoon")!=="empty")out.alternatives.push("Harpoon SH-3H es una opción ficticia de mod: no sustituye automáticamente al ataque del A-6E.");
+ if(p.mods?.sh2&&ready("sh2f")&&!p.aswRisk&&near&&p.mission==="surface")out.alternatives.push("Better SH-2 Loadouts: perfil AntiShip con 2 Penguin Mk 2 (15 min definidos en INI). No consume Harpoon; su almacén debe revisarse por separado.");
+ if(p.mission==="surface"&&p.mods?.sh3&&ready("sh3h")&&!p.aswRisk&&!far&&ammo("harpoon")!=="empty")out.alternatives.push("Harpoon SH-3H: 4 AGM-84A según INI del mod, no AGM-84C; su tiempo de preparación no está indicado en el archivo.");
  return out;
 }
 
@@ -296,7 +301,7 @@ function plannerCurrent(){
 
 function plannerResultMarkup(){
  const p=plannerCurrent(),result=computePlan(p);
- const unit=(u)=>{const x=entry(u.id);const payload=gamePlanLoadoutMarkup(u.id,u.profile);const resolved=gamePlanProfile(u.id,u.profile);const profileTitle=resolved?resolved.name:u.profile;return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(profileTitle)}</strong>${resolved?`<div class="plan-profile-code">${esc(resolved.code)}</div>`:""}<p>${esc(u.why)}</p>${payload}</div>`};
+ const unit=(u)=>{const x=entry(u.id);const modified=Boolean(modUnit(u.id)&&modIsActive(u.id));const payload=modified?modPlanLoadoutMarkup(u.id,u.profile):gamePlanLoadoutMarkup(u.id,u.profile);const resolved=modified?modSelectedProfile(u.id,u.profile):gamePlanProfile(u.id,u.profile);const profileTitle=resolved?resolved.name:u.profile;return `<div class="plan-unit"><div class="plan-unit-heading"><button type="button" data-open="${esc(u.id)}" class="plan-unit-link">${esc(x?.name||u.id)} ↗</button><span>Disponibles registrados: ${u.available}</span></div><strong>${esc(profileTitle)}</strong>${resolved?`<div class="plan-profile-code">${esc(resolved.code)}</div>`:""}<p>${esc(u.why)}</p>${payload}</div>`};
  const list=arr=>`<ul class="plan-points">${arr.map(t=>`<li>${esc(t)}</li>`).join('')}</ul>`;
  const unique=[...new Set(result.related||[])];
  return `<section id="planner-result" class="plan-result" aria-label="Plan sugerido"><div class="plan-result-head"><div class="plan-kicker">PROPUESTA ACTUAL · REGLAS TRANSPARENTES</div><span class="plan-status">${esc(result.status)}</span><h2 aria-live="polite">${esc(result.headline)}</h2><p>${esc(result.why)}</p></div>
