@@ -1,0 +1,1638 @@
+{
+  "schemaVersion": 1,
+  "title": "Sea Power Atlas",
+  "campaign": {
+    "year": 1985,
+    "name": "Task Force · 1985",
+    "aircraftCount": 55
+  },
+  "entries": [
+    {
+      "id": "a6e",
+      "name": "A-6E Intruder",
+      "category": "aircraft",
+      "role": "Ataque embarcado / antibuque",
+      "summary": "Avión de ataque biplaza, capaz de operar con mal tiempo y de emplear bombas, misiles antibuque y antirradiación.",
+      "nation": "EE. UU.",
+      "year": 1970,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Ataque naval",
+        "SEAD",
+        "Ataque terrestre"
+      ],
+      "stats": [
+        {
+          "label": "Tripulación",
+          "value": "2"
+        },
+        {
+          "label": "Tu campaña",
+          "value": "14 aeronaves"
+        },
+        {
+          "label": "Era",
+          "value": "Guerra Fría"
+        }
+      ],
+      "equipment": [
+        "agm84c",
+        "agm78d",
+        "agm45b",
+        "mk82",
+        "mk83",
+        "gbu12",
+        "gbu24",
+        "cbu100"
+      ],
+      "loadouts": [
+        {
+          "name": "Anti Ship Heavy",
+          "description": "Mayor cantidad de Harpoon; alto consumo de munición."
+        },
+        {
+          "name": "Anti Ship Long Range",
+          "description": "Más autonomía de plataforma a costa de carga útil."
+        },
+        {
+          "name": "SEAD / SEAD Advanced",
+          "description": "Ataque a emisores radar con Shrike o Standard ARM según el preset."
+        },
+        {
+          "name": "Strike / Precision",
+          "description": "Bombas convencionales o guiadas; exige aproximarse más."
+        }
+      ],
+      "strengths": [
+        "Gran diversidad de armamento.",
+        "Excelente plataforma de ataque naval."
+      ],
+      "cautions": [
+        "Las bombas requieren mayor proximidad.",
+        "No confundir alcance del avión con alcance del misil."
+      ],
+      "tip": "En 1985, tu arma antibuque principal es el AGM-84C Harpoon; confirma la carga exacta en el panel de Sea Power.",
+      "source": "",
+      "aliases": [
+        "Intruder"
+      ]
+    },
+    {
+      "id": "fa18a",
+      "name": "F/A-18A Hornet",
+      "category": "aircraft",
+      "role": "Caza polivalente / escolta",
+      "summary": "Caza bimotor embarcado para defensa aérea, escolta y ataque a superficie.",
+      "nation": "EE. UU.",
+      "year": 1983,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "CAP",
+        "Escolta",
+        "Ataque"
+      ],
+      "stats": [
+        {
+          "label": "Tripulación",
+          "value": "1"
+        },
+        {
+          "label": "Tu campaña",
+          "value": "12 aeronaves"
+        }
+      ],
+      "equipment": [
+        "aim7",
+        "aim9",
+        "agm84c",
+        "mk82"
+      ],
+      "loadouts": [
+        {
+          "name": "Air to Air",
+          "description": "Defensa del grupo de combate con misiles aire-aire."
+        },
+        {
+          "name": "Air to Air Long Range",
+          "description": "Mayor autonomía para patrullas o escolta."
+        },
+        {
+          "name": "Anti Ship",
+          "description": "Perfil del juego: comprobar fecha y configuración histórica."
+        }
+      ],
+      "strengths": [
+        "Flexible para reconfigurarlo entre salidas.",
+        "Muy útil como escolta de los Intruder."
+      ],
+      "cautions": [
+        "Históricamente el empleo de Harpoon desde Hornet llegó después de 1985; el juego puede ofrecer variantes distintas."
+      ],
+      "tip": "Asigna la mayoría a CAP y escolta; revisa la disponibilidad histórica de cargas antibuque para 1985.",
+      "source": "",
+      "aliases": [
+        "Hornet"
+      ]
+    },
+    {
+      "id": "f14a",
+      "name": "F-14A Tomcat",
+      "category": "aircraft",
+      "role": "Interceptor naval de largo alcance",
+      "summary": "Interceptor de geometría variable con radar AWG-9 y capacidad de emplear AIM-54 Phoenix.",
+      "nation": "EE. UU.",
+      "year": 1974,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "CAP",
+        "Interceptación"
+      ],
+      "stats": [
+        {
+          "label": "Tripulación",
+          "value": "2"
+        },
+        {
+          "label": "Tu campaña",
+          "value": "8 aeronaves"
+        }
+      ],
+      "equipment": [
+        "aim54",
+        "aim7",
+        "aim9"
+      ],
+      "loadouts": [
+        {
+          "name": "Air to Air Intercept",
+          "description": "Prioridad a intercepción lejana; comprueba la mezcla de Phoenix/Sparrow."
+        },
+        {
+          "name": "Air to Air Long Range",
+          "description": "Mayor radio de patrulla."
+        },
+        {
+          "name": "Air to Air",
+          "description": "Carga aire-aire más convencional."
+        }
+      ],
+      "strengths": [
+        "Protección frente a bombarderos antes de que lancen sus misiles.",
+        "El Phoenix es su principal elemento diferencial."
+      ],
+      "cautions": [
+        "No gastes Phoenix en objetivos de escaso valor.",
+        "Depende de detección y reglas de enfrentamiento adecuadas."
+      ],
+      "tip": "Mantén una pareja en CAP y otra lista para despegar; acompáñalos con vigilancia E-2C.",
+      "source": "",
+      "aliases": [
+        "Tomcat"
+      ]
+    },
+    {
+      "id": "ea6b",
+      "name": "EA-6B Prowler",
+      "category": "aircraft",
+      "role": "Guerra electrónica / SEAD",
+      "summary": "Avión especializado en interferir radares y comunicaciones enemigas; algunas versiones pueden atacar radares.",
+      "nation": "EE. UU.",
+      "year": 1971,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "EW",
+        "SEAD"
+      ],
+      "stats": [
+        {
+          "label": "Tripulación",
+          "value": "4"
+        },
+        {
+          "label": "Tu campaña",
+          "value": "2 aeronaves"
+        }
+      ],
+      "equipment": [
+        "agm45b",
+        "agm88a"
+      ],
+      "loadouts": [
+        {
+          "name": "EW",
+          "description": "Interferencia electrónica: prioridad para tu campaña."
+        },
+        {
+          "name": "SEAD Advanced",
+          "description": "Si aparece en el juego, verifica disponibilidad por fecha y armamento."
+        }
+      ],
+      "strengths": [
+        "Multiplica la supervivencia de los paquetes de ataque.",
+        "Tus dos unidades permiten alternar patrulla y reserva."
+      ],
+      "cautions": [
+        "La interferencia no garantiza inmunidad.",
+        "HARM en EA-6B es una opción históricamente posterior a 1985."
+      ],
+      "tip": "Reserva un Prowler para cada gran oleada y el otro para relevo o contingencia.",
+      "source": "",
+      "aliases": [
+        "Prowler"
+      ]
+    },
+    {
+      "id": "e2c",
+      "name": "E-2C Hawkeye",
+      "category": "aircraft",
+      "role": "Alerta temprana aerotransportada",
+      "summary": "Radar volante embarcado dedicado a vigilancia y control aéreo.",
+      "nation": "EE. UU.",
+      "year": 1973,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "AEW",
+        "Vigilancia"
+      ],
+      "stats": [
+        {
+          "label": "Tripulación",
+          "value": "5"
+        },
+        {
+          "label": "Tu campaña",
+          "value": "2 aeronaves"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [
+        {
+          "name": "AEW",
+          "description": "Detección y alerta; sin armamento ofensivo."
+        }
+      ],
+      "strengths": [
+        "Amplía la conciencia situacional del grupo.",
+        "Permite anticipar amenazas a baja cota."
+      ],
+      "cautions": [
+        "Activo muy valioso y vulnerable; protégelo con cazas."
+      ],
+      "tip": "Alterna los dos aparatos para mantener vigilancia sin agotar ambos al mismo tiempo.",
+      "source": "",
+      "aliases": [
+        "Hawkeye"
+      ]
+    },
+    {
+      "id": "s3a",
+      "name": "S-3A Viking",
+      "category": "aircraft",
+      "role": "Patrulla antisubmarina",
+      "summary": "Avión embarcado especializado en búsqueda y ataque de submarinos.",
+      "nation": "EE. UU.",
+      "year": 1974,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "ASW",
+        "Patrulla"
+      ],
+      "stats": [
+        {
+          "label": "Tripulación",
+          "value": "4"
+        },
+        {
+          "label": "Tu campaña",
+          "value": "4 aeronaves"
+        }
+      ],
+      "equipment": [
+        "mk46"
+      ],
+      "loadouts": [
+        {
+          "name": "ASW",
+          "description": "Sonoboyas y armamento antisubmarino, según preset."
+        },
+        {
+          "name": "ASW Hunter",
+          "description": "Perfil de búsqueda si está disponible."
+        }
+      ],
+      "strengths": [
+        "Mayor área de búsqueda que los helicópteros de escolta.",
+        "Esencial frente a submarinos soviéticos."
+      ],
+      "cautions": [
+        "La munición y las sonoboyas son recursos limitados en operaciones persistentes."
+      ],
+      "tip": "Mantén una búsqueda exterior y reserva otra pareja para investigar contactos.",
+      "source": "",
+      "aliases": [
+        "Viking"
+      ]
+    },
+    {
+      "id": "sh2f",
+      "name": "SH-2F Seasprite",
+      "category": "aircraft",
+      "role": "Helicóptero antisubmarino de escolta",
+      "summary": "Helicóptero embarcado en escoltas, diseñado para extender la detección y el ataque antisubmarino.",
+      "nation": "EE. UU.",
+      "year": 1973,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "ASW",
+        "Helicóptero"
+      ],
+      "stats": [
+        {
+          "label": "Tu campaña",
+          "value": "4 helicópteros"
+        }
+      ],
+      "equipment": [
+        "mk46"
+      ],
+      "loadouts": [
+        {
+          "name": "ASW",
+          "description": "Patrulla y ataque antisubmarino."
+        },
+        {
+          "name": "ASW Long Range",
+          "description": "Mayor autonomía si este preset aparece."
+        }
+      ],
+      "strengths": [
+        "Puede operar desde buques de escolta."
+      ],
+      "cautions": [
+        "Radio de acción y velocidad menores que los del S-3A."
+      ],
+      "tip": "Úsalos para proteger sectores próximos a los buques, no como exploradores solitarios de toda la zona.",
+      "source": "",
+      "aliases": [
+        "Seasprite"
+      ]
+    },
+    {
+      "id": "sh3h",
+      "name": "SH-3H Sea King",
+      "category": "aircraft",
+      "role": "Helicóptero antisubmarino",
+      "summary": "Helicóptero naval de búsqueda y ataque antisubmarino.",
+      "nation": "EE. UU.",
+      "year": 1973,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "ASW",
+        "Helicóptero"
+      ],
+      "stats": [
+        {
+          "label": "Tu campaña",
+          "value": "1 helicóptero"
+        }
+      ],
+      "equipment": [
+        "mk46"
+      ],
+      "loadouts": [
+        {
+          "name": "ASW",
+          "description": "Búsqueda antisubmarina con torpedos según preset."
+        }
+      ],
+      "strengths": [
+        "Apoyo cercano frente a amenazas submarinas."
+      ],
+      "cautions": [
+        "Solo tienes una unidad."
+      ],
+      "tip": "Conserva este aparato para confirmar y atacar contactos que ya hayan sido localizados.",
+      "source": "",
+      "aliases": [
+        "Sea King"
+      ]
+    },
+    {
+      "id": "hh3e",
+      "name": "HH-3E Jolly Green Giant",
+      "category": "aircraft",
+      "role": "Rescate / transporte",
+      "summary": "Helicóptero de largo alcance orientado a búsqueda, rescate y recuperación.",
+      "nation": "EE. UU.",
+      "year": 1967,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "SAR",
+        "Apoyo"
+      ],
+      "stats": [
+        {
+          "label": "Tu campaña",
+          "value": "6 helicópteros"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [
+        {
+          "name": "SAR / Transport",
+          "description": "Según la variante ofrecida por Sea Power."
+        }
+      ],
+      "strengths": [
+        "Especialización en recuperación y apoyo."
+      ],
+      "cautions": [
+        "No sustituye a una aeronave antisubmarina ni a un cazabombardero."
+      ],
+      "tip": "Mantén la mayoría en reserva en campañas principalmente navales.",
+      "source": "",
+      "aliases": [
+        "HH-3E"
+      ]
+    },
+    {
+      "id": "ah1t",
+      "name": "AH-1T Sea Cobra",
+      "category": "aircraft",
+      "role": "Apoyo aéreo cercano",
+      "summary": "Helicóptero de ataque con cañón, cohetes y armamento antiblindaje.",
+      "nation": "EE. UU.",
+      "year": 1977,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "CAS",
+        "Terrestre"
+      ],
+      "stats": [
+        {
+          "label": "Tu campaña",
+          "value": "2 helicópteros"
+        }
+      ],
+      "equipment": [
+        "tow"
+      ],
+      "loadouts": [
+        {
+          "name": "CAS / Anti Armor",
+          "description": "Ataca tropas y vehículos cuando el preset esté disponible."
+        }
+      ],
+      "strengths": [
+        "Útil para misiones litorales."
+      ],
+      "cautions": [
+        "No es sustituto de Harpoon contra buques de guerra."
+      ],
+      "tip": "Resérvalos para objetivos terrestres o embarcaciones muy ligeras.",
+      "source": "",
+      "aliases": [
+        "Sea Cobra"
+      ]
+    },
+    {
+      "id": "nimitz",
+      "name": "USS Nimitz (CVN-68)",
+      "category": "ship",
+      "role": "Portaaviones nuclear / mando",
+      "summary": "Centro de gravedad de la campaña: proyecta aviación, coordina operaciones y almacena munición aérea.",
+      "nation": "EE. UU.",
+      "year": 1975,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Portaaviones",
+        "Mando",
+        "EE. UU."
+      ],
+      "stats": [
+        {
+          "label": "Tipo",
+          "value": "Portaaviones nuclear"
+        },
+        {
+          "label": "Campaña",
+          "value": "Buque insignia"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Gran capacidad aérea.",
+        "Autonomía por propulsión nuclear."
+      ],
+      "cautions": [
+        "Depende de escoltas y vigilancia antisubmarina.",
+        "Perderlo pone en riesgo toda la campaña."
+      ],
+      "tip": "Mantén CAP, AEW y una reserva de cazas en todo momento.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "missouri",
+      "name": "USS Missouri (BB-63)",
+      "category": "ship",
+      "role": "Acorazado / apoyo de fuego",
+      "summary": "Acorazado clase Iowa reactivado para la Guerra Fría; artillería de 406 mm y armamento misilístico según fecha.",
+      "nation": "EE. UU.",
+      "year": 1944,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Superficie",
+        "Bombardeo"
+      ],
+      "stats": [
+        {
+          "label": "Clase",
+          "value": "Iowa"
+        },
+        {
+          "label": "Artillería principal",
+          "value": "406 mm / 16 in"
+        }
+      ],
+      "equipment": [
+        "tomahawk",
+        "harpoon_ship"
+      ],
+      "loadouts": [],
+      "strengths": [
+        "Potente apoyo artillero costero.",
+        "Elevada resistencia estructural."
+      ],
+      "cautions": [
+        "Anacronismo en 1985: el Missouri no fue reincorporado al servicio hasta mayo de 1986.",
+        "Su armadura no garantiza defensa contra misiles modernos."
+      ],
+      "tip": "Para bombardeo litoral, acerca el Missouri solo después de reducir las amenazas de costa.",
+      "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/m/missouri-iii.html",
+      "aliases": []
+    },
+    {
+      "id": "virginia",
+      "name": "Crucero clase Virginia (CGN)",
+      "category": "ship",
+      "role": "Defensa aérea de zona",
+      "summary": "Crucero nuclear de misiles guiados, relevante para protección aérea del grupo de combate.",
+      "nation": "EE. UU.",
+      "year": 1976,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Escolta",
+        "Defensa aérea"
+      ],
+      "stats": [
+        {
+          "label": "Tipo",
+          "value": "Crucero nuclear"
+        },
+        {
+          "label": "Rol",
+          "value": "Defensa aérea"
+        }
+      ],
+      "equipment": [
+        "rim66",
+        "rim67"
+      ],
+      "loadouts": [],
+      "strengths": [
+        "Protección antiaérea de área."
+      ],
+      "cautions": [
+        "La configuración de misiles varía por fecha y loadout; consulta el panel del buque."
+      ],
+      "tip": "Sitúalo donde su defensa aérea se solape con los demás escoltas.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "kidd",
+      "name": "Destructor clase Kidd",
+      "category": "ship",
+      "role": "Destructor antiaéreo",
+      "summary": "Escolta estadounidense optimizado para defensa aérea, con capacidades antisubmarinas.",
+      "nation": "EE. UU.",
+      "year": 1981,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Escolta",
+        "Defensa aérea"
+      ],
+      "stats": [
+        {
+          "label": "Tipo",
+          "value": "Destructor"
+        },
+        {
+          "label": "Rol",
+          "value": "AAW / ASW"
+        }
+      ],
+      "equipment": [
+        "rim66",
+        "mk46"
+      ],
+      "loadouts": [],
+      "strengths": [
+        "Versátil para cobertura del portaaviones."
+      ],
+      "cautions": [
+        "Su munición antiaérea es finita."
+      ],
+      "tip": "No concentres todos los escoltas en un mismo punto; busca sectores de fuego complementarios.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "samuel",
+      "name": "USS Samuel B. Roberts (FFG-58)",
+      "category": "ship",
+      "role": "Fragata / escolta antisubmarina",
+      "summary": "Fragata de la clase Oliver Hazard Perry; adecuada para escolta y vigilancia antisubmarina.",
+      "nation": "EE. UU.",
+      "year": 1986,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Escolta",
+        "ASW"
+      ],
+      "stats": [
+        {
+          "label": "Clase",
+          "value": "Oliver Hazard Perry"
+        },
+        {
+          "label": "Entrada en servicio real",
+          "value": "1986"
+        }
+      ],
+      "equipment": [
+        "rim66",
+        "mk46",
+        "harpoon_ship"
+      ],
+      "loadouts": [],
+      "strengths": [
+        "Aporta helicópteros y capacidad ASW de escolta."
+      ],
+      "cautions": [
+        "¡Anacronismo histórico! FFG-58 entró en servicio en 1986, un año después de tu campaña."
+      ],
+      "tip": "Si priorizas rigor histórico, sustitúyela por una FFG de la clase Perry ya activa en 1985.",
+      "source": "https://www.history.navy.mil/research/histories/ship-histories/danfs/s/samuel-b--roberts--ffg-58--iii.html",
+      "aliases": []
+    },
+    {
+      "id": "losangeles",
+      "name": "USS Los Angeles (SSN-688)",
+      "category": "ship",
+      "role": "Submarino nuclear de ataque",
+      "summary": "Submarino rápido de ataque para explorar, hostigar buques y cazar submarinos.",
+      "nation": "EE. UU.",
+      "year": 1976,
+      "pack": "core",
+      "inFleet": true,
+      "tags": [
+        "Submarino",
+        "ASW",
+        "Ataque"
+      ],
+      "stats": [
+        {
+          "label": "Clase",
+          "value": "Los Angeles"
+        },
+        {
+          "label": "Tipo",
+          "value": "SSN"
+        }
+      ],
+      "equipment": [
+        "mk48"
+      ],
+      "loadouts": [],
+      "strengths": [
+        "Reconocimiento discreto.",
+        "Capacidad de ataque submarino y antisuperficie."
+      ],
+      "cautions": [
+        "Evita exponer su posición junto a la flota principal."
+      ],
+      "tip": "Opera por separado, con áreas de patrulla que eviten confundirlo con contactos hostiles.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "agm84c",
+      "name": "AGM-84C Harpoon",
+      "category": "weapon",
+      "role": "Misil antibuque",
+      "summary": "Misil con guía radar activa terminal, dedicado a atacar buques. El modelo C corresponde a tu época.",
+      "nation": "EE. UU.",
+      "year": 1982,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Antibuque",
+        "Misil",
+        "Radar activo"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Buques de superficie"
+        },
+        {
+          "label": "Guía",
+          "value": "Navegación inercial + radar activo terminal"
+        },
+        {
+          "label": "Lanzamiento",
+          "value": "Desde aeronave"
+        },
+        {
+          "label": "Alcance real",
+          "value": "Del orden de 100 km; depende del perfil"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Ataque a distancia sin sobrevolar el blanco.",
+        "Vuelo rasante sobre el mar."
+      ],
+      "cautions": [
+        "Puede ser interceptado.",
+        "Los alcances en Sea Power deben verificarse en el loadout."
+      ],
+      "tip": "Para tu A-6E es la opción principal contra agrupaciones navales.",
+      "source": "",
+      "aliases": [
+        "Harpoon",
+        "AGM84C"
+      ]
+    },
+    {
+      "id": "agm78d",
+      "name": "AGM-78D Standard ARM",
+      "category": "weapon",
+      "role": "Misil antirradiación",
+      "summary": "Misil pasivo guiado hacia emisiones radar; ofrece más alcance que el Shrike.",
+      "nation": "EE. UU.",
+      "year": 1968,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "SEAD",
+        "Antirradiación"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Radar activo"
+        },
+        {
+          "label": "Guía",
+          "value": "Radiación electromagnética"
+        },
+        {
+          "label": "Alcance",
+          "value": "Superior al AGM-45; variable"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Permite atacar emisores radar a distancia considerable."
+      ],
+      "cautions": [
+        "No es un misil contra cualquier buque por defecto.",
+        "La conducta ante apagado de radar depende de versión y simulación."
+      ],
+      "tip": "Úsalo cuando se conozca una amenaza radar; no como sustituto genérico del Harpoon.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "agm45b",
+      "name": "AGM-45B Shrike",
+      "category": "weapon",
+      "role": "Misil antirradiación",
+      "summary": "Misil relativamente ligero para suprimir radares de defensa aérea.",
+      "nation": "EE. UU.",
+      "year": 1965,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "SEAD",
+        "Antirradiación"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Emisores radar"
+        },
+        {
+          "label": "Guía",
+          "value": "Radar pasivo"
+        },
+        {
+          "label": "Alcance",
+          "value": "Inferior al AGM-78D"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Ataque SEAD con menor tamaño."
+      ],
+      "cautions": [
+        "Exige acercarse más y depende del emisor."
+      ],
+      "tip": "Escoge Shrike si el objetivo está a alcance y buscas conservar armas de largo alcance.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "mk82",
+      "name": "Mk 82",
+      "category": "weapon",
+      "role": "Bomba de caída libre / 500 lb",
+      "summary": "Bomba convencional no guiada de aproximadamente 227 kg.",
+      "nation": "EE. UU.",
+      "year": 1950,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Bomba",
+        "Terrestre"
+      ],
+      "stats": [
+        {
+          "label": "Peso nominal",
+          "value": "500 lb / 227 kg"
+        },
+        {
+          "label": "Guía",
+          "value": "Ninguna"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Sencilla y adaptable a objetivos poco protegidos."
+      ],
+      "cautions": [
+        "Exige aproximarse a la zona del blanco.",
+        "No es un arma de precisión."
+      ],
+      "tip": "Útil para blancos terrestres poco defendidos.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "mk83",
+      "name": "Mk 83",
+      "category": "weapon",
+      "role": "Bomba de caída libre / 1.000 lb",
+      "summary": "Bomba convencional no guiada de aproximadamente 454 kg.",
+      "nation": "EE. UU.",
+      "year": 1950,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Bomba",
+        "Terrestre"
+      ],
+      "stats": [
+        {
+          "label": "Peso nominal",
+          "value": "1.000 lb / 454 kg"
+        },
+        {
+          "label": "Guía",
+          "value": "Ninguna"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Mayor efecto explosivo por impacto que una Mk 82."
+      ],
+      "cautions": [
+        "Menos unidades por carga y necesidad de aproximación."
+      ],
+      "tip": "Para instalaciones más resistentes que las que atacarías con una Mk 82.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "gbu12",
+      "name": "GBU-12 Paveway II",
+      "category": "weapon",
+      "role": "Bomba guiada por láser / 500 lb",
+      "summary": "Kit de guiado láser sobre bomba de 500 libras para ataques de precisión.",
+      "nation": "EE. UU.",
+      "year": 1976,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Bomba",
+        "Precisión",
+        "Láser"
+      ],
+      "stats": [
+        {
+          "label": "Peso nominal",
+          "value": "500 lb"
+        },
+        {
+          "label": "Guía",
+          "value": "Láser semiactivo"
+        },
+        {
+          "label": "Motor",
+          "value": "No tiene"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Precisión contra blancos puntuales."
+      ],
+      "cautions": [
+        "Requiere designación láser y geometría favorable."
+      ],
+      "tip": "Para blancos concretos sin gastar una bomba de 2.000 libras.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "gbu24",
+      "name": "GBU-24 Paveway III",
+      "category": "weapon",
+      "role": "Bomba guiada por láser / 2.000 lb",
+      "summary": "Bomba pesada de precisión con guiado láser Paveway III.",
+      "nation": "EE. UU.",
+      "year": 1983,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Bomba",
+        "Precisión",
+        "Láser"
+      ],
+      "stats": [
+        {
+          "label": "Peso nominal",
+          "value": "2.000 lb"
+        },
+        {
+          "label": "Guía",
+          "value": "Láser semiactivo"
+        },
+        {
+          "label": "Motor",
+          "value": "No tiene"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Apta para estructuras resistentes."
+      ],
+      "cautions": [
+        "Menor cantidad transportable y mayor exposición que un misil antibuque."
+      ],
+      "tip": "Reserva para infraestructura terrestre resistente; comprueba en qué fecha la ofrece el juego.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "cbu100",
+      "name": "CBU-100 / Mk 20 Rockeye II",
+      "category": "weapon",
+      "role": "Bomba de racimo antiblindaje",
+      "summary": "Dispensa submuniciones contra vehículos y objetivos dispersos.",
+      "nation": "EE. UU.",
+      "year": 1968,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Bomba",
+        "Área",
+        "Antiblindaje"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Vehículos / blancos de área"
+        },
+        {
+          "label": "Guía",
+          "value": "Sin guiado terminal"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Cobertura de una superficie con múltiples blancos ligeros."
+      ],
+      "cautions": [
+        "Poco adecuada contra estructuras endurecidas o buques grandes."
+      ],
+      "tip": "En Sea Power es una opción especializada, no una bomba universal.",
+      "source": "",
+      "aliases": [
+        "Rockeye"
+      ]
+    },
+    {
+      "id": "aim54",
+      "name": "AIM-54 Phoenix",
+      "category": "weapon",
+      "role": "Misil aire-aire de largo alcance",
+      "summary": "Misil estadounidense de largo alcance asociado al F-14 Tomcat.",
+      "nation": "EE. UU.",
+      "year": 1974,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Aire-aire",
+        "Largo alcance"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Aeronaves"
+        },
+        {
+          "label": "Plataforma de tu flota",
+          "value": "F-14A"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Intercepción muy lejana de amenazas aéreas."
+      ],
+      "cautions": [
+        "Munición valiosa y limitada."
+      ],
+      "tip": "Prioriza bombarderos y plataformas peligrosas antes de su lanzamiento antibuque.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "aim7",
+      "name": "AIM-7 Sparrow",
+      "category": "weapon",
+      "role": "Misil aire-aire de alcance medio",
+      "summary": "Misil guiado por radar semiactivo, ampliamente usado en cazas estadounidenses.",
+      "nation": "EE. UU.",
+      "year": 1958,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Aire-aire",
+        "Radar"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Aeronaves"
+        },
+        {
+          "label": "Guía",
+          "value": "Radar semiactivo"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Útil en enfrentamientos a distancia intermedia."
+      ],
+      "cautions": [
+        "El guiado requiere condiciones radar adecuadas."
+      ],
+      "tip": "Alternativa al costoso Phoenix frente a amenazas próximas.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "aim9",
+      "name": "AIM-9 Sidewinder",
+      "category": "weapon",
+      "role": "Misil aire-aire infrarrojo",
+      "summary": "Misil de guía infrarroja pensado principalmente para combates a menor distancia.",
+      "nation": "EE. UU.",
+      "year": 1956,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Aire-aire",
+        "Infrarrojo"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Aeronaves"
+        },
+        {
+          "label": "Guía",
+          "value": "Infrarrojo"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "No requiere iluminación radar semiactiva."
+      ],
+      "cautions": [
+        "Alcance inferior al de armas de largo alcance."
+      ],
+      "tip": "Arma para amenazas próximas y combates de oportunidad.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "mk46",
+      "name": "Mk 46",
+      "category": "weapon",
+      "role": "Torpedo antisubmarino ligero",
+      "summary": "Torpedo ligero autoguiado utilizado desde aeronaves y escoltas.",
+      "nation": "EE. UU.",
+      "year": 1963,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "ASW",
+        "Torpedo"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Submarinos"
+        },
+        {
+          "label": "Tipo",
+          "value": "Torpedo ligero"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Adecuado para S-3A y helicópteros ASW."
+      ],
+      "cautions": [
+        "Necesitas una posición estimada del submarino antes de lanzar."
+      ],
+      "tip": "No confundas la posición estimada con una solución de tiro fiable.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "mk48",
+      "name": "Mk 48",
+      "category": "weapon",
+      "role": "Torpedo submarino pesado",
+      "summary": "Torpedo pesado principal de submarinos de ataque estadounidenses.",
+      "nation": "EE. UU.",
+      "year": 1972,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Torpedo",
+        "Submarino"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Buques y submarinos"
+        },
+        {
+          "label": "Plataforma",
+          "value": "SSN"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Efecto considerable contra blancos navales."
+      ],
+      "cautions": [
+        "Su empleo puede revelar al submarino."
+      ],
+      "tip": "Ideal para el Los Angeles cuando la discreción ya no sea prioritaria.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "tow",
+      "name": "BGM-71 TOW",
+      "category": "weapon",
+      "role": "Misil antiblindaje",
+      "summary": "Misil guiado anticarro para helicópteros y vehículos.",
+      "nation": "EE. UU.",
+      "year": 1970,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Terrestre",
+        "Antiblindaje"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Blindados y vehículos"
+        },
+        {
+          "label": "Tipo",
+          "value": "Misil anticarro"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Precision contra vehículos terrestres."
+      ],
+      "cautions": [
+        "No está pensado para neutralizar grandes buques."
+      ],
+      "tip": "Úsalo con el AH-1T para misiones de costa.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "harpoon_ship",
+      "name": "RGM-84 Harpoon",
+      "category": "weapon",
+      "role": "Misil antibuque naval",
+      "summary": "Versión de lanzamiento desde buques del misil antibuque Harpoon.",
+      "nation": "EE. UU.",
+      "year": 1977,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Antibuque",
+        "Misil"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Buques"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Buques de superficie"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Permite ataque a superficie desde escoltas equipados."
+      ],
+      "cautions": [
+        "Disponibilidad depende del loadout de cada buque y del año."
+      ],
+      "tip": "Consulta el almacén del buque antes de emplear salvas.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "rim66",
+      "name": "RIM-66 Standard SM-1/SM-2 MR",
+      "category": "weapon",
+      "role": "Misil antiaéreo naval de medio alcance",
+      "summary": "Familia Standard de misiles superficie-aire utilizada en escoltas.",
+      "nation": "EE. UU.",
+      "year": 1967,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Defensa aérea",
+        "SAM"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Aeronaves / amenazas aéreas"
+        },
+        {
+          "label": "Tipo",
+          "value": "SAM naval"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Defensa aérea desde buques."
+      ],
+      "cautions": [
+        "Las subvariantes y las fechas cambian prestaciones; no trates todas como iguales."
+      ],
+      "tip": "Busca solapamiento de cobertura entre escoltas.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "rim67",
+      "name": "RIM-67 Standard ER",
+      "category": "weapon",
+      "role": "Misil antiaéreo naval de largo alcance",
+      "summary": "Misil Standard de alcance ampliado utilizado en buques con sistemas compatibles.",
+      "nation": "EE. UU.",
+      "year": 1970,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Defensa aérea",
+        "SAM"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Aeronaves / amenazas aéreas"
+        },
+        {
+          "label": "Tipo",
+          "value": "SAM naval de alcance ampliado"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Cobertura de largo alcance."
+      ],
+      "cautions": [
+        "No todos los buques o configuraciones de 1985 lo llevan."
+      ],
+      "tip": "Comprueba la versión real instalada en tu clase Virginia antes de planificar defensa.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "tomahawk",
+      "name": "BGM-109 Tomahawk",
+      "category": "weapon",
+      "role": "Misil de crucero de largo alcance",
+      "summary": "Familia de misiles de crucero de ataque terrestre o antibuque, según variante.",
+      "nation": "EE. UU.",
+      "year": 1983,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Crucero",
+        "Ataque"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Según variante"
+        },
+        {
+          "label": "Propulsión",
+          "value": "Crucero"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Ataque de largo alcance en variantes compatibles."
+      ],
+      "cautions": [
+        "No confundas TLAM y TASM: sus blancos y guiados difieren."
+      ],
+      "tip": "Verifica la variante y la disponibilidad del Missouri en el escenario de 1985.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "agm88a",
+      "name": "AGM-88A HARM",
+      "category": "weapon",
+      "role": "Misil antirradiación posterior en ciertas plataformas",
+      "summary": "Misil antirradiación de nueva generación; integrado gradualmente según plataforma y fecha.",
+      "nation": "EE. UU.",
+      "year": 1983,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "SEAD",
+        "Antirradiación",
+        "Histórico"
+      ],
+      "stats": [
+        {
+          "label": "Objetivo",
+          "value": "Emisores radar"
+        },
+        {
+          "label": "Disponibilidad en 1985",
+          "value": "Depende de plataforma"
+        }
+      ],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Capacidad avanzada de supresión radar."
+      ],
+      "cautions": [
+        "No asumir disponibilidad de A-6E/EA-6B en 1985 sin verificar; el juego aplica restricciones."
+      ],
+      "tip": "Mantén la ficha como referencia para campañas futuras.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "tu22m",
+      "name": "Tu-22M Backfire",
+      "category": "enemy",
+      "role": "Bombardero naval soviético",
+      "summary": "Bombardero supersónico de largo alcance utilizado como plataforma de ataque marítimo.",
+      "nation": "URSS",
+      "year": 1972,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Amenaza aérea",
+        "Bombardero",
+        "Antibuque"
+      ],
+      "stats": [],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Puede lanzar armamento antibuque antes de entrar en el alcance de cazas cercanos."
+      ],
+      "cautions": [
+        "No esperes a verlo sobrevolando la flota."
+      ],
+      "tip": "Objetivo prioritario para la vigilancia Hawkeye y la interceptación Tomcat.",
+      "source": "",
+      "aliases": [
+        "Backfire"
+      ]
+    },
+    {
+      "id": "tu16",
+      "name": "Tu-16 Badger",
+      "category": "enemy",
+      "role": "Bombardero / portamisiles soviético",
+      "summary": "Bombardero soviético empleado en versiones marítimas portadoras de misiles.",
+      "nation": "URSS",
+      "year": 1954,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Amenaza aérea",
+        "Bombardero"
+      ],
+      "stats": [],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Puede operar en grupos y lanzar misiles antibuque."
+      ],
+      "cautions": [
+        "La carga cambia con variante y fecha."
+      ],
+      "tip": "Identifica su variante antes de concluir qué misil porta.",
+      "source": "",
+      "aliases": [
+        "Badger"
+      ]
+    },
+    {
+      "id": "sovremenny",
+      "name": "Clase Sovremenny",
+      "category": "enemy",
+      "role": "Destructor soviético antibuque",
+      "summary": "Destructor diseñado para combate de superficie, con potente armamento antibuque.",
+      "nation": "URSS",
+      "year": 1980,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Buque enemigo",
+        "Misiles",
+        "Superficie"
+      ],
+      "stats": [],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Capacidad ofensiva contra buques de superficie."
+      ],
+      "cautions": [
+        "Suele protegerse con defensas aéreas propias y del grupo."
+      ],
+      "tip": "Evita enfrentar buques de escolta aislados a su ataque misilístico.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "udaloy",
+      "name": "Clase Udaloy",
+      "category": "enemy",
+      "role": "Gran buque antisubmarino soviético",
+      "summary": "Escolta soviético especializado en guerra antisubmarina con capacidad defensiva.",
+      "nation": "URSS",
+      "year": 1980,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Buque enemigo",
+        "ASW"
+      ],
+      "stats": [],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Puede amenazar a submarinos que se acerquen a una formación."
+      ],
+      "cautions": [
+        "Su prioridad principal es cazar submarinos."
+      ],
+      "tip": "El Los Angeles debe evitar exposiciones innecesarias cerca de esta clase.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "kirov",
+      "name": "Clase Kirov",
+      "category": "enemy",
+      "role": "Crucero nuclear de batalla soviético",
+      "summary": "Gran buque portamisiles con importantes capacidades antibuque y antiaéreas.",
+      "nation": "URSS",
+      "year": 1980,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Buque enemigo",
+        "Defensa aérea",
+        "Antibuque"
+      ],
+      "stats": [],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Amenaza de alto valor para tu grupo."
+      ],
+      "cautions": [
+        "Su defensa puede hacer ineficaces pequeños ataques aislados."
+      ],
+      "tip": "Antes de lanzar A-6E, estudia su escolta y situación de defensa.",
+      "source": "",
+      "aliases": []
+    },
+    {
+      "id": "oscar",
+      "name": "Proyecto 949 Oscar",
+      "category": "enemy",
+      "role": "Submarino soviético portamisiles",
+      "summary": "Submarino nuclear concebido para atacar agrupaciones de portaaviones con misiles antibuque.",
+      "nation": "URSS",
+      "year": 1980,
+      "pack": "core",
+      "inFleet": false,
+      "tags": [
+        "Submarino enemigo",
+        "Antibuque"
+      ],
+      "stats": [],
+      "equipment": [],
+      "loadouts": [],
+      "strengths": [
+        "Amenaza al grupo desde distancias considerables."
+      ],
+      "cautions": [
+        "Una detección tardía puede impedir una respuesta oportuna."
+      ],
+      "tip": "La vigilancia ASW no debe interrumpirse durante operaciones de ataque.",
+      "source": "",
+      "aliases": []
+    }
+  ]
+}
