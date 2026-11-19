@@ -61,6 +61,8 @@ assert.equal(workshopData.editor.fleetSupported.find(x=>x.id==='sh2f').options.i
 check('SH2F con mod Penguin pese a Harpoon agotados',{mission:'surface',identified:'confirmed',range:'near',aswRisk:false,ammo:{harpoon:'empty'},mods:{sh2:true},inventory:{a6e:0}},x=>x.primary.some(y=>y.id==='sh2f'&&y.profile==='AntiShip'));
 check('SH3H con mod Harpoon AGM84A',{mission:'surface',identified:'confirmed',range:'near',aswRisk:false,ammo:{harpoon:'stock'},mods:{sh3:true},inventory:{a6e:0}},x=>x.primary.some(y=>y.id==='sh3h'&&y.profile==='AntiShip'));
 check('SH2F sin mod no usa Penguin',{mission:'surface',identified:'confirmed',range:'near',aswRisk:false,ammo:{harpoon:'empty'},mods:{sh2:false},inventory:{a6e:0}},x=>!x.primary.some(y=>y.id==='sh2f'));
+check('Penguin agotados impide recomendar SH2F',{mission:'surface',identified:'confirmed',range:'near',aswRisk:false,ammo:{harpoon:'empty',penguin:'empty'},mods:{sh2:true},inventory:{a6e:0}},x=>!x.primary.some(y=>y.id==='sh2f'));
+check('Stock Penguin independiente de Harpoon',{mission:'surface',identified:'confirmed',range:'near',aswRisk:false,ammo:{harpoon:'empty',penguin:'stock'},mods:{sh2:true},inventory:{a6e:0}},x=>x.primary.some(y=>y.id==='sh2f'));
 check('Riesgo submarino reserva helicópteros',{mission:'surface',identified:'confirmed',range:'near',aswRisk:true,ammo:{harpoon:'empty'},mods:{sh2:true,sh3:true},inventory:{a6e:0}},x=>!x.primary.some(y=>y.id==='sh2f'||y.id==='sh3h'));
 context.state={planner:{mods:{sh2:true,sh3:true}}};
 assert.match(context.modFns.modPlanLoadoutMarkup('sh2f','AntiShip'),/Penguin Mk 2/);
