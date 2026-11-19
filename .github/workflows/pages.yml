@@ -23,6 +23,11 @@ jobs:
     steps:
       - name: Obtener los archivos
         uses: actions/checkout@v4
+      - name: Validar JavaScript y guía táctica
+        run: |
+          node --check app.js
+          node --check tactics.js
+          node -e "const fs=require('node:fs'); const data=JSON.parse(fs.readFileSync('data.json','utf8')); const guide=JSON.parse(fs.readFileSync('tactics.json','utf8')); if(!Array.isArray(data.entries)||!Array.isArray(guide.scenarios)||guide.scenarios.length<13)process.exit(1); console.log('Datos y 13+ situaciones: OK')"
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
       - name: Preparar los archivos
