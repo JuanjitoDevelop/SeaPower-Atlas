@@ -2,7 +2,7 @@
 
 Asistente de decisiones para móvil y escritorio, con enciclopedia secundaria y apoyo para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 2.2
+## Estado actual · versión 2.3
 
 - **45 fichas de referencia**: 10 tipos de aeronaves, 6 buques, 20 entradas de armamento (incluida una variante de Mk 46), 3 sonoboyas y 6 amenazas soviéticas.
 - **Copiloto táctico interactivo** con decisiones basadas en misión, distancia, identificación, munición, disponibilidad y mods seleccionados.
@@ -10,6 +10,10 @@ Asistente de decisiones para móvil y escritorio, con enciclopedia secundaria y 
 - **S-3A Viking**: siete perfiles originales (ASW, ASWBomb, Strike, StrikeHeavy, StrikeLongRange, AntiShip, CAS). La carga ASW está verificada en los INI y en la captura: cuatro Mk-46 Mod 5 NEARTIP, 42 DIFAR, 12 DICASS y 8 VLAD, preparación de 30 min. Los números entre paréntesis del menú no son IDs de perfiles.
 - **Copiloto con desglose real de carga** para la configuración sugerida, distinguiendo bombas, misiles, sonoboyas y depósitos.
 - **21 mods de Steam Workshop** catalogados, con opciones de armamento añadidas y advertencias.
+- **16 perfiles Workshop extraídos de los INI entregados**: SH-2F (`3683640615`, 12 perfiles) y SH-3H (`3400655872`, 4 perfiles), en `source_workshop_1985.json`. Mantienen su procedencia separada de los originales y señalan qué perfiles originales sustituyen.
+- **Custom Loadout Editor** (`3606134711`): 43 archivos de estaciones; siete modelos de tu flota aparecen en la lista de soporte. Son **opciones configurables**, no cargas personales ya guardadas. El ZIP no incluye los presets de usuario.
+- **Control independiente de Harpoon y Penguin Mk 2** en el copiloto: el SH-2F modded carga dos Penguin, el SH-3H modded cuatro AGM-84A. `SEADAdvanced` de SH-2F emplea AGM-122A con IOC 1986, advertido como anacrónico para 1985.
+- La presencia del INI en la colección no demuestra prioridad de carga ni que el mod esté activado. El usuario marca qué modificaciones están operativas desde el asistente; no se modifica ninguna instalación de juego.
 - Búsqueda global, filtros por tipo/bando/campaña/año, favoritos y comparador de dos fichas.
 - Ventana de detalle con funciones, ventajas, limitaciones, loadouts orientativos, enlaces a armas y notas privadas.
 - Página de la Task Force (55 aeronaves, 5 buques de superficie, un SSN).
