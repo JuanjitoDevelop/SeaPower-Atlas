@@ -1,0 +1,722 @@
+{
+  "schemaVersion": 1,
+  "game": "Sea Power",
+  "campaignYear": 1985,
+  "description": "Guías orientativas para Sea Power Task Force 1985; no sustituyen datos de simulación ni las configuraciones activas.",
+  "categories": [
+    {
+      "id": "ofensiva",
+      "label": "Ofensiva"
+    },
+    {
+      "id": "defensiva",
+      "label": "Defensiva"
+    },
+    {
+      "id": "contacto",
+      "label": "Contacto"
+    },
+    {
+      "id": "interceptacion",
+      "label": "Interceptación"
+    },
+    {
+      "id": "antisubmarina",
+      "label": "Antisubmarina"
+    },
+    {
+      "id": "mantenimiento",
+      "label": "Campaña"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "ataque-flota",
+      "category": "ofensiva",
+      "title": "Atacar una agrupación naval",
+      "priority": "Alta",
+      "situation": "Has identificado varios buques de guerra y quieres atacar sin acercar el Nimitz.",
+      "goal": "Conservar la fuerza aérea y lanzar un ataque naval coordinado.",
+      "check": [
+        "Confirma identidad y composición de la formación antes de disparar.",
+        "Comprueba defensa aérea, CAP enemiga, localización de los blancos y reservas de Harpoon.",
+        "Evita entrar en la zona de defensa de los escoltas para identificar un contacto que aún no es fiable."
+      ],
+      "steps": [
+        "Usa E-2C para vigilancia y unidades exploradoras para mejorar la situación táctica.",
+        "Protege la oleada con F-14A/F/A-18A y asigna apoyo EW si hay radares y SAM peligrosos.",
+        "Prepara A-6E con Anti Ship o Anti Ship Long Range según distancia y autonomía.",
+        "Conserva misiles para una segunda oleada; observa defensas y daños antes de repetir el ataque."
+      ],
+      "units": [
+        [
+          "a6e",
+          "Anti Ship / Anti Ship Long Range",
+          "Ataque principal AGM-84C"
+        ],
+        [
+          "ea6b",
+          "EW",
+          "Apoyo electrónico"
+        ],
+        [
+          "e2c",
+          "AEW",
+          "Detección y seguimiento"
+        ],
+        [
+          "f14a",
+          "Air to Air Intercept",
+          "Cobertura aérea"
+        ]
+      ],
+      "weapons": [
+        "agm84c",
+        "aim54"
+      ],
+      "risks": [
+        "El modo Heavy gasta Harpoon muy deprisa.",
+        "Long Range se refiere principalmente a autonomía, no al alcance del misil.",
+        "Las armas pueden ser interceptadas; no hay garantía de impacto."
+      ],
+      "tags": [
+        "harpoon",
+        "flota",
+        "ataque",
+        "superficie"
+      ]
+    },
+    {
+      "id": "saturacion-naval",
+      "category": "ofensiva",
+      "title": "Una defensa naval intercepta tus misiles",
+      "priority": "Alta",
+      "situation": "La primera salva de Harpoon fue interceptada por escoltas enemigos.",
+      "goal": "Evaluar la defensa antes de arriesgar más aeronaves y munición.",
+      "check": [
+        "Distingue entre interferencias, interceptaciones y fallos de localización.",
+        "Comprueba cuántos misiles quedan y cuántos aviones puedes recuperar con seguridad."
+      ],
+      "steps": [
+        "Mantén observación para saber qué buques han disparado y cuáles siguen operativos.",
+        "Reevalúa la composición de la defensa y coordina los ataques que el juego permita.",
+        "Conserva A-6E para una segunda oleada y evita perseguir barcos con el portaaviones.",
+        "Si el objetivo ya no justifica el coste, rompe contacto y conserva la fuerza."
+      ],
+      "units": [
+        [
+          "a6e",
+          "Anti Ship / Anti Ship Heavy",
+          "Nueva oleada solo si compensa"
+        ],
+        [
+          "ea6b",
+          "EW",
+          "Apoyo frente a radares"
+        ],
+        [
+          "e2c",
+          "AEW",
+          "Situación táctica"
+        ]
+      ],
+      "weapons": [
+        "agm84c"
+      ],
+      "risks": [
+        "Más misiles no garantizan superar la defensa.",
+        "No confundas daño confirmado con desaparición temporal del contacto."
+      ],
+      "tags": [
+        "defensa",
+        "misiles",
+        "salva",
+        "harpoon"
+      ]
+    },
+    {
+      "id": "ataque-costero",
+      "category": "ofensiva",
+      "title": "Atacar instalaciones costeras",
+      "priority": "Media",
+      "situation": "Se ha ordenado neutralizar un objetivo terrestre protegido por defensas aéreas.",
+      "goal": "Atacar el objetivo sin exponer innecesariamente al grupo embarcado.",
+      "check": [
+        "Identifica defensas SAM, radares y amenazas de cazas.",
+        "Verifica las condiciones de designación láser si empleas bombas guiadas."
+      ],
+      "steps": [
+        "Detecta y evalúa las defensas antes de enviar aviones con bombas.",
+        "Si hay radares hostiles, considera una fase SEAD con A-6E.",
+        "Prepara A-6E Strike Precision para objetivos puntuales o Strike para blancos menos exigentes.",
+        "Mantén cazas de escolta y capacidad de recuperación de pilotos."
+      ],
+      "units": [
+        [
+          "a6e",
+          "SEAD Advanced / Strike Precision",
+          "Radares y objetivos puntuales"
+        ],
+        [
+          "ea6b",
+          "EW",
+          "Apoyo de interferencia"
+        ],
+        [
+          "fa18a",
+          "Air to Air",
+          "Escolta"
+        ]
+      ],
+      "weapons": [
+        "agm78d",
+        "agm45b",
+        "gbu12",
+        "gbu24",
+        "mk82",
+        "mk83"
+      ],
+      "risks": [
+        "El guiado láser exige designación; las bombas no tienen propulsión.",
+        "No vueles hasta el objetivo sin revisar la defensa aérea."
+      ],
+      "tags": [
+        "tierra",
+        "costa",
+        "strike",
+        "sead",
+        "bombas"
+      ]
+    },
+    {
+      "id": "radar-sam",
+      "category": "ofensiva",
+      "title": "Radar SAM bloquea una ruta de ataque",
+      "priority": "Alta",
+      "situation": "Una batería radar defiende un acceso a la costa o a una flota.",
+      "goal": "Suprimir la amenaza para facilitar otras operaciones.",
+      "check": [
+        "Distingue radar de búsqueda, radar de control de tiro y lanzadores.",
+        "La emisión radar puede cesar; el éxito del misil antirradiación no está garantizado."
+      ],
+      "steps": [
+        "Localiza el emisor e identifica la amenaza antes de seleccionar el blanco.",
+        "Asigna Intruder SEAD Advanced con AGM-78D, si lo permite la configuración de 1985.",
+        "Prepara alternativa SEAD con AGM-45B para condiciones más cercanas.",
+        "Apoya con EA-6B EW y mantén escolta; comprueba el resultado antes del ataque principal."
+      ],
+      "units": [
+        [
+          "a6e",
+          "SEAD Advanced",
+          "AGM-78D contra radar"
+        ],
+        [
+          "a6e",
+          "SEAD",
+          "AGM-45B / Rockeye según preset"
+        ],
+        [
+          "ea6b",
+          "EW",
+          "Interferencia electrónica"
+        ],
+        [
+          "fa18a",
+          "Air to Air",
+          "Escolta"
+        ]
+      ],
+      "weapons": [
+        "agm78d",
+        "agm45b"
+      ],
+      "risks": [
+        "Un radar apagado no significa que el sistema SAM esté destruido.",
+        "El AGM-88 del A-6E no corresponde a la campaña de 1985."
+      ],
+      "tags": [
+        "radar",
+        "sam",
+        "sead",
+        "arm"
+      ]
+    },
+    {
+      "id": "bombarderos",
+      "category": "defensiva",
+      "title": "Bombarderos enemigos aproximándose",
+      "priority": "Crítica",
+      "situation": "El E-2C o los radares navales detectan bombarderos potencialmente antibuque.",
+      "goal": "Detectar e interceptar antes de que amenacen a la fuerza naval.",
+      "check": [
+        "Analiza rumbo y velocidad; un contacto lejano todavía puede ser peligroso.",
+        "Confirma si hay escoltas de caza y evita malgastar Phoenix sin identificar el objetivo."
+      ],
+      "steps": [
+        "Mantén radar de alerta temprana y un cuadro aéreo claro.",
+        "Despliega F-14A Air to Air Intercept para la capa exterior de defensa.",
+        "Reserva F/A-18A para la capa interior, protección del Hawkeye y relevo.",
+        "Prepara defensa antimisil de los buques por si los bombarderos lanzan antes de ser interceptados."
+      ],
+      "units": [
+        [
+          "e2c",
+          "AEW",
+          "Vigilancia e identificación"
+        ],
+        [
+          "f14a",
+          "Air to Air Intercept",
+          "AIM-54 Phoenix"
+        ],
+        [
+          "fa18a",
+          "Air to Air",
+          "CAP interior"
+        ],
+        [
+          "virginia",
+          "Defensa aérea naval",
+          "Capa SAM de superficie"
+        ]
+      ],
+      "weapons": [
+        "aim54",
+        "aim7",
+        "aim9",
+        "rim67"
+      ],
+      "risks": [
+        "AIM-54 no garantiza derribo; conserva reserva aérea.",
+        "No dejes al Hawkeye expuesto sin cobertura."
+      ],
+      "tags": [
+        "backfire",
+        "badger",
+        "intercepcion",
+        "bombardero",
+        "cap"
+      ]
+    },
+    {
+      "id": "misiles-entrantes",
+      "category": "defensiva",
+      "title": "Alerta de misiles antibuque entrantes",
+      "priority": "Crítica",
+      "situation": "Se han detectado misiles en aproximación a tu agrupación.",
+      "goal": "Proteger el portaaviones y sobrevivir al ataque.",
+      "check": [
+        "Diferencia misiles confirmados y contactos todavía no clasificados.",
+        "Valora direcciones de amenaza, tiempo de reacción y qué buques tienen SAM disponibles."
+      ],
+      "steps": [
+        "Prioriza la defensa aérea del Nimitz y mantén la agrupación cohesionada.",
+        "Emplea defensas SAM navales y contramedidas según disponibilidad y doctrina del juego.",
+        "Mantén cazas para interceptar plataformas de lanzamiento que aún estén operativas.",
+        "Tras el ataque, revisa daños, municiones, aeronaves y capacidad de continuar la misión."
+      ],
+      "units": [
+        [
+          "virginia",
+          "Defensa de zona",
+          "Interceptación SAM"
+        ],
+        [
+          "kidd",
+          "Defensa aérea de escolta",
+          "Protección del grupo"
+        ],
+        [
+          "samuel",
+          "Defensa de punto y escolta",
+          "Cobertura según armas del buque"
+        ],
+        [
+          "f14a",
+          "Air to Air Intercept",
+          "Amenaza aérea de origen"
+        ]
+      ],
+      "weapons": [
+        "rim66",
+        "rim67"
+      ],
+      "risks": [
+        "Ningún SAM garantiza una interceptación perfecta.",
+        "Alejar un escolta de su sector puede abrir huecos defensivos."
+      ],
+      "tags": [
+        "misil",
+        "ataque",
+        "defensa",
+        "sam",
+        "nimitz"
+      ]
+    },
+    {
+      "id": "cazas-hostiles",
+      "category": "interceptacion",
+      "title": "Cazas enemigos entrando en tu área",
+      "priority": "Alta",
+      "situation": "Contactos aéreos rápidos amenazan la CAP o un grupo de ataque.",
+      "goal": "Mantener superioridad aérea sin desproteger la flota.",
+      "check": [
+        "Verifica identificación, altura relativa, rumbo y posible escolta enemiga.",
+        "Considera el alcance de tus armas según el loadout elegido."
+      ],
+      "steps": [
+        "Envía F-14A para intercepción más lejana si la situación lo permite.",
+        "Utiliza F/A-18A para acompañar la CAP y proteger A-6E/EA-6B.",
+        "Mantén al menos una reserva para nuevas amenazas.",
+        "Reagrupa y comprueba combustible y armamento antes de perseguir contactos alejados."
+      ],
+      "units": [
+        [
+          "f14a",
+          "Air to Air / Intercept",
+          "Cobertura BVR"
+        ],
+        [
+          "fa18a",
+          "Air to Air",
+          "Combate polivalente"
+        ],
+        [
+          "e2c",
+          "AEW",
+          "Control del cuadro aéreo"
+        ]
+      ],
+      "weapons": [
+        "aim54",
+        "aim7",
+        "aim9"
+      ],
+      "risks": [
+        "No consumas Phoenix por rutina contra cualquier contacto.",
+        "No abandones la defensa del Nimitz para perseguir objetivos de poco valor."
+      ],
+      "tags": [
+        "caza",
+        "interceptor",
+        "CAP",
+        "aire"
+      ]
+    },
+    {
+      "id": "contacto-sin-identificar",
+      "category": "contacto",
+      "title": "Contacto de superficie sin identificar",
+      "priority": "Alta",
+      "situation": "Aparece un eco en radar o una pista de un tercero sin identificación fiable.",
+      "goal": "Clasificarlo antes de asumir que es hostil.",
+      "check": [
+        "Consulta clasificación, rumbo, velocidad y otras fuentes de detección.",
+        "Ten en cuenta tráfico mercante y falsas correlaciones."
+      ],
+      "steps": [
+        "Mantén distancia y mejora la identificación con los sensores disponibles.",
+        "Correlaciona información de radares, vigilancia aérea y otras unidades.",
+        "Evita revelar todas tus plataformas o lanzar un ataque a una identidad dudosa.",
+        "Cuando esté identificado, selecciona la ficha del contacto y un procedimiento ofensivo o defensivo."
+      ],
+      "units": [
+        [
+          "e2c",
+          "AEW",
+          "Vigilancia y seguimiento"
+        ],
+        [
+          "s3a",
+          "ASW / patrulla",
+          "Exploración marítima"
+        ],
+        [
+          "losangeles",
+          "Reconocimiento discreto",
+          "Seguimiento independiente"
+        ]
+      ],
+      "weapons": [],
+      "risks": [
+        "No confundas detección con identificación.",
+        "Un contacto sin clasificación no justifica gastar Harpoon."
+      ],
+      "tags": [
+        "desconocido",
+        "contacto",
+        "radar",
+        "identificacion"
+      ]
+    },
+    {
+      "id": "contacto-radar",
+      "category": "contacto",
+      "title": "Emisiones radar desconocidas",
+      "priority": "Media",
+      "situation": "Has detectado emisiones electrónicas sin reconocer aún su origen.",
+      "goal": "Relacionar el emisor con una plataforma y decidir si supone amenaza.",
+      "check": [
+        "Valora si es radar naval, aéreo o de defensa costera.",
+        "Estima si el emisor sigue activo y qué otras pistas existen."
+      ],
+      "steps": [
+        "Usa la información ESM y las trazas disponibles para formar una clasificación provisional.",
+        "Conserva EMCON si lo necesitas para mantener sorpresa táctica.",
+        "No ordenes un ataque antirradiación hasta identificar la amenaza y las condiciones de lanzamiento.",
+        "Si es un radar SAM hostil, aplica el procedimiento SEAD."
+      ],
+      "units": [
+        [
+          "ea6b",
+          "EW",
+          "Entorno electromagnético"
+        ],
+        [
+          "e2c",
+          "AEW",
+          "Correlación con contactos aéreos"
+        ],
+        [
+          "a6e",
+          "SEAD Advanced",
+          "Solo tras identificación"
+        ]
+      ],
+      "weapons": [
+        "agm78d",
+        "agm45b"
+      ],
+      "risks": [
+        "ESM identifica emisiones, no siempre el casco exacto.",
+        "Apagar un radar no demuestra destrucción."
+      ],
+      "tags": [
+        "esm",
+        "emcon",
+        "radar",
+        "emisiones",
+        "contacto"
+      ]
+    },
+    {
+      "id": "submarino",
+      "category": "antisubmarina",
+      "title": "Posible submarino cerca de la flota",
+      "priority": "Crítica",
+      "situation": "Se detecta una pista submarina dudosa próxima a la ruta del Nimitz.",
+      "goal": "Confirmar el contacto y mantener la protección antisubmarina.",
+      "check": [
+        "Distingue pista acústica débil de submarino confirmado.",
+        "Comprueba las limitaciones de los sensores y la presencia de unidades propias."
+      ],
+      "steps": [
+        "Despliega S-3A con configuración ASW/ASW Hunter y helicópteros ASW según autonomía.",
+        "Correlaciona sonoboyas, sonar de escoltas y pistas de otras unidades.",
+        "Mantén separado al Los Angeles de sectores donde pudiera confundirse con un contacto enemigo.",
+        "Solo autoriza empleo de torpedos tras clasificación y geometría adecuadas."
+      ],
+      "units": [
+        [
+          "s3a",
+          "ASW / ASW Hunter",
+          "Búsqueda con sonoboyas"
+        ],
+        [
+          "sh2f",
+          "ASW",
+          "Barrera próxima"
+        ],
+        [
+          "sh3h",
+          "ASW",
+          "Investigación de contacto"
+        ],
+        [
+          "losangeles",
+          "Patrulla submarina",
+          "Caza separada"
+        ]
+      ],
+      "weapons": [
+        "mk46",
+        "mk48"
+      ],
+      "risks": [
+        "Un contacto no identificado podría ser propio.",
+        "Los torpedos y sonoboyas son recursos limitados."
+      ],
+      "tags": [
+        "submarino",
+        "sonar",
+        "sonoboya",
+        "asw",
+        "torpedo"
+      ]
+    },
+    {
+      "id": "torpedo-detectado",
+      "category": "antisubmarina",
+      "title": "Indicios de torpedo en el agua",
+      "priority": "Crítica",
+      "situation": "Se detecta un arma submarina o un contacto que podría ser torpedo.",
+      "goal": "Preservar la flota y localizar el origen de la amenaza.",
+      "check": [
+        "Valora rumbo, distancia y si existe confirmación suficiente.",
+        "No pongas helicópteros o buques a perseguir sin establecer situación de seguridad."
+      ],
+      "steps": [
+        "Aplica maniobras defensivas y contramedidas antisubmarinas disponibles en el juego.",
+        "Mantén cubiertas las rutas de amenaza y registra la última posición del contacto.",
+        "Emplea vigilancia ASW para localizar la plataforma de lanzamiento después de reducir el peligro.",
+        "Revisa averías y sectoriza la búsqueda una vez estabilizada la situación."
+      ],
+      "units": [
+        [
+          "sh2f",
+          "ASW",
+          "Investigación y cobertura"
+        ],
+        [
+          "s3a",
+          "ASW",
+          "Ampliación de búsqueda"
+        ],
+        [
+          "kidd",
+          "Escolta ASW",
+          "Defensa del grupo"
+        ]
+      ],
+      "weapons": [
+        "mk46"
+      ],
+      "risks": [
+        "No basta con hundir un contacto para detener un torpedo ya lanzado.",
+        "Evita sacrificar la defensa del portaaviones por perseguir la fuente."
+      ],
+      "tags": [
+        "torpedo",
+        "defensa",
+        "asw",
+        "emergencia"
+      ]
+    },
+    {
+      "id": "convoy",
+      "category": "defensiva",
+      "title": "Escoltar un convoy o proteger un buque dañado",
+      "priority": "Media",
+      "situation": "Debes evitar pérdidas mientras el objetivo se desplaza lentamente.",
+      "goal": "Proteger al elemento vulnerable con una defensa escalonada.",
+      "check": [
+        "Determina las amenazas aéreas, de superficie y submarinas.",
+        "Confirma el alcance de los escoltas sin dispersarlos en exceso."
+      ],
+      "steps": [
+        "Mantén detección AEW, CAP y patrulla ASW en sectores complementarios.",
+        "Utiliza buques con buena defensa aérea como pantalla sin dejar huecos evidentes.",
+        "Conserva una fuerza de respuesta para contactos nuevos.",
+        "Prioriza la supervivencia del escoltado sobre la persecución de blancos lejanos."
+      ],
+      "units": [
+        [
+          "e2c",
+          "AEW",
+          "Aviso temprano"
+        ],
+        [
+          "f14a",
+          "Air to Air",
+          "CAP"
+        ],
+        [
+          "s3a",
+          "ASW",
+          "Defensa submarina"
+        ],
+        [
+          "virginia",
+          "Defensa aérea",
+          "Pantalla SAM"
+        ],
+        [
+          "samuel",
+          "Escolta ASW",
+          "Vigilancia de superficie/submarina"
+        ]
+      ],
+      "weapons": [
+        "rim66",
+        "rim67",
+        "mk46"
+      ],
+      "risks": [
+        "Un ataque aislado no justifica retirar todas las escoltas.",
+        "El consumo de munición y combustible condiciona la siguiente misión Task Force."
+      ],
+      "tags": [
+        "convoy",
+        "escolta",
+        "defensa",
+        "daños"
+      ]
+    },
+    {
+      "id": "retiro-rearme",
+      "category": "mantenimiento",
+      "title": "Después del combate: conservar la campaña",
+      "priority": "Alta",
+      "situation": "Has finalizado un enfrentamiento y debes decidir si seguir, retirarte o rearmar.",
+      "goal": "Mantener operativa la Task Force durante varias misiones.",
+      "check": [
+        "Comprueba daños, aviones perdidos y tiempos de recuperación.",
+        "Cuenta Harpoon, Phoenix, torpedos, sonoboyas y otros consumibles."
+      ],
+      "steps": [
+        "Registra qué fuerzas están dañadas o no disponibles.",
+        "Conserva como prioridad una defensa aérea, una vigilancia AEW y cobertura ASW viables.",
+        "Recompón cargas aéreas con los misiles que realmente quedan.",
+        "Evita nuevas ofensivas si no hay medios para proteger el portaaviones."
+      ],
+      "units": [
+        [
+          "nimitz",
+          "Operaciones aéreas",
+          "Gestión de cubierta"
+        ],
+        [
+          "e2c",
+          "AEW",
+          "Disponibilidad mínima"
+        ],
+        [
+          "f14a",
+          "Air to Air",
+          "Reserva de combate"
+        ],
+        [
+          "s3a",
+          "ASW",
+          "Pantalla de seguridad"
+        ]
+      ],
+      "weapons": [
+        "agm84c",
+        "aim54",
+        "mk46"
+      ],
+      "risks": [
+        "Los loadouts pueden requerir la carga completa para alistarse.",
+        "La logística del modo Task Force cambia las decisiones entre misiones."
+      ],
+      "tags": [
+        "rearme",
+        "reparacion",
+        "campaña",
+        "logistica"
+      ]
+    }
+  ]
+}
