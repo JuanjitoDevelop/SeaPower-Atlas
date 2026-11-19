@@ -107,11 +107,15 @@
       "name": "Harpoon SH-3H",
       "category": "armamento",
       "role": "Nueva carga antibuque para SH-3H",
-      "note": "Añade una configuración de cuatro Harpoon en lugar de cuatro torpedos, según la descripción del autor.",
-      "watch": "Opción de mod no histórica ni realista; tu único SH-3H queda apartado de ASW mientras usa esta carga.",
+      "note": "El perfil AntiShip del INI modificado equipa cuatro AGM-84A Harpoon; su tiempo de preparación no figura expresamente en el archivo.",
+      "watch": "Archivo de reemplazo: elimina ASWBomb y ASWHunterLight del original. También cambia velocidad máxima declarada de 120 a 144 nudos. Capacidad no histórica.",
       "related": [
         "sh3h",
         "agm84c"
+      ],
+      "workshopFolder": "3400655872",
+      "filesVerified": [
+        "aircraft/usn_sh-3h.ini"
       ]
     },
     {
@@ -119,10 +123,14 @@
       "name": "Better SH-2 Loadouts (Anti-ship, CAS, Air to Air, SEAD)",
       "category": "armamento",
       "role": "Cargas ofensivas adicionales para SH-2F",
-      "note": "Añade perfiles Anti-ship, CAS, Air to Air y SEAD al helicóptero, sujetos a las opciones efectivamente disponibles en el juego.",
-      "watch": "Capacidades añadidas por el mod; verifica armas, alcance y compatibilidad con 1985.",
+      "note": "12 perfiles en el INI. AntiShip: 2 Penguin Mk 2; CAS: 2 LAU-3A (38 cohetes Hydra); Strike: 2 LAU-10A (8 Zuni); AntiArmor: 2 Maverick; AirToAir: 2 AIM-9L; SEADAdvanced: 2 Sidearm (IOC 1986).",
+      "watch": "Archivo completo de reemplazo: elimina el perfil original ASWBomb. Sidearm es posterior a 1985; no confundir con una capacidad histórica.",
       "related": [
         "sh2f"
+      ],
+      "workshopFolder": "3683640615",
+      "filesVerified": [
+        "aircraft/usn_sh-2f.ini"
       ]
     },
     {
@@ -130,12 +138,16 @@
       "name": "Custom Loadout Editor",
       "category": "armamento",
       "role": "Editor de armamentos personalizados",
-      "note": "Permite crear configuraciones de aeronaves propias; hay que comprobar qué almacenes y variantes utiliza cada una.",
-      "watch": "No equivale a que una carga sea histórica, compatible o esté disponible en Task Force.",
+      "note": "Incluye 43 archivos de opciones de estaciones. Siete corresponden a modelos de tu flota, pero no se han encontrado tus presets personales guardados en el ZIP.",
+      "watch": "Las opciones de editor para SH-2F/SH-3H no incluyen Penguin ni Harpoon por defecto, aunque otros mods añadan esos perfiles al juego.",
       "related": [
         "a6e",
         "sh2f",
         "sh3h"
+      ],
+      "workshopFolder": "3606134711",
+      "filesVerified": [
+        "loadouts/"
       ]
     },
     {
