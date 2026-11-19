@@ -717,6 +717,60 @@
         "campaña",
         "logistica"
       ]
+    },
+    {
+      "id": "helicopteros-con-mods",
+      "category": "ofensiva",
+      "title": "¿Qué carga poner a mis helicópteros con mods?",
+      "priority": "Media",
+      "situation": "Dispones de un SH-3H y cuatro SH-2F con perfiles adicionales de Steam Workshop.",
+      "goal": "Elegir entre mantener cobertura antisubmarina o aprovechar las opciones ofensivas añadidas por los mods.",
+      "check": [
+        "¿Hay una amenaza submarina activa? Si la hay, conserva ASW en los helicópteros necesarios.",
+        "Comprueba en el juego las cargas modded disponibles y las reservas del portaaviones o del buque.",
+        "Distingue entre equipamiento histórico de 1985 y variantes añadidas por mods."
+      ],
+      "steps": [
+        "Para una misión ASW, mantén SH-2F y SH-3H con sus configuraciones antisubmarinas.",
+        "Para objetivos de superficie y solo si la situación lo justifica, Better SH-2 Loadouts habilita opciones Anti-ship y Harpoon SH-3H introduce una carga ficticia de cuatro Harpoon.",
+        "Valora el alcance y la vulnerabilidad de helicópteros; no sustituyas automáticamente los A-6E Intruder por una fuerza de helicópteros.",
+        "Si editas la carga con Custom Loadout Editor, comprueba que hay existencias y que el perfil es realmente compatible con el escenario."
+      ],
+      "units": [
+        [
+          "sh2f",
+          "ASW (original) / Anti-ship, CAS, Air to Air, SEAD (mod)",
+          "Cuatro SH-2F; elige perfil según amenaza"
+        ],
+        [
+          "sh3h",
+          "ASW (original) / Anti-ship con 4 Harpoon (mod ficticio)",
+          "Un SH-3H; cuidado con perder cobertura ASW"
+        ],
+        [
+          "a6e",
+          "Anti Ship / Anti Ship Long Range",
+          "Medio antibuque principal del grupo"
+        ]
+      ],
+      "weapons": [
+        "agm84c",
+        "mk46"
+      ],
+      "risks": [
+        "El Harpoon SH-3H no representa una capacidad histórica realista.",
+        "Una salida ofensiva significa que ese helicóptero deja de prestar servicio antisubmarino.",
+        "Los nombres exactos, armas y cantidades deben comprobarse dentro de Sea Power; los mods pueden cambiar con cada actualización."
+      ],
+      "tags": [
+        "SH-2",
+        "SH-3",
+        "helicóptero",
+        "loadout",
+        "Harpoon",
+        "mods",
+        "antisubmarina"
+      ]
     }
   ]
 }
