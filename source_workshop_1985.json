@@ -1,0 +1,439 @@
+{
+  "schemaVersion": 1,
+  "year": 1985,
+  "source": "Sea_Power-Mods.zip",
+  "origin": "Archivos .ini de Steam Workshop entregados por el usuario",
+  "gameBaseline": "original.zip",
+  "readme": "Mod replacement profiles, not guaranteed active in-game. Time unset when no ReadyUpTime appears. The editor's selectable stations are not saved user loadouts.",
+  "mods": {
+    "sh2f": {
+      "id": "sh2f",
+      "modId": "3683640615",
+      "name": "Better SH-2 Loadouts",
+      "source": "3683640615/aircraft/usn_sh-2f.ini",
+      "type": "full replacement",
+      "removedBase": [
+        "ASWBomb"
+      ],
+      "added": [
+        "AntiShip",
+        "AntiArmor",
+        "Strike",
+        "CAS",
+        "AirToAir",
+        "SEADAdvanced"
+      ],
+      "loadouts": [
+        {
+          "code": "ASW",
+          "name": "ASW",
+          "ready": 30,
+          "items": [
+            {
+              "id": "usn_mk46_air",
+              "qty": 2,
+              "type": "Torpedo"
+            },
+            {
+              "id": "usn_ssq-53",
+              "qty": 11,
+              "type": "Sonobuoy"
+            },
+            {
+              "id": "usn_ssq-62",
+              "qty": 4,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "ASWKiller",
+          "name": "ASWKiller",
+          "ready": 30,
+          "items": [
+            {
+              "id": "usn_mk46_air",
+              "qty": 2,
+              "type": "Torpedo"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "ASWHunter",
+          "name": "ASWHunter",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_ssq-53",
+              "qty": 11,
+              "type": "Sonobuoy"
+            },
+            {
+              "id": "usn_ssq-62",
+              "qty": 4,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "ASWHunterLight",
+          "name": "ASWHunterLight",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_ssq-53",
+              "qty": 4,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "ASWLongRange",
+          "name": "ASWLongRange",
+          "ready": 30,
+          "items": [
+            {
+              "id": "usn_mk46_air",
+              "qty": 1,
+              "type": "Torpedo"
+            },
+            {
+              "id": "usn_tank_60gal_sh-2",
+              "qty": 1,
+              "type": "Fueltank"
+            },
+            {
+              "id": "usn_ssq-53",
+              "qty": 11,
+              "type": "Sonobuoy"
+            },
+            {
+              "id": "usn_ssq-62",
+              "qty": 4,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "Transport",
+          "name": "Transport",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_tank_60gal_sh-2",
+              "qty": 2,
+              "type": "Fueltank"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "AntiShip",
+          "name": "AntiShip",
+          "ready": 15,
+          "items": [
+            {
+              "id": "knm_penguin_mk2",
+              "qty": 2,
+              "type": "Missile"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "AntiArmor",
+          "name": "AntiArmor",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_agm-65b",
+              "qty": 2,
+              "type": "Missile"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "Strike",
+          "name": "Strike",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_lau-10a",
+              "qty": 2,
+              "type": "Container"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "CAS",
+          "name": "CAS",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_lau-3a",
+              "qty": 2,
+              "type": "Container"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "AirToAir",
+          "name": "AirToAir",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_aim-9l",
+              "qty": 2,
+              "type": "Missile"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "SEADAdvanced",
+          "name": "SEADAdvanced",
+          "ready": 15,
+          "items": [
+            {
+              "id": "usn_agm-122a",
+              "qty": 2,
+              "type": "Missile"
+            }
+          ],
+          "source": "Workshop INI",
+          "yearWarning": "Contiene munición con fecha posterior a 1985: AGM-122A Sidearm"
+        }
+      ]
+    },
+    "sh3h": {
+      "id": "sh3h",
+      "modId": "3400655872",
+      "name": "Harpoon SH-3H",
+      "source": "3400655872/aircraft/usn_sh-3h.ini",
+      "type": "full replacement",
+      "removedBase": [
+        "ASWHunterLight",
+        "ASWBomb"
+      ],
+      "added": [
+        "AntiShip"
+      ],
+      "speedComparison": {
+        "base": 120,
+        "mod": 144,
+        "unit": "knots",
+        "note": "MaxSpeedAtSeaLevel changed in the mod file; operational performance may differ"
+      },
+      "loadouts": [
+        {
+          "code": "ASW",
+          "name": "ASW",
+          "ready": null,
+          "items": [
+            {
+              "id": "usn_mk46_air",
+              "qty": 2,
+              "type": "Torpedo"
+            },
+            {
+              "id": "usn_ssq-53",
+              "qty": 8,
+              "type": "Sonobuoy"
+            },
+            {
+              "id": "usn_ssq-62",
+              "qty": 4,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "ASWKiller",
+          "name": "ASWKiller",
+          "ready": null,
+          "items": [
+            {
+              "id": "usn_mk46_air",
+              "qty": 4,
+              "type": "Torpedo"
+            },
+            {
+              "id": "usn_ssq-53",
+              "qty": 8,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "ASWHunter",
+          "name": "ASWHunter",
+          "ready": null,
+          "items": [
+            {
+              "id": "usn_ssq-53",
+              "qty": 8,
+              "type": "Sonobuoy"
+            },
+            {
+              "id": "usn_ssq-62",
+              "qty": 4,
+              "type": "Sonobuoy"
+            }
+          ],
+          "source": "Workshop INI"
+        },
+        {
+          "code": "AntiShip",
+          "name": "AntiShip",
+          "ready": null,
+          "items": [
+            {
+              "id": "usn_agm-84a",
+              "qty": 4,
+              "type": "Missile"
+            }
+          ],
+          "source": "Workshop INI"
+        }
+      ]
+    }
+  },
+  "ammo": {
+    "usn_mk46_air": {
+      "name": "Torpedo Mk 46 (referencia genérica del mod)",
+      "type": "Torpedo",
+      "ioc": "1967",
+      "foc": "1970"
+    },
+    "usn_ssq-53": {
+      "name": "AN/SSQ-53 DIFAR",
+      "type": "Sonobuoy",
+      "ioc": "1972",
+      "foc": "1980"
+    },
+    "usn_ssq-62": {
+      "name": "AN/SSQ-62 DICASS",
+      "type": "Sonobuoy",
+      "ioc": "1980",
+      "foc": "1983"
+    },
+    "usn_tank_60gal_sh-2": {
+      "name": "Depósito externo de 60 gal",
+      "type": "Fueltank"
+    },
+    "knm_penguin_mk2": {
+      "name": "Penguin Mk 2",
+      "type": "Missile",
+      "foc": "1972"
+    },
+    "usn_agm-65b": {
+      "name": "AGM-65B Maverick",
+      "type": "Missile",
+      "foc": "1975"
+    },
+    "usn_lau-10a": {
+      "name": "LAU-10A (4 cohetes Zuni)",
+      "type": "Container",
+      "child": "usn_zuni",
+      "childCountPerContainer": 4
+    },
+    "usn_lau-3a": {
+      "name": "LAU-3A (19 cohetes Hydra)",
+      "type": "Container",
+      "child": "usn_hydra",
+      "childCountPerContainer": 19
+    },
+    "usn_aim-9l": {
+      "name": "AIM-9L Sidewinder",
+      "type": "Missile",
+      "ioc": "1978",
+      "foc": "1982"
+    },
+    "usn_agm-122a": {
+      "name": "AGM-122A Sidearm",
+      "type": "Missile",
+      "ioc": "1986",
+      "yearWarning": "IOC 1986 en munición original; anacrónico para una campaña históricamente fiel a 1985"
+    },
+    "usn_agm-84a": {
+      "name": "AGM-84A Harpoon",
+      "type": "Missile",
+      "ioc": "1977",
+      "foc": "1982"
+    }
+  },
+  "editor": {
+    "modId": "3606134711",
+    "name": "Custom Loadout Editor",
+    "definitionFiles": 43,
+    "kind": "station-options-not-saved-loadouts",
+    "source": "3606134711/loadouts/",
+    "note": "Definitions of selectable weapons/slots, not presets already equipped or stored by the player.",
+    "fleetSupported": [
+      {
+        "id": "a6e",
+        "stem": "usn_a-6e",
+        "stations": 5,
+        "distinctOptions": 34
+      },
+      {
+        "id": "f14a",
+        "stem": "usn_f-14a",
+        "stations": 10,
+        "distinctOptions": 18
+      },
+      {
+        "id": "fa18a",
+        "stem": "usn_fa-18a",
+        "stations": 9,
+        "distinctOptions": 40
+      },
+      {
+        "id": "s3a",
+        "stem": "usn_s-3a",
+        "stations": 4,
+        "distinctOptions": 13
+      },
+      {
+        "id": "sh2f",
+        "stem": "usn_sh-2f",
+        "stations": 2,
+        "distinctOptions": 3,
+        "options": [
+          "Mk44",
+          "Mk46",
+          "Fueltank"
+        ],
+        "note": "Penguin Mk 2 is not listed among the editor's default SH-2F station options."
+      },
+      {
+        "id": "sh3h",
+        "stem": "usn_sh-3h",
+        "stations": 4,
+        "distinctOptions": 3,
+        "options": [
+          "Mk44",
+          "Mk46",
+          "Mk54"
+        ],
+        "note": "Harpoon is not listed among the editor's default SH-3H station options."
+      },
+      {
+        "id": "ah1t",
+        "stem": "usmc_ah-1t",
+        "stations": 4,
+        "distinctOptions": 15
+      }
+    ]
+  }
+}
