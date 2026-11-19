@@ -169,7 +169,7 @@ function computePlan(p){
  const e2=()=>add("support","e2c","AEW","Mantener un cuadro táctico actualizado");
  const cap=()=>{if(ready("f14a"))add("support","f14a","Air to Air / Intercept","Cobertura aérea");else if(ready("fa18a"))add("support","fa18a","Air to Air","Cobertura aérea alternativa");else note("No has registrado cazas disponibles para cobertura.")};
  const ew=()=>{if(ready("ea6b"))add("support","ea6b","EW","Apoyo electrónico");else note("No hay EA-6B disponibles: falta la opción habitual de apoyo EW.")};
- const patrol=()=>{if(ready("s3a"))add("primary","s3a",ammo("torpedo")==="empty"?"Búsqueda ASW (verificar carga sin torpedos)":"ASW","Localizar y seguir el contacto");if(ready("sh2f"))add("support","sh2f","ASW","Búsqueda próxima");else if(ready("sh3h"))add("support","sh3h","ASW","Apoyo helicóptero")};
+ const patrol=()=>{if(ammo("torpedo")==="empty"){if(ready("sh2f"))add("primary","sh2f","ASWHunter","Búsqueda acústica sin torpedos");else if(ready("sh3h"))add("primary","sh3h","ASWHunter","Búsqueda acústica sin torpedos");if(ready("s3a"))out.alternatives.push("El S-3A original no define un preset ASWHunter sin torpedos. Comprueba qué cargas permite preparar con las existencias restantes.");}else{if(ready("s3a"))add("primary","s3a","ASW","Búsqueda y ataque antisubmarino");if(ready("sh2f"))add("support","sh2f","ASW","Búsqueda próxima");else if(ready("sh3h"))add("support","sh3h","ASW","Apoyo helicóptero");}};
  const weaponWarning=(name,word)=>{if(ammo(name)==="unknown")note("No has registrado existencias de "+word+". Verifica el almacén antes de preparar la salida.")};
  const surfaceTarget=p.mission==="surface"||p.mission==="land";
  if(surfaceTarget&&!known){
