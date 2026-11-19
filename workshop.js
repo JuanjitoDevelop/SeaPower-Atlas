@@ -31,8 +31,8 @@ function updateWorkshopCatalog(keepFocus=false){
 function workshopUnitHints(id){
  if(!workshopCatalog?.mods?.length)return '';
  const hints={
- sh2f:{mod:'Better SH-2 Loadouts',text:'Este mod añade al SH-2F opciones Anti-ship, CAS, Air to Air y SEAD. Las armas y nombres exactos deben comprobarse en tu versión; no son capacidades históricas automáticas.'},
- sh3h:{mod:'Harpoon SH-3H',text:'El mod permite un perfil antibuque con cuatro Harpoon en lugar de torpedos. Es una carga ficticia y hace que ese aparato deje de cubrir ASW durante la salida.'}
+ sh2f:{mod:'Better SH-2 Loadouts',text:'El INI aportado define 12 perfiles: AntiShip con 2 Penguin Mk 2, CAS con 2 lanzadores LAU-3A (38 cohetes Hydra), AirToAir con 2 AIM-9L y SEADAdvanced con 2 AGM-122A. El Sidearm tiene IOC 1986: anacrónico para 1985.'},
+ sh3h:{mod:'Harpoon SH-3H',text:'El INI modifica el SH-3H para cargar 4 AGM-84A Harpoon en AntiShip, sin tiempo de preparación explícito. Sustituye dos perfiles ASW originales y no tiene base histórica.'}
  };
  const item=hints[id];if(!item)return '';
  return `<div class="detail-section workshop-unit-note"><h3>Con tus mods</h3><strong>${esc(item.mod)}</strong><p>${esc(item.text)}</p><button type="button" data-page="packs" class="btn secondary">Consultar mis mods →</button></div>`;
@@ -41,17 +41,17 @@ function workshopUnitHints(id){
 function workshopScenarioHints(id){
  if(!workshopCatalog?.mods?.length)return '';
  const hints={
- 'ataque-flota':[{mod:'Harpoon SH-3H',text:'Tu SH-3H puede tener una carga antibuque de cuatro Harpoon. Es experimental y no histórica; mantén el A-6E como vector principal y verifica las reservas de misiles.'},{mod:'Better SH-2 Loadouts',text:'Los SH-2F ganan perfil Anti-ship si el mod está activo. Su autonomía y supervivencia siguen condicionando su utilidad.'}],
+ 'ataque-flota':[{mod:'Harpoon SH-3H',text:'Con Harpoon SH-3H activo, el preset AntiShip lleva 4 AGM-84A, no AGM-84C. Es ficticio y consume capacidad ASW.'},{mod:'Better SH-2 Loadouts',text:'El SH-2F modificado lleva 2 Penguin Mk 2 en AntiShip, no Harpoon. Confirma la reserva de Penguin y la defensa enemiga.'}],
  'saturacion-naval':[{mod:'Harpoon SH-3H',text:'Existe una opción de Harpoon en el Sea King por mod, pero consume cuatro misiles y compromete tu cobertura antisubmarina.'}],
  'ataque-costero':[{mod:'Better SH-2 Loadouts',text:'Puede aparecer CAS en SH-2F; evalúa su distancia al objetivo y las defensas antes de usarlo.'}],
- 'radar-sam':[{mod:'Better SH-2 Loadouts',text:'El perfil SEAD del SH-2F es añadido por mod. No lo confundas con la capacidad histórica del Intruder ni supongas un misil concreto sin revisar la carga.'}],
+ 'radar-sam':[{mod:'Better SH-2 Loadouts',text:'El perfil SEADAdvanced del SH-2F contiene 2 AGM-122A Sidearm (IOC 1986 en los INI originales). No lo trates como carga históricamente correcta para 1985.'}],
  'submarino':[{mod:'ASW Find, Fix and Prosecute (Beta)',text:'El mod añade herramientas de apoyo a procedimientos ASW. Confirma las órdenes que ejecuta y su estado beta antes de depender de él.'},{mod:'Better SH-2 Loadouts / Harpoon SH-3H',text:'Para esta situación conserva ASW en tus helicópteros: usar sus perfiles ofensivos elimina temporalmente parte de tu cobertura antisubmarina.'}],
  'torpedo-detectado':[{mod:'ASW Find, Fix and Prosecute (Beta)',text:'Úsalo como apoyo a la búsqueda posterior, no como garantía de interceptar un torpedo ya lanzado.'}],
  'contacto-sin-identificar':[{mod:'Identify Expanded',text:'Puede ayudarte con la identificación; verifica el resultado antes de tratar el contacto como hostil.'}],
  'misiles-entrantes':[{mod:'Alternative Weapons Control',text:'Consulta su nueva pestaña de armas para revisar medios disponibles. No sustituye la gestión de defensa aérea.'}],
  'retiro-rearme':[{mod:'Custom Loadout Editor',text:'Las cargas personalizadas deben contrastarse con la munición disponible en Task Force, sin asumir reabastecimiento ilimitado.'}],
  'convoy':[{mod:'Automatic SAR / One Click Formation Manager',text:'Ofrecen funciones de apoyo para rescate y organización de escoltas. Comprueba primero sus controles en el juego.'}],
- 'helicopteros-con-mods':[{mod:'Better SH-2 Loadouts',text:'Las cargas Anti-ship, CAS, Air to Air y SEAD son opciones del mod, no capacidades históricas originales.'},{mod:'Harpoon SH-3H',text:'El perfil de cuatro Harpoon es intencionadamente ficticio; conserva ASW si prevés submarinos.'},{mod:'Custom Loadout Editor',text:'Comprueba la configuración exacta y las existencias disponibles en tu campaña antes de despegar.'}]
+ 'helicopteros-con-mods':[{mod:'Better SH-2 Loadouts',text:'Los archivos aportados confirman AntiShip: 2 Penguin Mk 2; CAS: 2 LAU-3A; AirToAir: 2 AIM-9L y SEADAdvanced: 2 AGM-122A (IOC 1986). El mod sustituye la lista original de perfiles.'},{mod:'Harpoon SH-3H',text:'La carga AntiShip del SH-3H utiliza 4 AGM-84A. Es ficticia; recuerda que este archivo elimina ASWBomb y ASWHunterLight del menú original.'},{mod:'Custom Loadout Editor',text:'El ZIP contiene 43 archivos de opciones de estación del editor, NO tus cargas personalizadas guardadas. Sus opciones predeterminadas para SH-2F/SH-3H no incluyen Penguin/Harpoon.'}]
  };
  const list=hints[id];if(!list?.length)return '';
  return `<section class="guide-block workshop-scenario-block"><h2>Opciones de tus mods</h2><p class="guide-helper">Solo si esos mods están activos; no sustituyen a los perfiles históricos.</p>${list.map(x=>`<div class="workshop-scenario-hint"><strong>${esc(x.mod)}</strong><p>${esc(x.text)}</p></div>`).join('')}<button type="button" class="workshop-more" data-page="packs">Ver catálogo de mods →</button></section>`;
