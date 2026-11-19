@@ -29,6 +29,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+      - name: Esperar registro del artefacto
+        run: sleep 10
       - name: Publicar
         id: deployment
         uses: actions/deploy-pages@v4
