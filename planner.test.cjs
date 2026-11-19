@@ -29,6 +29,30 @@ check('Defensa sin escoltas principales se advierte',{mission:'defend',inventory
 check('Torpedos agotados bloquea suposición de munición',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.warnings.some(w=>w.includes('agotados')));
 check('Identificación radar no propone ataque',{mission:'identify',scenario:'esm'},x=>x.primary.every(u=>u.id!=='a6e'));
 check('Ataque costero con SAM incluye SEAD',{mission:'land',scenario:'sam',identified:'confirmed'},x=>x.primary.some(u=>u.id==='a6e'&&u.profile.includes('SEAD')));
+// Validación de datos tomados de la captura del S-3A.
+const catalog=JSON.parse(fs.readFileSync('data.json','utf8'));
+const s3a=catalog.entries.find(x=>x.id==='s3a');
+assert.ok(s3a,'Ficha del S-3A');
+const preset=s3a.loadouts.find(x=>x.name==='ASW (18)');
+assert.equal(preset.verified,'screenshot','ASW (18) verificado');
+assert.deepEqual(Array.from(preset.items,x=>[x.id,x.qty]),[
+ ['mk46mod5',4],['ssq53',42],['ssq62',12],['ssq77',8]
+],'Carga exacta del S-3A en la captura');
+assert.equal(preset.prepMinutes,30);
+assert.equal(preset.items.filter(x=>x.id!=='mk46mod5').reduce((n,x)=>n+x.qty,0),62);
+assert.equal(s3a.loadouts.length,6,'Seis opciones visibles del S-3A');
+for(const other of s3a.loadouts.filter(x=>x.id!==preset.id)){
+ assert.equal(other.verified,'name-only',other.name+' no tiene inventario confirmado');
+ assert.equal(other.items.length,0,other.name+' sin cargas inventadas');
+}
+for(const row of preset.items){
+ assert.ok(catalog.entries.some(x=>x.id===row.id),'Componente enlazado '+row.id);
+}
+assert.equal(catalog.entries.find(x=>x.id==='ssq53').category,'sensor');
+check('S-3A propone carga ASW comprobada',{mission:'sub',ammo:{torpedo:'stock'}},x=>x.primary.some(u=>u.id==='s3a'&&u.profile==='ASW (18)'));
+check('S-3A evita carga con torpedos agotados',{mission:'sub',ammo:{torpedo:'empty'}},x=>x.primary.some(u=>u.id==='s3a'&&!u.profile.includes('(18)')));
+console.log('OK: S-3A, seis perfiles y cuatro componentes verificados');
+
 // Renderizado mínimo sin navegador: detecta fallos de la interfaz antes de publicar.
 const root={innerHTML:''};
 context.state={planner:{...PLAN_DEFAULT,identified:'confirmed'}};
