@@ -452,3 +452,19 @@
  .game-ammo-line>span{font-size:14px}
  .game-loadout-content{padding:11px}
 }
+
+/* Comparación del armamento modificado con las cargas originales */
+.mod-source-section{border-top:2px solid #5d9a8c;background:#122e37;padding:17px 12px;border-radius:9px;margin-top:16px}
+.mod-source-section h3{color:#b7f6e2}
+.mod-source-section .game-source-notice{line-height:1.6}
+.mod-removed,.mod-changes{border-left:3px solid #d3a46a;background:#39322a;padding:10px 12px;border-radius:5px;color:#f2dbc2;font-size:12px;line-height:1.65}
+.mod-year-warning{color:#f4d3a4!important;font-size:12px!important;font-weight:700;line-height:1.45;display:block;margin:6px 0}
+.mod-preset-tag{background:#22443e;color:#d8f6e7;border-radius:5px;font-size:11px;font-weight:800;letter-spacing:.5px;padding:6px 9px;display:inline-block;margin:9px 0}
+.mod-plan-missing{padding:9px;background:#43362a;border:1px solid #8b7150;border-radius:7px;color:#f4e0bf;font-size:12px;line-height:1.6}
+.mod-editor-info{margin:14px 0;border:1px solid #38636d;border-radius:12px;background:#102d37;padding:0 15px}
+.mod-editor-info summary{cursor:pointer;min-height:53px;display:flex;align-items:center;color:#c2f4e3;font-weight:750;font-size:14px}
+.mod-editor-info>p{line-height:1.6;color:#bcd3d8;font-size:13px}
+.mod-editor-row{display:grid;gap:4px;padding:9px 11px;border:1px solid #3c5e67;border-radius:7px;background:#173843;margin:7px 0}
+.mod-editor-row strong{font-size:13px;color:#dbf4ef}
+.mod-editor-row span,.mod-editor-row small{color:#b2cad2;font-size:12px;line-height:1.4}
+.mod-editor-info summary:focus-visible{outline:3px solid #a2f7d9;outline-offset:2px}
