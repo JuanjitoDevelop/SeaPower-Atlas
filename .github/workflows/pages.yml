@@ -27,6 +27,8 @@ jobs:
         run: |
           node --check app.js
           node --check tactics.js
+          node --check workshop.js
+          node -e "const fs=require('node:fs');const d=JSON.parse(fs.readFileSync('workshop-mods.json','utf8'));if(d.mods.length!==21||new Set(d.mods.map(x=>x.id)).size!==21)process.exit(1);console.log('21 mods sin duplicados: OK')"
           node -e "const fs=require('node:fs'); const data=JSON.parse(fs.readFileSync('data.json','utf8')); const guide=JSON.parse(fs.readFileSync('tactics.json','utf8')); if(!Array.isArray(data.entries)||!Array.isArray(guide.scenarios)||guide.scenarios.length<13)process.exit(1); console.log('Datos y 13+ situaciones: OK')"
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v5
