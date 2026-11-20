@@ -2,7 +2,13 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.5
+## Estado actual · versión 3.6
+
+- **Primeras cinco fotografías históricas verificadas** para A-6E, F-14A, S-3A, SH-3H y USS Nimitz. Cada ficha muestra la fuente de Wikimedia Commons, fecha aproximada y condición de dominio público.
+- **Sin imágenes genéricas**: las unidades sin fotografía verificada no reciben fotografías aleatorias. Las asignaciones privadas anteriores permanecen disponibles si el usuario las había importado.
+- **Imágenes externas**: las fotos se sirven desde Wikimedia Commons, no se redistribuyen en GitHub Pages; requieren conexión para cargarse inicialmente.
+
+
 
 - **Imágenes privadas del juego:** `ui.zip` se puede importar desde «Mods y datos». Se aceptan las fotografías e ilustraciones incluidas en el ZIP original o en el paquete optimizado facilitado al usuario. Opcionalmente se incluyen fondos de carga.
 - **No se distribuyen imágenes propietarias en GitHub Pages.** El navegador redimensiona y almacena las fotos en IndexedDB del dispositivo. El usuario puede asignar fotos a cualquier ficha y eliminar sus importaciones de forma independiente de la campaña.
