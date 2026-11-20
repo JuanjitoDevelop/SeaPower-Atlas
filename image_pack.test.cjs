@@ -43,7 +43,7 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,213);
+ assert.equal(Object.keys(manifest.items).length,261);
  assert.ok(manifest.items['game-unit:l:jsdf_mbt_type74']?.exactVariant,'Modelo Type 74 japonés identificado');
  assert.equal(manifest.items['game-unit:l:wp_sa-11_launcher']?.exactVariant,false,'Buk-M1-2 no debe confundirse con la variante de 1985');
  assert.equal(manifest.items['game-ammo:fr_as11']?.file,'Aerospatiale AS11 (50121972776).jpg','AS11 aislado');
@@ -58,15 +58,20 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  assert.equal(manifest.items['game-unit:l:usa_mim-23_fcr'].exactVariant,false,'Radar ROR no acredita versión FCR');
  assert.equal(manifest.items['game-unit:l:wp_aaa_ural_zu-23'].exactVariant,false,'ZIL no es camión Ural');
  assert.equal(manifest.items['game-ammo:usn_aim-9m'].mediaType,'ilustración','Señalar dibujo técnico AIM-9M');
+ assert.equal(manifest.items['game-unit:l:usa_mlrs_m270'].year,'1984','M270 histórico en vez de moderno');
+ assert.equal(manifest.items['game-unit:l:wp_p-10_radar'].mediaType,'ilustración','P-10 de CIA es diagrama');
+ assert.equal(manifest.items['game-unit:l:wp_mbt_t-55m'].exactVariant,false,'T-55M finlandés no es modernización soviética');
+ assert.equal(manifest.items['game-ammo:usn_rim-7'].exactVariant,false,'RIM-7F no debe figurar como RIM-7E exacto');
+ assert.equal(manifest.items['game-ammo:knm_penguin_mk2'].exactVariant,true,'Penguin MK2 mod 6 documentado');
  const fullCatalog=JSON.parse(fs.readFileSync('catalogo_completo_1985.json','utf8'));
  const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
  const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
  const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
- assert.equal(additions.length,177,'nuevas fotografías fuera de la flota');
+ assert.equal(additions.length,225,'nuevas fotografías fuera de la flota');
  assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,44);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,53);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,44);
- assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,36);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,65);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,56);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,60);
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);

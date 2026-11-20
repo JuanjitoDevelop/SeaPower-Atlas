@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 213,
-    "covered": 212,
-    "exactAssigned": 142,
-    "familyAssigned": 70,
-    "pending": 895,
+    "references": 261,
+    "covered": 260,
+    "exactAssigned": 169,
+    "familyAssigned": 91,
+    "pending": 847,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -20,15 +20,15 @@
       },
       "ship": {
         "total": 295,
-        "covered": 59
+        "covered": 71
       },
       "land": {
         "total": 197,
-        "covered": 44
+        "covered": 56
       },
       "weapon": {
         "total": 471,
-        "covered": 55
+        "covered": 79
       }
     },
     "unmatchedManifestIds": []
@@ -934,10 +934,6 @@
         "RN DDG SHEFFIELD BATCH2"
       ],
       [
-        "rn_ff_amazon",
-        "clase Amazon"
-      ],
-      [
         "rn_ff_leander_batch2",
         "RN FF LEANDER BATCH2"
       ],
@@ -968,10 +964,6 @@
       [
         "rn_ssn_trafalgar",
         "RN SSN TRAFALGAR"
-      ],
-      [
-        "rn_ssn_valiant",
-        "RN SSN VALIANT"
       ],
       [
         "rocn_ss_hai_shih",
@@ -1050,10 +1042,6 @@
         "clase Adams (tardía)"
       ],
       [
-        "usn_ddg_coontz",
-        "clase Coontz"
-      ],
-      [
         "usn_ddg_coontz_68",
         "clase Coontz"
       ],
@@ -1068,10 +1056,6 @@
       [
         "usn_ff_knox_84",
         "clase Knox (Tardía)"
-      ],
-      [
-        "usn_ffg_brooke",
-        "clase Brooke"
       ],
       [
         "usn_lka_charleston",
@@ -1118,20 +1102,12 @@
         "Los Angeles-class Flight 1 (Early)"
       ],
       [
-        "usn_ssn_permit",
-        "clase Permit"
-      ],
-      [
         "usn_ssn_permit_68",
         "clase Permit (Early)"
       ],
       [
         "usn_ssn_skipjack_68",
         "clase Skipjack (Early)"
-      ],
-      [
-        "usn_ssn_sturgeon",
-        "clase Sturgeon"
       ],
       [
         "usn_ssn_sturgeon_72",
@@ -1152,10 +1128,6 @@
       [
         "wp_bdk_alligator",
         "clase Alligator"
-      ],
-      [
-        "wp_bdk_ivan_rogov",
-        "clase Ivan Rogov"
       ],
       [
         "wp_cv_orel",
@@ -1262,10 +1234,6 @@
         "clase Tarantul RE"
       ],
       [
-        "wp_rkr_kresta1",
-        "clase Kresta"
-      ],
-      [
         "wp_rkr_kynda",
         "clase Kynda"
       ],
@@ -1282,16 +1250,8 @@
         "clase Romeo"
       ],
       [
-        "wp_ss_tango",
-        "clase Tango"
-      ],
-      [
         "wp_ssbn_delta3",
         "clase Delta III"
-      ],
-      [
-        "wp_ssbn_yankee",
-        "clase Yankee"
       ],
       [
         "wp_ssgn_charlie1",
@@ -1310,10 +1270,6 @@
         "clase Oscar I"
       ],
       [
-        "wp_ssn_alfa",
-        "clase Alfa"
-      ],
-      [
         "wp_ssn_november",
         "clase November"
       ],
@@ -1324,10 +1280,6 @@
       [
         "wp_ssn_victor2",
         "clase Victor II"
-      ],
-      [
-        "wp_ssn_victor3",
-        "clase Victor III"
       ],
       [
         "wp_ssn_victor3_imp",
@@ -1844,10 +1796,6 @@
         "Rubezh"
       ],
       [
-        "wp_car_ural",
-        "Camión Ural"
-      ],
-      [
         "wp_car_ural_command",
         "Centro de mando móvil"
       ],
@@ -1860,40 +1808,12 @@
         "Base Aérea PVO"
       ],
       [
-        "wp_mbt_t-55m",
-        "T-55M"
-      ],
-      [
-        "wp_p-10_radar",
-        "Radar P-10 Knife Rest"
-      ],
-      [
-        "wp_p-19_radar",
-        "Radar P-19 Flat Face B"
-      ],
-      [
-        "wp_p-35_radar",
-        "Radar P-35 Barlock"
-      ],
-      [
         "wp_sa-10_flaplid",
         "SA-10 Flaplid"
       ],
       [
-        "wp_sa-10_tel",
-        "TEL SA-10"
-      ],
-      [
         "wp_sa-11_radar",
         "Radar SA-11 Tube Arm"
-      ],
-      [
-        "wp_sa-3_launcher",
-        "SA-3 Goa"
-      ],
-      [
-        "wp_sa-4_launcher",
-        "Lanzador SA-4 Ganef"
       ],
       [
         "wp_sa-4_longtruck",
@@ -1902,14 +1822,6 @@
       [
         "wp_sa-4_pathand",
         "FCR SA-4 Pat Hand"
-      ],
-      [
-        "wp_sa-5_launcher",
-        "Lanzador SA-5 Gammon"
-      ],
-      [
-        "wp_sa-5_squarepair",
-        "Radar 5N62 Square Pair"
       ],
       [
         "wp_sa-7_launcher",
@@ -1928,16 +1840,8 @@
         "Emplazamiento SAM SA-11 pequeño"
       ],
       [
-        "wp_sam_site_sa-2",
-        "Sitio SA-2 Guideline"
-      ],
-      [
         "wp_sam_site_sa-2_modernized",
         "Sitio SA-2 Guideline (Modernizado)"
-      ],
-      [
-        "wp_sam_site_sa-3",
-        "Sitio SA-3 Goa"
       ],
       [
         "wp_sam_site_sa-5",
@@ -2054,10 +1958,6 @@
         "L5"
       ],
       [
-        "fr_r530em",
-        "R-530K (SARH)"
-      ],
-      [
         "fr_r550",
         "R550"
       ],
@@ -2172,10 +2072,6 @@
       [
         "jsdf_sam1",
         "Tan-SAM 1"
-      ],
-      [
-        "knm_penguin_mk2",
-        "AGM-119"
       ],
       [
         "knm_terne_shell",
@@ -2394,20 +2290,8 @@
         "rn mk13 1000lb"
       ],
       [
-        "rn_seacat",
-        "GWS-21"
-      ],
-      [
-        "rn_seacat_mk2",
-        "GWS-24"
-      ],
-      [
         "rn_seadart_mod1",
         "rn seadart mod1"
-      ],
-      [
-        "rn_seaslug_mk2",
-        "rn seaslug mk2"
       ],
       [
         "rn_squid_shell",
@@ -2758,14 +2642,6 @@
         "Mk-16"
       ],
       [
-        "usn_mk37",
-        "Mk-37 Mod 0"
-      ],
-      [
-        "usn_mk37_mod1",
-        "Mk-37 Mod 1"
-      ],
-      [
         "usn_mk37_mod2",
         "Mk-37 Mod 2"
       ],
@@ -2782,14 +2658,6 @@
         "Mk-37E"
       ],
       [
-        "usn_mk44_air",
-        "Mk-44"
-      ],
-      [
-        "usn_mk44_ship",
-        "Mk-44"
-      ],
-      [
         "usn_mk46_air",
         "Mk-46 Mod 2"
       ],
@@ -2800,14 +2668,6 @@
       [
         "usn_mk46_ship",
         "Mk-46 Mod 2"
-      ],
-      [
-        "usn_mk48",
-        "Mk-48 Mod 1"
-      ],
-      [
-        "usn_mk48_mod4_adcap",
-        "Mk-48 ADCAP"
       ],
       [
         "usn_mk54_dc",
@@ -2870,24 +2730,8 @@
         "RGM-8H"
       ],
       [
-        "usn_rim-24b",
-        "RIM-24B"
-      ],
-      [
-        "usn_rim-2f",
-        "RIM-2F"
-      ],
-      [
         "usn_rim-66a",
         "RIM-66A"
-      ],
-      [
-        "usn_rim-66b",
-        "RIM-66B"
-      ],
-      [
-        "usn_rim-66c",
-        "RIM-66C"
       ],
       [
         "usn_rim-66d",
@@ -2902,24 +2746,12 @@
         "USN RIM 66H"
       ],
       [
-        "usn_rim-67a",
-        "RIM-67A"
-      ],
-      [
         "usn_rim-67c",
         "RIM-67C"
       ],
       [
-        "usn_rim-7",
-        "RIM-7E"
-      ],
-      [
         "usn_rim-7h",
         "RIM-7H"
-      ],
-      [
-        "usn_rim-8",
-        "RIM-8J"
       ],
       [
         "usn_rr144_chaff",
@@ -3154,14 +2986,6 @@
         "AS-13"
       ],
       [
-        "wp_as-14a",
-        "AS-14A"
-      ],
-      [
-        "wp_as-14b",
-        "AS-14B"
-      ],
-      [
         "wp_as-2",
         "AS-2"
       ],
@@ -3286,14 +3110,6 @@
         "OFAB-100"
       ],
       [
-        "wp_fab-1500_m54",
-        "FAB-1500 M-54"
-      ],
-      [
-        "wp_fab-250",
-        "FAB-250"
-      ],
-      [
         "wp_fab-3000_m54",
         "FAB-3000 M-54"
       ],
@@ -3332,10 +3148,6 @@
       [
         "wp_grad",
         "Grad"
-      ],
-      [
-        "wp_kab-500l",
-        "KAB-500L"
       ],
       [
         "wp_mg-44",
@@ -3452,10 +3264,6 @@
       [
         "wp_s-8",
         "S-8"
-      ],
-      [
-        "wp_sa-13",
-        "SA-13"
       ],
       [
         "wp_sa-4",
