@@ -2,7 +2,9 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.11
+## Estado actual · versión 3.12
+
+- **Lote 05 — cobertura visual internacional:** 17 nuevas imágenes revisadas en las fichas de Wikimedia Commons, con prioridad para 8 sistemas terrestres, 5 clases de buque y 4 misiles sin aeronave. El catálogo incluye ahora **124 referencias** y representa **123 identificadores distintos** de los 1.107 del juego. Faltan **984**. Las coincidencias parciales de familia y las fotos posteriores a 1985 quedan señaladas.
 
 - **Seguimiento del 100 %:** `reports/galeria-cobertura-1985.json` contabiliza cada uno de los 1.107 ID originales: **106 identificadores distintos con imagen asignada y 1.001 pendientes** (las 107 referencias incluyen una variante editorial duplicada). Se regenera con `node tools/catalog_image_coverage.cjs --write` y se valida con `--check`; las imágenes de familia no se confunden con una fotografía exacta.
 

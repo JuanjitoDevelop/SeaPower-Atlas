@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 107,
-    "covered": 106,
-    "exactAssigned": 76,
-    "familyAssigned": 30,
-    "pending": 1001,
+    "references": 124,
+    "covered": 123,
+    "exactAssigned": 89,
+    "familyAssigned": 34,
+    "pending": 984,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -20,15 +20,15 @@
       },
       "ship": {
         "total": 295,
-        "covered": 24
+        "covered": 29
       },
       "land": {
         "total": 197,
-        "covered": 8
+        "covered": 16
       },
       "weapon": {
         "total": 471,
-        "covered": 41
+        "covered": 45
       }
     },
     "unmatchedManifestIds": []
@@ -506,10 +506,6 @@
         "ARA AGI NARWAL"
       ],
       [
-        "ara_cv_veinticinco_de_mayo",
-        "ARA CV VEINTICINCO DE MAYO"
-      ],
-      [
         "ara_dd_comodoro_py",
         "ARA DD COMODORO PY"
       ],
@@ -704,10 +700,6 @@
       [
         "civ_ms_yuniy_partizan",
         "clase Yuniy Partizan"
-      ],
-      [
-        "es_ffg_baleares",
-        "clase Baleares"
       ],
       [
         "es_ss_galerna",
@@ -1034,10 +1026,6 @@
         "clase Amazon"
       ],
       [
-        "rn_ff_broadsword",
-        "RN FF BROADSWORD"
-      ],
-      [
         "rn_ff_leander",
         "RN FF LEANDER"
       ],
@@ -1186,16 +1174,8 @@
         "clase Gearing NV mod"
       ],
       [
-        "usn_dd_spruance",
-        "clase Spruance"
-      ],
-      [
         "usn_dd_spruance_abl",
         "clase Spruance (ABL)"
-      ],
-      [
-        "usn_dd_spruance_vls",
-        "USN DD SPRUANCE VLS"
       ],
       [
         "usn_ddg_adams_early",
@@ -1656,18 +1636,6 @@
         "Base aérea de Reykjavik"
       ],
       [
-        "jsdf_apc_type60",
-        "APC Tipo 60"
-      ],
-      [
-        "jsdf_apc_type73",
-        "APC Tipo 73"
-      ],
-      [
-        "jsdf_mbt_type74",
-        "MBT Tipo 74"
-      ],
-      [
         "jsdf_sam_type81",
         "SAM Tipo 81"
       ],
@@ -1782,10 +1750,6 @@
       [
         "pla_aaa_type65",
         "Cañón antiaéreo de 37 mm Tipo 65"
-      ],
-      [
-        "pla_apc_type63",
-        "APC Tipo 63"
       ],
       [
         "pla_hy-1_launcher",
@@ -2232,10 +2196,6 @@
         "TEL SA-10"
       ],
       [
-        "wp_sa-11_launcher",
-        "Lanzador SA-11 Gadfly"
-      ],
-      [
         "wp_sa-11_radar",
         "Radar SA-11 Tube Arm"
       ],
@@ -2268,16 +2228,8 @@
         "Radar 5N62 Square Pair"
       ],
       [
-        "wp_sa-6_straightflush",
-        "Radar SA-6 Straight Flush"
-      ],
-      [
         "wp_sa-7_launcher",
         "SA-7 Grail"
-      ],
-      [
-        "wp_sa-8_launcher",
-        "Emplazamiento SA-8 Gecko"
       ],
       [
         "wp_sam_site_sa-10",
@@ -2318,10 +2270,6 @@
       [
         "wp_tbm_scud_b_tel",
         "WP TBM SCUD B TEL"
-      ],
-      [
-        "wp_zsu-57",
-        "ZSU-57-2"
       ]
     ],
     "weapon": [
@@ -2384,10 +2332,6 @@
       [
         "fr_am-39",
         "AM39"
-      ],
-      [
-        "fr_as11",
-        "AS.11"
       ],
       [
         "fr_as12",
@@ -2520,10 +2464,6 @@
       [
         "it_cal_40mm_pfhe",
         "it cal 40mm pfhe"
-      ],
-      [
-        "it_otomat_mk1",
-        "Otomat MK1"
       ],
       [
         "it_seakiller_2",
@@ -2936,10 +2876,6 @@
       [
         "usn_agm-123",
         "AGM-123"
-      ],
-      [
-        "usn_agm-12b",
-        "AGM-12B"
       ],
       [
         "usn_agm-84a",
@@ -3880,10 +3816,6 @@
       [
         "wp_sa-4",
         "SA-4"
-      ],
-      [
-        "wp_sa-8",
-        "SA-8"
       ],
       [
         "wp_sa-n-1",
