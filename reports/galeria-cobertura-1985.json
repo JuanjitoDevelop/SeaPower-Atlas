@@ -8,23 +8,23 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 124,
-    "covered": 123,
-    "exactAssigned": 89,
-    "familyAssigned": 34,
-    "pending": 984,
+    "references": 144,
+    "covered": 143,
+    "exactAssigned": 99,
+    "familyAssigned": 44,
+    "pending": 964,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 33
+        "covered": 36
       },
       "ship": {
         "total": 295,
-        "covered": 29
+        "covered": 42
       },
       "land": {
         "total": 197,
-        "covered": 16
+        "covered": 20
       },
       "weapon": {
         "total": 471,
@@ -118,10 +118,6 @@
       [
         "fr_h700",
         "Bizjet armado"
-      ],
-      [
-        "fr_mirage_iii",
-        "Mirage III"
       ],
       [
         "fr_sa-321",
@@ -260,10 +256,6 @@
         "RAF VICTOR K2"
       ],
       [
-        "raf_vulcan",
-        "RAF VULCAN"
-      ],
-      [
         "ran_a-4g",
         "A-4G"
       ],
@@ -322,10 +314,6 @@
       [
         "usaf_f-15a",
         "F-15A"
-      ],
-      [
-        "usaf_f-15c",
-        "F-15C"
       ],
       [
         "usaf_f-4d",
@@ -994,10 +982,6 @@
         "clase Z"
       ],
       [
-        "rn_ddg_bristol",
-        "RN DDG BRISTOL"
-      ],
-      [
         "rn_ddg_bristol_73",
         "RN DDG BRISTOL 73"
       ],
@@ -1040,10 +1024,6 @@
       [
         "rn_ff_rothesay",
         "RN FF ROTHESAY"
-      ],
-      [
-        "rn_lpd_fearless",
-        "RN LPD FEARLESS"
       ],
       [
         "rn_lsl_roundtable",
@@ -1098,10 +1078,6 @@
         "clase T2 (modificado)"
       ],
       [
-        "usn_aoe_sacramento",
-        "clase Sacramento"
-      ],
-      [
         "usn_avp_barnegat",
         "clase Barnegat"
       ],
@@ -1110,39 +1086,15 @@
         "clase Barnegat (Modificada)"
       ],
       [
-        "usn_cg_belknap",
-        "clase Belknap"
-      ],
-      [
-        "usn_cg_belknap_72",
-        "clase Belknap"
-      ],
-      [
         "usn_cg_bunker_hill",
         "USN CG BUNKER HILL"
-      ],
-      [
-        "usn_cg_leahy",
-        "clase Leahy"
-      ],
-      [
-        "usn_cg_leahy_68",
-        "clase Leahy"
       ],
       [
         "usn_cgn_alaska",
         "clase Alaska"
       ],
       [
-        "usn_cgn_california",
-        "clase California"
-      ],
-      [
         "usn_cgn_long_beach_73",
-        "clase Long Beach"
-      ],
-      [
-        "usn_cgn_long_beach_83",
         "clase Long Beach"
       ],
       [
@@ -1152,14 +1104,6 @@
       [
         "usn_cv_america_79",
         "clase America"
-      ],
-      [
-        "usn_cv_forrestal_75",
-        "clase Forrestal"
-      ],
-      [
-        "usn_cv_kitty_hawk",
-        "clase Kitty Hawk"
       ],
       [
         "usn_dd_gearing",
@@ -1210,10 +1154,6 @@
         "clase Garcia"
       ],
       [
-        "usn_ff_knox",
-        "clase Knox"
-      ],
-      [
         "usn_ff_knox_72",
         "clase Knox"
       ],
@@ -1228,10 +1168,6 @@
       [
         "usn_ffg_oliver_hazard_perry",
         "clase Oliver Hazard Perry (Casco corto)"
-      ],
-      [
-        "usn_lha_tarawa",
-        "clase Tarawa"
       ],
       [
         "usn_lka_charleston",
@@ -1932,10 +1868,6 @@
         "Weymouth"
       ],
       [
-        "raf_rapier_launcher",
-        "Rapier"
-      ],
-      [
         "swe_ersta",
         "Batería ERSTA"
       ],
@@ -2172,14 +2104,6 @@
         "Radar P-10 Knife Rest"
       ],
       [
-        "wp_p-14_radar",
-        "Radar P-14 Tall King"
-      ],
-      [
-        "wp_p-15_radar",
-        "Radar P-15 Flat Face A"
-      ],
-      [
         "wp_p-19_radar",
         "Radar P-19 Flat Face B"
       ],
@@ -2198,10 +2122,6 @@
       [
         "wp_sa-11_radar",
         "Radar SA-11 Tube Arm"
-      ],
-      [
-        "wp_sa-13_launcher",
-        "Emplazamiento SA-13 Gopher"
       ],
       [
         "wp_sa-3_launcher",

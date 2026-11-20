@@ -1,6 +1,6 @@
 {
-  "version": 8,
-  "description": "124 referencias visuales de unidades, armas y sistemas de Sea Power. Incluye 17 nuevas fuentes verificadas individualmente, con variante, fecha, autor y licencia, sin sustituir modelos no confirmados por imágenes genéricas.",
+  "version": 9,
+  "description": "144 referencias visuales (143 identificadores distintos) de unidades, armamento y sistemas originales de Sea Power, con 20 nuevas fotografías históricas documentadas y advertencias sobre variantes.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -1469,6 +1469,226 @@
       "ammoIds": [
         "it_otomat_mk1"
       ]
+    },
+    "game-unit:v:usn_ff_knox": {
+      "file": "USS Knox (FF-1052) underway at sea on 9 December 1981 (6349375).jpeg",
+      "label": "USS Knox · fragata clase Knox",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Knox_(FF-1052)_underway_at_sea_on_9_December_1981_(6349375).jpeg",
+      "author": "PHCS Steven Harris / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "La fragata USS Knox (FF-1052) está identificada en el archivo NARA 6349375, frente a Luzón en 1981.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cgn_long_beach_83": {
+      "file": "DN-SC-85-07293-Aerial port bow view of USS Long Beach (CGN-9), 1983.jpg",
+      "label": "USS Long Beach (CGN-9), configuración 1983",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:DN-SC-85-07293-Aerial_port_bow_view_of_USS_Long_Beach_(CGN-9)%2C_1983.jpg",
+      "author": "PH3 Yebba / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Imagen de 15 de octubre de 1983, correspondiente a la etapa previa a la modernización de mediados de los 80; no usar para la ficha de los años sesenta.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cg_leahy": {
+      "file": "USS Leahy (CG-16) underway in the Pacific Ocean, 17 January 1983 (6408660).jpg",
+      "label": "USS Leahy · clase Leahy",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Leahy_(CG-16)_underway_in_the_Pacific_Ocean%2C_17_January_1983_(6408660).jpg",
+      "author": "PHC T. F. Ahlgrim / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque USS Leahy fotografiado en el Pacífico el 17 de enero de 1983, registro NARA 6408660.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cgn_california": {
+      "file": "USS California (CGN-36) underway at sea, circa in the 1980s (NH 106513-KN).jpg",
+      "label": "USS California · crucero nuclear",
+      "year": "Década de 1980",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_California_(CGN-36)_underway_at_sea%2C_circa_in_the_1980s_(NH_106513-KN).jpg",
+      "author": "U.S. Navy / Naval History and Heritage Command",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "El buque USS California está identificado, pero la fotografía no acredita año ni configuración exactos de la variante del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_aoe_sacramento": {
+      "file": "USS Sacramento (AOE-1) underway c1983.jpg",
+      "label": "USS Sacramento AOE-1",
+      "year": "Aprox. 1983",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Sacramento_(AOE-1)_underway_c1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque rápido de apoyo de combate USS Sacramento, fotografía de su periodo de servicio alrededor de 1983.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cv_forrestal_75": {
+      "file": "USS Forrestal (CV-59) underway at sea in 1987 (NH 97657-KN).jpg",
+      "label": "USS Forrestal CV-59",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Forrestal_(CV-59)_underway_at_sea_in_1987_(NH_97657-KN).jpg",
+      "author": "U.S. Navy / Naval History and Heritage Command",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía del Forrestal de 1987, tras SLEP. No representa con exactitud su configuración anterior de 1975.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_lpd_fearless": {
+      "file": "HMS Fearless L10 Sinclairs Bay 1982.jpeg",
+      "label": "HMS Fearless L10 en maniobras",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Fearless_L10_Sinclairs_Bay_1982.jpeg",
+      "author": "U.S. Navy / Defenseimagery.mil",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque de desembarco HMS Fearless en el ejercicio Northern Wedding, 10 de septiembre de 1982. En la imagen hay helicópteros en el aire.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_ddg_bristol": {
+      "file": "HMS Bristol D23.jpg",
+      "label": "HMS Bristol D23",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Bristol_D23.jpg",
+      "author": "Peter Smith",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Buque Type 82 Bristol identificado, pero la fecha de toma y el estado de modernización de su armamento no constan.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_lha_tarawa": {
+      "file": "USS Tarawa LHA-1.jpg",
+      "label": "USS Tarawa (LHA-1)",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Tarawa_LHA-1.jpg",
+      "author": "Jon Husman / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Buque Tarawa real en 2007, fotografiado mucho después de 1985; su equipamiento puede diferir de la ficha de campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cv_kitty_hawk": {
+      "file": "USS Kitty Hawk (CV-63) 1977.jpg",
+      "label": "USS Kitty Hawk CV-63",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Kitty_Hawk_(CV-63)_1977.jpg",
+      "author": "PH1 A. Legare / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Portaaviones USS Kitty Hawk fotografiado en 1977, antes de modernizaciones posteriores. La configuración exacta en 1985 podría variar.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cg_belknap": {
+      "file": "USS Belknap (CG-26) underway in the Mediterranean Sea on 16 May 1983 (6474623).jpg",
+      "label": "USS Belknap CG-26",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Belknap_(CG-26)_underway_in_the_Mediterranean_Sea_on_16_May_1983_(6474623).jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Belknap en el Mediterráneo, ejercicio Distant Drum, 16 de mayo de 1983.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cg_leahy_68": {
+      "file": "USS Leahy (DLG-16) underway at sea, circa in 1965.jpg",
+      "label": "USS Leahy (DLG-16), configuración temprana",
+      "year": "Aprox. 1965",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Leahy_(DLG-16)_underway_at_sea%2C_circa_in_1965.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de la configuración anterior a 1968, sin identificación exacta de todos los equipos usados en la ficha del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cg_belknap_72": {
+      "file": "USS Belknap (DLG-26) underway at sea, circa in 1971.jpg",
+      "label": "USS Belknap, configuración temprana",
+      "year": "Aprox. 1971",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Belknap_(DLG-26)_underway_at_sea%2C_circa_in_1971.jpg",
+      "author": "U.S. Navy / NHHC",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía anterior a la reconstrucción del Belknap; aproximación a la ficha de 1972, no comprobación exacta del equipamiento.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_p-14_radar": {
+      "file": "P-14 tk.jpg",
+      "label": "Radar P-14 Tall King",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:P-14_tk.jpg",
+      "author": "A. R. / Dmalch",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Radar de alerta temprana P-14 identificado por Wikimedia Commons, sin fecha ni despliegue soviético específico.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_p-15_radar": {
+      "file": "Radar station P-15.jpg",
+      "label": "Radar P-15 Flat Face",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Radar_station_P-15.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Fotografía del radar P-15 en el Museo de Historia de Defensa Aérea de Zarya (2009).",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-13_launcher": {
+      "file": "9K35 Strela-10, Technical museum Togliatti.JPG",
+      "label": "Sistema Strela-10, SA-13 Gopher",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:9K35_Strela-10%2C_Technical_museum_Togliatti.JPG",
+      "author": "ShinePhantom",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Lanzador de la familia 9K35 Strela-10 expuesto en Togliatti; la subvariante no está documentada para este modelo de juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:raf_rapier_launcher": {
+      "file": "Rapier missile system at the Flieger Flab Museum October 2024.jpg",
+      "label": "Sistema de misiles Rapier",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:Rapier_missile_system_at_the_Flieger_Flab_Museum_October_2024.jpg",
+      "author": "Nick-D",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Sistema Rapier usado por Suiza, fotografiado en 2024; representa la familia del Rapier británico, no necesariamente su configuración RAF de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:usaf_f-15c": {
+      "file": "First production McDonnell Douglas F-15C in flight.jpg",
+      "label": "F-15C Eagle, primer aparato de serie",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:First_production_McDonnell_Douglas_F-15C_in_flight.jpg",
+      "author": "U.S. Air Force / National Museum of the USAF",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "El F-15C de serie con matrícula 78-0468 está identificado; fecha exacta de vuelo no publicada.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:raf_vulcan": {
+      "file": "Vulcan XL445 at Andrews AFB2.jpg",
+      "label": "Avro Vulcan XL445 en 1982",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Vulcan_XL445_at_Andrews_AFB2.jpg",
+      "author": "Acroterion",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Vulcan XL445 en la jornada de puertas abiertas de Andrews AFB de mayo de 1982, diapositiva Kodachrome digitalizada.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:fr_mirage_iii": {
+      "file": "Mirage III.jpg",
+      "label": "Dassault Mirage IIICJ en museo",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:Mirage_III.jpg",
+      "author": "Jausenbrot",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar Mirage IIICJ israelí conservado en museo; referencia de familia Mirage III, no una aeronave francesa en configuración específica.",
+      "mediaType": "fotografía"
     }
   }
 }
