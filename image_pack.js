@@ -47,7 +47,7 @@ function galleryPreferredImages(e){
 function gallerySourceFor(e){
  const assigned=galleryAssignments()[e.id];
  if(assigned&&galleryKeySet.has(assigned))return {id:assigned,assigned:true,local:true};
- const verified=galleryVerified[e.id];
+ const verified=galleryVerified[e.id]||(e.gameAmmoId?Object.values(galleryVerified).find(r=>Array.isArray(r.ammoIds)&&r.ammoIds.includes(e.gameAmmoId)):null);
  if(verified)return {verified:true,record:verified};
  return null;
 }
