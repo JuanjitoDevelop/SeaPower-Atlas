@@ -34,6 +34,7 @@ jobs:
           node --check operations.js
           node --check catalog.js
           node --check image_pack.js
+          node -e "const x=require('./verified_images.json');if(Object.keys(x.items).length!==5)process.exit(1);console.log('5 fotos verificadas: OK')"
           node image_pack.test.cjs
           node -e "const d=require('./catalogo_completo_1985.json');if(d.units.length!==636||d.weapons.length!==471)process.exit(1);console.log('636 unidades y 471 armas: OK')"
           node runtime.smoke.cjs
@@ -51,7 +52,7 @@ jobs:
           trap 'kill "$server" 2>/dev/null || true' EXIT
           for route in ops armory library; do
             echo "Probando ruta $route en Chrome"
-            if ! html="$(timeout --signal=TERM --kill-after=5s 30s "$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --disable-features=ServiceWorker --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.5.0#/$route" 2>/tmp/atlas-chrome.log)"; then
+            if ! html="$(timeout --signal=TERM --kill-after=5s 30s "$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --disable-features=ServiceWorker --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.6.0#/$route" 2>/tmp/atlas-chrome.log)"; then
               echo "Chrome no pudo abrir $route en el plazo de diagnóstico."
               tail -c 1800 /tmp/atlas-chrome.log
               exit 1
