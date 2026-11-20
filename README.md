@@ -1,8 +1,12 @@
 # SEA POWER ATLAS — Copiloto táctico personal
 
-Asistente de decisiones para móvil y escritorio, con enciclopedia secundaria y apoyo para la campaña Task Force ambientada en **1985**.
+Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 2.3
+## Estado actual · versión 3.3
+
+- **Catálogo unificado**: las fichas y el antiguo Arsenal son una única sección «Unidades y armamento». Filtros Todo el juego / Mi flota / En stock / Fuera de flota, búsqueda y edición de existencias desde tarjetas y fichas de armamento.
+- **Sin pérdida de registros**: se conserva `state.campaign.stock`, `state.campaign.use`, favoritos y notas. Los enlaces antiguos `#/armory` redirigen al catálogo filtrado por armas.
+- **Cobertura de archivos originales**: 636 modelos de unidades y 471 definiciones de munición/equipo, con autonomía y distancias nominales cuando constan en los INI.
 
 - **45 fichas de referencia**: 10 tipos de aeronaves, 6 buques, 20 entradas de armamento (incluida una variante de Mk 46), 3 sonoboyas y 6 amenazas soviéticas.
 - **Copiloto táctico interactivo** con decisiones basadas en misión, distancia, identificación, munición, disponibilidad y mods seleccionados.
