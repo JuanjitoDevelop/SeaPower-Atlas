@@ -667,3 +667,30 @@
  .catalog-inventory-fields{grid-template-columns:1fr}
  .catalog-inventory{padding:13px}
 }
+
+
+/* v3.4 · Enlaces entre fichas de armas y plataformas */
+.catalog-related{border:1px solid #38626c;border-radius:12px;background:#102b35;padding:15px;margin:18px 0}
+.catalog-related h3{font-size:15px;color:#c3f7e8;line-height:1.4}
+.catalog-related h4{margin:15px 0 9px;font-size:12px;font-weight:800;letter-spacing:.5px;color:#b8d4d9}
+.catalog-links-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:10px 0}
+.catalog-entity-link{border:1px solid #4b777e;background:#153842;border-radius:9px;padding:11px 12px;min-height:48px;color:#d9f8ed;text-align:left;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:13px;line-height:1.4;font-weight:650;overflow-wrap:anywhere}
+.catalog-entity-link:hover{border-color:#8be0c9;background:#1b484a}
+.catalog-entity-link span{color:#8edbc7;flex:none;font-size:17px}
+.catalog-links-more{border:1px solid #3b606d;border-radius:8px;padding:0 11px;margin:10px 0}
+.catalog-links-more>summary{cursor:pointer;display:flex;align-items:center;min-height:47px;font-size:13px;font-weight:750;color:#c8f7e7}
+.catalog-links-more[open]{padding-bottom:10px}
+.catalog-inline-link,.game-ammo-open{border:0;background:transparent;padding:0 2px;display:inline;color:#a8f5d8;font:inherit;text-align:left;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px;cursor:pointer}
+.catalog-inline-link span,.game-ammo-open span{font-size:.85em;color:#8fd3c1;text-decoration:none}
+.game-ammo-open{font-size:inherit;font-weight:700;line-height:1.5}
+.catalog-inline-link:hover,.game-ammo-open:hover{color:#e5fff5}
+.catalog-inline-link:focus-visible,.game-ammo-open:focus-visible,.catalog-entity-link:focus-visible,.catalog-links-more>summary:focus-visible{outline:3px solid #b1ffe2;outline-offset:2px;border-radius:3px}
+@media(max-width:760px){
+ .catalog-related{padding:13px}
+ .catalog-links-grid{grid-template-columns:1fr}
+ .catalog-entity-link{font-size:14px}
+ .catalog-overview{display:grid;grid-template-columns:auto 1fr auto 1fr;align-items:center;column-gap:9px;row-gap:5px}
+ .catalog-overview strong{font-size:21px}
+ .catalog-overview span{font-size:11px;line-height:1.45}
+}
+@media(max-width:390px){.catalog-overview{grid-template-columns:auto 1fr;row-gap:10px}}
