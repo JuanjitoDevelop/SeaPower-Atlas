@@ -8,23 +8,23 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 144,
-    "covered": 143,
-    "exactAssigned": 99,
-    "familyAssigned": 44,
-    "pending": 964,
+    "references": 184,
+    "covered": 183,
+    "exactAssigned": 126,
+    "familyAssigned": 57,
+    "pending": 924,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 36
+        "covered": 54
       },
       "ship": {
         "total": 295,
-        "covered": 42
+        "covered": 59
       },
       "land": {
         "total": 197,
-        "covered": 20
+        "covered": 25
       },
       "weapon": {
         "total": 471,
@@ -62,10 +62,6 @@
       [
         "civ_c340",
         "Bimotor Ligero"
-      ],
-      [
-        "civ_dc-10",
-        "Avión Comercial DC-10"
       ],
       [
         "civ_e100",
@@ -160,10 +156,6 @@
         "F-1"
       ],
       [
-        "jasdf_f-4ej",
-        "F-4EJ"
-      ],
-      [
         "jasdf_t-2",
         "T-2"
       ],
@@ -216,10 +208,6 @@
         "SH-5"
       ],
       [
-        "raaf_f-111c",
-        "F-111C"
-      ],
-      [
         "raaf_n22",
         "RAAF N22"
       ],
@@ -236,10 +224,6 @@
         "RAF GR1"
       ],
       [
-        "raf_gr3",
-        "RAF GR3"
-      ],
-      [
         "raf_sc-7",
         "RAF SC-7"
       ],
@@ -252,10 +236,6 @@
         "RAF VICTOR"
       ],
       [
-        "raf_victor_k2",
-        "RAF VICTOR K2"
-      ],
-      [
         "ran_a-4g",
         "A-4G"
       ],
@@ -266,10 +246,6 @@
       [
         "rn_lynx_has2",
         "Lynx HAS.2"
-      ],
-      [
-        "rn_nimrod_mr1",
-        "RN NIMROD MR1"
       ],
       [
         "rn_sea_king_has5",
@@ -296,40 +272,12 @@
         "SHARED SETTINGS"
       ],
       [
-        "usaf_b-52d",
-        "B-52D"
-      ],
-      [
-        "usaf_c-130",
-        "USAF C-130"
-      ],
-      [
-        "usaf_c-141b",
-        "C-141B"
-      ],
-      [
-        "usaf_e-3a",
-        "E-3A"
-      ],
-      [
         "usaf_f-15a",
         "F-15A"
       ],
       [
         "usaf_f-4d",
         "F-4D"
-      ],
-      [
-        "usaf_f-4e",
-        "F-4E"
-      ],
-      [
-        "usaf_f-5a",
-        "F-5A"
-      ],
-      [
-        "usaf_f-5e",
-        "F-5E"
       ],
       [
         "usaf_kc-10",
@@ -344,20 +292,12 @@
         "AV-8C"
       ],
       [
-        "usn_a-3b",
-        "A-3B"
-      ],
-      [
         "usn_ch-46",
         "CH-46"
       ],
       [
         "usn_eka-3b",
         "EKA-3B"
-      ],
-      [
-        "usn_f-4j",
-        "F-4J"
       ],
       [
         "usn_ka-3b",
@@ -386,10 +326,6 @@
       [
         "usn_v-19a",
         "V-19A"
-      ],
-      [
-        "wp_il-38",
-        "Il-38"
       ],
       [
         "wp_ka-25ts",
@@ -428,10 +364,6 @@
         "MiG-25RB Foxbat"
       ],
       [
-        "wp_mig-27",
-        "MiG-27 Flogger"
-      ],
-      [
         "wp_mig-28",
         "MiG-28 Fracture"
       ],
@@ -442,10 +374,6 @@
       [
         "wp_p-42_rldn",
         "P-42RLDN"
-      ],
-      [
-        "wp_su-15",
-        "Su-15"
       ],
       [
         "wp_su-24a",
@@ -1010,20 +938,8 @@
         "clase Amazon"
       ],
       [
-        "rn_ff_leander",
-        "RN FF LEANDER"
-      ],
-      [
-        "rn_ff_leander_batch1",
-        "RN FF LEANDER BATCH1"
-      ],
-      [
         "rn_ff_leander_batch2",
         "RN FF LEANDER BATCH2"
-      ],
-      [
-        "rn_ff_rothesay",
-        "RN FF ROTHESAY"
       ],
       [
         "rn_lsl_roundtable",
@@ -1106,10 +1022,6 @@
         "clase America"
       ],
       [
-        "usn_dd_gearing",
-        "clase Gearing FRAM I"
-      ],
-      [
         "usn_dd_gearing_fram2",
         "clase Gearing FRAM II"
       ],
@@ -1150,10 +1062,6 @@
         "clase Coontz (NTU)"
       ],
       [
-        "usn_ff_garcia",
-        "clase Garcia"
-      ],
-      [
         "usn_ff_knox_72",
         "clase Knox"
       ],
@@ -1166,24 +1074,12 @@
         "clase Brooke"
       ],
       [
-        "usn_ffg_oliver_hazard_perry",
-        "clase Oliver Hazard Perry (Casco corto)"
-      ],
-      [
         "usn_lka_charleston",
         "clase Charleston"
       ],
       [
-        "usn_lpd_austin",
-        "clase Austin"
-      ],
-      [
         "usn_lsm_lsm1",
         "clase LSM-1"
-      ],
-      [
-        "usn_lst_newport",
-        "clase Newport"
       ],
       [
         "usn_msc_adjutant",
@@ -1196,10 +1092,6 @@
       [
         "usn_pb_pgm-39",
         "clase PGM-39"
-      ],
-      [
-        "usn_phm_pegasus",
-        "clase Pegasus"
       ],
       [
         "usn_septar_qst-35",
@@ -1222,10 +1114,6 @@
         "clase James Madison"
       ],
       [
-        "usn_ssbn_lafayette",
-        "clase Lafayette"
-      ],
-      [
         "usn_ssn_los_angeles_76",
         "Los Angeles-class Flight 1 (Early)"
       ],
@@ -1236,10 +1124,6 @@
       [
         "usn_ssn_permit_68",
         "clase Permit (Early)"
-      ],
-      [
-        "usn_ssn_skipjack",
-        "clase Skipjack"
       ],
       [
         "usn_ssn_skipjack_68",
@@ -1274,20 +1158,8 @@
         "clase Ivan Rogov"
       ],
       [
-        "wp_bdk_ropucha",
-        "clase Ropucha"
-      ],
-      [
-        "wp_bpk_kashin",
-        "clase Kashin"
-      ],
-      [
         "wp_cv_orel",
         "clase Orel"
-      ],
-      [
-        "wp_kr_sverdlov",
-        "clase Sverdlov"
       ],
       [
         "wp_mpk_grisha3",
@@ -1384,18 +1256,6 @@
       [
         "wp_ptg_komar",
         "clase Komar"
-      ],
-      [
-        "wp_ptg_osa1",
-        "clase Osa"
-      ],
-      [
-        "wp_ptg_osa2",
-        "clase Osa 2"
-      ],
-      [
-        "wp_ptg_tarantul",
-        "clase Tarantul"
       ],
       [
         "wp_ptg_tarantul_re",
@@ -1938,26 +1798,6 @@
       [
         "us_cobra_dane_ewr",
         "AN/FPS-108 COBRA DANE"
-      ],
-      [
-        "usa_aaa_m42",
-        "M42 Duster"
-      ],
-      [
-        "usa_aaa_m51",
-        "M51 Skysweeper"
-      ],
-      [
-        "usa_aaa_vulcan",
-        "M163A1 Vulcan"
-      ],
-      [
-        "usa_apc_aav7",
-        "AAV-7A1"
-      ],
-      [
-        "usa_apc_m113",
-        "M113"
       ],
       [
         "usa_car_hemtt",
