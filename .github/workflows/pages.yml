@@ -48,7 +48,12 @@ jobs:
           server=$!
           trap 'kill "$server" 2>/dev/null || true' EXIT
           for route in ops armory library; do
-            html="$("$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.3.0#/$route" 2>/tmp/atlas-chrome.log)"
+            echo "Probando ruta $route en Chrome"
+            if ! html="$(timeout --signal=TERM --kill-after=5s 30s "$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --disable-features=ServiceWorker --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.3.0#/$route" 2>/tmp/atlas-chrome.log)"; then
+              echo "Chrome no pudo abrir $route en el plazo de diagnóstico."
+              tail -c 1800 /tmp/atlas-chrome.log
+              exit 1
+            fi
             case "$route" in ops) expected='class="ops-page"';; armory|library) expected='class="catalog-page"';; esac
             if ! grep -Fq "$expected" <<< "$html"; then
               echo "Error al abrir $route en Chrome; salida del navegador:"
