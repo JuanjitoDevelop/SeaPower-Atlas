@@ -40,7 +40,7 @@ jobs:
           node --check workshop.js
           node -e "const fs=require('node:fs');const d=JSON.parse(fs.readFileSync('workshop-mods.json','utf8'));if(d.mods.length!==21||new Set(d.mods.map(x=>x.id)).size!==21)process.exit(1);console.log('21 mods sin duplicados: OK')"
           node -e "const fs=require('node:fs'); const data=JSON.parse(fs.readFileSync('data.json','utf8')); const guide=JSON.parse(fs.readFileSync('tactics.json','utf8')); if(!Array.isArray(data.entries)||!Array.isArray(guide.scenarios)||guide.scenarios.length<13)process.exit(1); console.log('Datos y 13+ situaciones: OK')"
-      - name: Comprobar Copiloto y Arsenal en Chrome real
+      - name: Comprobar Copiloto y Catálogo unificado en Chrome real
         run: |
           chrome="$(command -v google-chrome || command -v chromium || command -v chromium-browser || true)"
           if [ -z "$chrome" ]; then echo "Chrome no disponible en el runner"; exit 1; fi
@@ -48,8 +48,8 @@ jobs:
           server=$!
           trap 'kill "$server" 2>/dev/null || true' EXIT
           for route in ops armory library; do
-            html="$("$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.2.0#/$route" 2>/tmp/atlas-chrome.log)"
-            case "$route" in ops) expected='class="ops-page"';; armory) expected='class="armory-page"';; library) expected='class="catalog-page"';; esac
+            html="$("$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.3.0#/$route" 2>/tmp/atlas-chrome.log)"
+            case "$route" in ops) expected='class="ops-page"';; armory|library) expected='class="catalog-page"';; esac
             if ! grep -Fq "$expected" <<< "$html"; then
               echo "Error al abrir $route en Chrome; salida del navegador:"
               echo "$html" | tail -c 2200
