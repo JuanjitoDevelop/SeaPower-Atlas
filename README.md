@@ -2,7 +2,9 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.14
+## Estado actual · versión 3.15
+
+- **Lote 08 — armamento y plataformas terrestres:** 29 imágenes documentadas (19 plataformas terrestres y 10 armas), hasta **213 referencias** visuales y **212 identificadores distintos** cubiertos de los 1.107 disponibles; 895 pendientes. Se preserva la atribución de autor y licencias, con notas de variante; se descartó un camión PLS incorrectamente etiquetado HEMTT.
 
 - **Lote 07 de mayor escala:** 40 fotografías adicionales (17 buques, 18 aeronaves y 5 equipos terrestres), elevando la galería a 184 referencias para 183 modelos originales de los 1.107. Quedan 924. Los metadatos de archivo se comprobaron y se descartaron imágenes erróneas, incluidas las del HMS Swiftsure crucero de 1950 para no atribuirlas al submarino del juego. Cada variante y modernización se documenta con cautela.
 

@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 184,
-    "covered": 183,
-    "exactAssigned": 126,
-    "familyAssigned": 57,
-    "pending": 924,
+    "references": 213,
+    "covered": 212,
+    "exactAssigned": 142,
+    "familyAssigned": 70,
+    "pending": 895,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -24,11 +24,11 @@
       },
       "land": {
         "total": 197,
-        "covered": 25
+        "covered": 44
       },
       "weapon": {
         "total": 471,
-        "covered": 45
+        "covered": 55
       }
     },
     "unmatchedManifestIds": []
@@ -1408,10 +1408,6 @@
         "FLK SAN CARLOS FOB"
       ],
       [
-        "fr_sam_roland_launcher",
-        "FR SAM ROLAND LAUNCHER"
-      ],
-      [
         "iqa_mbt_t-55_70",
         "T-55 M1970"
       ],
@@ -1488,10 +1484,6 @@
         "Batería B-13 130mm"
       ],
       [
-        "nv_bofors",
-        "Bofors AAA"
-      ],
-      [
         "nv_coastal_artillery",
         "Batería QF 4.5"
       ],
@@ -1516,16 +1508,8 @@
         "Base pequeña de patrulleras"
       ],
       [
-        "nv_s-60",
-        "S-60"
-      ],
-      [
         "nv_watchtower",
         "Puesto de Observación"
-      ],
-      [
-        "nv_zu-23",
-        "Zu-23"
       ],
       [
         "oil_terminal_1",
@@ -1800,52 +1784,8 @@
         "AN/FPS-108 COBRA DANE"
       ],
       [
-        "usa_car_hemtt",
-        "HEMTT"
-      ],
-      [
-        "usa_car_hmmwv",
-        "Humvee"
-      ],
-      [
         "usa_car_hmmwv_m2",
         "Humvee M2"
-      ],
-      [
-        "usa_car_hmmwv_tow",
-        "Humvee TOW"
-      ],
-      [
-        "usa_car_m923",
-        "Camión M923"
-      ],
-      [
-        "usa_ifv_bradley",
-        "M2 Bradley"
-      ],
-      [
-        "usa_mbt_abrams",
-        "M1 Abrams"
-      ],
-      [
-        "usa_mbt_m60",
-        "M60"
-      ],
-      [
-        "usa_mim-23_fcr",
-        "MIM-23 Hawk FCR"
-      ],
-      [
-        "usa_mim-23_launcher",
-        "MIM-23 Hawk"
-      ],
-      [
-        "usa_mim-23_radar",
-        "Radar MIM-23 Hawk"
-      ],
-      [
-        "usa_mlrs_m270",
-        "M270 MLRS"
       ],
       [
         "usa_radar_tps-43",
@@ -1854,18 +1794,6 @@
       [
         "usa_radar_tps-63",
         "Radar TPS-63"
-      ],
-      [
-        "usa_sam_site_nike_hercules",
-        "Emplazamiento SAM Nike Hercules"
-      ],
-      [
-        "usa_spa_m109a2",
-        "M109A2 Paladin"
-      ],
-      [
-        "usa_spa_m110a1",
-        "M110A1"
       ],
       [
         "warehouses_1",
@@ -1886,10 +1814,6 @@
       [
         "wp_aaa_ural_s-60",
         "AAA 57mm sobre camión Ural"
-      ],
-      [
-        "wp_aaa_ural_zu-23",
-        "AAA ZU-23 23mm sobre camión Ural"
       ],
       [
         "wp_airbase_1",
@@ -2634,10 +2558,6 @@
         "AGM-122A"
       ],
       [
-        "usn_agm-123",
-        "AGM-123"
-      ],
-      [
         "usn_agm-84a",
         "AGM-84A"
       ],
@@ -2648,10 +2568,6 @@
       [
         "usn_aim-7d",
         "AIM-7D"
-      ],
-      [
-        "usn_aim-7e",
-        "AIM-7E"
       ],
       [
         "usn_aim-7e2",
@@ -2666,28 +2582,12 @@
         "AIM-7M"
       ],
       [
-        "usn_aim-9b",
-        "AIM-9B"
-      ],
-      [
-        "usn_aim-9c",
-        "AIM-9C"
-      ],
-      [
-        "usn_aim-9d",
-        "AIM-9D"
-      ],
-      [
         "usn_aim-9g",
         "AIM-9G"
       ],
       [
         "usn_aim-9h",
         "AIM-9H"
-      ],
-      [
-        "usn_aim-9m",
-        "AIM-9M"
       ],
       [
         "usn_alq-99",
@@ -2794,10 +2694,6 @@
         "Depósito externo de 1135 l."
       ],
       [
-        "usn_gbu-10",
-        "GBU-10"
-      ],
-      [
         "usn_gbu-16",
         "GBU-16"
       ],
@@ -2852,18 +2748,6 @@
       [
         "usn_mer_rockeye_6",
         "usn mer rockeye 6"
-      ],
-      [
-        "usn_mk-81",
-        "USN MK 81"
-      ],
-      [
-        "usn_mk-82_snakeye",
-        "Mk-82 Snakeye"
-      ],
-      [
-        "usn_mk-84",
-        "Mk-84"
       ],
       [
         "usn_mk13",
