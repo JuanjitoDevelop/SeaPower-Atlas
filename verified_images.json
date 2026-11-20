@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "description": "Fotografías históricas verificadas individualmente. Las imágenes se cargan desde Wikimedia Commons y se enlazan con atribución. No se asume que correspondan al buque o escuadrón de la campaña.",
+  "items": {
+    "a6e": {
+      "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
+      "label": "A-6E Intruder",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:Grumman_A-6E_Intruder_of_VA-52_in_flight%2C_in_1981_(6379373).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true
+    },
+    "f14a": {
+      "file": "Grumman F-14A Tomcat of VF-32 in flight, in 1982.jpg",
+      "label": "F-14A Tomcat",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Grumman_F-14A_Tomcat_of_VF-32_in_flight%2C_in_1982.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true
+    },
+    "s3a": {
+      "file": "S-3A Viking of VS-30 on the ground c1986.JPEG",
+      "label": "S-3A Viking",
+      "year": "c. 1986",
+      "source": "https://commons.wikimedia.org/wiki/File:S-3A_Viking_of_VS-30_on_the_ground_c1986.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true
+    },
+    "sh3h": {
+      "file": "SH-3H Sea King of HS-4 with sonar deployed in flight 1983.jpg",
+      "label": "SH-3H Sea King",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:SH-3H_Sea_King_of_HS-4_with_sonar_deployed_in_flight_1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true
+    },
+    "nimitz": {
+      "file": "USS Nimitz (CVN-68) underway, circa in 1978.jpg",
+      "label": "USS Nimitz CVN-68",
+      "year": "c. 1978",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Nimitz_(CVN-68)_underway%2C_circa_in_1978.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true
+    }
+  }
+}
