@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "description": "Fotografías históricas verificadas individualmente. Las imágenes se cargan desde Wikimedia Commons y se enlazan con atribución. No se asume que correspondan al buque o escuadrón de la campaña.",
+  "version": 2,
+  "description": "Fotografías históricas identificadas y algunas ilustraciones técnicas, con fuente, fecha, autor, coincidencia por variante y advertencias. Las imágenes nunca constituyen evidencia de que un arma o unidad esté activa en la partida.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -46,6 +46,314 @@
       "author": "U.S. Navy",
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true
+    },
+    "fa18a": {
+      "file": "F-18A Hornet of VFA-132 in flight c1985.jpg",
+      "label": "F/A-18A Hornet",
+      "year": "c. 1985",
+      "source": "https://commons.wikimedia.org/wiki/File:F-18A_Hornet_of_VFA-132_in_flight_c1985.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de un F/A-18A del VFA-132, no necesariamente del escuadrón de tu partida.",
+      "mediaType": "fotografía"
+    },
+    "ea6b": {
+      "file": "Grumman EA-6B Prowler of VAQ-134 lands aboard USS Nimitz (CVN-68), in 1979-1980.jpg",
+      "label": "EA-6B Prowler",
+      "year": "1979–1980",
+      "source": "https://commons.wikimedia.org/wiki/File:Grumman_EA-6B_Prowler_of_VAQ-134_lands_aboard_USS_Nimitz_(CVN-68)%2C_in_1979-1980.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Aterriza en el USS Nimitz; fotografía histórica del modelo EA-6B.",
+      "mediaType": "fotografía"
+    },
+    "e2c": {
+      "file": "Grumman E-2C Hawkeye of VAW-124 in flight, in 1985.jpg",
+      "label": "E-2C Hawkeye",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Grumman_E-2C_Hawkeye_of_VAW-124_in_flight%2C_in_1985.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Un Hawkeye E-2C real en 1985, no asignación de escuadrón de la campaña.",
+      "mediaType": "fotografía"
+    },
+    "sh2f": {
+      "file": "SH-2F Seasprite of HSL-34 in flight in 1981.jpeg",
+      "label": "SH-2F Seasprite",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:SH-2F_Seasprite_of_HSL-34_in_flight_in_1981.jpeg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de un SH-2F real sobre el Adriático.",
+      "mediaType": "fotografía"
+    },
+    "hh3e": {
+      "file": "Sikorsky HH-3E Jolly Green Giant in flight off the coast of Vietnam, 10 December 1969 (342-C-KE-37512).jpg",
+      "label": "HH-3E Jolly Green Giant",
+      "year": "1969",
+      "source": "https://commons.wikimedia.org/wiki/File:Sikorsky_HH-3E_Jolly_Green_Giant_in_flight_off_the_coast_of_Vietnam%2C_10_December_1969_(342-C-KE-37512).jpg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de un HH-3E de la USAF; el usuario lo tiene como transporte/rescate en el juego.",
+      "mediaType": "fotografía"
+    },
+    "ah1t": {
+      "file": "USMC-Lebanon82-73.jpg",
+      "label": "AH-1T SeaCobra",
+      "year": "c. 1982",
+      "source": "https://commons.wikimedia.org/wiki/File:USMC-Lebanon82-73.jpg",
+      "author": "U.S. Marine Corps",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "SeaCobra identificado como AH-1T en el archivo del USMC sobre Líbano.",
+      "mediaType": "fotografía"
+    },
+    "missouri": {
+      "file": "USS Missouri (BB-63) off Naples on shakedown, November 1986 (DN-ST-87-06683).jpg",
+      "label": "USS Missouri (BB-63) modernizado",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Missouri_(BB-63)_off_Naples_on_shakedown%2C_November_1986_(DN-ST-87-06683).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de noviembre de 1986. El Missouri fue puesto de nuevo en servicio en mayo de 1986; su presencia operativa en la campaña de 1985 es alternativa a la historia real.",
+      "mediaType": "fotografía"
+    },
+    "virginia": {
+      "file": "USS Virginia (CGN-38) at sea before 1984.jpg",
+      "label": "USS Virginia (CGN-38)",
+      "year": "1976–1984",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Virginia_(CGN-38)_at_sea_before_1984.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Representa el buque antes de incorporar CIWS Phalanx y lanzadores acorazados Tomahawk; el equipamiento de la campaña puede diferir.",
+      "mediaType": "fotografía"
+    },
+    "kidd": {
+      "file": "USS Kidd (DDG-993) underway in 1981.jpg",
+      "label": "USS Kidd (DDG-993)",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Kidd_(DDG-993)_underway_in_1981.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "El USS Kidd durante pruebas de mar en 1981, ejemplo real de destructor clase Kidd.",
+      "mediaType": "fotografía"
+    },
+    "samuel": {
+      "file": "USS Samuel B. Roberts (FFG-58) underway in Chesapeake Bay on 20 August 1995 (6491217).jpg",
+      "label": "USS Samuel B. Roberts (FFG-58)",
+      "year": "1995",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Samuel_B._Roberts_(FFG-58)_underway_in_Chesapeake_Bay_on_20_August_1995_(6491217).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía del buque real de 1995. Fue comisionado en 1986, por lo que su presencia en la campaña de 1985 es alternativa a la historia real.",
+      "mediaType": "fotografía"
+    },
+    "losangeles": {
+      "file": "USS Los Angeles;0868802.jpg",
+      "label": "USS Los Angeles (SSN-688)",
+      "year": "Fecha desconocida",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Los_Angeles%3B0868802.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía identificada como USS Los Angeles, SSN-688; fecha de toma no acreditada.",
+      "mediaType": "fotografía"
+    },
+    "agm78d": {
+      "file": "A-6E Intruder of VA-85 in flight with Standard ARM.jpg",
+      "label": "AGM-78 Standard ARM",
+      "year": "1978",
+      "source": "https://commons.wikimedia.org/wiki/File:A-6E_Intruder_of_VA-85_in_flight_with_Standard_ARM.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "El AGM-78 es visible bajo el A-6E; no se identifica específicamente la subvariante AGM-78D.",
+      "mediaType": "fotografía"
+    },
+    "agm45b": {
+      "file": "A-7E VA-66 launching AGM-45 in 1985.JPEG",
+      "label": "AGM-45 Shrike",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:A-7E_VA-66_launching_AGM-45_in_1985.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzamiento AGM-45 documentado en 1985; la subvariante AGM-45B no está especificada.",
+      "mediaType": "fotografía"
+    },
+    "mk82": {
+      "file": "Mk 82 bombs in B-52G 1984.JPEG",
+      "label": "Bombas Mk 82",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk_82_bombs_in_B-52G_1984.JPEG",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de bombas Mk 82, no de un loadout específico de tu avión.",
+      "mediaType": "fotografía"
+    },
+    "mk83": {
+      "file": "Mk 83 bombs on USS Saratoga (CV-60) in 1991.jpg",
+      "label": "Bombas Mk 83",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk_83_bombs_on_USS_Saratoga_(CV-60)_in_1991.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía del modelo Mk 83, tomada después de 1985.",
+      "mediaType": "fotografía"
+    },
+    "gbu12": {
+      "file": "GBU-12 profile view picture.jpg",
+      "label": "GBU-12 Paveway II",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:GBU-12_profile_view_picture.jpg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Ilustración técnica oficial de perfil, no fotografía.",
+      "mediaType": "ilustración"
+    },
+    "gbu24": {
+      "file": "GBU-24 profile view picture.jpg",
+      "label": "GBU-24 Paveway III",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:GBU-24_profile_view_picture.jpg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Ilustración técnica de perfil, no fotografía; la disponibilidad histórica depende de la versión y el año.",
+      "mediaType": "ilustración"
+    },
+    "cbu100": {
+      "file": "Mk 20 cluster bombs on A-7 at NAS Pax 1984.JPEG",
+      "label": "Mk 20 Rockeye (familia CBU-100)",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk_20_cluster_bombs_on_A-7_at_NAS_Pax_1984.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de Mk 20 Mod 6 Rockeye, relacionada con la familia CBU-100/Mk 20, no de todas sus variantes.",
+      "mediaType": "fotografía"
+    },
+    "aim54": {
+      "file": "YAIM-54A Phoenix missile with F-14A Tomcat in 1973.jpg",
+      "label": "YAIM-54A Phoenix (prototipo)",
+      "year": "1973",
+      "source": "https://commons.wikimedia.org/wiki/File:YAIM-54A_Phoenix_missile_with_F-14A_Tomcat_in_1973.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Imagen de un YAIM-54A de pruebas; no corresponde necesariamente a la variante de servicio de tu campaña.",
+      "mediaType": "fotografía"
+    },
+    "aim7": {
+      "file": "AIM-7 Sparrow.jpg",
+      "label": "AIM-7 Sparrow",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-7_Sparrow.jpg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Ejemplar de la familia AIM-7; la variante exacta no se identifica en la imagen.",
+      "mediaType": "fotografía"
+    },
+    "aim9": {
+      "file": "Sidewinder.jpg",
+      "label": "AIM-9 Sidewinder",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:Sidewinder.jpg",
+      "author": "White Sands Missile Range Museum",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Ejemplar genérico de la familia AIM-9; no se identifica subvariante.",
+      "mediaType": "fotografía"
+    },
+    "mk46": {
+      "file": "Mark 46 full image.JPEG",
+      "label": "Mk 46 (familia)",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_46_full_image.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzamiento de un torpedo Mk 46 en 1986; no se puede identificar el Mod 5 a partir de la foto.",
+      "mediaType": "fotografía"
+    },
+    "mk46mod5": {
+      "file": "Mark 46 full image.JPEG",
+      "label": "Mk 46 (familia)",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_46_full_image.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Imagen de un Mk 46 de la misma familia; no representa una variante Mod 5/NEARTIP verificada.",
+      "mediaType": "fotografía"
+    },
+    "mk48": {
+      "file": "Mk 48 torpedo on hoist 1982.JPEG",
+      "label": "Torpedo Mk 48",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk_48_torpedo_on_hoist_1982.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de un Mk 48 recuperado durante pruebas. La subvariante de la campaña no está confirmada.",
+      "mediaType": "fotografía"
+    },
+    "harpoon_ship": {
+      "file": "RGM-84 Harpoon missile launch from USS Leahy (CG-16), in 1983.jpg",
+      "label": "RGM-84 Harpoon",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RGM-84_Harpoon_missile_launch_from_USS_Leahy_(CG-16)%2C_in_1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Lanzamiento del sistema antibuque naval RGM-84. No implica que la imagen identifique el lote concreto del juego.",
+      "mediaType": "fotografía"
+    },
+    "rim66": {
+      "file": "Standard missile launcher on USS Norton Sound (AVM-1) 1981.JPEG",
+      "label": "RIM-66 Standard MR",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:Standard_missile_launcher_on_USS_Norton_Sound_(AVM-1)_1981.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "RIM-66 Standard MR en Mk 26. No verifica si la variante de la partida es SM-1 o SM-2.",
+      "mediaType": "fotografía"
+    },
+    "rim67": {
+      "file": "RIM-67 Standard missiles aboard USS Mahan (DDG-42) on 1 March 1983 (6370832).jpg",
+      "label": "RIM-67 Standard ER",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-67_Standard_missiles_aboard_USS_Mahan_(DDG-42)_on_1_March_1983_(6370832).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "RIM-67 Standard ER durante maniobra de recarga en marzo de 1983.",
+      "mediaType": "fotografía"
+    },
+    "tomahawk": {
+      "file": "A BGM-109 Tomahawk land-attack missile takes to the air after being launched from the battleship USS WISCONSIN (BB-64) during Operation Desert Storm - DPLA - b455bd5c225c1f8db3c5336bdd67ce0d.jpeg",
+      "label": "BGM-109 Tomahawk",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:A_BGM-109_Tomahawk_land-attack_missile_takes_to_the_air_after_being_launched_from_the_battleship_USS_WISCONSIN_(BB-64)_during_Operation_Desert_Storm_-_DPLA_-_b455bd5c225c1f8db3c5336bdd67ce0d.jpeg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzamiento de un BGM-109 de la familia Tomahawk en 1991; no verifica la variante del juego ni una misión de 1985.",
+      "mediaType": "fotografía"
     }
   }
 }
