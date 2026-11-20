@@ -43,11 +43,29 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,5);
+ assert.equal(Object.keys(manifest.items).length,36);
+ const units=['a6e','fa18a','f14a','ea6b','e2c','s3a','sh2f','sh3h','hh3e','ah1t','nimitz','missouri','virginia','kidd','samuel','losangeles'];
+ const catalog=JSON.parse(fs.readFileSync('data.json','utf8'));
+ const armament=catalog.entries.filter(e=>e.category==='weapon').map(e=>e.id);
+ assert.equal(armament.length,20);
+ for(const id of [...units,...armament]){
+   const p=manifest.items[id];
+   assert.ok(p,'Imagen documentada para '+id);
+   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
+   assert.match(p.license,/Dominio público/);
+   assert.ok(p.file&&p.label&&p.year&&p.author);
+ }
+ assert.equal(manifest.items.agm84c.exactVariant,false,'No confundir AGM-84A y C');
+ assert.match(manifest.items.agm84c.note,/NO identifica el AGM-84C/);
+ assert.match(manifest.items.missouri.note,/1986/);
+ assert.match(manifest.items.samuel.note,/1986/);
+ assert.equal(manifest.items.aim54.exactVariant,false,'Prototipo YAIM-54A identificado como tal');
  vm.runInContext('galleryVerified='+JSON.stringify(manifest.items),context);
- assert.match(context.tests.galleryCardMarkup(aircraft),/Fotografía histórica verificada/);
+ assert.match(context.tests.galleryCardMarkup(aircraft),/Fotografía histórica/);
  assert.match(context.tests.galleryCardMarkup(aircraft),/commons.wikimedia.org/);
  assert.match(context.tests.galleryCardMarkup(aircraft),/Fuente y licencia/);
+ assert.match(context.tests.galleryDetailMarkup({id:'agm84c',name:'Harpoon',category:'weapon',nation:'EE. UU.'}),/NO identifica el AGM-84C/);
+ assert.match(context.tests.galleryCardMarkup({id:'hh3e',name:'HH-3E',category:'aircraft',nation:'EE. UU.'}),/U.S. Air Force/);
  assert.match(context.tests.galleryDetailMarkup(aircraft),/data-gallery-pick="a6e"/);
  vm.runInContext("state.imageAssignments.a6e='ui/photos/air nato 2.jpg'",context);
  assert.match(context.tests.galleryCardMarkup(aircraft),/Imagen asignada por ti/);
