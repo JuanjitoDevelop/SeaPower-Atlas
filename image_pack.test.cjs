@@ -60,7 +60,7 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
   assert.ok(p.file&&p.label&&p.year&&p.author&&p.license,'Metadatos completos: '+id);
-  assert.match(p.license,/^Dominio público|^CC BY/,'Licencia abierta: '+id);
+  assert.match(p.license,/^(?:Dominio público|CC BY|CC0)/,'Licencia abierta: '+id);
  }
  const units=['a6e','fa18a','f14a','ea6b','e2c','s3a','sh2f','sh3h','hh3e','ah1t','nimitz','missouri','virginia','kidd','samuel','losangeles'];
  const catalog=JSON.parse(fs.readFileSync('data.json','utf8'));
