@@ -1,6 +1,6 @@
 {
-  "version": 10,
-  "description": "184 fotografías/referencias de unidades, armamento y equipo de Sea Power. Lote mayor con 40 asignaciones nuevas validadas frente a IDs originales, archivos Wikimedia Commons y notas de variantes.",
+  "version": 11,
+  "description": "Galera de Sea Power: unidades, equipo terrestre y armas, con referencias históricas, licencias y variantes documentadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -2129,6 +2129,355 @@
       "exactVariant": true,
       "note": "AAV-7A1 de USMC en maniobras; aparece también un buque Ropucha II y un BTR-80 al fondo.",
       "mediaType": "fotografía"
+    },
+    "game-unit:l:usa_mbt_abrams": {
+      "file": "M-1 Abrams Tank.jpg",
+      "label": "M1 Abrams de primera serie",
+      "year": "1982",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Vehículo M1 documentado en una publicación de 1982, anterior al M1A1.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:M-1_Abrams_Tank.jpg"
+    },
+    "game-unit:l:usa_ifv_bradley": {
+      "file": "A front view of an M2 Bradley infantry fighting vehicle (IFV), 2nd Armored Division (DA-ST-84-06794).jpg",
+      "label": "M2 Bradley en Fort Hood",
+      "year": "1983",
+      "author": "U.S. Army / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "M2 de primera serie fotografiado el 15 de junio de 1983.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:A_front_view_of_an_M2_Bradley_infantry_fighting_vehicle_(IFV)%2C_2nd_Armored_Division_(DA-ST-84-06794).jpg"
+    },
+    "game-unit:l:usa_mbt_m60": {
+      "file": "M60 Patton 105mm.jpg",
+      "label": "M60 Patton de 105 mm",
+      "year": "2007",
+      "author": "Seano1",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Carro M60 expuesto, configuración y subvariante sin determinar.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:M60_Patton_105mm.jpg"
+    },
+    "game-unit:l:usa_spa_m109a2": {
+      "file": "Brasschaat M109A2 howitzer 01.jpg",
+      "label": "Obús autopropulsado M109A2",
+      "year": "2016",
+      "author": "Ad Meskens",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "M109A2 conservado en museo; «Paladin» en la ficha del juego pertenece a otra modernización.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Brasschaat_M109A2_howitzer_01.jpg"
+    },
+    "game-unit:l:usa_spa_m110a1": {
+      "file": "M110 self-propelled howitzer.jpg",
+      "label": "Obús autopropulsado M110",
+      "year": "Sin fecha",
+      "author": "Archivo Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "M110 identificado sin confirmar la variante A1.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:M110_self-propelled_howitzer.jpg"
+    },
+    "game-unit:l:usa_mlrs_m270": {
+      "file": "M270 MLRS - 190911-A-HE359-0120.jpg",
+      "label": "Vehículo M270 MLRS",
+      "year": "2019",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzador M270 en servicio, imagen posterior a la configuración de 1985.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:M270_MLRS_-_190911-A-HE359-0120.jpg"
+    },
+    "game-unit:l:usa_car_hemtt": {
+      "file": "Fort Irwin National Training Center - HEMTT - 1.jpg",
+      "label": "Dos camiones HEMTT",
+      "year": "2011",
+      "author": "Jarek Tuszyński",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Camiones HEMTT en Fort Irwin; subvariante no documentada.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Fort_Irwin_National_Training_Center_-_HEMTT_-_1.jpg"
+    },
+    "game-unit:l:usa_car_hmmwv_tow": {
+      "file": "Humvee with a BGM-71 TOW missile tube.jpg",
+      "label": "HMMWV equipado con TOW",
+      "year": "2011",
+      "author": "Matanya",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "HMMWV con tubo lanzador BGM-71 TOW.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Humvee_with_a_BGM-71_TOW_missile_tube.jpg"
+    },
+    "game-unit:l:usa_car_m923": {
+      "file": "M923.jpg",
+      "label": "Camión estadounidense M923",
+      "year": "Sin fecha",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Camión de cinco toneladas etiquetado M923.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:M923.jpg"
+    },
+    "game-unit:l:usa_mim-23_launcher": {
+      "file": "A Hawk missile launcher is prepared for a firing mission during exercise Brim Frost '83 - DPLA - dc75f4e6cf6fa0a8446accbce1e1320e.jpeg",
+      "label": "Lanzador MIM-23 Hawk",
+      "year": "1983",
+      "author": "SSgt Michael E. Lada / U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Lanzador Hawk en Brim Frost 83, Alaska.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Hawk_missile_launcher_is_prepared_for_a_firing_mission_during_exercise_Brim_Frost_'83_-_DPLA_-_dc75f4e6cf6fa0a8446accbce1e1320e.jpeg"
+    },
+    "game-unit:l:usa_mim-23_fcr": {
+      "file": "Hawk radar ror.JPEG",
+      "label": "Radar ROR del sistema Hawk",
+      "year": "Sin fecha",
+      "author": "U.S. Marine Corps",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Radar de alcance del Hawk, no acreditado como el FCR exacto.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Hawk_radar_ror.JPEG"
+    },
+    "game-unit:l:usa_mim-23_radar": {
+      "file": "Hawk radar cwar.JPEG",
+      "label": "Radar CWAR del sistema Hawk",
+      "year": "1983",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Radar CWAR en Brim Frost 83; configuración exacta de esta ficha no confirmada.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Hawk_radar_cwar.JPEG"
+    },
+    "game-unit:l:usa_sam_site_nike_hercules": {
+      "file": "SF-88 Nike Hercules Missile Site (06)- Missile on launcher (7399540726).jpg",
+      "label": "Lanzador Nike Hercules",
+      "year": "2012",
+      "author": "Archivo SF-88 / Wikimedia Commons",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Lanzador de museo, no el emplazamiento completo de la partida.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:SF-88_Nike_Hercules_Missile_Site_(06)-_Missile_on_launcher_(7399540726).jpg"
+    },
+    "game-unit:l:nv_bofors": {
+      "file": "Bofors 40 mm anti-aircraft gun.jpg",
+      "label": "Cañón Bofors 40 mm",
+      "year": "2008",
+      "author": "Bidgee",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Bofors 40 mm conservado en Australia, subvariante de Vietnam sin confirmar.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Bofors_40_mm_anti-aircraft_gun.jpg"
+    },
+    "game-unit:l:nv_s-60": {
+      "file": "57-mm AA gun S-60.jpg",
+      "label": "Cañón S-60 de 57 mm",
+      "year": "2009",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Pieza antiaérea S-60 aislada, expuesta en Zarya.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:57-mm_AA_gun_S-60.jpg"
+    },
+    "game-unit:l:nv_zu-23": {
+      "file": "ZU-23 anti-aircraft gun ready for fire.jpg",
+      "label": "Cañón ZU-23 desplegado",
+      "year": "1971",
+      "author": "Lt Col Joe B. Myers / U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía publicada en 1971 en documentación militar estadounidense.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:ZU-23_anti-aircraft_gun_ready_for_fire.jpg"
+    },
+    "game-unit:l:wp_aaa_ural_zu-23": {
+      "file": "Truck with antiaircraft gun.jpg",
+      "label": "ZU-23 sobre camión",
+      "year": "2002",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía muestra ZIL-131, no camión Ural; referencia de familia únicamente.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Truck_with_antiaircraft_gun.jpg"
+    },
+    "game-unit:l:usa_car_hmmwv": {
+      "file": "Hmmwv-036.jpg",
+      "label": "Vehículo HMMWV",
+      "year": "2005",
+      "author": "Albert Cahalan",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "HMMWV de la familia con armamento; variante no confirmada.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Hmmwv-036.jpg"
+    },
+    "game-unit:l:fr_sam_roland_launcher": {
+      "file": "Roland tank 01.jpg",
+      "label": "Sistema Roland autopropulsado",
+      "year": "Sin fecha",
+      "author": "U.S. Army / Redstone Arsenal",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Roland sobre chasis M109, diferente del lanzador francés concreto.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Roland_tank_01.jpg"
+    },
+    "game-ammo:usn_aim-9b": {
+      "file": "AIM-9B Sidewinder Front Left Side View.jpg",
+      "label": "Misil AIM-9B Sidewinder",
+      "year": "2015",
+      "author": "RoyKabanlit",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Proyectil identificado y expuesto sin aeronave.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9B_Sidewinder_Front_Left_Side_View.jpg",
+      "ammoIds": [
+        "usn_aim-9b"
+      ]
+    },
+    "game-ammo:usn_aim-9m": {
+      "file": "AIM-9M.png",
+      "label": "AIM-9M, sección de cabeza",
+      "year": "2006",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Imagen técnica de la cabeza, no del misil completo.",
+      "mediaType": "ilustración",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9M.png",
+      "ammoIds": [
+        "usn_aim-9m"
+      ]
+    },
+    "game-ammo:usn_aim-9d": {
+      "file": "Ordnancemen with AIM-9D Sidewinders on USS Coral Sea (CV-43) 1980.jpg",
+      "label": "AIM-9D sobre carro de transporte",
+      "year": "1980",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Misil manipulado a bordo, sin avión.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Ordnancemen_with_AIM-9D_Sidewinders_on_USS_Coral_Sea_(CV-43)_1980.jpg",
+      "ammoIds": [
+        "usn_aim-9d"
+      ]
+    },
+    "game-ammo:usn_gbu-10": {
+      "file": "GBU-10 xxl.jpg",
+      "label": "GBU-10 Paveway II de perfil",
+      "year": "Sin fecha",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Perfil aislado de la bomba, sin plataforma.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:GBU-10_xxl.jpg",
+      "ammoIds": [
+        "usn_gbu-10"
+      ]
+    },
+    "game-ammo:usn_mk-81": {
+      "file": "Mk. 81, Mk. 82 Bombs freigestellt.jpg",
+      "label": "Mk 81 y Mk 82 Snakeye expuestas",
+      "year": "2013",
+      "author": "JasperOCommons / fuente museística",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "La Mk 81 aparece junto a una Mk 82 Snakeye, sin avión.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk._81%2C_Mk._82_Bombs_freigestellt.jpg",
+      "ammoIds": [
+        "usn_mk-81"
+      ]
+    },
+    "game-ammo:usn_mk-82_snakeye": {
+      "file": "Mk. 81, Mk. 82 Bombs freigestellt.jpg",
+      "label": "Mk 82 Snakeye expuesta junto a Mk 81",
+      "year": "2013",
+      "author": "JasperOCommons / fuente museística",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Aparecen dos bombas, una Mk 82 con cola de frenado.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk._81%2C_Mk._82_Bombs_freigestellt.jpg",
+      "ammoIds": [
+        "usn_mk-82_snakeye"
+      ]
+    },
+    "game-ammo:usn_mk-84": {
+      "file": "US Navy 040429-N-1082Z-116 Aviation Ordnanceman Airman Lauren Carr, from Atlanta, Ga., puts a switch on a 2,000 lbs MK-84 general-purpose bomb.jpg",
+      "label": "Mk 84 de 2.000 libras",
+      "year": "2004",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Bomba aislada en el pañol de armamento, no montada.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_040429-N-1082Z-116_Aviation_Ordnanceman_Airman_Lauren_Carr%2C_from_Atlanta%2C_Ga.%2C_puts_a_switch_on_a_2%2C000_lbs_MK-84_general-purpose_bomb.jpg",
+      "ammoIds": [
+        "usn_mk-84"
+      ]
+    },
+    "game-ammo:usn_agm-123": {
+      "file": "AGM-123 Skipper II.jpg",
+      "label": "AGM-123 Skipper II",
+      "year": "1985",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de AGM-123 de 1985.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-123_Skipper_II.jpg",
+      "ammoIds": [
+        "usn_agm-123"
+      ]
+    },
+    "game-ammo:usn_aim-7e": {
+      "file": "AIM-7E Sea Sparrow Missile.jpg",
+      "label": "AIM-7E Sea Sparrow expuesto",
+      "year": "Sin fecha",
+      "author": "Autor de Wikimedia Commons",
+      "license": "CC BY 4.0",
+      "exactVariant": false,
+      "note": "Variante de empleo naval; no confirma variante aire-aire del juego.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-7E_Sea_Sparrow_Missile.jpg",
+      "ammoIds": [
+        "usn_aim-7e"
+      ]
+    },
+    "game-ammo:usn_aim-9c": {
+      "file": "AIM-9B-9D-9C NAN3-71.jpg",
+      "label": "AIM-9B, D y C en soporte",
+      "year": "1971",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de varias variantes, incluido AIM-9C; no aparece aislado.",
+      "mediaType": "fotografía",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9B-9D-9C_NAN3-71.jpg",
+      "ammoIds": [
+        "usn_aim-9c"
+      ]
     }
   }
 }
