@@ -11,6 +11,14 @@ const CATALOG_FLEET_SOURCES={
  fa18a:'usn_fa-18a',ea6b:'usn_ea-6b',e2c:'usn_e-2c',s3a:'usn_s-3a',
  sh2f:'usn_sh-2f',sh3h:'usn_sh-3h',hh3e:'usaf_hh-3',ah1t:'usmc_ah-1t'
 };
+const LEGACY_AMMO_IDS={
+ agm84c:'usn_agm-84c',agm78d:'usn_agm-78',agm45b:'usn_agm-45',
+ aim54:'usn_aim-54a',aim7:'usn_aim-7f',aim9:'usn_aim-9l',
+ mk46:'usn_mk46_mod5_air',mk46mod5:'usn_mk46_mod5_air',mk48:'usn_mk48_mod4',
+ gbu12:'usn_gbu-12',gbu24:'usn_gbu-24',mk82:'usn_mk-82',mk83:'usn_mk-83',
+ harpoon_ship:'usn_rgm-84c',rim66:'usn_rim-66e',rim67:'usn_rim-67b',
+ tomahawk:'usn_rgm-109c',agm88a:'usn_agm-88a'
+};
 const SOURCE_TO_FLEET=Object.fromEntries(Object.entries(CATALOG_FLEET_SOURCES).map(([id,source])=>[source,id]));
 function catalogNum(v){return Number.isFinite(v)?new Intl.NumberFormat('es-ES',{maximumFractionDigits:1}).format(v):'—'}
 function catalogNation(id){
@@ -64,7 +72,7 @@ function catalogInit(data){
  }
 }
 function catalogGetUnit(e){const src=e.gameId||CATALOG_FLEET_SOURCES[e.id];return src?catalogUnitMap.get(src):null}
-function catalogGetWeapon(e){return catalogWeaponMap.get(e.gameAmmoId||e.id)||null}
+function catalogGetWeapon(e){const key=e.gameAmmoId||LEGACY_AMMO_IDS[e.id]||e.id;return catalogWeaponMap.get(key)||null}
 function catalogFleetFor(e){
  if(e.gameAmmoId){
   if(state.fleetIds?.includes(e.id))return true;
