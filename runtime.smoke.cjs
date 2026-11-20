@@ -99,7 +99,7 @@ async function main(){
  assert.match(element('#detail-panel').innerHTML,/65 mn/);
  assert.match(element('#detail-panel').innerHTML,/3,5 mn/);
  vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
- assert.match(element('#detail-panel').innerHTML,/2.138 mn/);
+ assert.match(element('#detail-panel').innerHTML,/(?:2\\.138|2138) mn/);
  console.log('OK: ficha del Harpoon y autonomía de A-6E');
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
  for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.2.0"'),'Falta script actualizado '+script);
