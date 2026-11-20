@@ -43,7 +43,7 @@ const context=vm.createContext({
     json:async()=>JSON.parse(fs.readFileSync(locationOnDisk,'utf8'))};
  }
 });
-const scripts=['source.js','mod_source.js','planner.js','campaign.js','armory.js','operations.js','workshop.js','tactics.js','catalog.js','app.js'];
+const scripts=['source.js','mod_source.js','planner.js','campaign.js','armory.js','operations.js','workshop.js','tactics.js','catalog.js','image_pack.js','app.js'];
 for(const script of scripts)vm.runInContext(fs.readFileSync(path.join(root,script),'utf8'),context,{filename:script});
 const tick=()=>new Promise(res=>setImmediate(res));
 function click(page){
@@ -161,13 +161,21 @@ async function main(){
  assert.match(element('#page-content').innerHTML,/AGM-84C/);
  assert.doesNotMatch(element('#page-content').innerHTML,/No se pudo cargar el catálogo/);
  console.log('OK: existencias, uso y filtro de stock integrados con catálogo');
+ // Verificar integración sin imágenes previas y que las importaciones sean opcionales.
+ click('packs');
+ assert.match(element('#page-content').innerHTML,/Imágenes del juego/);
+ assert.match(element('#page-content').innerHTML,/Importar archivo ZIP/);
+ vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
+ assert.match(element('#detail-panel').innerHTML,/Imagen de referencia/);
+ assert.match(element('#detail-panel').innerHTML,/Importar ZIP de imágenes/);
+ console.log('OK: galería privada disponible sin romper las fichas');
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
  // El menú debe ofrecer una sola entrada, sin dos secciones similares.
  assert.doesNotMatch(html,/class="mnav" data-page="armory"/);
  assert.match(html,/class="mnav" data-page="library"/);
  assert.doesNotMatch(html,/class="nav-btn" data-page="armory"/);
  
- for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.4.0"'),'Falta script actualizado '+script);
+ for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.5.0"'),'Falta script actualizado '+script);
  console.log('OK: scripts versionados para evitar archivos antiguos en Android');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
