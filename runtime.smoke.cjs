@@ -59,8 +59,9 @@ function visible(name,pattern){
 async function main(){
  for(let i=0;i<5;i++)await tick();
  visible('copiloto inicial',/¿Qué está ocurriendo a la vez\?/);
- click('armory');visible('arsenal',/Mi arsenal/);
- assert.match(element('#page-content').innerHTML,/data-armory-stock/);
+ click('armory');visible('entrada antigua de Arsenal',/Unidades y armamento/);
+ assert.equal(location.hash,'#/library');
+ assert.match(element('#page-content').innerHTML,/data-catalog-stock/);
  click('fleet');visible('flota',/Mi Task Force/);
  assert.match(element('#page-content').innerHTML,/data-roster-ready/);
  click('planner');visible('plan individual',/Qué necesitas conseguir/);
@@ -78,8 +79,9 @@ async function main(){
  assert.equal(stats.assigned,61);
  console.log('OK: catálogo de 471 definiciones, flota 55+6');
  location.hash='#/armory';
- vm.runInContext('restoreRoute()',context);
- visible('URL directa al arsenal',/Mi arsenal/);
+ vm.runInContext('initializeRoute()',context);
+ visible('redirección URL antigua de Arsenal',/Unidades y armamento/);
+ assert.equal(location.hash,'#/library');
  // Comprobar catálogo completo, distancias de lanzamiento y filtro por Task Force.
  const numbers=vm.runInContext('({u:catalogSource.units.length,w:catalogSource.weapons.length,min:catalogWeaponMap.get("usn_agm-84c").min,max:catalogWeaponMap.get("usn_agm-84c").max,f14:catalogWeaponMap.get("usn_aim-54a").max,cruise:catalogUnitMap.get("usn_a-6e").maxNm,heli:catalogUnitMap.get("usn_sh-2f").maxNm})',context);
  assert.equal(numbers.u,636);assert.equal(numbers.w,471);
@@ -88,6 +90,7 @@ async function main(){
  console.log('OK: 636 unidades, 471 armas, autonomías y alcance mínimo/máximo');
  click('library');visible('fichas completas',/Unidades y armamento/);
  assert.match(element('#page-content').innerHTML,/data-catalog-scope="fleet"/);
+ assert.match(element('#page-content').innerHTML,/data-catalog-scope="stock"/);
  const scopeButton={dataset:{catalogScope:'fleet'},id:'',closest(){return this}};
  for(const cb of handlers.click||[])cb({target:scopeButton});
  const fleetHTML=element('#page-content').innerHTML;
@@ -101,8 +104,34 @@ async function main(){
  vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
  assert.match(element('#detail-panel').innerHTML,/(?:2\\.138|2138) mn/);
  console.log('OK: ficha del Harpoon y autonomía de A-6E');
+ // Uso y stock se actualizan desde la ficha sin abrir una segunda herramienta.
+ const change=(dataset,value)=>{
+  const input={dataset,value,id:'',checked:false};
+  for(const cb of handlers.change||[])cb({target:input});
+ };
+ vm.runInContext('openDetail("game-ammo:usn_agm-84c",{skipHistory:true})',context);
+ assert.match(element('#detail-panel').innerHTML,/Disponibilidad en mi campaña/);
+ change({catalogStock:'usn_agm-84c'},'8');
+ assert.equal(vm.runInContext('campaignAmmoCount("usn_agm-84c")',context),8);
+ assert.match(element('#detail-panel').innerHTML,/value="8"/);
+ change({catalogUse:'usn_agm-84c'},'off');
+ assert.equal(vm.runInContext('campaignAmmoUsed("usn_agm-84c")',context),false);
+ assert.match(element('#detail-panel').innerHTML,/No se considera en uso/);
+ change({catalogUse:'usn_agm-84c'},'on');
+ assert.equal(vm.runInContext('campaignAmmoUsed("usn_agm-84c")',context),true);
+ const stockScope={dataset:{catalogScope:'stock'},id:'',closest(){return this}};
+ for(const cb of handlers.click||[])cb({target:stockScope});
+ assert.match(element('#page-content').innerHTML,/En stock/);
+ assert.match(element('#page-content').innerHTML,/AGM-84C/);
+ assert.doesNotMatch(element('#page-content').innerHTML,/No se pudo cargar el catálogo/);
+ console.log('OK: existencias, uso y filtro de stock integrados con catálogo');
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
- for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.2.0"'),'Falta script actualizado '+script);
+ // El menú debe ofrecer una sola entrada, sin dos secciones similares.
+ assert.doesNotMatch(html,/class="mnav" data-page="armory"/);
+ assert.match(html,/class="mnav" data-page="library"/);
+ assert.doesNotMatch(html,/class="nav-btn" data-page="armory"/);
+ 
+ for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.3.0"'),'Falta script actualizado '+script);
  console.log('OK: scripts versionados para evitar archivos antiguos en Android');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
