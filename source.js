@@ -49,7 +49,7 @@ function gameItemsMarkup(items){
     const child=definition.containerItem&&Number(definition.attachments)>0?' · '+esc(Number(definition.attachments)*item.qty)+' proyectiles internos ('+esc(definition.containerItem.replace(/^usn_/,'').replaceAll('_',' '))+')':'';
     const qty='×'+esc(item.qty);
     const stock=definition.foc&&Number(definition.foc)>gameData.year?' · FOC '+esc(definition.foc):'';
-    return '<div class="game-ammo-line"><span>'+esc(gameAmmoName(item.id))+'<small>'+esc(item.id)+child+stock+'</small></span><b>'+qty+'</b></div>';
+    return '<div class="game-ammo-line"><span><button type="button" class="game-ammo-open" data-open="game-ammo:'+esc(item.id)+'">'+esc(gameAmmoName(item.id))+' <span aria-hidden="true">↗</span></button><small>'+esc(item.id)+child+stock+'</small></span><b>'+qty+'</b></div>';
   }).join('')+'</div></div>';
  }).join('');
 }
