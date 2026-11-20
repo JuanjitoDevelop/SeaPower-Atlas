@@ -97,12 +97,48 @@ async function main(){
  assert.match(fleetHTML,/Mi flota/);
  assert.match(fleetHTML,/A-6E/);
  assert.doesNotMatch(fleetHTML,/ARA A-4P/);
+ // Los números deben limitarse a la selección actual, no al total del juego.
+ assert.match(fleetHTML,/Todas \\(73\\)/,'todas las fichas de mi flota');
+ assert.match(fleetHTML,/Aeronaves \\(10\\)/,'solo las diez aeronaves de mi flota');
+ assert.match(fleetHTML,/Buques \\(6\\)/,'solo los seis buques de mi flota');
+ assert.doesNotMatch(fleetHTML,/Unidades en esta selección<\\/span>.*636/);
+ assert.doesNotMatch(fleetHTML,/Aeronaves \\(144\\)/);
+ assert.match(fleetHTML,/<strong>16<\\/strong><span>Unidades en esta selección<\\/span>/);
+ const aircraftButton={dataset:{filter:'aircraft'},id:'',closest(){return this}};
+ for(const cb of handlers.click||[])cb({target:aircraftButton});
+ const filteredAircraft=element('#page-content').innerHTML;
+ assert.match(filteredAircraft,/<strong>10<\\/strong><span>Unidades en esta selección<\\/span>/);
+ assert.match(filteredAircraft,/<strong>0<\\/strong><span>Armas y sensores en esta selección<\\/span>/);
+ assert.match(filteredAircraft,/10 resultados de mi flota/);
+ const weaponButton={dataset:{filter:'weapon'},id:'',closest(){return this}};
+ for(const cb of handlers.click||[])cb({target:weaponButton});
+ const filteredWeapons=element('#page-content').innerHTML;
+ assert.match(filteredWeapons,/<strong>0<\\/strong><span>Unidades en esta selección<\\/span>/);
+ assert.doesNotMatch(filteredWeapons,/Armas y sensores en esta selección<\\/span>.*471/);
+ console.log('OK: contadores por flota, categorías y tipo activos');
  console.log('OK: filtro rápido de flota activa');
  vm.runInContext('openDetail("game-ammo:usn_agm-84c",{skipHistory:true})',context);
  assert.match(element('#detail-panel').innerHTML,/65 mn/);
  assert.match(element('#detail-panel').innerHTML,/3,5 mn/);
  vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
  assert.match(element('#detail-panel').innerHTML,/(?:2\\.138|2138) mn/);
+ // Navegación directa desde unidad a arma y de regreso a plataformas que la referencian.
+ assert.match(element('#detail-panel').innerHTML,/data-open="game-ammo:usn_agm-84c"/);
+ const inline=vm.runInContext("catalogInlineText('Un A-6E escoltado por F-14A y armado con AGM-84C.','test')",context);
+ assert.match(inline,/data-open="a6e"/);
+ assert.match(inline,/data-open="f14a"/);
+ assert.match(inline,/data-open="game-ammo:usn_agm-84c"/);
+ vm.runInContext('openDetail("game-ammo:usn_agm-84c",{skipHistory:true})',context);
+ assert.match(element('#detail-panel').innerHTML,/Unidades relacionadas/);
+ assert.match(element('#detail-panel').innerHTML,/data-open="a6e"/);
+ vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
+ const jump={dataset:{open:'game-ammo:usn_agm-84c'},id:'',closest(){return this}};
+ for(const cb of handlers.click||[])cb({target:jump});
+ assert.match(element('#detail-panel').innerHTML,/Envolvente de ataque/);
+ assert.match(location.hash,/game-ammo%3Ausn_agm-84c/);
+ vm.runInContext('openDetail("sh2f",{skipHistory:true})',context);
+ assert.match(element('#detail-panel').innerHTML,/class="game-ammo-open" data-open="game-ammo:/);
+ console.log('OK: enlaces bidireccionales, texto, loadouts y navegación directa entre fichas');
  console.log('OK: ficha del Harpoon y autonomía de A-6E');
  // Uso y stock se actualizan desde la ficha sin abrir una segunda herramienta.
  const change=(dataset,value)=>{
