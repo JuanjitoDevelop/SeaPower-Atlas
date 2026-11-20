@@ -1,6 +1,6 @@
 {
-  "version": 11,
-  "description": "Galera de Sea Power: unidades, equipo terrestre y armas, con referencias históricas, licencias y variantes documentadas.",
+  "version": 12,
+  "description": "261 referencias visuales del catálogo Sea Power con 48 nuevas fichas documentadas y corrección histórica del M270 de 1984; cada imagen conserva archivo, autor, licencia y precisión de variante.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -2186,15 +2186,15 @@
       "source": "https://commons.wikimedia.org/wiki/File:M110_self-propelled_howitzer.jpg"
     },
     "game-unit:l:usa_mlrs_m270": {
-      "file": "M270 MLRS - 190911-A-HE359-0120.jpg",
-      "label": "Vehículo M270 MLRS",
-      "year": "2019",
-      "author": "U.S. Army",
+      "file": "M270 MLRS (1984).JPEG",
+      "label": "M270 MLRS, REFORGER 1984",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:M270_MLRS_(1984).JPEG",
+      "author": "SSG Richard Hart / U.S. Army",
       "license": "Dominio público (EE. UU.)",
-      "exactVariant": false,
-      "note": "Lanzador M270 en servicio, imagen posterior a la configuración de 1985.",
-      "mediaType": "fotografía",
-      "source": "https://commons.wikimedia.org/wiki/File:M270_MLRS_-_190911-A-HE359-0120.jpg"
+      "exactVariant": true,
+      "note": "M270 de primera generación durante SPEARPOINT 84 / REFORGER 84; sustituye la foto del modelo moderno de 2019.",
+      "mediaType": "fotografía"
     },
     "game-unit:l:usa_car_hemtt": {
       "file": "Fort Irwin National Training Center - HEMTT - 1.jpg",
@@ -2477,6 +2477,606 @@
       "source": "https://commons.wikimedia.org/wiki/File:AIM-9B-9D-9C_NAN3-71.jpg",
       "ammoIds": [
         "usn_aim-9c"
+      ]
+    },
+    "game-unit:v:usn_ssn_permit": {
+      "file": "USS Permit (SSN-594).jpg",
+      "label": "Submarino nuclear USS Permit",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Permit_(SSN-594).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Permit (SSN-594) de la clase Permit/Thresher; fotografía posterior al marco de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_ssn_sturgeon": {
+      "file": "USS STURGEON (SSN-637) underway off Long Island, N.Y.jpeg",
+      "label": "USS Sturgeon, submarino nuclear",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_STURGEON_(SSN-637)_underway_off_Long_Island%2C_N.Y.jpeg",
+      "author": "Naval Imaging Command / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Sturgeon (SSN-637) navegando cerca de Long Island el 2 de enero de 1991.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_ddg_coontz": {
+      "file": "USS Coontz (DLG-9) modernised at Philadelphia Navy Yard c1971.jpg",
+      "label": "USS Coontz, clase Coontz",
+      "year": "Aprox. 1971",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Coontz_(DLG-9)_modernised_at_Philadelphia_Navy_Yard_c1971.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Foto del Coontz en astillero tras su modernización; no reproduce necesariamente la configuración del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_ffg_brooke": {
+      "file": "USS Brooke (FFG-1) underway on 17 January 1988 (6639999).jpg",
+      "label": "USS Brooke (FFG-1)",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Brooke_(FFG-1)_underway_on_17_January_1988_(6639999).jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fragata clase Brooke, tres años después de la fecha central de la campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_ff_amazon": {
+      "file": "HMS Amazon (F 169) during Exercise RIMPAC 86.jpg",
+      "label": "HMS Amazon, fragata Type 21",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Amazon_(F_169)_during_Exercise_RIMPAC_86.jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fragata británica HMS Amazon durante RIMPAC 86, imagen posterior a 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_ssn_valiant": {
+      "file": "HMS Valiant S102 01.jpg",
+      "label": "HMS Valiant (S102), submarino nuclear",
+      "year": "1994",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Valiant_S102_01.jpg",
+      "author": "OS2 John Bouvia / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Submarino de la clase Valiant en Port Canaveral el 16 de abril de 1994; no es el acorazado homónimo.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_bdk_ivan_rogov": {
+      "file": "Ivan Rogov class landing ship with soviet military equipment.JPEG",
+      "label": "Buque anfibio soviético clase Ivan Rogov",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:Ivan_Rogov_class_landing_ship_with_soviet_military_equipment.JPEG",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque del Proyecto 1174 de desembarco; se ven vehículos militares embarcados.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_ssn_alfa": {
+      "file": "A starboard beam view of a Soviet Alfa Class nuclear-powered attack submarine underway - DPLA - d3a02a1da0fbe287b3dc1596f5fa3df3.jpeg",
+      "label": "Submarino soviético clase Alfa",
+      "year": "Década de 1980",
+      "source": "https://commons.wikimedia.org/wiki/File:A_starboard_beam_view_of_a_Soviet_Alfa_Class_nuclear-powered_attack_submarine_underway_-_DPLA_-_d3a02a1da0fbe287b3dc1596f5fa3df3.jpeg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de perfil de submarino nuclear Proyecto 705 Alfa en navegación.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_rkr_kresta1": {
+      "file": "Soviet Kresta-I class cruiser in the Mediterranean Sea in 1969.jpg",
+      "label": "Crucero soviético clase Kresta I",
+      "year": "1969",
+      "source": "https://commons.wikimedia.org/wiki/File:Soviet_Kresta-I_class_cruiser_in_the_Mediterranean_Sea_in_1969.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Crucero misilístico Proyecto 1134 Kresta I, no la variante Kresta II.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_ss_tango": {
+      "file": "PM-24&proekt641B-1986.jpg",
+      "label": "Submarino clase Tango Proyecto 641B",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:PM-24%26proekt641B-1986.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Submarino soviético Tango al costado de buque de reparación PM-24, 1986.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_ssbn_yankee": {
+      "file": "Submarine Yankee I class.jpg",
+      "label": "Submarino balístico soviético Yankee I",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Yankee_I_class.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Vista completa de un Proyecto 667A Yankee I, tomada en 1977.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_ssn_victor3": {
+      "file": "Victor III class submarine.jpg",
+      "label": "Submarino soviético clase Victor III",
+      "year": "Década de 1980",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_III_class_submarine.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de la clase Victor III (Proyecto 671RTM); fecha y unidad concreta no confirmadas.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_car_ural": {
+      "file": "Ural 375 truck.jpg",
+      "label": "Camión soviético Ural-375",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Ural_375_truck.jpg",
+      "author": "Delta 51",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "Camión Ural-375 en una exposición polaca; el ID genérico Ural del juego no especifica esta versión.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_p-35_radar": {
+      "file": "Radar station P-35.jpg",
+      "label": "Radar de búsqueda soviético P-35",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Radar_station_P-35.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Radar P-35 fotografiado en el museo de historia de la defensa aérea de Zarya.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_p-19_radar": {
+      "file": "P-19 radar system.jpg",
+      "label": "Radar P-19 Flat Face B",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:P-19_radar_system.jpg",
+      "author": "ShinePhantom",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Sistema P-19 en el Museo Técnico de Togliatti; no representa un radar soviético activo en 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_p-10_radar": {
+      "file": "Knife Rest B.png",
+      "label": "Radar P-10 Knife Rest B, esquema CIA",
+      "year": "1960",
+      "source": "https://commons.wikimedia.org/wiki/File:Knife_Rest_B.png",
+      "author": "Central Intelligence Agency",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Ilustración de inteligencia de la CIA, no fotografía de radar; subsistema P-10/Knife Rest B.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:l:wp_sa-10_tel": {
+      "file": "S-300 launcher, 2009.jpg",
+      "label": "Lanzador 5P85D del sistema S-300P",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:S-300_launcher%2C_2009.jpg",
+      "author": "Archlinux",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "TEL S-300P en desfile de 2009; la subvariante del vehículo del juego no está acreditada.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-3_launcher": {
+      "file": "Polish S-125 Neva-Pechora SAM system (11138461265).jpg",
+      "label": "Lanzador S-125 Neva/Pechora (SA-3)",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:Polish_S-125_Neva-Pechora_SAM_system_(11138461265).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Lanzador S-125 con cuatro V-600 expuesto en Varsovia, identificación exacta del sistema.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-4_launcher": {
+      "file": "2K11 «Krug» medium surface-to-air missile system (NATO SA-4 Ganef) in the Military-historical Museum of Artillery, Engineer and Signal Corps in Saint-Petersburg, Russia.jpg",
+      "label": "Lanzador 2K11 Krug (SA-4 Ganef)",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:2K11_%C2%ABKrug%C2%BB_medium_surface-to-air_missile_system_(NATO_SA-4_Ganef)_in_the_Military-historical_Museum_of_Artillery%2C_Engineer_and_Signal_Corps_in_Saint-Petersburg%2C_Russia.jpg",
+      "author": "Ed Brambley",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Lanzador soviético SA-4 Ganef fotografiado en el Museo de Artillería de San Petersburgo.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-5_launcher": {
+      "file": "ZRK S-200V 2007 G3.jpg",
+      "label": "Lanzador S-200V, SA-5 Gammon",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:ZRK_S-200V_2007_G3.jpg",
+      "author": "George Chernilevsky",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Lanzador S-200V de museo ucraniano; la posición y el equipo auxiliar de campaña no están representados.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-5_squarepair": {
+      "file": "Square Pair radar.jpg",
+      "label": "Radar 5N62 Square Pair del S-200",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Square_Pair_radar.jpg",
+      "author": "David Birkas",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "Antena del radar de control de tiro 5N62 expuesta en Kecel, Hungría.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sam_site_sa-2": {
+      "file": "Polish S-75 Dvina Surface to Air Missile (SAM) system (11138510965).jpg",
+      "label": "Sistema S-75 Dvina / SA-2",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:Polish_S-75_Dvina_Surface_to_Air_Missile_(SAM)_system_(11138510965).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La foto muestra parte del lanzador S-75 de museo, no la disposición completa del sitio SA-2 del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sam_site_sa-3": {
+      "file": "Polish S-125 Neva-Pechora SAM system (11138461265).jpg",
+      "label": "Sistema antiaéreo SA-3 en emplazamiento",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:Polish_S-125_Neva-Pechora_SAM_system_(11138461265).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "El equipo muestra el lanzador Neva/Pechora; no el conjunto completo de instalaciones ni su geometría.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_mbt_t-55m": {
+      "file": "T-55M.jpg",
+      "label": "T-55M modernizado en Finlandia",
+      "year": "2019",
+      "source": "https://commons.wikimedia.org/wiki/File:T-55M.jpg",
+      "author": "XoravaX",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La modernización finlandesa posterior a 1985 difiere de la modernización soviética T-55M del juego; referencia de familia.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:usn_mk44_air": {
+      "file": "Torpedo MK-44.JPG",
+      "label": "Torpedo antisubmarino Mark 44",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Torpedo_MK-44.JPG",
+      "author": "Mario Žamić",
+      "license": "CC BY-SA 2.5",
+      "exactVariant": true,
+      "note": "Torpedo Mk 44 de la Armada croata expuesto de forma aislada, compatible como referencia física de la versión aerolanzada.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk44_air"
+      ]
+    },
+    "game-ammo:usn_mk44_ship": {
+      "file": "Torpedo MK-44.JPG",
+      "label": "Torpedo antisubmarino Mark 44",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Torpedo_MK-44.JPG",
+      "author": "Mario Žamić",
+      "license": "CC BY-SA 2.5",
+      "exactVariant": true,
+      "note": "Mismo modelo de torpedo Mk 44 expuesto; esta ficha corresponde al lanzamiento desde buque.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk44_ship"
+      ]
+    },
+    "game-ammo:usn_mk37": {
+      "file": "Mark 37 Electric Torpedo.jpg",
+      "label": "Torpedo eléctrico Mark 37",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_37_Electric_Torpedo.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Torpedo Mk 37 expuesto en museo del USS Bowfin; subvariante Mod 0 no confirmada.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk37"
+      ]
+    },
+    "game-ammo:usn_mk37_mod1": {
+      "file": "Mark 37 Electric Torpedo.jpg",
+      "label": "Torpedo eléctrico Mark 37",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_37_Electric_Torpedo.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Fotografía de familia Mk 37 sin indicación de la modificación Mod 1; no se presenta como ejemplar exacto.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk37_mod1"
+      ]
+    },
+    "game-ammo:usn_mk48": {
+      "file": "Mk 48 torpedo on hoist 1982.JPEG",
+      "label": "Torpedo Mark 48 en izado",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk_48_torpedo_on_hoist_1982.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Torpedo Mark 48 recuperado en 1982; la imagen no permite identificar el Mod 1 de la partida.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk48"
+      ]
+    },
+    "game-ammo:usn_mk48_mod4_adcap": {
+      "file": "Mark 48 ADCAP torpedo.jpg",
+      "label": "Torpedo Mk 48 ADCAP",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_48_ADCAP_torpedo.jpg",
+      "author": "John Narewski / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de un Mk48 ADCAP descargado de USS Annapolis en 2009. No acredita exactamente Mod 4.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk48_mod4_adcap"
+      ]
+    },
+    "game-ammo:usn_rim-24b": {
+      "file": "Tartar.jpg",
+      "label": "RIM-24 Tartar expuesto",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:Tartar.jpg",
+      "author": "U.S. Navy / White Sands Missile Range Museum",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Tartar original expuesto en museo; la imagen no identifica la subvariante RIM-24B.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-24b"
+      ]
+    },
+    "game-ammo:usn_rim-8": {
+      "file": "Talos.jpg",
+      "label": "Misil naval RIM-8 Talos en museo",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:Talos.jpg",
+      "author": "U.S. Army / White Sands Missile Range Museum",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Misil Talos completo expuesto en White Sands. La designación concreta RIM-8J no consta en la fotografía.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-8"
+      ]
+    },
+    "game-ammo:usn_rim-2f": {
+      "file": "RIM-2 Terrier.jpg",
+      "label": "Misil naval RIM-2 Terrier en lanzador",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-2_Terrier.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Misil Terrier fotografiado sobre lanzador; no se identifica la subvariante F.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-2f"
+      ]
+    },
+    "game-ammo:usn_rim-67a": {
+      "file": "RIM-67 Standard missiles aboard USS Mahan (DDG-42) on 1 March 1983 (6370832).jpg",
+      "label": "Misiles Standard ER durante carga",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-67_Standard_missiles_aboard_USS_Mahan_(DDG-42)_on_1_March_1983_(6370832).jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La imagen muestra Standard ER SM-2 en pruebas NTU, no acredita la variante RIM-67A/SM-1ER del juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-67a"
+      ]
+    },
+    "game-ammo:usn_rim-7": {
+      "file": "RIM-7 is launched from USS Nimitz (CVN-68), circa in 1983.jpg",
+      "label": "Sea Sparrow RIM-7F en lanzamiento",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-7_is_launched_from_USS_Nimitz_(CVN-68)%2C_circa_in_1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La imagen identifica RIM-7F, mientras el catálogo especifica RIM-7E; referencia de familia, no coincidencia exacta.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-7"
+      ]
+    },
+    "game-ammo:usn_rim-66b": {
+      "file": "RIM-66 launch from USS Norton Sound (AVM-1) 1983.JPEG",
+      "label": "RIM-66B Standard MR en lanzamiento",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-66_launch_from_USS_Norton_Sound_(AVM-1)_1983.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Lanzamiento de RIM-66B del USS Norton Sound, variante reconocida expresamente en archivo.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-66b"
+      ]
+    },
+    "game-ammo:usn_rim-66c": {
+      "file": "RIM-66 Standard missiles on launcher aboard USS Ticonderoga (CG-47) during tests off Puerto Rico March 1983.jpg",
+      "label": "RIM-66 Standard SM-2 en Mk 26",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-66_Standard_missiles_on_launcher_aboard_USS_Ticonderoga_(CG-47)_during_tests_off_Puerto_Rico_March_1983.jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "SM-2 Standard MR en Ticonderoga de primera serie; la foto no permite confirmar la subvariante RIM-66C.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-66c"
+      ]
+    },
+    "game-ammo:wp_as-14a": {
+      "file": "Kh-29L (1).jpg",
+      "label": "Kh-29L, familia AS-14 Kedge",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Kh-29L_(1).jpg",
+      "author": "KGyST",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Maqueta de instrucción de Kh-29L aislada en exposición; la equivalencia concreta AS-14A debe confirmarse.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_as-14a"
+      ]
+    },
+    "game-ammo:wp_as-14b": {
+      "file": "Kh-29T air-to-surface missile in Park Patriot 02.jpg",
+      "label": "Kh-29T, familia AS-14 Kedge",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Kh-29T_air-to-surface_missile_in_Park_Patriot_02.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar Kh-29T en Park Patriot; la equivalencia de subvariante exacta AS-14B requiere comprobación.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_as-14b"
+      ]
+    },
+    "game-ammo:wp_kab-500l": {
+      "file": "KAB-500L aerial bomb in Park Patriot 01.jpg",
+      "label": "Bomba guiada soviética KAB-500L",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:KAB-500L_aerial_bomb_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "KAB-500L completa fotografiada en el museo Patriot en 2016; modelo identificado.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_kab-500l"
+      ]
+    },
+    "game-ammo:wp_fab-250": {
+      "file": "ФАБ-250.JPG",
+      "label": "Bomba FAB-250 soviética",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%90%D0%91-250.JPG",
+      "author": "Шнапс",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Bomba FAB-250 real expuesta; no reproduce la carga ni el montaje de un avión.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_fab-250"
+      ]
+    },
+    "game-ammo:wp_fab-1500_m54": {
+      "file": "Museum of Long-Range Aviation (340-17).jpg",
+      "label": "Bomba FAB-1500 M-54",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Museum_of_Long-Range_Aviation_(340-17).jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Bomba FAB-1500 M-54 identificada en la descripción del Museo de Aviación de Largo Alcance.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_fab-1500_m54"
+      ]
+    },
+    "game-ammo:wp_sa-13": {
+      "file": "9M37 surface-to-air missile of Strela-10 system.jpg",
+      "label": "Misil 9M37 del SA-13 Strela-10",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:9M37_surface-to-air_missile_of_Strela-10_system.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Proyectil 9M37 del Strela-10 expuesto aislado en museo, sin vehículo portador.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_sa-13"
+      ]
+    },
+    "game-ammo:rn_seacat": {
+      "file": "Shorts Seacat (Robot 07) SAM 001.jpg",
+      "label": "Misil Sea Cat / Rb 07 en exposición",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Shorts_Seacat_(Robot_07)_SAM_001.jpg",
+      "author": "Marinmuseum (Swedish Navy Museum)",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Sea Cat británico conservado en museo sueco; corresponde a familia de misiles, sin validar versión GWS-21.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "rn_seacat"
+      ]
+    },
+    "game-ammo:rn_seacat_mk2": {
+      "file": "Shorts Seacat (Robot 07) SAM 001.jpg",
+      "label": "Misil Sea Cat / Rb 07 en exposición",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Shorts_Seacat_(Robot_07)_SAM_001.jpg",
+      "author": "Marinmuseum (Swedish Navy Museum)",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar Sea Cat sueco sin equivalencia acreditada con la versión GWS-24 del juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "rn_seacat_mk2"
+      ]
+    },
+    "game-ammo:rn_seaslug_mk2": {
+      "file": "Sea Slug Mark 2 missile at Explosion Museum.jpg",
+      "label": "Misil Sea Slug Mark 2 expuesto",
+      "year": "2023",
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_Slug_Mark_2_missile_at_Explosion_Museum.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil Sea Slug Mark 2 de cuerpo completo fotografiado en el Explosion Museum, Gosport.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "rn_seaslug_mk2"
+      ]
+    },
+    "game-ammo:fr_r530em": {
+      "file": "Matra R-530 (MAE).JPG",
+      "label": "Misil aire-aire Matra R.530",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Matra_R-530_(MAE).JPG",
+      "author": "Duch.seb",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Ejemplar Matra R.530 en Le Bourget, sin identificar la variante R-530K (SARH) del juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "fr_r530em"
+      ]
+    },
+    "game-ammo:knm_penguin_mk2": {
+      "file": "Penguin anti-ship missile of the Norwegian Navy.jpg",
+      "label": "Misil Penguin Mk 2 mod 6",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Penguin_anti-ship_missile_of_the_Norwegian_Navy.jpg",
+      "author": "Mosbatho",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Penguin Mk 2 mod 6 en contenedor de lanzamiento del museo de defensa noruego, variante empleada por lanchas Hauk.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "knm_penguin_mk2"
       ]
     }
   }

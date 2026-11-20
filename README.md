@@ -2,7 +2,9 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.15
+## Estado actual · versión 3.16
+
+- **Lote 09 de 48 fichas:** 12 submarinos y buques, 12 sistemas terrestres y 24 armas. Se sustituyó el M270 de 2019 por una fotografía de ejercicios de 1984. Total **261 referencias**, **260 identificadores originales cubiertos** y **847 pendientes**. Los archivos se contrastaron con fichas de Wikimedia Commons y cada variante aproximada mantiene aviso explícito; las versiones diferentes de un mismo misil pueden compartir fotografía de familia sin contarse como coincidencia exacta.
 
 - **Lote 08 — armamento y plataformas terrestres:** 29 imágenes documentadas (19 plataformas terrestres y 10 armas), hasta **213 referencias** visuales y **212 identificadores distintos** cubiertos de los 1.107 disponibles; 895 pendientes. Se preserva la atribución de autor y licencias, con notas de variante; se descartó un camión PLS incorrectamente etiquetado HEMTT.
 
