@@ -32,6 +32,8 @@ jobs:
           node --check campaign.js
           node --check armory.js
           node --check operations.js
+          node --check catalog.js
+          node -e "const d=require('./catalogo_completo_1985.json');if(d.units.length!==636||d.weapons.length!==471)process.exit(1);console.log('636 unidades y 471 armas: OK')"
           node runtime.smoke.cjs
           node planner.test.cjs
           node --check tactics.js
@@ -45,9 +47,9 @@ jobs:
           python3 -m http.server 8765 --bind 127.0.0.1 >/tmp/atlas-http.log 2>&1 &
           server=$!
           trap 'kill "$server" 2>/dev/null || true' EXIT
-          for route in ops armory; do
-            html="$("$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.1.0#/$route" 2>/tmp/atlas-chrome.log)"
-            if [ "$route" = "ops" ]; then expected='class="ops-page"'; else expected='class="armory-page"'; fi
+          for route in ops armory library; do
+            html="$("$chrome" --headless --no-sandbox --disable-gpu --disable-dev-shm-usage --disable-background-networking --virtual-time-budget=5000 --dump-dom "http://127.0.0.1:8765/?v=3.2.0#/$route" 2>/tmp/atlas-chrome.log)"
+            case "$route" in ops) expected='class="ops-page"';; armory) expected='class="armory-page"';; library) expected='class="catalog-page"';; esac
             if ! grep -Fq "$expected" <<< "$html"; then
               echo "Error al abrir $route en Chrome; salida del navegador:"
               echo "$html" | tail -c 2200
