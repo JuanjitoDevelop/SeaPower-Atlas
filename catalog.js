@@ -179,3 +179,106 @@ function catalogInventoryMarkup(e){
  '<p class="catalog-inventory-note">Dejar el campo vacío significa «sin comprobar»; escribir 0 significa «agotado». El copiloto utiliza los valores que introduzcas.</p>'+
  '<button type="button" class="catalog-fleet-link" data-page="fleet">Revisar unidades de mi flota</button></section>';
 }
+
+
+function catalogShortLinks(nodes,maxVisible=10){
+ const buttons=nodes.map(e=>'<button type="button" class="catalog-entity-link" data-open="'+esc(e.id)+'">'+esc(e.name)+' <span aria-hidden="true">↗</span></button>');
+ const visible=buttons.slice(0,maxVisible).join('');
+ const more=buttons.length>maxVisible?'<details class="catalog-links-more"><summary>Ver otros '+(buttons.length-maxVisible)+' registros relacionados</summary><div class="catalog-links-grid">'+buttons.slice(maxVisible).join('')+'</div></details>':'';
+ return '<div class="catalog-links-grid">'+visible+'</div>'+more;
+}
+
+function catalogUnitUsersForAmmo(id){
+ if(!catalogUnitUsersForAmmo.cache){
+  const reverse=new Map();
+  for(const u of catalogUnitMap.values()){
+   for(const ammo of u.weapons||[]){
+    if(!reverse.has(ammo))reverse.set(ammo,[]);
+    reverse.get(ammo).push(u);
+   }
+  }
+  catalogUnitUsersForAmmo.cache=reverse;
+ }
+ return catalogUnitUsersForAmmo.cache.get(id)||[];
+}
+
+function catalogRelationsMarkup(e){
+ const u=catalogGetUnit(e);
+ if(u){
+  const used=catalogUnitWeapons(e);
+  // También recuperar relaciones históricas del catálogo editorial, sin duplicar.
+  const links=[...new Set([...(used||[]),...((e.equipment||[]).map(id=>LEGACY_AMMO_IDS[id]||id))])];
+  const items=links.map(id=>entry('game-ammo:'+id)||entry(id)).filter(Boolean);
+  if(!items.length)return '';
+  return '<section class="detail-section catalog-related"><h3>Armas y equipo de esta unidad · abrir fichas</h3>'+
+   catalogShortLinks(items,12)+
+   '<p class="catalog-fine">Referencias de configuraciones y variantes de los archivos. No significa que cada arma esté cargada, disponible o corresponda al año actual de la misión.</p></section>';
+ }
+ const weapon=catalogGetWeapon(e);
+ if(!weapon)return '';
+ const id=weapon.id;
+ const activeIds=campaignPlatformsForAmmo(id);
+ const active=activeIds.map(key=>entry(key)).filter(Boolean);
+ const known=new Set(activeIds);
+ const original=catalogUnitUsersForAmmo(id).map(x=>{
+  const sid=SOURCE_TO_FLEET[x.id];
+  return {id:sid||'game-unit:'+x.kind+':'+x.id,name:entry(sid||'game-unit:'+x.kind+':'+x.id)?.name||x.name};
+ }).filter(x=>!known.has(x.id)&&Boolean(entry(x.id)));
+ if(!active.length&&!original.length)return '';
+ return '<section class="detail-section catalog-related"><h3>Unidades relacionadas · abrir fichas</h3>'+
+ (active.length?'<h4>En mi flota</h4>'+catalogShortLinks(active,10):'<p class="catalog-fine">Ninguna plataforma de tu flota tiene actualmente esta munición asociada.</p>')+
+ (original.length?'<h4>Otros modelos que la referencian en los archivos</h4>'+catalogShortLinks(original,12):'')+
+ '<p class="catalog-fine">Compatibilidad o referencia en archivos INI; no implica carga equipada, reservas disponibles ni vigencia histórica en 1985.</p></section>';
+}
+
+function catalogBuildInlineIndex(){
+ if(catalogBuildInlineIndex.cache)return catalogBuildInlineIndex.cache;
+ const map=new Map();
+ const force={
+  'A-6E':'a6e','S-3A':'s3a','SH-2F':'sh2f','SH-3H':'sh3h','F-14A':'f14a',
+  'F/A-18A':'fa18a','EA-6B':'ea6b','E-2C':'e2c','AH-1T':'ah1t','HH-3E':'hh3e',
+  'USS Nimitz':'nimitz','USS Missouri':'missouri','USS Los Angeles':'losangeles',
+  'AGM-84C':'game-ammo:usn_agm-84c','AIM-54A':'game-ammo:usn_aim-54a',
+  'AGM-78':'game-ammo:usn_agm-78','AGM-45':'game-ammo:usn_agm-45',
+  'Mk 46 Mod 5':'game-ammo:usn_mk46_mod5_air'
+ };
+ // Solo nombres suficientemente específicos; no enlazar palabras ambiguas ("arma", "patrulla").
+ const counts=new Map();
+ const entries=[...(core?.entries||[]),...(catalogEntries||[])];
+ for(const e of entries){
+  const vals=[e.name,...(e.aliases||[])];
+  for(const raw of vals){
+   const name=String(raw||'').trim();
+   if(name.length<6||name.length>70||!/\d|^USS /i.test(name))continue;
+   const key=name.toLocaleLowerCase('es');
+   const prev=counts.get(key);
+   if(prev&&prev.id!==e.id)counts.set(key,{id:null,count:prev.count+1});
+   else if(!prev)counts.set(key,{id:e.id,count:1});
+  }
+ }
+ for(const [name,v] of counts)if(v.id)map.set(name,v.id);
+ for(const [name,id] of Object.entries(force))if(entry(id))map.set(name.toLocaleLowerCase('es'),id);
+ const keys=[...map.keys()].sort((a,b)=>b.length-a.length);
+ const escapeRx=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+ const rx=keys.length?new RegExp('(?<![\\p{L}\\p{N}_])(?:'+keys.map(escapeRx).join('|')+')(?![\\p{L}\\p{N}_])','giu'):null;
+ catalogBuildInlineIndex.cache={map,rx};
+ return catalogBuildInlineIndex.cache;
+}
+
+function catalogInlineText(text,fromId){
+ const raw=String(text??'');
+ const {map,rx}=catalogBuildInlineIndex();
+ if(!rx)return esc(raw);
+ rx.lastIndex=0;
+ let output='',last=0;
+ for(const match of raw.matchAll(rx)){
+  const index=match.index;
+  output+=esc(raw.slice(last,index));
+  const target=map.get(match[0].toLocaleLowerCase('es'));
+  output+=target&&target!==fromId&&entry(target)?
+   '<button type="button" class="catalog-inline-link" data-open="'+esc(target)+'" title="Abrir ficha de '+esc(match[0])+'">'+esc(match[0])+' <span aria-hidden="true">↗</span></button>':
+   esc(match[0]);
+  last=index+match[0].length;
+ }
+ return output+esc(raw.slice(last));
+}
