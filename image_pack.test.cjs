@@ -54,6 +54,7 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
    assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
    assert.match(p.license,/Dominio público/);
    assert.ok(p.file&&p.label&&p.year&&p.author);
+   if(armament.includes(id))assert.ok(Array.isArray(p.ammoIds)&&p.ammoIds.length,'ID interno para '+id);
  }
  assert.equal(manifest.items.agm84c.exactVariant,false,'No confundir AGM-84A y C');
  assert.match(manifest.items.agm84c.note,/NO identifica el AGM-84C/);
@@ -64,6 +65,13 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  assert.match(context.tests.galleryCardMarkup(aircraft),/Fotografía histórica/);
  assert.match(context.tests.galleryCardMarkup(aircraft),/commons.wikimedia.org/);
  assert.match(context.tests.galleryCardMarkup(aircraft),/Fuente y licencia/);
+ const gameHarpoon={id:'game-ammo:usn_agm-84c',gameAmmoId:'usn_agm-84c',category:'weapon',name:'AGM-84C'};
+ assert.match(context.tests.galleryCardMarkup(gameHarpoon),/AGM-84A Harpoon/,'La foto se vincula a la entrada de munición interna');
+ const gameMissile={id:'game-ammo:usn_rim-67b',gameAmmoId:'usn_rim-67b',category:'weapon',name:'RIM-67'};
+ assert.match(context.tests.galleryCardMarkup(gameMissile),/RIM-67 Standard ER/,'El misil naval tiene imagen');
+ const unknown={id:'game-ammo:unknown',gameAmmoId:'unknown',category:'weapon',name:'Desconocido'};
+ assert.equal(context.tests.galleryCardMarkup(unknown),'','No asignar fotografías arbitrarias a otros INI');
+
  assert.match(context.tests.galleryDetailMarkup({id:'agm84c',name:'Harpoon',category:'weapon',nation:'EE. UU.'}),/NO identifica el AGM-84C/);
  assert.match(context.tests.galleryCardMarkup({id:'hh3e',name:'HH-3E',category:'aircraft',nation:'EE. UU.'}),/U.S. Air Force/);
  assert.match(context.tests.galleryDetailMarkup(aircraft),/data-gallery-pick="a6e"/);
