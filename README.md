@@ -2,9 +2,16 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.6
+## Estado actual · versión 3.7
 
-- **Primeras cinco fotografías históricas verificadas** para A-6E, F-14A, S-3A, SH-3H y USS Nimitz. Cada ficha muestra la fuente de Wikimedia Commons, fecha aproximada y condición de dominio público.
+- **Cobertura visual de toda la flota de referencia y su armamento principal:** 16 clases de unidades y 20 fichas de armas reciben imágenes localizadas en Wikimedia Commons, sin subida de fotografías a GitHub Pages.
+- **Fuentes y variantes documentadas:** año de la foto, organismo autor, licencia, enlace a la imagen original y advertencia cuando solo se representa la familia de un arma y no la subvariante del INI.
+- **Advertencias cronológicas de 1985:** el USS Missouri modernizado y el USS Samuel B. Roberts (FFG-58) entraron en servicio en 1986, aunque el escenario del juego los incorpore en 1985. Sus fotografías están fechadas honestamente.
+- **Importación privada opcional:** las asignaciones de imágenes importadas por el usuario mantienen prioridad sobre las fotografías públicas del catálogo.
+
+
+
+- **Selección inicial original** de A-6E, F-14A, S-3A, SH-3H y USS Nimitz, ahora ampliada al resto de la Task Force.
 - **Sin imágenes genéricas**: las unidades sin fotografía verificada no reciben fotografías aleatorias. Las asignaciones privadas anteriores permanecen disponibles si el usuario las había importado.
 - **Imágenes externas**: las fotos se sirven desde Wikimedia Commons, no se redistribuyen en GitHub Pages; requieren conexión para cargarse inicialmente.
 
