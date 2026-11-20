@@ -2,9 +2,10 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.9
+## Estado actual · versión 3.10
 
-- **Galería internacional del juego original:** 36 nuevas fotografías y fichas externas (16 aeronaves, 9 buques y 11 armas), para un total de 72 referencias. Incluye unidades soviéticas, británicas, francesas y argentinas, y munición no perteneciente a tu Task Force. Las imágenes están enlazadas a IDs de los INI y muestran autor, licencia, fecha y limitaciones históricas.
+- **Galería internacional ampliada:** 52 entradas visuales del juego fuera de la Task Force (22 aeronaves, 12 buques, 4 terrestres y 14 armas), totalizando **88 referencias**. Las 16 incorporaciones recientes se comprobaron contra páginas originales de Wikimedia Commons y los ID de los INI.
+- **Galería internacional del juego original:** 36 nuevas fotografías y fichas externas (16 aeronaves, 9 buques y 11 armas), para un total previo de 72 referencias. Incluye unidades soviéticas, británicas, francesas y argentinas, y munición no perteneciente a tu Task Force. Las imágenes están enlazadas a IDs de los INI y muestran autor, licencia, fecha y limitaciones históricas.
 - **Encuadre de armamento corregido:** imágenes completas sin `object-fit: cover`, con once referencias revisadas para mostrar el arma sin aeronaves o con mayor protagonismo. La atribución indica cuándo se utiliza una ilustración o un ejemplar posterior a 1985.
 - **Cobertura visual de toda la flota de referencia y su armamento principal:** 16 clases de unidades y 20 fichas de armas reciben imágenes localizadas en Wikimedia Commons, sin subida de fotografías a GitHub Pages.
 - **Fuentes y variantes documentadas:** año de la foto, organismo autor, licencia, enlace a la imagen original y advertencia cuando solo se representa la familia de un arma y no la subvariante del INI.
@@ -153,3 +154,6 @@ Fuentes para contrastar futuras ampliaciones:
 Licencia: código de ejemplo para uso personal. Sea Power y nombres comerciales corresponden a sus respectivos titulares; esta guía no es un producto oficial.
 
 Fuentes históricas oficiales para estas fechas: [USS Missouri](https://www.history.navy.mil/research/histories/ship-histories/danfs/m/missouri-iii.html) y [USS Samuel B. Roberts](https://www.history.navy.mil/research/histories/ship-histories/danfs/s/samuel-b--roberts--ffg-58--iii.html).
+## Investigación: datos de una partida activa
+
+Se ha estudiado una integración no invasiva mediante Tacview en tiempo real, archivo `.acmi` y partidas guardadas `.sav`. Los hallazgos, límites y protocolo de seguridad se encuentran en [`docs/integracion-partida-en-tiempo-real.md`](docs/integracion-partida-en-tiempo-real.md). **No hay aún conexión activa ni lectura automática de partidas en Atlas**.

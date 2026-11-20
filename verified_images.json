@@ -1,6 +1,6 @@
 {
-  "version": 5,
-  "description": "Galería ampliada a modelos fuera de la Task Force, con fotografías de origen identificado, licencias, variantes y fechas; no se inventan correspondencias ni se infiere la disponibilidad en la partida.",
+  "version": 6,
+  "description": "88 referencias visuales documentadas con enlaces de Wikimedia Commons; 16 nuevas entradas verificadas de aeronaves, barcos, unidades terrestres y armas. Se preservan licencias, modelos y contexto.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -875,6 +875,191 @@
       "mediaType": "fotografía",
       "ammoIds": [
         "wp_as-4"
+      ]
+    },
+    "game-unit:a:wp_tu-16": {
+      "file": "A left underside view of a Soviet Tu-16 Badger aircraft - DPLA - f45e65552c0ea63441e56dcb1b36ea49.jpeg",
+      "label": "Tu-16 Badger soviético",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:A_left_underside_view_of_a_Soviet_Tu-16_Badger_aircraft_-_DPLA_-_f45e65552c0ea63441e56dcb1b36ea49.jpeg",
+      "author": "Departamento de Defensa de EE. UU. / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de un Tu-16 soviético en 1985; no se especifica su subvariante.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_tu-16k": {
+      "file": "Tu-16 Badger G.jpg",
+      "label": "Tu-16K-26 Badger G",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:Tu-16_Badger_G.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Tu-16K-26 equipado con KSR-5 (AS-6); variante de la familia Tu-16K del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_ka-25": {
+      "file": "Ka-2583.jpg",
+      "label": "Ka-25 Hormone-A antisubmarino",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Ka-2583.jpg",
+      "author": "Departamento de Defensa de EE. UU.",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Helicóptero antisubmarino Ka-25 Hormone-A soviético fotografiado en 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_mi-14": {
+      "file": "Mil Mi-14PL, Russia - Navy AN1349001.jpg",
+      "label": "Mi-14PL de patrulla naval",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Mil_Mi-14PL%2C_Russia_-_Navy_AN1349001.jpg",
+      "author": "Igor Dvurekov",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Mi-14PL de la Marina rusa en 2008; no demuestra que esta aeronave estuviese en servicio en una misión de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:rn_nimrod_mr2": {
+      "file": "Nimrod.mr2.arp.jpg",
+      "label": "Nimrod MR.2 XV254",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Nimrod.mr2.arp.jpg",
+      "author": "Adrian Pingstone (Arpingstone)",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Nimrod MR.2 fotografiado en Fairford en 2006, posterior al escenario de campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:usn_p-2h": {
+      "file": "HARS Neptune, Wollongong New South Wales.jpg",
+      "label": "P-2H Neptune conservado",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:HARS_Neptune%2C_Wollongong_New_South_Wales.jpg",
+      "author": "Phillip Capper",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "P-2H de origen estadounidense operado posteriormente por la Armada francesa; la unidad de la foto no es de la US Navy de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cvn_enterprise": {
+      "file": "USS Enterprise (CVN-65) passing under the Golden Gate Bridge - DN-SC-86-03238.jpg",
+      "label": "USS Enterprise CVN-65",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Enterprise_(CVN-65)_passing_under_the_Golden_Gate_Bridge_-_DN-SC-86-03238.jpg",
+      "author": "PH2 David A. Dostie / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "El Enterprise de propulsión nuclear cruzando bajo el Golden Gate en octubre de 1985; corresponde a la clase del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_cg_ticonderoga": {
+      "file": "USS Ticonderoga (CG-47) 1985.jpg",
+      "label": "USS Ticonderoga CG-47",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Ticonderoga_(CG-47)_1985.jpg",
+      "author": "PH1 Jeff Hilton / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Crucero Aegis Ticonderoga temprano con lanzadores Mk 26, fotografiado en 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_em_sovremenny": {
+      "file": "Sovremennyy.jpg",
+      "label": "Destructor Sovremennyy n.º 618",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Sovremennyy.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque cabeza de la clase Sovremennyy, fotografiado en 1982; no representa cada unidad individual.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_mbt_t-55": {
+      "file": "T-55A.JPG",
+      "label": "T-55A de museo",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:T-55A.JPG",
+      "author": "Cooper6",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "T-55A conservado en museo en Hungría; el equipo concreto puede variar respecto a las configuraciones soviéticas de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_lt_pt-76": {
+      "file": "PT-76, Aberdeen Proving Grounds.JPEG",
+      "label": "Carro anfibio PT-76",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:PT-76%2C_Aberdeen_Proving_Grounds.JPEG",
+      "author": "Don S. Montgomery / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "PT-76 soviético expuesto en Aberdeen Proving Ground, fotografía de 1987.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_mlrs_bm-21": {
+      "file": "Rocket launcher BM-21 \"Grad\" on Ural-375D chassis.jpg",
+      "label": "Lanzacohetes BM-21 Grad",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Rocket_launcher_BM-21_%22Grad%22_on_Ural-375D_chassis.jpg",
+      "author": "Dmitry A. Mottl",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "BM-21 Grad expuesto sobre camión Ural-375D; fotografía posterior a 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-6_launcher": {
+      "file": "SA-6Gainful.jpg",
+      "label": "Lanzador 2K12 Kub / SA-6",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:SA-6Gainful.jpg",
+      "author": "Defense Intelligence Agency (EE. UU.)",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzador SA-6 capturado en Irak; muestra el sistema equivalente pero no una unidad soviética concreta.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:rn_sea_skua": {
+      "file": "US Navy 020312-N-6077T-004 Sea Skua Anti-Ship missile.jpg",
+      "label": "Misil Sea Skua inerte sobre cubierta",
+      "year": "2002",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_020312-N-6077T-004_Sea_Skua_Anti-Ship_missile.jpg",
+      "author": "PH1 Kevin H. Tierney / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Misil Sea Skua sin montar en helicóptero, fotografiado en una embarcación kuwaití en 2002.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "rn_sea_skua"
+      ]
+    },
+    "game-ammo:usn_agm-65b": {
+      "file": "AGM-65 Maverick MG 1385.jpg",
+      "label": "AGM-65 Maverick inerte en exposición",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-65_Maverick_MG_1385.jpg",
+      "author": "Rama",
+      "license": "CC BY-SA 2.0 FR",
+      "exactVariant": false,
+      "note": "Misil AGM-65 expuesto en Payerne, Suiza; no se identifica específicamente la variante AGM-65B.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_agm-65b"
+      ]
+    },
+    "game-ammo:wp_aa-10a": {
+      "file": "Air-to-air missile (27697632901).jpg",
+      "label": "R-27 Alamo en exposición",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Air-to-air_missile_(27697632901).jpg",
+      "author": "Fermion",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Ejemplar de la familia R-27 (AA-10) en exposición; la foto no verifica la subvariante AA-10A.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_aa-10a"
       ]
     }
   }

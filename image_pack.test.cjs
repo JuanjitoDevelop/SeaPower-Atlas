@@ -43,15 +43,16 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,72);
+ assert.equal(Object.keys(manifest.items).length,88);
  const fullCatalog=JSON.parse(fs.readFileSync('catalogo_completo_1985.json','utf8'));
  const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
  const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
  const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
- assert.equal(additions.length,36,'nuevas fotografías fuera de la flota');
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,16);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,9);
- assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,11);
+ assert.equal(additions.length,52,'nuevas fotografías fuera de la flota');
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,22);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,12);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,4);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,14);
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
@@ -90,6 +91,10 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  assert.match(context.tests.galleryCardMarkup(easternAircraft),/gallery-visual-verified/,'Imagen en unidad ajena a la flota');
  assert.match(context.tests.galleryCardMarkup(easternWeapon),/gallery-visual-weapon/,'Arma ajena a la flota sin recorte');
  assert.match(context.tests.galleryDetailMarkup(easternAircraft),/MiG-21bis/);
+ const surfaceUnit={id:'game-unit:l:wp_mbt_t-55',category:'land',name:'T-55A'};
+ assert.match(context.tests.galleryCardMarkup(surfaceUnit),/T-55A de museo/,'Foto terrestre procedente de Commons');
+ const externalWeapon={id:'game-ammo:rn_sea_skua',gameAmmoId:'rn_sea_skua',category:'weapon',name:'Sea Skua'};
+ assert.match(context.tests.galleryCardMarkup(externalWeapon),/Sea Skua inerte/,'Arma externa fotografiada sin avión');
  assert.match(context.tests.galleryCardMarkup(gameHarpoon),/Ilustración técnica/,'La ilustración no aparece como fotografía');
  const gameMissile={id:'game-ammo:usn_rim-67b',gameAmmoId:'usn_rim-67b',category:'weapon',name:'RIM-67'};
  assert.match(context.tests.galleryCardMarkup(gameMissile),/RIM-67 Standard ER/,'El misil naval tiene imagen');
