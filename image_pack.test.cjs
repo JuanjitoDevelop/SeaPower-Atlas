@@ -54,7 +54,7 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,11);
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
-  assert.match(p.source,/^https:\/\/commons\\.wikimedia\\.org\/wiki\/File:/,'Fuente documental: '+id);
+  assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
   assert.ok(p.file&&p.label&&p.year&&p.author&&p.license,'Metadatos completos: '+id);
   assert.match(p.license,/^Dominio público|^CC BY/,'Licencia abierta: '+id);
  }
