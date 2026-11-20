@@ -757,3 +757,9 @@
 .gallery-source-note{border-left:3px solid #82b4a8;padding:8px 12px;background:#173640;border-radius:5px;color:#e1ece9!important}
 .gallery-visual-detail{height:245px}
 @media(max-width:760px){.gallery-visual-detail{height:220px}.gallery-visual-detail figcaption{padding-top:26px}}
+
+/* Armamento: no recortar proyectiles, bombas y torpedos al llenar las tarjetas. */
+.gallery-visual-weapon{background:#112c37}
+.gallery-visual-weapon img{height:calc(100% - 34px);width:100%;object-fit:contain;object-position:center center;box-sizing:border-box;padding:10px 14px 0}
+.gallery-visual-weapon.gallery-visual-detail img{height:calc(100% - 76px);padding:12px 16px 0}
+.gallery-visual-weapon figcaption{background:linear-gradient(transparent,#06151df5 18%)}
