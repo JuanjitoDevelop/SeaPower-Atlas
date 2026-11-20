@@ -745,3 +745,15 @@
  .gallery-picker-grid img{height:110px}
  .gallery-progress{bottom:calc(74px + env(safe-area-inset-bottom))}
 }
+
+
+/* Galería histórica: lectura y atribución accesible */
+.gallery-visual figcaption{pointer-events:auto;display:grid;gap:3px}
+.gallery-visual figcaption span{font-weight:750}
+.gallery-visual figcaption small{color:#ccdfdc;font-size:10px;line-height:1.45}
+.gallery-visual figcaption a{color:#b8ffe0;display:inline-block;justify-self:start;text-decoration:underline;text-underline-offset:2px;font-size:11px;min-height:25px;padding:4px 0;pointer-events:auto}
+.gallery-visual figcaption a:focus-visible{outline:2px solid #d6ffee;outline-offset:2px}
+.gallery-visual-card figcaption small,.gallery-visual-card figcaption a{display:none}
+.gallery-source-note{border-left:3px solid #82b4a8;padding:8px 12px;background:#173640;border-radius:5px;color:#e1ece9!important}
+.gallery-visual-detail{height:245px}
+@media(max-width:760px){.gallery-visual-detail{height:220px}.gallery-visual-detail figcaption{padding-top:26px}}
