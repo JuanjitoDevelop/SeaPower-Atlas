@@ -2,7 +2,11 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.3
+## Estado actual · versión 3.4
+
+- **Contadores reactivos**: resúmenes, categorías y resultados se ajustan a búsqueda, bando, favoritos, año, tipo y ámbito seleccionado; «Mi flota» no suma unidades externas.
+- **Navegación entre fichas**: las unidades enlazan armas y equipos; las armas permiten abrir las plataformas de tu flota que las utilizan y otros modelos del juego. Las menciones específicas y los componentes de loadouts también enlazan sus fichas.
+
 
 - **Catálogo unificado**: las fichas y el antiguo Arsenal son una única sección «Unidades y armamento». Filtros Todo el juego / Mi flota / En stock / Fuera de flota, búsqueda y edición de existencias desde tarjetas y fichas de armamento.
 - **Sin pérdida de registros**: se conserva `state.campaign.stock`, `state.campaign.use`, favoritos y notas. Los enlaces antiguos `#/armory` redirigen al catálogo filtrado por armas.
