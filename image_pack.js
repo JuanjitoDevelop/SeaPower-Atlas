@@ -61,7 +61,7 @@ function galleryVisualMarkup(e,kind='card'){
   const category=r.mediaType==='ilustración'?'Ilustración técnica':'Fotografía histórica';
   const variant=r.exactVariant===false?'Familia identificada; subvariante sin confirmar':'Modelo identificado';
   const credit=(r.author||'Autor no identificado')+' · '+(r.license||'Licencia en fuente');
-  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img src="'+esc(galleryVerifiedURL(r))+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="'+esc(category+': '+r.label+' ('+variant+')')+'" onerror="this.closest(\\'figure\\').hidden=true"><figcaption><span>'+esc(r.label)+' · '+esc(r.year)+'</span><small>'+esc(category)+' · '+esc(variant)+' · '+esc(credit)+'</small> <a href="'+esc(r.source)+'" target="_blank" rel="noopener noreferrer">Fuente y licencia ↗</a></figcaption></figure>';
+  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img src="'+esc(galleryVerifiedURL(r))+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="'+esc(category+': '+r.label+' ('+variant+')')+'" onerror="this.parentElement.hidden=true"><figcaption><span>'+esc(r.label)+' · '+esc(r.year)+'</span><small>'+esc(category)+' · '+esc(variant)+' · '+esc(credit)+'</small> <a href="'+esc(r.source)+'" target="_blank" rel="noopener noreferrer">Fuente y licencia ↗</a></figcaption></figure>';
  }
  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img data-gallery-src="'+esc(source.id)+'" loading="lazy" decoding="async" alt="Imagen personal asignada a '+esc(e.name)+'"><figcaption>Imagen asignada por ti</figcaption></figure>';
 }
