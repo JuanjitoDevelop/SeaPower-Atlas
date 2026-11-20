@@ -1,6 +1,6 @@
 {
-  "version": 7,
-  "description": "107 referencias de unidades, armamento y equipos del catálogo original, con correspondencias verificadas mediante páginas de Wikimedia Commons; se distinguen variantes, fechas, licencias e ilustraciones.",
+  "version": 8,
+  "description": "124 referencias visuales de unidades, armas y sistemas de Sea Power. Incluye 17 nuevas fuentes verificadas individualmente, con variante, fecha, autor y licencia, sin sustituir modelos no confirmados por imágenes genéricas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -1270,6 +1270,205 @@
       "exactVariant": false,
       "note": "Ejemplar S-125 expuesto en Saaremaa, Estonia. No identifica la variante exacta del SA-3 del juego.",
       "mediaType": "fotografía"
+    },
+    "game-unit:l:jsdf_mbt_type74": {
+      "file": "Tank type74.jpg",
+      "label": "Carro Type 74 de las Fuerzas de Autodefensa japonesas",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:Tank_type74.jpg",
+      "author": "Miya",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Type 74 fotografiado en Itami, Japón, en 2004; imagen del modelo, no de una unidad de la partida.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:jsdf_apc_type73": {
+      "file": "Type 73 APC JGSDF 02.jpg",
+      "label": "Transporte blindado japonés Type 73",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_73_APC_JGSDF_02.jpg",
+      "author": "Los688",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Vehículo Type 73 fotografiado en Kasumigaura en 2008.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:jsdf_apc_type60": {
+      "file": "JGSDF Type 60 Armoured Personnel Carrier(No.0031M) right front view at Camp Nihonbara October 1, 2017 01.jpg",
+      "label": "Transporte blindado japonés Type 60",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:JGSDF_Type_60_Armoured_Personnel_Carrier(No.0031M)_right_front_view_at_Camp_Nihonbara_October_1%2C_2017_01.jpg",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Type 60 número 0031M fotografiado en Camp Nihonbara; ejemplar real posterior a 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:pla_apc_type63": {
+      "file": "ChineseType63APC.jpg",
+      "label": "Transporte blindado chino Type 63",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:ChineseType63APC.jpg",
+      "author": "National War College / National Defense University",
+      "license": "Dominio público (colección)",
+      "exactVariant": true,
+      "note": "Fotografía histórica identificada como Chinese YW531 / Type 63; la fuente solicita acreditar al National War College.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_zsu-57": {
+      "file": "Muzeum Wojska Polskiego 04 ZSU-57-2.jpg",
+      "label": "ZSU-57-2 autopropulsado",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Muzeum_Wojska_Polskiego_04_ZSU-57-2.jpg",
+      "author": "Аимаина хикари",
+      "license": "CC0 1.0",
+      "exactVariant": true,
+      "note": "ZSU-57-2 conservado en el Museo del Ejército Polaco de Varsovia; no es una unidad soviética concreta de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-6_straightflush": {
+      "file": "1S91 radar.jpg",
+      "label": "Radar 1S91 Straight Flush",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:1S91_radar.jpg",
+      "author": "KGyST",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Radar húngaro 1S91 del sistema 2K12 Kub; corresponde al modelo de radar, no a una posición concreta del Pacto de Varsovia.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-8_launcher": {
+      "file": "9K33 Osa.JPG",
+      "label": "Lanzador autopropulsado 9K33 Osa",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:9K33_Osa.JPG",
+      "author": "Hemantphoto79",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Sistema Osa de la India (9A33BM2) fotografiado en 2013. Referencia de familia: subvariante y equipamiento del juego no confirmados.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_sa-11_launcher": {
+      "file": "9A310 self-propelled launch vehicle for Buk-M1-2 Air defence system.jpg",
+      "label": "Lanzador Buk, familia SA-11",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:9A310_self-propelled_launch_vehicle_for_Buk-M1-2_Air_defence_system.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "El vehículo de la foto es un 9A310 Buk-M1-2 de 2010, modernización diferente al Buk de mediados de los años ochenta.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:ara_cv_veinticinco_de_mayo": {
+      "file": "ARA Veinticinco de Mayo.jpg",
+      "label": "Portaaviones ARA Veinticinco de Mayo",
+      "year": "1969–1987",
+      "source": "https://commons.wikimedia.org/wiki/File:ARA_Veinticinco_de_Mayo.jpg",
+      "author": "ValtTeck",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Fotografía del portaaviones argentino con aviones A-4 en cubierta; el registro no proporciona fecha de toma exacta.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:es_ffg_baleares": {
+      "file": "Spanish frigate Baleares (F-71) underway on 1 September 1981 (6353077).jpg",
+      "label": "Fragata Baleares F-71",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanish_frigate_Baleares_(F-71)_underway_on_1_September_1981_(6353077).jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fragata Baleares durante el ejercicio Ocean Venture 81; representa la clase española del catálogo.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_ff_broadsword": {
+      "file": "HMS Broadsword, 1982 (IWM).jpg",
+      "label": "HMS Broadsword F88",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Broadsword%2C_1982_(IWM).jpg",
+      "author": "Royal Navy, fotógrafo oficial / IWM",
+      "license": "Dominio público (Reino Unido)",
+      "exactVariant": true,
+      "note": "HMS Broadsword, fragata Type 22 fotografiada en Portsmouth en 1982.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_dd_spruance": {
+      "file": "USS Spruance (DD-963) underway on 20 November 1986 (6416412).jpg",
+      "label": "Destructor USS Spruance antes de instalar VLS",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Spruance_(DD-963)_underway_on_20_November_1986_(6416412).jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Spruance en noviembre de 1986, antes de su modernización con Mk 41; no representa una misión específica de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:usn_dd_spruance_vls": {
+      "file": "USS Spruance (DD-963) underway after her Mark 41 VLS modernization, circa in June 1987 (NH 96851).jpg",
+      "label": "Destructor Spruance con VLS Mk 41",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Spruance_(DD-963)_underway_after_her_Mark_41_VLS_modernization%2C_circa_in_June_1987_(NH_96851).jpg",
+      "author": "U.S. Navy / Naval History & Heritage Command",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "El Mk 41 VLS se documenta en esta fotografía de 1987, posterior a la campaña de referencia de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_sa-8": {
+      "file": "Osa raketa.jpg",
+      "label": "Misil 9M33 del sistema Osa",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Osa_raketa.jpg",
+      "author": "Stanislav Kozlovskiy",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Misil del sistema 9K33 Osa aislado en museo; la subvariante SA-8 concreta no está identificada.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_sa-8"
+      ]
+    },
+    "game-ammo:usn_agm-12b": {
+      "file": "AGM-12B Bullpup.jpg",
+      "label": "Misil AGM-12B Bullpup expuesto",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-12B_Bullpup.jpg",
+      "author": "U.S. Air Force / National Museum of the USAF",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "AGM-12B Bullpup identificado y fotografiado sin aeronave en el Museo Nacional de la USAF.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_agm-12b"
+      ]
+    },
+    "game-ammo:fr_as11": {
+      "file": "Aerospatiale AS11 (50121972776).jpg",
+      "label": "Misil Aérospatiale AS11 en museo",
+      "year": "2020",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerospatiale_AS11_(50121972776).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "AS11 expuesto de forma independiente en el RAF Museum Cosford en julio de 2020.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "fr_as11"
+      ]
+    },
+    "game-ammo:it_otomat_mk1": {
+      "file": "Misil Otomat.jpg",
+      "label": "Misil antibuque Otomat expuesto",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Misil_Otomat.jpg",
+      "author": "Luchartodaslasnochesconuntigre",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar de la familia Otomat fotografiado sin plataforma aérea. No se confirma la subvariante Mk 1 registrada en el juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "it_otomat_mk1"
+      ]
     }
   }
 }

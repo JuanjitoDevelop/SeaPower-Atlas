@@ -43,16 +43,19 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,107);
+ assert.equal(Object.keys(manifest.items).length,124);
+ assert.ok(manifest.items['game-unit:l:jsdf_mbt_type74']?.exactVariant,'Modelo Type 74 japonés identificado');
+ assert.equal(manifest.items['game-unit:l:wp_sa-11_launcher']?.exactVariant,false,'Buk-M1-2 no debe confundirse con la variante de 1985');
+ assert.equal(manifest.items['game-ammo:fr_as11']?.file,'Aerospatiale AS11 (50121972776).jpg','AS11 aislado');
  const fullCatalog=JSON.parse(fs.readFileSync('catalogo_completo_1985.json','utf8'));
  const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
  const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
  const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
- assert.equal(additions.length,71,'nuevas fotografías fuera de la flota');
+ assert.equal(additions.length,88,'nuevas fotografías fuera de la flota');
  assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,23);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,18);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,8);
- assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,22);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,23);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,16);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,26);
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
