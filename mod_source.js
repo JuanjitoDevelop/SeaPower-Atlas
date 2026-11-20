@@ -12,7 +12,7 @@ function modLoadoutItemMarkup(items){
    const d=modData?.ammo?.[i.id]||{};
    const extra=d.childCountPerContainer?'<small>'+esc(i.qty*d.childCountPerContainer)+' proyectiles internos ('+esc(d.child||'')+')</small>':'';
    const warning=(Number(d.ioc)>modData.year||Number(d.foc)>modData.year)?'<small class="mod-year-warning">Fecha interna posterior a '+modData.year+'</small>':'';
-   return '<div class="game-ammo-line"><span>'+esc(modAmmoName(i.id))+'<small>'+esc(i.id)+'</small>'+extra+warning+'</span><b>×'+esc(i.qty)+'</b></div>';
+   return '<div class="game-ammo-line"><span><button type="button" class="game-ammo-open" data-open="game-ammo:'+esc(i.id)+'">'+esc(modAmmoName(i.id))+' <span aria-hidden="true">↗</span></button><small>'+esc(i.id)+'</small>'+extra+warning+'</span><b>×'+esc(i.qty)+'</b></div>';
  }).join('')+'</div></div>';
  }).join('');
 }
