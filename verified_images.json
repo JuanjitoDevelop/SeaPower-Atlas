@@ -354,6 +354,39 @@
       "exactVariant": false,
       "note": "Lanzamiento de un BGM-109 de la familia Tomahawk en 1991; no verifica la variante del juego ni una misión de 1985.",
       "mediaType": "fotografía"
+    },
+    "agm84c": {
+      "file": "A left side view of a B-52 Stratofortress aircraft with an AGM-84A Harpoon missile on its wing, as the aircraft is preparing to takeoff. This is the first launch of a Harpoon missil - DPLA - 3dcdd66b258b82baf382bd0171eae779.jpeg",
+      "label": "AGM-84A Harpoon (misma familia)",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:A_left_side_view_of_a_B-52_Stratofortress_aircraft_with_an_AGM-84A_Harpoon_missile_on_its_wing%2C_as_the_aircraft_is_preparing_to_takeoff._This_is_the_first_launch_of_a_Harpoon_missil_-_DPLA_-_3dcdd66b258b82baf382bd0171eae779.jpeg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La foto corresponde a un AGM-84A montado en un B-52. NO identifica el AGM-84C de esta ficha; se muestra solo como referencia de familia.",
+      "mediaType": "fotografía"
+    },
+    "tow": {
+      "file": "BGM-71 TOW.jpg",
+      "label": "Sistema BGM-71 TOW",
+      "year": "2021",
+      "source": "https://commons.wikimedia.org/wiki/File:BGM-71_TOW.jpg",
+      "author": "White Sands Missile Range Museum",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía de personal operando un sistema TOW en tierra; no identifica la subvariante del misil ni el montaje aéreo del AH-1T.",
+      "mediaType": "fotografía"
+    },
+    "agm88a": {
+      "file": "F-4D with HARM near Eglin AFB 1983.JPEG",
+      "label": "AGM-88A HARM en F-4D",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:F-4D_with_HARM_near_Eglin_AFB_1983.JPEG",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "AGM-88A documentado en pruebas en 1983. La fotografía no acredita una carga operativa del A-6E en 1985.",
+      "mediaType": "fotografía"
     }
   }
 }
