@@ -34,8 +34,17 @@ function catalogInit(data){
    category:'weapon',nation:catalogNation(id),pack:'original-ini',
    role:original?.type||'Munición o equipamiento original',
    summary:min!==null&&max!==null?'Lanzamiento declarado de '+catalogNum(min)+' a '+catalogNum(max)+' millas náuticas.':max!==null?'Alcance máximo de lanzamiento declarado: '+catalogNum(max)+' mn.':'Datos originales del juego; alcance de lanzamiento no especificado en el archivo.',
-   tags:[id,original?.type||''],sourceFile:'ammunition/'+id+'.ini'
+   tags:[id,original?.type||''],year:original?.ioc||original?.foc||null,sourceFile:'ammunition/'+id+'.ini'
   });
+ }
+ // También mostrar las municiones exclusivas de mods presentes en los archivos importados.
+ for(const [id,d] of Object.entries(modData?.ammo||{})){
+  if(catalogWeaponMap.has(id))continue;
+  catalogWeaponMap.set(id,{id,min:null,max:null,torpRanges:null,torpSpeeds:null});
+  catalogEntries.push({id:'game-ammo:'+id,gameAmmoId:id,name:d.name||id,
+   category:'weapon',nation:catalogNation(id),pack:'workshop',role:d.type||'Armamento de mod',
+   year:d.ioc||d.foc||null,summary:'Munición incluida en Workshop: las distancias de lanzamiento no están comprobadas en el catálogo original.',
+   tags:[id,'Workshop']});
  }
  for(const u of data.units){
   const [originalId,name,kind,maxNm,rangeKind,maxSpeed,weaponIndices]=u;
