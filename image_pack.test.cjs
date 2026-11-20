@@ -52,21 +52,26 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
    const p=manifest.items[id];
    assert.ok(p,'Imagen documentada para '+id);
    assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/);
-   assert.match(p.license,/Dominio público/);
+   assert.match(p.license,/Dominio público|CC BY-SA/);
    assert.ok(p.file&&p.label&&p.year&&p.author);
    if(armament.includes(id))assert.ok(Array.isArray(p.ammoIds)&&p.ammoIds.length,'ID interno para '+id);
  }
  assert.equal(manifest.items.agm84c.exactVariant,false,'No confundir AGM-84A y C');
  assert.match(manifest.items.agm84c.note,/NO identifica el AGM-84C/);
+ assert.equal(manifest.items.agm84c.mediaType,'ilustración');
+ assert.equal(manifest.items.agm84c.file,'AGM-84A HARPOON.png');
+ assert.equal(manifest.items.aim54.file,'AIM-54A Phoenix missile on trailer in 1988.JPEG');
  assert.match(manifest.items.missouri.note,/1986/);
  assert.match(manifest.items.samuel.note,/1986/);
- assert.equal(manifest.items.aim54.exactVariant,false,'Prototipo YAIM-54A identificado como tal');
+ assert.equal(manifest.items.aim54.exactVariant,true,'AIM-54A de servicio identificado en carro de transporte');
  vm.runInContext('galleryVerified='+JSON.stringify(manifest.items),context);
  assert.match(context.tests.galleryCardMarkup(aircraft),/Fotografía histórica/);
  assert.match(context.tests.galleryCardMarkup(aircraft),/commons.wikimedia.org/);
  assert.match(context.tests.galleryCardMarkup(aircraft),/Fuente y licencia/);
  const gameHarpoon={id:'game-ammo:usn_agm-84c',gameAmmoId:'usn_agm-84c',category:'weapon',name:'AGM-84C'};
  assert.match(context.tests.galleryCardMarkup(gameHarpoon),/AGM-84A Harpoon/,'La foto se vincula a la entrada de munición interna');
+ assert.match(context.tests.galleryCardMarkup(gameHarpoon),/gallery-visual-weapon/,'Armas sin recorte forzado');
+ assert.match(context.tests.galleryCardMarkup(gameHarpoon),/Ilustración técnica/,'La ilustración no aparece como fotografía');
  const gameMissile={id:'game-ammo:usn_rim-67b',gameAmmoId:'usn_rim-67b',category:'weapon',name:'RIM-67'};
  assert.match(context.tests.galleryCardMarkup(gameMissile),/RIM-67 Standard ER/,'El misil naval tiene imagen');
  const unknown={id:'game-ammo:unknown',gameAmmoId:'unknown',category:'weapon',name:'Desconocido'};

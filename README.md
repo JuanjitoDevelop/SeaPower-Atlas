@@ -2,8 +2,9 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.7
+## Estado actual · versión 3.8
 
+- **Encuadre de armamento corregido:** imágenes completas sin `object-fit: cover`, con once referencias revisadas para mostrar el arma sin aeronaves o con mayor protagonismo. La atribución indica cuándo se utiliza una ilustración o un ejemplar posterior a 1985.
 - **Cobertura visual de toda la flota de referencia y su armamento principal:** 16 clases de unidades y 20 fichas de armas reciben imágenes localizadas en Wikimedia Commons, sin subida de fotografías a GitHub Pages.
 - **Fuentes y variantes documentadas:** año de la foto, organismo autor, licencia, enlace a la imagen original y advertencia cuando solo se representa la familia de un arma y no la subvariante del INI.
 - **Advertencias cronológicas de 1985:** el USS Missouri modernizado y el USS Samuel B. Roberts (FFG-58) entraron en servicio en 1986, aunque el escenario del juego los incorpore en 1985. Sus fotografías están fechadas honestamente.

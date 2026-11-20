@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "description": "Fotografías históricas identificadas y algunas ilustraciones técnicas, con fuente, fecha, autor, coincidencia por variante y advertencias. Las imágenes nunca constituyen evidencia de que un arma o unidad esté activa en la partida.",
+  "version": 4,
+  "description": "Fotografías verificadas e ilustraciones técnicas del arma aislada cuando se dispone de ellas, con autor, licencia, fecha y salvedades históricas. No garantiza disponibilidad en la partida.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -169,42 +169,42 @@
       "mediaType": "fotografía"
     },
     "agm78d": {
-      "file": "A-6E Intruder of VA-85 in flight with Standard ARM.jpg",
-      "label": "AGM-78 Standard ARM",
-      "year": "1978",
-      "source": "https://commons.wikimedia.org/wiki/File:A-6E_Intruder_of_VA-85_in_flight_with_Standard_ARM.jpg",
-      "author": "U.S. Navy",
+      "file": "AGM-78 at USAF Museum 2009.jpg",
+      "label": "AGM-78 Standard ARM en museo",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-78_at_USAF_Museum_2009.jpg",
+      "author": "U.S. Air Force",
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
-      "note": "El AGM-78 es visible bajo el A-6E; no se identifica específicamente la subvariante AGM-78D.",
+      "note": "AGM-78 expuesto en el Museo Nacional de la USAF. No identifica la subvariante AGM-78D.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_agm-78"
       ]
     },
     "agm45b": {
-      "file": "A-7E VA-66 launching AGM-45 in 1985.JPEG",
-      "label": "AGM-45 Shrike",
-      "year": "1985",
-      "source": "https://commons.wikimedia.org/wiki/File:A-7E_VA-66_launching_AGM-45_in_1985.JPEG",
-      "author": "U.S. Navy",
+      "file": "AGM-45 Shrike on cart.jpg",
+      "label": "AGM-45 Shrike aislado",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-45_Shrike_on_cart.jpg",
+      "author": "U.S. Air Force / Scott Stewart",
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
-      "note": "Lanzamiento AGM-45 documentado en 1985; la subvariante AGM-45B no está especificada.",
+      "note": "Misil AGM-45 sobre carro de transporte, sin aeronave. La subvariante AGM-45B no está confirmada.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_agm-45"
       ]
     },
     "mk82": {
-      "file": "Mk 82 bombs in B-52G 1984.JPEG",
-      "label": "Bombas Mk 82",
-      "year": "1984",
-      "source": "https://commons.wikimedia.org/wiki/File:Mk_82_bombs_in_B-52G_1984.JPEG",
-      "author": "U.S. Air Force",
-      "license": "Dominio público (EE. UU.)",
+      "file": "Mk-82 Bomb.jpg",
+      "label": "Bomba Mk 82 de museo",
+      "year": "2019",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk-82_Bomb.jpg",
+      "author": "SBD DaunTeless",
+      "license": "CC BY-SA 4.0",
       "exactVariant": true,
-      "note": "Fotografía de bombas Mk 82, no de un loadout específico de tu avión.",
+      "note": "Mk 82 expuesta en museo, fotografiada en 2019. No representa ningún loadout concreto.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_mk-82"
@@ -253,28 +253,28 @@
       ]
     },
     "cbu100": {
-      "file": "Mk 20 cluster bombs on A-7 at NAS Pax 1984.JPEG",
-      "label": "Mk 20 Rockeye (familia CBU-100)",
-      "year": "1984",
-      "source": "https://commons.wikimedia.org/wiki/File:Mk_20_cluster_bombs_on_A-7_at_NAS_Pax_1984.JPEG",
-      "author": "U.S. Navy",
+      "file": "Rockeye cluster bombs on USS Saratoga (CV-60) 1986.JPEG",
+      "label": "Bombas Mk 20 Rockeye en cubierta",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Rockeye_cluster_bombs_on_USS_Saratoga_(CV-60)_1986.JPEG",
+      "author": "PH3 Mac M. Thurston / U.S. Navy",
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
-      "note": "Fotografía de Mk 20 Mod 6 Rockeye, relacionada con la familia CBU-100/Mk 20, no de todas sus variantes.",
+      "note": "Bombas Mk 20 Rockeye II transportadas sin montar en aeronave, fotografiadas en 1986; no verifica otras variantes CBU-100.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_rockeye"
       ]
     },
     "aim54": {
-      "file": "YAIM-54A Phoenix missile with F-14A Tomcat in 1973.jpg",
-      "label": "YAIM-54A Phoenix (prototipo)",
-      "year": "1973",
-      "source": "https://commons.wikimedia.org/wiki/File:YAIM-54A_Phoenix_missile_with_F-14A_Tomcat_in_1973.jpg",
+      "file": "AIM-54A Phoenix missile on trailer in 1988.JPEG",
+      "label": "AIM-54A Phoenix sobre carro",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-54A_Phoenix_missile_on_trailer_in_1988.JPEG",
       "author": "U.S. Navy",
       "license": "Dominio público (EE. UU.)",
-      "exactVariant": false,
-      "note": "Imagen de un YAIM-54A de pruebas; no corresponde necesariamente a la variante de servicio de tu campaña.",
+      "exactVariant": true,
+      "note": "AIM-54A identificado sobre carro de transporte en 1988, no una carga operativa de 1985.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_aim-54a"
@@ -309,28 +309,28 @@
       ]
     },
     "mk46": {
-      "file": "Mark 46 full image.JPEG",
-      "label": "Mk 46 (familia)",
-      "year": "1986",
-      "source": "https://commons.wikimedia.org/wiki/File:Mark_46_full_image.JPEG",
-      "author": "U.S. Navy",
+      "file": "USN MK-46 Mod 5 lightweight torpedo (cropped 2).jpg",
+      "label": "Mk 46 Mod 5 en lanzamiento",
+      "year": "2003",
+      "source": "https://commons.wikimedia.org/wiki/File:USN_MK-46_Mod_5_lightweight_torpedo_(cropped_2).jpg",
+      "author": "PH3 Ramon Preciado / U.S. Navy",
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
-      "note": "Lanzamiento de un torpedo Mk 46 en 1986; no se puede identificar el Mod 5 a partir de la foto.",
+      "note": "Mk 46 Mod 5 disparado desde un tubo naval en 2003; referencia de la familia, no identificación del paquete NEARTIP.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_mk46_mod5_air"
       ]
     },
     "mk46mod5": {
-      "file": "Mark 46 full image.JPEG",
-      "label": "Mk 46 (familia)",
-      "year": "1986",
-      "source": "https://commons.wikimedia.org/wiki/File:Mark_46_full_image.JPEG",
-      "author": "U.S. Navy",
+      "file": "USN MK-46 Mod 5 lightweight torpedo (cropped 2).jpg",
+      "label": "Mk 46 Mod 5 en lanzamiento",
+      "year": "2003",
+      "source": "https://commons.wikimedia.org/wiki/File:USN_MK-46_Mod_5_lightweight_torpedo_(cropped_2).jpg",
+      "author": "PH3 Ramon Preciado / U.S. Navy",
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
-      "note": "Imagen de un Mk 46 de la misma familia; no representa una variante Mod 5/NEARTIP verificada.",
+      "note": "Torpedo identificado como Mk 46 Mod 5. No se puede confirmar la mejora NEARTIP de la configuración del juego.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_mk46_mod5_air"
@@ -351,14 +351,14 @@
       ]
     },
     "harpoon_ship": {
-      "file": "RGM-84 Harpoon missile launch from USS Leahy (CG-16), in 1983.jpg",
-      "label": "RGM-84 Harpoon",
-      "year": "1983",
-      "source": "https://commons.wikimedia.org/wiki/File:RGM-84_Harpoon_missile_launch_from_USS_Leahy_(CG-16)%2C_in_1983.jpg",
-      "author": "U.S. Navy",
-      "license": "Dominio público (EE. UU.)",
-      "exactVariant": true,
-      "note": "Lanzamiento del sistema antibuque naval RGM-84. No implica que la imagen identifique el lote concreto del juego.",
+      "file": "RGM-84A Harpoon Parow 2024 (cropped).JPG",
+      "label": "RGM-84A Harpoon expuesto",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:RGM-84A_Harpoon_Parow_2024_(cropped).JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 DE",
+      "exactVariant": false,
+      "note": "Imagen recortada en Wikimedia de un demostrador RGM-84A sin buque ni aeronave. No identifica la variante RGM-84C del juego.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_rgm-84c"
@@ -393,29 +393,29 @@
       ]
     },
     "tomahawk": {
-      "file": "A BGM-109 Tomahawk land-attack missile takes to the air after being launched from the battleship USS WISCONSIN (BB-64) during Operation Desert Storm - DPLA - b455bd5c225c1f8db3c5336bdd67ce0d.jpeg",
-      "label": "BGM-109 Tomahawk",
-      "year": "1991",
-      "source": "https://commons.wikimedia.org/wiki/File:A_BGM-109_Tomahawk_land-attack_missile_takes_to_the_air_after_being_launched_from_the_battleship_USS_WISCONSIN_(BB-64)_during_Operation_Desert_Storm_-_DPLA_-_b455bd5c225c1f8db3c5336bdd67ce0d.jpeg",
-      "author": "U.S. Navy",
-      "license": "Dominio público (EE. UU.)",
+      "file": "Frontiers of Flight Museum December 2015 078 (BGM-109C Tomahawk missile).jpg",
+      "label": "Tomahawk BGM-109C expuesto",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:Frontiers_of_Flight_Museum_December_2015_078_(BGM-109C_Tomahawk_missile).jpg",
+      "author": "Michael Barera",
+      "license": "CC BY-SA 4.0",
       "exactVariant": false,
-      "note": "Lanzamiento de un BGM-109 de la familia Tomahawk en 1991; no verifica la variante del juego ni una misión de 1985.",
+      "note": "Tomahawk BGM-109C de museo en 2015. No documenta un lanzamiento naval en 1985.",
       "mediaType": "fotografía",
       "ammoIds": [
         "usn_rgm-109c"
       ]
     },
     "agm84c": {
-      "file": "A left side view of a B-52 Stratofortress aircraft with an AGM-84A Harpoon missile on its wing, as the aircraft is preparing to takeoff. This is the first launch of a Harpoon missil - DPLA - 3dcdd66b258b82baf382bd0171eae779.jpeg",
-      "label": "AGM-84A Harpoon (misma familia)",
-      "year": "1983",
-      "source": "https://commons.wikimedia.org/wiki/File:A_left_side_view_of_a_B-52_Stratofortress_aircraft_with_an_AGM-84A_Harpoon_missile_on_its_wing%2C_as_the_aircraft_is_preparing_to_takeoff._This_is_the_first_launch_of_a_Harpoon_missil_-_DPLA_-_3dcdd66b258b82baf382bd0171eae779.jpeg",
-      "author": "U.S. Air Force",
-      "license": "Dominio público (EE. UU.)",
+      "file": "AGM-84A HARPOON.png",
+      "label": "AGM-84A Harpoon · perfil técnico",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-84A_HARPOON.png",
+      "author": "Tdhla1",
+      "license": "CC BY-SA 4.0",
       "exactVariant": false,
-      "note": "La foto corresponde a un AGM-84A montado en un B-52. NO identifica el AGM-84C de esta ficha; se muestra solo como referencia de familia.",
-      "mediaType": "fotografía",
+      "note": "Perfil ilustrado del AGM-84A, sin aeronave y basado en 1979. NO identifica el AGM-84C de esta ficha; referencia de familia.",
+      "mediaType": "ilustración",
       "ammoIds": [
         "usn_agm-84c"
       ]
@@ -435,15 +435,15 @@
       ]
     },
     "agm88a": {
-      "file": "F-4D with HARM near Eglin AFB 1983.JPEG",
-      "label": "AGM-88A HARM en F-4D",
-      "year": "1983",
-      "source": "https://commons.wikimedia.org/wiki/File:F-4D_with_HARM_near_Eglin_AFB_1983.JPEG",
-      "author": "U.S. Air Force",
-      "license": "Dominio público (EE. UU.)",
+      "file": "AGM-88A HARM (USN).png",
+      "label": "AGM-88A HARM · perfil técnico",
+      "year": "2021",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-88A_HARM_(USN).png",
+      "author": "Tdhla1",
+      "license": "CC BY-SA 4.0",
       "exactVariant": true,
-      "note": "AGM-88A documentado en pruebas en 1983. La fotografía no acredita una carga operativa del A-6E en 1985.",
-      "mediaType": "fotografía",
+      "note": "Ilustración técnica del AGM-88A; no acredita disponibilidad operativa en 1985.",
+      "mediaType": "ilustración",
       "ammoIds": [
         "usn_agm-88a"
       ]
