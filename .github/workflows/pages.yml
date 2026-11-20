@@ -29,6 +29,10 @@ jobs:
           node --check planner.js
           node --check source.js
           node --check mod_source.js
+          node --check campaign.js
+          node --check armory.js
+          node --check operations.js
+          node runtime.smoke.cjs
           node planner.test.cjs
           node --check tactics.js
           node --check workshop.js
