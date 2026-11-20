@@ -43,7 +43,7 @@ const context=vm.createContext({
     json:async()=>JSON.parse(fs.readFileSync(locationOnDisk,'utf8'))};
  }
 });
-const scripts=['source.js','mod_source.js','planner.js','campaign.js','armory.js','operations.js','workshop.js','tactics.js','app.js'];
+const scripts=['source.js','mod_source.js','planner.js','campaign.js','armory.js','operations.js','workshop.js','tactics.js','catalog.js','app.js'];
 for(const script of scripts)vm.runInContext(fs.readFileSync(path.join(root,script),'utf8'),context,{filename:script});
 const tick=()=>new Promise(res=>setImmediate(res));
 function click(page){
@@ -80,8 +80,29 @@ async function main(){
  location.hash='#/armory';
  vm.runInContext('restoreRoute()',context);
  visible('URL directa al arsenal',/Mi arsenal/);
+ // Comprobar catálogo completo, distancias de lanzamiento y filtro por Task Force.
+ const numbers=vm.runInContext('({u:catalogSource.units.length,w:catalogSource.weapons.length,min:catalogWeaponMap.get("usn_agm-84c").min,max:catalogWeaponMap.get("usn_agm-84c").max,f14:catalogWeaponMap.get("usn_aim-54a").max,cruise:catalogUnitMap.get("usn_a-6e").maxNm,heli:catalogUnitMap.get("usn_sh-2f").maxNm})',context);
+ assert.equal(numbers.u,636);assert.equal(numbers.w,471);
+ assert.equal(numbers.min,3.5);assert.equal(numbers.max,65);assert.equal(numbers.f14,110);
+ assert.equal(numbers.cruise,2138);assert.equal(numbers.heli,229);
+ console.log('OK: 636 unidades, 471 armas, autonomías y alcance mínimo/máximo');
+ click('library');visible('fichas completas',/Unidades y armamento/);
+ assert.match(element('#page-content').innerHTML,/data-catalog-scope="fleet"/);
+ const scopeButton={dataset:{catalogScope:'fleet'},id:'',closest(){return this}};
+ for(const cb of handlers.click||[])cb({target:scopeButton});
+ const fleetHTML=element('#page-content').innerHTML;
+ assert.match(fleetHTML,/Mi flota/);
+ assert.match(fleetHTML,/A-6E/);
+ assert.doesNotMatch(fleetHTML,/ARA A-4P/);
+ console.log('OK: filtro rápido de flota activa');
+ vm.runInContext('openDetail("game-ammo:usn_agm-84c",{skipHistory:true})',context);
+ assert.match(element('#detail-panel').innerHTML,/65 mn/);
+ assert.match(element('#detail-panel').innerHTML,/3,5 mn/);
+ vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
+ assert.match(element('#detail-panel').innerHTML,/2.138 mn/);
+ console.log('OK: ficha del Harpoon y autonomía de A-6E');
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
- for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.1.0"'),'Falta script actualizado '+script);
+ for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.2.0"'),'Falta script actualizado '+script);
  console.log('OK: scripts versionados para evitar archivos antiguos en Android');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
