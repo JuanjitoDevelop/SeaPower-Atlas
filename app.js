@@ -32,41 +32,51 @@ function renderHub(){
 }
 function renderLibrary(){
  const list=all().filter(e=>!(e.pack==='core'&&['weapon','sensor'].includes(e.category)&&catalogSource));
- const scope=state.catalogScope||(state.showOnlyFleet?'fleet':'all');const currentScope=['all','fleet','stock','other'].includes(scope)?scope:'all';
+ const scope=state.catalogScope||(state.showOnlyFleet?'fleet':'all');
+ const currentScope=['all','fleet','stock','other'].includes(scope)?scope:'all';
  const fleetFlag=new Map(list.map(e=>[e.id,inFleet(e)]));
- const matches=list.filter(e=>
-  (filter==='all'||e.category===filter)&&(!onlyFav||state.favorites.includes(e.id))&&
-  (currentScope==='all'||(currentScope==='fleet'?fleetFlag.get(e.id):currentScope==='stock'?Boolean(e.gameAmmoId&&campaignAmmoCount(e.gameAmmoId)>0):!fleetFlag.get(e.id)))&&
+ const textQuery=norm(query);
+ // Filtros comunes: se aplican antes de calcular TODAS las cifras visibles.
+ const common=list.filter(e=>
+  (!onlyFav||state.favorites.includes(e.id))&&
   (nation==='all'||(nation==='nato'?['EE. UU.','Reino Unido','OTAN'].includes(e.nation):['URSS','Pacto de Varsovia'].includes(e.nation)))&&
   (!eraOnly||!e.year||Number(e.year)<=1985)&&
-  norm([e.name,e.role,e.summary,e.nation,e.pack,...(e.tags||[]),...(e.aliases||[])].join(' ')).includes(norm(query))
- ).sort((a,b)=>Number(fleetFlag.get(b.id))-Number(fleetFlag.get(a.id))||a.name.localeCompare(b.name,'es'));
- const counts=Object.fromEntries(Object.keys(KINDS).map(k=>[k,list.filter(e=>e.category===k).length]));
- const fleetCount=[...fleetFlag.values()].filter(Boolean).length;
+  norm([e.name,e.role,e.summary,e.nation,e.pack,...(e.tags||[]),...(e.aliases||[])].join(' ')).includes(textQuery)
+ );
+ const inScope=(e,s)=>s==='all'||(s==='fleet'?fleetFlag.get(e.id):s==='stock'?Boolean(e.gameAmmoId&&campaignAmmoCount(e.gameAmmoId)>0):!fleetFlag.get(e.id));
+ const scoped=common.filter(e=>inScope(e,currentScope));
+ const matches=scoped.filter(e=>filter==='all'||e.category===filter)
+  .sort((a,b)=>Number(fleetFlag.get(b.id))-Number(fleetFlag.get(a.id))||a.name.localeCompare(b.name,'es'));
+ const counts=Object.fromEntries(Object.keys(KINDS).map(k=>[k,scoped.filter(e=>e.category===k).length]));
+ const unitCount=matches.filter(e=>['aircraft','ship','land'].includes(e.category)).length;
+ const weaponCount=matches.filter(e=>['weapon','sensor'].includes(e.category)).length;
+ const otherCount=matches.length-unitCount-weaponCount;
  const shown=matches.slice(0,libraryLimit);
- const scopeButtons=[['all','Todo el juego',list.length],['fleet','Mi flota',fleetCount],['stock','En stock',list.filter(e=>e.gameAmmoId&&campaignAmmoCount(e.gameAmmoId)>0).length],['other','Fuera de flota',list.length-fleetCount]].map(([id,title,count])=>
-  `<button type="button" class="catalog-scope-btn ${currentScope===id?'selected':''}" aria-pressed="${currentScope===id}" data-catalog-scope="${id}">${title} <span>${count}</span></button>`
+ const scopeLabels=[['all','Todo el juego'],['fleet','Mi flota'],['stock','En stock'],['other','Fuera de flota']];
+ // Solo el filtro seleccionado tiene cifra; las alternativas no se suman al resultado actual.
+ const scopeButtons=scopeLabels.map(([id,title])=>
+  `<button type="button" class="catalog-scope-btn ${currentScope===id?'selected':''}" aria-pressed="${currentScope===id}" data-catalog-scope="${id}">${title}${currentScope===id?` <span>${matches.length}</span>`:''}</button>`
  ).join('');
  $('#page-content').innerHTML=`<section class="catalog-page">
   <div class="eyebrow">DATOS DEL JUEGO ORIGINAL · 1985 + MODS</div>
   <h1>Unidades y armamento</h1>
   <p class="lead">Una sola sección para explorar unidades, comparar alcances y gestionar las armas de tu campaña. Filtra por tu flota o por existencias y actualiza cada arma desde su ficha o tarjeta.</p>
-  <div class="catalog-overview"><strong>${catalogSource?.units.length||0}</strong><span>Modelos de unidades</span><strong>${catalogSource?.weapons.length||0}</strong><span>Definiciones de munición y equipo</span></div>
+  <div class="catalog-overview" aria-live="polite"><strong>${unitCount}</strong><span>Unidades en esta selección</span><strong>${weaponCount}</strong><span>Armas y sensores en esta selección</span>${otherCount?`<strong>${otherCount}</strong><span>Otras referencias</span>`:''}</div>
   <div class="catalog-scope" role="group" aria-label="Mostrar unidades y armas de mi flota o del juego completo">${scopeButtons}</div>
   <div class="toolbar catalog-toolbar">
    <div class="search-wrap"><input aria-label="Buscar fichas" class="search" id="search" placeholder="Busca A-6E, Harpoon, submarino, RIM-66…" value="${esc(query)}"></div>
    <select id="nation" class="select" aria-label="Filtrar bando"><option value="all" ${nation==='all'?'selected':''}>Todos los bandos</option><option value="nato" ${nation==='nato'?'selected':''}>EE. UU. / OTAN</option><option value="ussr" ${nation==='ussr'?'selected':''}>URSS / Pacto de Varsovia</option></select>
    <button id="fav-toggle" class="btn secondary" aria-pressed="${onlyFav}">${onlyFav?'★ Solo favoritos':'☆ Favoritos'}</button>
   </div>
-  <div class="filters catalog-filters">
-   <button class="filter ${filter==='all'?'active':''}" data-filter="all">Todas (${list.length})</button>
+  <div class="filters catalog-filters" aria-label="Tipos dentro del filtro actual">
+   <button class="filter ${filter==='all'?'active':''}" data-filter="all">Todas (${scoped.length})</button>
    ${Object.keys(KINDS).map(k=>`<button class="filter ${filter===k?'active':''}" data-filter="${k}">${KINDS[k][0]} (${counts[k]})</button>`).join('')}
    <label class="switch"><input id="era-filter" type="checkbox" ${eraOnly?'checked':''}> Hasta 1985</label>
   </div>
-  <div class="catalog-results-count" aria-live="polite">${matches.length} resultados · ${shown.length} visibles</div>
+  <div class="catalog-results-count" aria-live="polite">${matches.length} resultados de ${currentScope==='fleet'?'mi flota':currentScope==='stock'?'mi stock':currentScope==='other'?'fuera de flota':'todo el juego'} · ${shown.length} visibles</div>
   <div class="cards catalog-cards">${shown.map(card).join('')||'<div class="empty">Sin coincidencias con esos filtros.</div>'}</div>
   ${matches.length>shown.length?`<button id="catalog-more" class="catalog-more">Mostrar otras ${Math.min(48,matches.length-shown.length)} fichas (${matches.length-shown.length} restantes)</button>`:''}
-  <p class="asset-notice">«Mi flota» muestra unidades que tienes activadas y armas asociadas a sus configuraciones. No implica que estén cargadas ni que haya munición disponible. Los alcances del INI son nominales: las condiciones reales del juego pueden limitarlos.</p>
+  <p class="asset-notice">Todos los contadores corresponden a los filtros activos. «Mi flota» muestra unidades que tienes activadas y armas asociadas a sus configuraciones; no confirma existencias. Los alcances del INI son nominales.</p>
  </section>`;
 }
 function card(e){const f=state.favorites.includes(e.id);return `<article class="entry-card"><div class="card-head"><div class="category-icon ${esc(e.category)}">${icon(e)}</div><button data-favorite="${esc(e.id)}" class="card-action ${f?'on':''}" title="${f?'Quitar favorito':'Añadir favorito'}" aria-label="${f?'Quitar favorito':'Añadir favorito'}">${f?'★':'☆'}</button></div><div class="card-category">${cat(e)} · ${esc(e.nation||'INDEPENDIENTE')}</div><h3>${esc(e.name)}</h3><p class="card-desc">${esc(e.summary.length>129?e.summary.slice(0,126)+'…':e.summary)}</p>${catalogCardFact(e)?`<div class="catalog-card-fact">${esc(catalogCardFact(e))}</div>`:''}${catalogStockInput(e)}<div class="card-bottom"><span class="mini-tag ${e.pack==='workshop'?'mod':''}">${inFleet(e)?'EN MI FLOTA':packname(e)}</span><button class="open-link" data-open="${esc(e.id)}">VER FICHA ↗</button></div></article>`}
