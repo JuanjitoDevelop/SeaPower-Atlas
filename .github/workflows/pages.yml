@@ -36,6 +36,7 @@ jobs:
           node --check image_pack.js
           node -e "const x=require('./verified_images.json');const d=require('./data.json');const u=d.entries.filter(e=>['aircraft','ship'].includes(e.category));const w=d.entries.filter(e=>e.category==='weapon');if(u.length!==16||w.length!==20||[...u,...w].some(e=>!x.items[e.id]))process.exit(1);console.log('16 unidades y 20 armas con imágenes: OK')"
           node image_pack.test.cjs
+          node tools/catalog_image_coverage.cjs --check
           node -e "const d=require('./catalogo_completo_1985.json');if(d.units.length!==636||d.weapons.length!==471)process.exit(1);console.log('636 unidades y 471 armas: OK')"
           node runtime.smoke.cjs
           node planner.test.cjs

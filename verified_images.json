@@ -1,6 +1,6 @@
 {
-  "version": 6,
-  "description": "88 referencias visuales documentadas con enlaces de Wikimedia Commons; 16 nuevas entradas verificadas de aeronaves, barcos, unidades terrestres y armas. Se preservan licencias, modelos y contexto.",
+  "version": 7,
+  "description": "107 referencias de unidades, armamento y equipos del catálogo original, con correspondencias verificadas mediante páginas de Wikimedia Commons; se distinguen variantes, fechas, licencias e ilustraciones.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -1061,6 +1061,215 @@
       "ammoIds": [
         "wp_aa-10a"
       ]
+    },
+    "game-unit:a:wp_mig-17": {
+      "file": "Mikoyan-Gurevich MiG-17 (3026) 1991-12-28 Andre Gerwing Collection ID 031963.jpg",
+      "label": "MiG-17 Fresco en museo",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-17_(3026)_1991-12-28_Andre_Gerwing_Collection_ID_031963.jpg",
+      "author": "André Gerwing",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Fotografía de un MiG-17 expuesto en San Diego; no se ha identificado una subvariante ni un aparato del Pacto de Varsovia.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_bpk_kanin": {
+      "file": "Destroyer Kanin.jpg",
+      "label": "Destructor clase Kanin (Gremyashchiy)",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:Destroyer_Kanin.jpg",
+      "author": "PH2 D. Beech / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de un destructor Project 57A de la clase Kanin en 1983, sin relación con una unidad individual del escenario.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_bpk_kara": {
+      "file": "Kara class guided missile cruiser underway.JPEG",
+      "label": "Crucero clase Kara (Kerch)",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Kara_class_guided_missile_cruiser_underway.JPEG",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Vista naval completa del Kerch, clase Kara, fotografiado en 1982; imagen de la clase.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_bpk_kresta2": {
+      "file": "Kresta-II class cruiser profile 1986.png",
+      "label": "Crucero clase Kresta II · perfil técnico",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Kresta-II_class_cruiser_profile_1986.png",
+      "author": "U.S. Navy, revista All Hands",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Perfil de reconocimiento publicado en 1986, no fotografía; representa la clase Project 1134A, no un buque concreto.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:wp_bpk_kashin_mod": {
+      "file": "Kashin Mod Underway.jpg",
+      "label": "Destructor Kashin modificado (Stroinyi)",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Kashin_Mod_Underway.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía del Stroinyi, proyecto 61-MP, tras la modernización; tomada después de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_skr_krivak1": {
+      "file": "Kirvak I class frigate.jpg",
+      "label": "Fragata clase Krivak I (Zadornyy)",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirvak_I_class_frigate.jpg",
+      "author": "LT Azzolina / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Vista aérea del Zadornyy (clase Krivak I); la fotografía es de junio de 1988.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_skr_krivak2": {
+      "file": "Krivak II class frigate, port beam view.jpg",
+      "label": "Fragata clase Krivak II (Pytlivyy)",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:Krivak_II_class_frigate%2C_port_beam_view.jpg",
+      "author": "PH2 Paul A. Vise / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Vista lateral completa de la fragata Pytlivyy, clase Krivak II, en 1991.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_mbt_t-72a": {
+      "file": "T-72A - Patriot Museum, Kubinka (37756848074).jpg",
+      "label": "Carro de combate T-72A",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:T-72A_-_Patriot_Museum%2C_Kubinka_(37756848074).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Ejemplar T-72A expuesto en Patriot Museum de Kubinka; corresponde al modelo general, no a una fuerza concreta de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_spa_2s3": {
+      "file": "2S3 Akatsiya.jpg",
+      "label": "Obús autopropulsado 2S3 Akatsiya",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:2S3_Akatsiya.jpg",
+      "author": "One half 3544",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "2S3 Akatsiya fotografiado en el museo de artillería de San Petersburgo, con posterioridad a 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_p-18_radar": {
+      "file": "P-18-radar-main-antenna.jpg",
+      "label": "Radar P-18 Spoon Rest D",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:P-18-radar-main-antenna.jpg",
+      "author": "Rayshade",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Antena principal P-18 y vehículos de control de una exposición finlandesa; no reproduce una instalación soviética de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:l:wp_aaa_61K": {
+      "file": "61-K-37mm-AA-gun-batey-haosef-2-1.jpg",
+      "label": "Cañón antiaéreo soviético 61-K de 37 mm",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:61-K-37mm-AA-gun-batey-haosef-2-1.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Cañón 61-K/M1939 aislado, expuesto en museo de Tel Aviv, sin dotación.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:usn_walleye2": {
+      "file": "AGM-62 Walleye.jpg",
+      "label": "AGM-62 Walleye expuesto",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-62_Walleye.jpg",
+      "author": "U.S. Air Force / National Museum of the USAF",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Bomba planeadora AGM-62 Walleye expuesta sin aeronave. La imagen no identifica la subvariante Walleye II del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_ss-n-2": {
+      "file": "P-15 Termit with parts.jpg",
+      "label": "P-15 Termit y sus componentes",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:P-15_Termit_with_parts.jpg",
+      "author": "Johan Fredriksson (Esquilo)",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "P-15 Termit expuesto en Forum Marinum, Finlandia, junto a sus componentes. Subvariante exacta del SS-N-2 sin identificar.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_ss-n-2c": {
+      "file": "P-15 Termit missile 2012 G1.jpg",
+      "label": "P-15M Termit / SS-N-2c",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:P-15_Termit_missile_2012_G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Fotografía de un P-15M Termit identificado como SS-N-2c en el Museo de la Flota del Mar Negro de Sebastopol.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_sa-5": {
+      "file": "S-200 missile.jpg",
+      "label": "Misil S-200 / SA-5 Gammon",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:S-200_missile.jpg",
+      "author": "David Birkas",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Misil del sistema S-200 expuesto en museo húngaro; no garantiza la versión exacta utilizada en la definición SA-5 del juego.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_as-10": {
+      "file": "Kh-25ML air-to-surface missile in Park Patriot 01.jpg",
+      "label": "Misil Kh-25ML / AS-10",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Kh-25ML_air-to-surface_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar aislado del Kh-25ML. La designación AS-10 del juego no implica que la subvariante ML esté especificada.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:usn_rim-7m": {
+      "file": "RIM-7 Sea Sparrow right side view in JMSDF 1st Service School May 6, 2019.jpg",
+      "label": "RIM-7 Sea Sparrow de perfil",
+      "year": "2019",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-7_Sea_Sparrow_right_side_view_in_JMSDF_1st_Service_School_May_6%2C_2019.jpg",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Misil RIM-7 aislado en una exposición de la JMSDF; no se identifica visualmente como RIM-7M.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_at-6": {
+      "file": "9M114 Shturm ATGM in Park Patriot 02.jpg",
+      "label": "9M114 Shturm / AT-6 Spiral",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:9M114_Shturm_ATGM_in_Park_Patriot_02.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil 9M114 de la familia Shturm, expuesto sin plataforma de lanzamiento.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:wp_sa-3": {
+      "file": "S-125 Neva Pechora Saaremaa.jpg",
+      "label": "S-125 Neva / SA-3 Goa",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:S-125_Neva_Pechora_Saaremaa.jpg",
+      "author": "Wilson44691",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Ejemplar S-125 expuesto en Saaremaa, Estonia. No identifica la variante exacta del SA-3 del juego.",
+      "mediaType": "fotografía"
     }
   }
 }
