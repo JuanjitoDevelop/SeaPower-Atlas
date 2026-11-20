@@ -1,7 +1,7 @@
 'use strict';
 // Galería PRIVADA. El repositorio no contiene fotografías ni ilustraciones del juego.
 // Los blobs se almacenan solo en IndexedDB del dispositivo del usuario.
-let galleryIndex=[],galleryKeySet=new Set(),galleryDBPromise=null,galleryUrls=new Map();
+let galleryIndex=[],galleryKeySet=new Set(),galleryDBPromise=null,galleryUrls=new Map(),galleryVerified={};
 let galleryPickerEntry=null,galleryPickerQuery='',galleryPickerFolder='all',galleryPickerLimit=36,galleryImportBusy=false;
 function galleryAssignments(){if(!state.imageAssignments||typeof state.imageAssignments!=='object')state.imageAssignments={};return state.imageAssignments}
 function galleryOpenDB(){
@@ -46,25 +46,31 @@ function galleryPreferredImages(e){
 }
 function gallerySourceFor(e){
  const assigned=galleryAssignments()[e.id];
- if(assigned&&galleryKeySet.has(assigned))return {id:assigned,assigned:true};
- const items=galleryPreferredImages(e);if(!items.length)return null;
- let hash=0;for(const ch of e.id)hash=(Math.imul(hash,31)+ch.charCodeAt(0))>>>0;
- return {id:items[hash%items.length].id,assigned:false};
+ if(assigned&&galleryKeySet.has(assigned))return {id:assigned,assigned:true,local:true};
+ const verified=galleryVerified[e.id];
+ if(verified)return {verified:true,record:verified};
+ return null;
+}
+function galleryVerifiedURL(record){
+ return 'https://commons.wikimedia.org/wiki/Special:FilePath/'+encodeURIComponent(record.file).replace(/%20/g,'_')+'?width=840';
 }
 function galleryVisualMarkup(e,kind='card'){
  const source=gallerySourceFor(e);if(!source)return '';
- const label=source.assigned?'Imagen asignada por ti':'Imagen temática de los archivos del juego';
- return '<figure class="gallery-visual gallery-visual-'+kind+'"><img data-gallery-src="'+esc(source.id)+'" loading="lazy" decoding="async" alt="'+esc(label+'; '+galleryDisplayName(source.id))+'"><figcaption>'+esc(label)+(source.assigned?'':' · no identifica el modelo')+'</figcaption></figure>';
+ if(source.verified){
+  const r=source.record;
+  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img src="'+esc(galleryVerifiedURL(r))+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="Fotografía histórica verificada: '+esc(r.label)+'" onerror="this.closest(\'figure\').hidden=true"><figcaption>'+esc(r.label)+' · '+esc(r.year)+' · US Navy · dominio público · <a href="'+esc(r.source)+'" target="_blank" rel="noopener noreferrer">Fuente y licencia ↗</a></figcaption></figure>';
+ }
+ return '<figure class="gallery-visual gallery-visual-'+kind+'"><img data-gallery-src="'+esc(source.id)+'" loading="lazy" decoding="async" alt="Imagen personal asignada a '+esc(e.name)+'"><figcaption>Imagen asignada por ti</figcaption></figure>';
 }
 function galleryCardMarkup(e){return galleryVisualMarkup(e,'card')}
 function galleryDetailMarkup(e){
  const source=gallerySourceFor(e),assigned=galleryAssignments()[e.id];
  return '<section class="detail-section gallery-detail"><h3>Imagen de referencia</h3>'+
- (source?galleryVisualMarkup(e,'detail'):'<p class="gallery-no-image">No hay una imagen asignada a esta ficha.</p>')+
- (galleryIndex.length?'<div class="gallery-detail-actions"><button type="button" class="btn secondary" data-gallery-pick="'+esc(e.id)+'">Elegir imagen del archivo</button>'+
+ (source?galleryVisualMarkup(e,'detail'):'<p class="gallery-no-image">No hay una fotografía verificada para este modelo.</p>')+
+ (galleryIndex.length?'<div class="gallery-detail-actions"><button type="button" class="btn secondary" data-gallery-pick="'+esc(e.id)+'">Asignar imagen personal</button>'+
  (assigned?'<button type="button" class="btn ghost" data-gallery-unassign="'+esc(e.id)+'">Quitar asignación</button>':'')+'</div>':
- '<p class="gallery-info">Puedes importar tus imágenes del juego sin subirlas a internet. Quedarán disponibles en este dispositivo.</p><button type="button" class="btn secondary" id="gallery-import">Importar ZIP de imágenes</button>')+
- '<p class="gallery-info">Las fotografías del archivo son ilustrativas; solo las imágenes que asignes tú quedarán vinculadas expresamente a este modelo.</p></section>';
+ '<p class="gallery-info">Las fotografías históricas verificadas aparecen automáticamente. Opcionalmente puedes importar fotografías propias y asignarlas manualmente.</p>')+
+ '<p class="gallery-info">La fotografía identifica el modelo real, pero no necesariamente el escuadrón o unidad de tu campaña. Las imágenes no verificadas no se muestran automáticamente.</p></section>';
 }
 function gallerySettingsMarkup(){
  return '<section class="panel gallery-settings"><div class="eyebrow">GALERÍA PERSONAL · SIN SUBIR ARCHIVOS</div><h2>Imágenes del juego</h2>'+
