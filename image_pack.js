@@ -58,7 +58,10 @@ function galleryVisualMarkup(e,kind='card'){
  const source=gallerySourceFor(e);if(!source)return '';
  if(source.verified){
   const r=source.record;
-  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img src="'+esc(galleryVerifiedURL(r))+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="Fotografía histórica verificada: '+esc(r.label)+'" onerror="this.closest(\'figure\').hidden=true"><figcaption>'+esc(r.label)+' · '+esc(r.year)+' · US Navy · dominio público · <a href="'+esc(r.source)+'" target="_blank" rel="noopener noreferrer">Fuente y licencia ↗</a></figcaption></figure>';
+  const category=r.mediaType==='ilustración'?'Ilustración técnica':'Fotografía histórica';
+  const variant=r.exactVariant===false?'Familia identificada; subvariante sin confirmar':'Modelo identificado';
+  const credit=(r.author||'Autor no identificado')+' · '+(r.license||'Licencia en fuente');
+  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img src="'+esc(galleryVerifiedURL(r))+'" loading="lazy" decoding="async" referrerpolicy="no-referrer" alt="'+esc(category+': '+r.label+' ('+variant+')')+'" onerror="this.closest(\\'figure\\').hidden=true"><figcaption><span>'+esc(r.label)+' · '+esc(r.year)+'</span><small>'+esc(category)+' · '+esc(variant)+' · '+esc(credit)+'</small> <a href="'+esc(r.source)+'" target="_blank" rel="noopener noreferrer">Fuente y licencia ↗</a></figcaption></figure>';
  }
  return '<figure class="gallery-visual gallery-visual-'+kind+'"><img data-gallery-src="'+esc(source.id)+'" loading="lazy" decoding="async" alt="Imagen personal asignada a '+esc(e.name)+'"><figcaption>Imagen asignada por ti</figcaption></figure>';
 }
@@ -70,7 +73,8 @@ function galleryDetailMarkup(e){
  (galleryIndex.length?'<div class="gallery-detail-actions"><button type="button" class="btn secondary" data-gallery-pick="'+esc(e.id)+'">Asignar imagen personal</button>'+
  (assigned?'<button type="button" class="btn ghost" data-gallery-unassign="'+esc(e.id)+'">Quitar asignación</button>':'')+'</div>':
  '<p class="gallery-info">Las fotografías históricas verificadas aparecen automáticamente. Opcionalmente puedes importar fotografías propias y asignarlas manualmente.</p>')+
- '<p class="gallery-info">La fotografía identifica el modelo real, pero no necesariamente el escuadrón o unidad de tu campaña. Las imágenes no verificadas no se muestran automáticamente.</p></section>';
+ (source?.verified?.record?.note?'<p class="gallery-info gallery-source-note">'+esc(source.record.note)+'</p>':'')+
+ '<p class="gallery-info">La fotografía no garantiza que esta unidad, arma o configuración exacta esté disponible en tu partida. Las imágenes que no podemos atribuir a una familia concreta no se muestran automáticamente.</p></section>';
 }
 function gallerySettingsMarkup(){
  return '<section class="panel gallery-settings"><div class="eyebrow">GALERÍA PERSONAL · SIN SUBIR ARCHIVOS</div><h2>Imágenes del juego</h2>'+
