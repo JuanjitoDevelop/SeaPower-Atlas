@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "description": "Fotografías verificadas e ilustraciones técnicas del arma aislada cuando se dispone de ellas, con autor, licencia, fecha y salvedades históricas. No garantiza disponibilidad en la partida.",
+  "version": 5,
+  "description": "Galería ampliada a modelos fuera de la Task Force, con fotografías de origen identificado, licencias, variantes y fechas; no se inventan correspondencias ni se infiere la disponibilidad en la partida.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -446,6 +446,435 @@
       "mediaType": "ilustración",
       "ammoIds": [
         "usn_agm-88a"
+      ]
+    },
+    "game-unit:a:wp_mig-21": {
+      "file": "MiG-21bis.JPG",
+      "label": "MiG-21bis Fishbed",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-21bis.JPG",
+      "author": "Tourbillon",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Ejemplar MiG-21bis documentado después de 1985; no representa un aparato específico de la campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_mig-23mld": {
+      "file": "MiG-23MLD.jpg",
+      "label": "MiG-23MLD Flogger",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-23MLD.jpg",
+      "author": "U.S. Navy / Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de 1986 del modelo MiG-23MLD, no de una unidad de la campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_mig-25pd": {
+      "file": "Mikoyan-Gurevich MiG-25PD ’04 red’ (38537522835).jpg",
+      "label": "MiG-25PD Foxbat",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25PD_%E2%80%9904_red%E2%80%99_(38537522835).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Variante PD identificada; fotografía moderna de museo/exhibición.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_su-24m": {
+      "file": "Су 24М SU 24M.jpg",
+      "label": "Su-24M Fencer",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%83_24%D0%9C_SU_24M.jpg",
+      "author": "Ministerio de Defensa de Rusia",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Su-24M fotografiado con posterioridad a 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_tu-22m2": {
+      "file": "Tupolev Tu-22M-2, Russia - Air Force AN1552379.jpg",
+      "label": "Tu-22M2 Backfire",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-22M-2%2C_Russia_-_Air_Force_AN1552379.jpg",
+      "author": "Pavel Adzhigildaev",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Aeronave Tu-22M-2, no una misión de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_tu-142m": {
+      "file": "Tu-142M-1982-DN-SN-82-10842-DPLS.jpg",
+      "label": "Tu-142M Bear-F",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Tu-142M-1982-DN-SN-82-10842-DPLS.jpg",
+      "author": "U.S. Navy / Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de reconocimiento del Tu-142M en 1982.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_ka-27": {
+      "file": "Helicopter KA-27PL 2008 G1.jpg",
+      "label": "Ka-27PL Helix",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Helicopter_KA-27PL_2008_G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Helicóptero Ka-27PL; imagen contemporánea del mismo tipo.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:wp_yak-38": {
+      "file": "Yak-38 aircraft in flight.JPEG",
+      "label": "Yak-38 Forger",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Yak-38_aircraft_in_flight.JPEG",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Avión de despegue vertical Yak-38 en 1986, sin atribución a una unidad de campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:rn_frs1": {
+      "file": "British Aerospace Sea Harrier FRS1, UK - Navy AN1377696.jpg",
+      "label": "Sea Harrier FRS.1",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:British_Aerospace_Sea_Harrier_FRS1%2C_UK_-_Navy_AN1377696.jpg",
+      "author": "Archivo aeronáutico / Wikimedia Commons",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Sea Harrier FRS.1 de la Royal Navy; fotografía de archivo de una aeronave real.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:fr_super_etendard": {
+      "file": "69 Super Etendard French Navy (3150801994).jpg",
+      "label": "Dassault Super Étendard",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:69_Super_Etendard_French_Navy_(3150801994).jpg",
+      "author": "Jerry Gunner",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "Super Étendard de la Marina francesa fotografiado en 2008.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:fr_f1c": {
+      "file": "Two French air force Dassault Mirage F1C aircraft.jpg",
+      "label": "Mirage F1C",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Two_French_air_force_Dassault_Mirage_F1C_aircraft.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Dos cazas Mirage F1C franceses, no un aparato específico de la campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:ara_a-4q": {
+      "file": "3-A-304 Douglas A-4Q Skyhawk Argentine Armada (8147608891).jpg",
+      "label": "A-4Q Skyhawk argentino",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:3-A-304_Douglas_A-4Q_Skyhawk_Argentine_Armada_(8147608891).jpg",
+      "author": "Aeroprints.com",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "A-4Q de la Armada argentina fotografiado en exposición años después del conflicto de 1982.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:ara_pucara": {
+      "file": "FMA IA-58 Pucará.jpg",
+      "label": "IA-58 Pucará",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:FMA_IA-58_Pucar%C3%A1.jpg",
+      "author": "Lux Valens",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Ejemplar de IA-58 Pucará de otra fuerza aérea; no representa un avión argentino concreto.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:usn_p-3c": {
+      "file": "US Navy 030130-N-0226M-002 P-3C Orion.jpg",
+      "label": "P-3C Orion",
+      "year": "2003",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_030130-N-0226M-002_P-3C_Orion.jpg",
+      "author": "U.S. Navy / Mahlon K. Miller",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "P-3C estadounidense posterior a 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:usn_a-7e": {
+      "file": "A-7E Corsair II starboard catapult takeoff USS America (CV-66) US Navy 330-CFD-DN-ST-84-03190.jpg",
+      "label": "A-7E Corsair II",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:A-7E_Corsair_II_starboard_catapult_takeoff_USS_America_(CV-66)_US_Navy_330-CFD-DN-ST-84-03190.jpg",
+      "author": "U.S. Navy / David C. MacLean",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "A-7E durante lanzamiento naval en 1984.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:a:usaf_b-52g": {
+      "file": "A 43rd Strategic Wing B-52G Stratofortress aircraft is serviced on the flight line prior to an aerial mining mission over South Korea during Exercise TEAM SPIRIT '85 - DPLA - 08b73d75958eefefcd66dec28a29f000.jpeg",
+      "label": "B-52G Stratofortress",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:A_43rd_Strategic_Wing_B-52G_Stratofortress_aircraft_is_serviced_on_the_flight_line_prior_to_an_aerial_mining_mission_over_South_Korea_during_Exercise_TEAM_SPIRIT_'85_-_DPLA_-_08b73d75958eefefcd66dec28a29f000.jpeg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "B-52G fotografiado durante el ejercicio Team Spirit 85; no es una unidad de la campaña personal.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_rkr_kirov": {
+      "file": "Kirov class cruiser 2.jpg",
+      "label": "Crucero clase Kirov",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kirov_class_cruiser_2.jpg",
+      "author": "U.S. Navy / John Kristoffersen",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía del Frunze, crucero de la clase Kirov, no necesariamente el buque mostrado en el juego.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_rkr_slava": {
+      "file": "Cruiser Slava elevated port view 1984.jpg",
+      "label": "Crucero clase Slava",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Cruiser_Slava_elevated_port_view_1984.jpg",
+      "author": "U.S. Navy / LCDR Gordon",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Crucero Slava fotografiado en 1984. Imagen de la clase, no de cada buque individual.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_bpk_udaloy": {
+      "file": "Udaloy Class.jpg",
+      "label": "Destructor clase Udaloy",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Udaloy_Class.jpg",
+      "author": "U.S. Navy / Sylvia Nealy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "El buque retratado es Severomorsk de la clase Udaloy; foto de 2010.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_takr_kiev": {
+      "file": "Helicopter carrier \"Kiev\".jpeg",
+      "label": "Portaaeronaves clase Kiev",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:Helicopter_carrier_%22Kiev%22.jpeg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Portaaeronaves Kiev fotografiado en 1977.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_ss_kilo": {
+      "file": "Submarine Kilo class.jpg",
+      "label": "Submarino clase Kilo",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Kilo_class.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Submarino clase Kilo fotografiado en 1987; clase operativa en la época de la campaña.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:wp_ss_foxtrot": {
+      "file": "Foxtrot Class submarine.JPEG",
+      "label": "Submarino clase Foxtrot",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Foxtrot_Class_submarine.JPEG",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Ejemplar de clase Foxtrot de la Armada libia, no un submarino soviético concreto.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_ddg_sheffield": {
+      "file": "HMS Sheffield (D80).jpg",
+      "label": "HMS Sheffield · clase Type 42",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sheffield_(D80).jpg",
+      "author": "Nathalmad",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "HMS Sheffield (D80), hundido en 1982. Sirve como representación de la clase Type 42, no del buque activo en 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:rn_cvs_invincible": {
+      "file": "HMS Invincible (R05).jpg",
+      "label": "HMS Invincible (R05)",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Invincible_(R05).jpg",
+      "author": "U.S. Navy / Charles E. Hill",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "El portaaeronaves fue fotografiado en 2004, aunque el tipo existía en 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-unit:v:ara_cl_belgrano": {
+      "file": "Argentine cruiser ARA General Belgrano (C-4) underway in the 1950s.jpg",
+      "label": "ARA General Belgrano (C-4)",
+      "year": "Década de 1950",
+      "source": "https://commons.wikimedia.org/wiki/File:Argentine_cruiser_ARA_General_Belgrano_(C-4)_underway_in_the_1950s.jpg",
+      "author": "Archivo histórico / Wikimedia Commons",
+      "license": "Dominio público (Argentina)",
+      "exactVariant": true,
+      "note": "El ARA General Belgrano fue hundido en 1982; aparece como referencia histórica, NO como unidad disponible en la realidad de 1985.",
+      "mediaType": "fotografía"
+    },
+    "game-ammo:fr_mm-38": {
+      "file": "Exocet MM38.jpg",
+      "label": "MM38 Exocet expuesto",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Exocet_MM38.jpg",
+      "author": "Ryan4314",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Misil antibuque MM38 expuesto, sin lanzador ni aeronave.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "fr_mm-38"
+      ]
+    },
+    "game-ammo:rn_seawolf": {
+      "file": "Sea Wolf Missile - Port Adelaide Museum.JPG",
+      "label": "Sea Wolf en museo",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_Wolf_Missile_-_Port_Adelaide_Museum.JPG",
+      "author": "Peripitus",
+      "license": "CC BY-SA 2.5",
+      "exactVariant": false,
+      "note": "Misil Sea Wolf expuesto en museo; no permite identificar todas las versiones del juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "rn_seawolf"
+      ]
+    },
+    "game-ammo:rn_seadart": {
+      "file": "Sea Dart missile HMS Cardiff 1982.JPG",
+      "label": "Sea Dart naval",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_Dart_missile_HMS_Cardiff_1982.JPG",
+      "author": "Ken Griffiths",
+      "license": "Dominio público (cedido por autor)",
+      "exactVariant": true,
+      "note": "Misil Sea Dart visible en el lanzador naval de HMS Cardiff; no está montado en un avión.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "rn_seadart"
+      ]
+    },
+    "game-ammo:wp_aa-8": {
+      "file": "R-60 short-range air-to-air missile in Park Patriot 01.jpg",
+      "label": "R-60 (AA-8 Aphid) expuesto",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:R-60_short-range_air-to-air_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar R-60 sobre soporte en Park Patriot. La subvariante exacta del juego no está identificada.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_aa-8"
+      ]
+    },
+    "game-ammo:wp_aa-11": {
+      "file": "R-73 short-range air-to-air missile in Park Patriot 01.jpg",
+      "label": "R-73 (AA-11 Archer) expuesto",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:R-73_short-range_air-to-air_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil R-73 aislado en exposición, sin aeronave.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_aa-11"
+      ]
+    },
+    "game-ammo:wp_sa-2": {
+      "file": "SA-2 Guideline missile.JPEG",
+      "label": "S-75 / SA-2 Guideline",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:SA-2_Guideline_missile.JPEG",
+      "author": "U.S. Department of Defense / Bill Thompson",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Misil de la familia SA-2; variante exacta no confirmada.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_sa-2"
+      ]
+    },
+    "game-ammo:wp_sa-6": {
+      "file": "Cold War Museum in Plungė, missile from SA-6.jpg",
+      "label": "SA-6 Gainful en exposición",
+      "year": "2019",
+      "source": "https://commons.wikimedia.org/wiki/File:Cold_War_Museum_in_Plung%C4%97%2C_missile_from_SA-6.jpg",
+      "author": "foundin_a_attic",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Ejemplar asociado al sistema Kub / SA-6 en museo, fotografiado en 2019.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_sa-6"
+      ]
+    },
+    "game-ammo:wp_sa-11": {
+      "file": "9M38 surface-to-air missile of Buk system.jpg",
+      "label": "9M38 Buk / SA-11 Gadfly",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:9M38_surface-to-air_missile_of_Buk_system.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil 9M38 expuesto, correspondiente a la familia del sistema Buk SA-11.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_sa-11"
+      ]
+    },
+    "game-ammo:wp_fab-500_m54": {
+      "file": "FAB-500 M54 aerial bomb in Park Patriot 01.jpg",
+      "label": "FAB-500 M-54 en exposición",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:FAB-500_M54_aerial_bomb_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Bomba FAB-500 M-54 aislada en exposición, sin montaje en avión.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_fab-500_m54"
+      ]
+    },
+    "game-ammo:wp_fab-500": {
+      "file": "FAB-500 M62 aerial bomb in Park Patriot 01.jpg",
+      "label": "FAB-500 M-62 en exposición",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:FAB-500_M62_aerial_bomb_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Bomba FAB-500 M-62 aislada en exposición, correspondiente a la variante del juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_fab-500"
+      ]
+    },
+    "game-ammo:wp_as-4": {
+      "file": "Raduga Kh-22, side view.JPG",
+      "label": "Kh-22 (AS-4 Kitchen) en exposición",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Raduga_Kh-22%2C_side_view.JPG",
+      "author": "Anton Borodin",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Misil Kh-22 aislado. No confirma la subvariante exacta codificada como AS-4 en el juego.",
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "wp_as-4"
       ]
     }
   }
