@@ -2,7 +2,14 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.4
+## Estado actual · versión 3.5
+
+- **Imágenes privadas del juego:** `ui.zip` se puede importar desde «Mods y datos». Se aceptan las fotografías e ilustraciones incluidas en el ZIP original o en el paquete optimizado facilitado al usuario. Opcionalmente se incluyen fondos de carga.
+- **No se distribuyen imágenes propietarias en GitHub Pages.** El navegador redimensiona y almacena las fotos en IndexedDB del dispositivo. El usuario puede asignar fotos a cualquier ficha y eliminar sus importaciones de forma independiente de la campaña.
+- **Etiquetado honesto:** las imágenes automáticas por categoría son ilustrativas; ningún archivo de `ui.zip` demuestra por sí solo representar un modelo concreto de avión, buque o arma. Las fotos de las armas deben asignarse manualmente.
+- **Límite de copias:** el backup JSON guarda las asignaciones a las fichas, pero no los blobs de imágenes; es necesario importar nuevamente el ZIP en otro dispositivo.
+
+
 
 - **Contadores reactivos**: resúmenes, categorías y resultados se ajustan a búsqueda, bando, favoritos, año, tipo y ámbito seleccionado; «Mi flota» no suma unidades externas.
 - **Navegación entre fichas**: las unidades enlazan armas y equipos; las armas permiten abrir las plataformas de tu flota que las utilizan y otros modelos del juego. Las menciones específicas y los componentes de loadouts también enlazan sus fichas.
