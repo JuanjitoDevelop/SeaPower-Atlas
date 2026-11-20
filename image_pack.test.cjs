@@ -43,7 +43,7 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,184);
+ assert.equal(Object.keys(manifest.items).length,213);
  assert.ok(manifest.items['game-unit:l:jsdf_mbt_type74']?.exactVariant,'Modelo Type 74 japonés identificado');
  assert.equal(manifest.items['game-unit:l:wp_sa-11_launcher']?.exactVariant,false,'Buk-M1-2 no debe confundirse con la variante de 1985');
  assert.equal(manifest.items['game-ammo:fr_as11']?.file,'Aerospatiale AS11 (50121972776).jpg','AS11 aislado');
@@ -54,15 +54,19 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  assert.equal(manifest.items['game-unit:v:rn_ff_leander_batch1'].exactVariant,false,'La foto tiene refit Ikara y no acredita equipamiento inicial');
  assert.equal(manifest.items['game-unit:a:usaf_e-3a'].exactVariant,false,'Un E-3A OTAN no es automáticamente un E-3 USAF');
  assert.equal(manifest.items['game-unit:l:usa_aaa_vulcan'].exactVariant,false,'M163 y M163A1 no se confunden');
+ assert.equal(manifest.items['game-unit:l:usa_spa_m109a2'].exactVariant,true,'M109A2 identificado');
+ assert.equal(manifest.items['game-unit:l:usa_mim-23_fcr'].exactVariant,false,'Radar ROR no acredita versión FCR');
+ assert.equal(manifest.items['game-unit:l:wp_aaa_ural_zu-23'].exactVariant,false,'ZIL no es camión Ural');
+ assert.equal(manifest.items['game-ammo:usn_aim-9m'].mediaType,'ilustración','Señalar dibujo técnico AIM-9M');
  const fullCatalog=JSON.parse(fs.readFileSync('catalogo_completo_1985.json','utf8'));
  const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
  const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
  const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
- assert.equal(additions.length,148,'nuevas fotografías fuera de la flota');
+ assert.equal(additions.length,177,'nuevas fotografías fuera de la flota');
  assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,44);
  assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,53);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,25);
- assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,26);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,44);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,36);
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
