@@ -175,7 +175,9 @@ async function main(){
  assert.match(html,/class="mnav" data-page="library"/);
  assert.doesNotMatch(html,/class="nav-btn" data-page="armory"/);
  
- for(const script of scripts)assert.ok(html.includes('src="'+script+'?v=3.7.0"'),'Falta script actualizado '+script);
+ const assetVersion=html.match(/src="app\.js\?v=(\d+\.\d+\.\d+)"/)?.[1];
+ assert.ok(assetVersion,'Los recursos deben tener una versión semántica');
+ for(const script of scripts)assert.ok(html.includes('src="'+script+'?v='+assetVersion+'"'),'Falta script actualizado '+script);
  console.log('OK: scripts versionados para evitar archivos antiguos en Android');
 }
 main().catch(e=>{console.error(e);process.exitCode=1});
