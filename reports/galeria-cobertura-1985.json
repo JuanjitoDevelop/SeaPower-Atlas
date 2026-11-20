@@ -1,0 +1,4050 @@
+{
+  "schema": 1,
+  "source": "catalogo_completo_1985.json (INI extraídos para 1985)",
+  "notes": [
+    "Cobertura por identificador original, sin contar dos veces fichas editoriales que representan el mismo modelo.",
+    "Asignación visual documentada no equivale a comprobación automática de que el fichero de Wikimedia siga accesible.",
+    "No se marcan como cubiertas unidades parecidas ni variantes sin enlace expreso."
+  ],
+  "counts": {
+    "total": 1107,
+    "references": 107,
+    "covered": 106,
+    "exactAssigned": 76,
+    "familyAssigned": 30,
+    "pending": 1001,
+    "byType": {
+      "aircraft": {
+        "total": 144,
+        "covered": 33
+      },
+      "ship": {
+        "total": 295,
+        "covered": 24
+      },
+      "land": {
+        "total": 197,
+        "covered": 8
+      },
+      "weapon": {
+        "total": 471,
+        "covered": 41
+      }
+    },
+    "unmatchedManifestIds": []
+  },
+  "pending": {
+    "aircraft": [
+      [
+        "ara_a-4p",
+        "ARA A-4P"
+      ],
+      [
+        "ara_b-707",
+        "B-707"
+      ],
+      [
+        "ara_dagger",
+        "ARA DAGGER"
+      ],
+      [
+        "ara_p-95",
+        "EMB-111"
+      ],
+      [
+        "ara_s-61d",
+        "ARA S-61D"
+      ],
+      [
+        "civ_707",
+        "Avión Comercial 707"
+      ],
+      [
+        "civ_c340",
+        "Bimotor Ligero"
+      ],
+      [
+        "civ_dc-10",
+        "Avión Comercial DC-10"
+      ],
+      [
+        "civ_e100",
+        "CIV E100"
+      ],
+      [
+        "civ_h700",
+        "Jet Ejecutivo Pequeño"
+      ],
+      [
+        "civ_il-18",
+        "Avión Comercial Il-18"
+      ],
+      [
+        "civ_il-62",
+        "Avión Comercial Il-62"
+      ],
+      [
+        "civ_tu-154",
+        "Avión Comercial Tu-154"
+      ],
+      [
+        "civ_v35",
+        "Monomotor Ligero"
+      ],
+      [
+        "fab_c-95",
+        "FAB C-95"
+      ],
+      [
+        "fr_alouette_II",
+        "SA.313"
+      ],
+      [
+        "fr_alouette_III",
+        "FR ALOUETTE III"
+      ],
+      [
+        "fr_as-350",
+        "AS.350"
+      ],
+      [
+        "fr_f1a",
+        "F1A"
+      ],
+      [
+        "fr_f1e",
+        "F1E"
+      ],
+      [
+        "fr_h700",
+        "Bizjet armado"
+      ],
+      [
+        "fr_mirage_iii",
+        "Mirage III"
+      ],
+      [
+        "fr_sa-321",
+        "SA.321"
+      ],
+      [
+        "iaf_f-4e_kurnass",
+        "F-4E Kurnass"
+      ],
+      [
+        "iaf_md500",
+        "MD500 Lahatut"
+      ],
+      [
+        "iqaf_md500",
+        "MD500"
+      ],
+      [
+        "iriaf_ah-1j",
+        "AH-1J"
+      ],
+      [
+        "iriaf_f-14a",
+        "F-14A IRIAF"
+      ],
+      [
+        "iriaf_f-4d",
+        "F-4D IRIAF"
+      ],
+      [
+        "iriaf_f-4e",
+        "F-4E IRIAF"
+      ],
+      [
+        "irina_sh-3d",
+        "ASH-3D IRINA"
+      ],
+      [
+        "jasdf_f-1",
+        "F-1"
+      ],
+      [
+        "jasdf_f-4ej",
+        "F-4EJ"
+      ],
+      [
+        "jasdf_t-2",
+        "T-2"
+      ],
+      [
+        "jmsdf_hss-2",
+        "HSS-2"
+      ],
+      [
+        "jmsdf_ps-1",
+        "PS-1"
+      ],
+      [
+        "jmsdf_us-1",
+        "US-1A"
+      ],
+      [
+        "pla_f-5",
+        "F-5 Fresco"
+      ],
+      [
+        "pla_h-6a",
+        "H-6A"
+      ],
+      [
+        "pla_h-6d",
+        "H-6D"
+      ],
+      [
+        "pla_j-5",
+        "J-5 Fresco"
+      ],
+      [
+        "pla_j-7c",
+        "J-7III Fishcan"
+      ],
+      [
+        "pla_q-5",
+        "Q-5 Fantan"
+      ],
+      [
+        "pla_q-5a",
+        "Q-5A Fantan"
+      ],
+      [
+        "pla_z-8",
+        "Z-8"
+      ],
+      [
+        "plan_sh-5",
+        "SH-5"
+      ],
+      [
+        "raaf_f-111c",
+        "F-111C"
+      ],
+      [
+        "raaf_n22",
+        "RAAF N22"
+      ],
+      [
+        "raaf_searchmaster_b",
+        "RAAF SEARCHMASTER B"
+      ],
+      [
+        "raaf_searchmaster_l",
+        "RAAF SEARCHMASTER L"
+      ],
+      [
+        "raf_gr1",
+        "RAF GR1"
+      ],
+      [
+        "raf_gr3",
+        "RAF GR3"
+      ],
+      [
+        "raf_sc-7",
+        "RAF SC-7"
+      ],
+      [
+        "raf_scout_ah1",
+        "RAF SCOUT AH1"
+      ],
+      [
+        "raf_victor",
+        "RAF VICTOR"
+      ],
+      [
+        "raf_victor_k2",
+        "RAF VICTOR K2"
+      ],
+      [
+        "raf_vulcan",
+        "RAF VULCAN"
+      ],
+      [
+        "ran_a-4g",
+        "A-4G"
+      ],
+      [
+        "rn_canberra",
+        "RN CANBERRA"
+      ],
+      [
+        "rn_lynx_has2",
+        "Lynx HAS.2"
+      ],
+      [
+        "rn_nimrod_mr1",
+        "RN NIMROD MR1"
+      ],
+      [
+        "rn_sea_king_has5",
+        "RN SEA KING HAS5"
+      ],
+      [
+        "rn_wasp_has1",
+        "Wasp HAS.1"
+      ],
+      [
+        "rn_wessex_has1",
+        "RN WESSEX HAS1"
+      ],
+      [
+        "rn_wessex_has3",
+        "Wessex HAS.3"
+      ],
+      [
+        "rn_wessex_hu5",
+        "Wessex HU.5"
+      ],
+      [
+        "shared_settings",
+        "SHARED SETTINGS"
+      ],
+      [
+        "usaf_b-52d",
+        "B-52D"
+      ],
+      [
+        "usaf_c-130",
+        "USAF C-130"
+      ],
+      [
+        "usaf_c-141b",
+        "C-141B"
+      ],
+      [
+        "usaf_e-3a",
+        "E-3A"
+      ],
+      [
+        "usaf_f-15a",
+        "F-15A"
+      ],
+      [
+        "usaf_f-15c",
+        "F-15C"
+      ],
+      [
+        "usaf_f-4d",
+        "F-4D"
+      ],
+      [
+        "usaf_f-4e",
+        "F-4E"
+      ],
+      [
+        "usaf_f-5a",
+        "F-5A"
+      ],
+      [
+        "usaf_f-5e",
+        "F-5E"
+      ],
+      [
+        "usaf_kc-10",
+        "USAF KC-10"
+      ],
+      [
+        "usaf_vc-137c",
+        "VC-137C"
+      ],
+      [
+        "usmc_av-8a",
+        "AV-8C"
+      ],
+      [
+        "usn_a-3b",
+        "A-3B"
+      ],
+      [
+        "usn_ch-46",
+        "CH-46"
+      ],
+      [
+        "usn_eka-3b",
+        "EKA-3B"
+      ],
+      [
+        "usn_f-4j",
+        "F-4J"
+      ],
+      [
+        "usn_ka-3b",
+        "KA-3B"
+      ],
+      [
+        "usn_qh-50c",
+        "QH-50C"
+      ],
+      [
+        "usn_qh-50d",
+        "QH-50D"
+      ],
+      [
+        "usn_ra-3b",
+        "RA-3B"
+      ],
+      [
+        "usn_ra-5c",
+        "RA-5C"
+      ],
+      [
+        "usn_s-2e",
+        "USN S-2E"
+      ],
+      [
+        "usn_v-19a",
+        "V-19A"
+      ],
+      [
+        "wp_il-38",
+        "Il-38"
+      ],
+      [
+        "wp_ka-25ts",
+        "Ka-25TS"
+      ],
+      [
+        "wp_ka-29",
+        "Ka-29"
+      ],
+      [
+        "wp_lim-6",
+        "LIM-6 Fresco"
+      ],
+      [
+        "wp_mig-23a",
+        "MiG-23A Flogger"
+      ],
+      [
+        "wp_mig-23ms",
+        "MiG-23MS Flogger"
+      ],
+      [
+        "wp_mig-25bm",
+        "MiG-25BM Foxbat"
+      ],
+      [
+        "wp_mig-25p",
+        "MiG-25P Foxbat"
+      ],
+      [
+        "wp_mig-25pu",
+        "MiG-25PU Foxbat"
+      ],
+      [
+        "wp_mig-25rb",
+        "MiG-25RB Foxbat"
+      ],
+      [
+        "wp_mig-27",
+        "MiG-27 Flogger"
+      ],
+      [
+        "wp_mig-28",
+        "MiG-28 Fracture"
+      ],
+      [
+        "wp_p-42",
+        "P-42"
+      ],
+      [
+        "wp_p-42_rldn",
+        "P-42RLDN"
+      ],
+      [
+        "wp_su-15",
+        "Su-15"
+      ],
+      [
+        "wp_su-24a",
+        "Su-24A"
+      ],
+      [
+        "wp_taifun",
+        "Ko-45"
+      ],
+      [
+        "wp_taifun_ew",
+        "Ko-45E EW"
+      ],
+      [
+        "wp_tu-16p",
+        "TU-16P"
+      ],
+      [
+        "wp_tu-95rt",
+        "Tu-95RT"
+      ]
+    ],
+    "ship": [
+      [
+        "all_assault_raft",
+        "Balsa de asalto"
+      ],
+      [
+        "all_life_raft",
+        "Balsa salvavidas para 12 hombres"
+      ],
+      [
+        "all_life_raft_open",
+        "Balsa salvavidas abierta"
+      ],
+      [
+        "all_life_raft_single",
+        "Balsa salvavidas individual"
+      ],
+      [
+        "all_pod_president",
+        "Cápsula de escape"
+      ],
+      [
+        "ara_agi_narwal",
+        "ARA AGI NARWAL"
+      ],
+      [
+        "ara_cv_veinticinco_de_mayo",
+        "ARA CV VEINTICINCO DE MAYO"
+      ],
+      [
+        "ara_dd_comodoro_py",
+        "ARA DD COMODORO PY"
+      ],
+      [
+        "ara_dd_sumner_fram2",
+        "ARA DD SUMNER FRAM2"
+      ],
+      [
+        "ara_ddg_hercules",
+        "ARA DDG HERCULES"
+      ],
+      [
+        "ara_fs_drummond",
+        "ARA FS DRUMMOND"
+      ],
+      [
+        "ara_ss_santa_fe",
+        "ARA SS SANTA FE"
+      ],
+      [
+        "civ_fv_crabboat",
+        "Barco cangrejero"
+      ],
+      [
+        "civ_fv_dhow",
+        "Dhow"
+      ],
+      [
+        "civ_fv_fishingboat_a",
+        "Barco camaronero"
+      ],
+      [
+        "civ_fv_fishingboat_b",
+        "Arrastrero lateral pequeño"
+      ],
+      [
+        "civ_fv_fishingboat_c",
+        "Pequeño barco pesquero"
+      ],
+      [
+        "civ_fv_fishingboat_d",
+        "Cerquero pequeño"
+      ],
+      [
+        "civ_fv_okean",
+        "Arrastrero lateral"
+      ],
+      [
+        "civ_fv_sampan",
+        "Sampán"
+      ],
+      [
+        "civ_fv_sidetrawler",
+        "Cerquero mediano"
+      ],
+      [
+        "civ_fv_sterntrawler_a",
+        "Arrastrero de popa A"
+      ],
+      [
+        "civ_fv_sterntrawler_b",
+        "Arrastrero de popa B"
+      ],
+      [
+        "civ_fv_sterntrawler_c",
+        "Arrastrero de popa C"
+      ],
+      [
+        "civ_fv_sterntrawler_d",
+        "Pesquero de arrastre de popa D"
+      ],
+      [
+        "civ_ms_act_1",
+        "clase ACT 1"
+      ],
+      [
+        "civ_ms_amra",
+        "clase Amra"
+      ],
+      [
+        "civ_ms_andizhan",
+        "clase Andizhan"
+      ],
+      [
+        "civ_ms_bulk",
+        "Carguero de Granel"
+      ],
+      [
+        "civ_ms_c7s68",
+        "clase Lancer"
+      ],
+      [
+        "civ_ms_c8",
+        "Buque Porta-gabarra"
+      ],
+      [
+        "civ_ms_car_carrier_a",
+        "Buque Transportista de Vehículos"
+      ],
+      [
+        "civ_ms_encounter",
+        "clase Encounter"
+      ],
+      [
+        "civ_ms_freighter_a",
+        "clase C4"
+      ],
+      [
+        "civ_ms_freighter_b",
+        "clase C4 mejorada"
+      ],
+      [
+        "civ_ms_freighter_d",
+        "Carguero moderno"
+      ],
+      [
+        "civ_ms_irkutsk",
+        "clase Irkutsk"
+      ],
+      [
+        "civ_ms_ivan_franko",
+        "clase Ivan Franko"
+      ],
+      [
+        "civ_ms_kommunist",
+        "clase Kommunist"
+      ],
+      [
+        "civ_ms_mairangi_bay",
+        "clase Mairangi Bay"
+      ],
+      [
+        "civ_ms_mercur",
+        "clase Mercur"
+      ],
+      [
+        "civ_ms_metallurg_anosov",
+        "clase Metallurg Anosov"
+      ],
+      [
+        "civ_ms_murom",
+        "clase Murom"
+      ],
+      [
+        "civ_ms_poltava",
+        "clase Poltava"
+      ],
+      [
+        "civ_ms_ritina",
+        "Superpetrolero"
+      ],
+      [
+        "civ_ms_roro_a",
+        "RORO A"
+      ],
+      [
+        "civ_ms_roro_b",
+        "RORO B"
+      ],
+      [
+        "civ_ms_roro_c",
+        "RORO C"
+      ],
+      [
+        "civ_ms_roro_ferry",
+        "CIV MS RORO FERRY"
+      ],
+      [
+        "civ_ms_seabee",
+        "clase Seabee"
+      ],
+      [
+        "civ_ms_sealift_pacific",
+        "Petrolero Mediano"
+      ],
+      [
+        "civ_ms_searunner",
+        "CIV MS SEARUNNER"
+      ],
+      [
+        "civ_ms_searunner_mod",
+        "CIV MS SEARUNNER MOD"
+      ],
+      [
+        "civ_ms_slavyansk",
+        "clase Slavyansk"
+      ],
+      [
+        "civ_ms_super_p",
+        "clase Super P"
+      ],
+      [
+        "civ_ms_yuniy_partizan",
+        "clase Yuniy Partizan"
+      ],
+      [
+        "es_ffg_baleares",
+        "clase Baleares"
+      ],
+      [
+        "es_ss_galerna",
+        "clase Galerna"
+      ],
+      [
+        "es_ssk_delfin",
+        "clase Delfín"
+      ],
+      [
+        "fgs_ddg_lutjens",
+        "clase Lütjens"
+      ],
+      [
+        "fgs_ptg_tiger",
+        "Tipo 148 clase Tiger"
+      ],
+      [
+        "fgs_ss_type_205",
+        "clase Type 205"
+      ],
+      [
+        "fgs_ss_type_206",
+        "clase Type 206"
+      ],
+      [
+        "fgs_ss_type_209-1200",
+        "FGS SS TYPE 209-1200"
+      ],
+      [
+        "fr_ss_agosta",
+        "clase Agosta"
+      ],
+      [
+        "fr_ss_daphne",
+        "clase Daphné"
+      ],
+      [
+        "ins_ff_blackwood",
+        "clase Blackwood"
+      ],
+      [
+        "ins_pt_saar",
+        "clase Sa'ar 1"
+      ],
+      [
+        "ins_ptg_aliya",
+        "clase Aliya"
+      ],
+      [
+        "ins_ptg_hetz",
+        "clase Hetz"
+      ],
+      [
+        "ins_ptg_saar_2",
+        "clase Sa'ar 2"
+      ],
+      [
+        "ins_ptg_saar_3",
+        "clase Sa'ar 3"
+      ],
+      [
+        "ins_ptg_saar_4",
+        "clase Sa'ar 4"
+      ],
+      [
+        "ins_ss_gal",
+        "clase Gal"
+      ],
+      [
+        "ir_aor_delvar",
+        "clase Delvar"
+      ],
+      [
+        "ir_fab_boghammar",
+        "Boghammar"
+      ],
+      [
+        "ir_ffg_alvand",
+        "clase Alvand"
+      ],
+      [
+        "ir_pf_bayandor",
+        "clase Bayandor"
+      ],
+      [
+        "ir_pt_kaivan",
+        "clase Kaivan"
+      ],
+      [
+        "ir_pt_parvin",
+        "clase Parvin"
+      ],
+      [
+        "ir_ptg_combattante_II",
+        "La Combattante IIa"
+      ],
+      [
+        "ir_ptg_kaivan",
+        "clase Kaivan"
+      ],
+      [
+        "jmsdf_dd_hatsuyuki",
+        "JMSDF DD HATSUYUKI"
+      ],
+      [
+        "jmsdf_dd_minegumo",
+        "clase Minegumo"
+      ],
+      [
+        "jmsdf_dd_takatsuki",
+        "clase Takatsuki"
+      ],
+      [
+        "jmsdf_dd_takatsuki_84",
+        "JMSDF DD TAKATSUKI 84"
+      ],
+      [
+        "jmsdf_dd_yamagumo",
+        "Clase Yamagumo"
+      ],
+      [
+        "jmsdf_ddg_tachikaze",
+        "clase Tachikaze"
+      ],
+      [
+        "jmsdf_ddg_tachikaze_84",
+        "JMSDF DDG TACHIKAZE 84"
+      ],
+      [
+        "jmsdf_ddh_haruna",
+        "clase Haruna"
+      ],
+      [
+        "jmsdf_ss_asashio",
+        "Clase Asashio"
+      ],
+      [
+        "jmsdf_ss_uzushio",
+        "Clase Uzushio"
+      ],
+      [
+        "jmsdf_ss_yushio",
+        "Clase Yushio"
+      ],
+      [
+        "knm_ffg_oslo",
+        "Clase Oslo"
+      ],
+      [
+        "knm_fs_sleipner",
+        "Clase Sleipner"
+      ],
+      [
+        "knm_msc_sauda",
+        "Clase Sauda"
+      ],
+      [
+        "knm_ptg_hauk",
+        "Clase Hauk"
+      ],
+      [
+        "knm_ptg_snogg",
+        "Clase Snøgg"
+      ],
+      [
+        "knm_ss_kobben",
+        "clase Kobben"
+      ],
+      [
+        "ln_ptg_beir_grassa",
+        "Beir Grassa"
+      ],
+      [
+        "nrp_ssk_albacora",
+        "clase Albacora"
+      ],
+      [
+        "nv_agi_sampan",
+        "Sampán Espía"
+      ],
+      [
+        "plan_ap_qiongsha",
+        "clase Qiongsha"
+      ],
+      [
+        "plan_dd_luda1",
+        "clase Luda I"
+      ],
+      [
+        "plan_ff_chengdu",
+        "clase Chengdu"
+      ],
+      [
+        "plan_ff_jianghu1",
+        "clase Jianghu I"
+      ],
+      [
+        "plan_ff_jianghu2",
+        "clase Jianghu II"
+      ],
+      [
+        "plan_ff_jianghu3",
+        "clase Jianghu III"
+      ],
+      [
+        "plan_ffg_jiangdong",
+        "clase Jiangdong"
+      ],
+      [
+        "plan_k_type_037",
+        "Tipo 037 (Hainan)"
+      ],
+      [
+        "plan_lst_yukan",
+        "clase Yukan"
+      ],
+      [
+        "plan_msc_type_010",
+        "Tipo 010"
+      ],
+      [
+        "plan_pt_shanghai2",
+        "clase Shanghai II"
+      ],
+      [
+        "plan_pt_shanghai2b",
+        "clase Shanghai IIB"
+      ],
+      [
+        "plan_ptg_type_021",
+        "PLAN PTG TYPE 021"
+      ],
+      [
+        "plan_ptg_type_024",
+        "Tipo 024 (Heku)"
+      ],
+      [
+        "plan_ss_romeo",
+        "clase Tipo 033"
+      ],
+      [
+        "plan_ssg_wuhan",
+        "clase Wuhan"
+      ],
+      [
+        "plan_ssn_han",
+        "clase Han"
+      ],
+      [
+        "pns_ss_hangor",
+        "clase Hangor"
+      ],
+      [
+        "pns_ss_hashmat",
+        "clase Hashmat"
+      ],
+      [
+        "ran_ddg_perth",
+        "clase Perth"
+      ],
+      [
+        "ran_ffg_adelaide_shorthull",
+        "clase Adelaide (casco corto)"
+      ],
+      [
+        "ran_ss_oberon",
+        "clase Oberon (RAN)"
+      ],
+      [
+        "rcn_ss_oberon",
+        "clase Oberon (RCN)"
+      ],
+      [
+        "rn_ao_leaf",
+        "RN AO LEAF"
+      ],
+      [
+        "rn_cv_centaur",
+        "RN CV CENTAUR"
+      ],
+      [
+        "rn_dd_battle",
+        "clase Battle"
+      ],
+      [
+        "rn_dd_c-class",
+        "clase C"
+      ],
+      [
+        "rn_dd_z-class",
+        "clase Z"
+      ],
+      [
+        "rn_ddg_bristol",
+        "RN DDG BRISTOL"
+      ],
+      [
+        "rn_ddg_bristol_73",
+        "RN DDG BRISTOL 73"
+      ],
+      [
+        "rn_ddg_county_batch1",
+        "RN DDG COUNTY BATCH1"
+      ],
+      [
+        "rn_ddg_county_batch2",
+        "RN DDG COUNTY BATCH2"
+      ],
+      [
+        "rn_ddg_county_batch2_75",
+        "RN DDG COUNTY BATCH2 75"
+      ],
+      [
+        "rn_ddg_sheffield_batch0",
+        "RN DDG SHEFFIELD BATCH0"
+      ],
+      [
+        "rn_ddg_sheffield_batch2",
+        "RN DDG SHEFFIELD BATCH2"
+      ],
+      [
+        "rn_ff_amazon",
+        "clase Amazon"
+      ],
+      [
+        "rn_ff_broadsword",
+        "RN FF BROADSWORD"
+      ],
+      [
+        "rn_ff_leander",
+        "RN FF LEANDER"
+      ],
+      [
+        "rn_ff_leander_batch1",
+        "RN FF LEANDER BATCH1"
+      ],
+      [
+        "rn_ff_leander_batch2",
+        "RN FF LEANDER BATCH2"
+      ],
+      [
+        "rn_ff_rothesay",
+        "RN FF ROTHESAY"
+      ],
+      [
+        "rn_lpd_fearless",
+        "RN LPD FEARLESS"
+      ],
+      [
+        "rn_lsl_roundtable",
+        "RN LSL ROUNDTABLE"
+      ],
+      [
+        "rn_ss_oberon",
+        "RN SS OBERON"
+      ],
+      [
+        "rn_ss_porpoise",
+        "RN SS PORPOISE"
+      ],
+      [
+        "rn_ssn_churchill",
+        "RN SSN CHURCHILL"
+      ],
+      [
+        "rn_ssn_churchill_late",
+        "RN SSN CHURCHILL LATE"
+      ],
+      [
+        "rn_ssn_swiftsure",
+        "RN SSN SWIFTSURE"
+      ],
+      [
+        "rn_ssn_trafalgar",
+        "RN SSN TRAFALGAR"
+      ],
+      [
+        "rn_ssn_valiant",
+        "RN SSN VALIANT"
+      ],
+      [
+        "rocn_ss_hai_shih",
+        "Clase Hai Shih"
+      ],
+      [
+        "sea_mine",
+        "Mina"
+      ],
+      [
+        "test",
+        "TEST"
+      ],
+      [
+        "usn_ae_kilauea",
+        "clase Kilauea"
+      ],
+      [
+        "usn_ao_t2",
+        "clase T2 (modificado)"
+      ],
+      [
+        "usn_aoe_sacramento",
+        "clase Sacramento"
+      ],
+      [
+        "usn_avp_barnegat",
+        "clase Barnegat"
+      ],
+      [
+        "usn_avp_barnegat_mod",
+        "clase Barnegat (Modificada)"
+      ],
+      [
+        "usn_cg_belknap",
+        "clase Belknap"
+      ],
+      [
+        "usn_cg_belknap_72",
+        "clase Belknap"
+      ],
+      [
+        "usn_cg_bunker_hill",
+        "USN CG BUNKER HILL"
+      ],
+      [
+        "usn_cg_leahy",
+        "clase Leahy"
+      ],
+      [
+        "usn_cg_leahy_68",
+        "clase Leahy"
+      ],
+      [
+        "usn_cgn_alaska",
+        "clase Alaska"
+      ],
+      [
+        "usn_cgn_california",
+        "clase California"
+      ],
+      [
+        "usn_cgn_long_beach_73",
+        "clase Long Beach"
+      ],
+      [
+        "usn_cgn_long_beach_83",
+        "clase Long Beach"
+      ],
+      [
+        "usn_clg_oklahoma_city",
+        "clase Galveston"
+      ],
+      [
+        "usn_cv_america_79",
+        "clase America"
+      ],
+      [
+        "usn_cv_forrestal_75",
+        "clase Forrestal"
+      ],
+      [
+        "usn_cv_kitty_hawk",
+        "clase Kitty Hawk"
+      ],
+      [
+        "usn_dd_gearing",
+        "clase Gearing FRAM I"
+      ],
+      [
+        "usn_dd_gearing_fram2",
+        "clase Gearing FRAM II"
+      ],
+      [
+        "usn_dd_gearing_fram2_mod",
+        "clase Gearing NV mod"
+      ],
+      [
+        "usn_dd_spruance",
+        "clase Spruance"
+      ],
+      [
+        "usn_dd_spruance_abl",
+        "clase Spruance (ABL)"
+      ],
+      [
+        "usn_dd_spruance_vls",
+        "USN DD SPRUANCE VLS"
+      ],
+      [
+        "usn_ddg_adams_early",
+        "clase Adams (temprana)"
+      ],
+      [
+        "usn_ddg_adams_early_68",
+        "clase Adams (temprana)"
+      ],
+      [
+        "usn_ddg_adams_late",
+        "clase Adams (tardía)"
+      ],
+      [
+        "usn_ddg_adams_late_68",
+        "clase Adams (tardía)"
+      ],
+      [
+        "usn_ddg_coontz",
+        "clase Coontz"
+      ],
+      [
+        "usn_ddg_coontz_68",
+        "clase Coontz"
+      ],
+      [
+        "usn_ddg_mahan",
+        "clase Coontz (NTU)"
+      ],
+      [
+        "usn_ff_garcia",
+        "clase Garcia"
+      ],
+      [
+        "usn_ff_knox",
+        "clase Knox"
+      ],
+      [
+        "usn_ff_knox_72",
+        "clase Knox"
+      ],
+      [
+        "usn_ff_knox_84",
+        "clase Knox (Tardía)"
+      ],
+      [
+        "usn_ffg_brooke",
+        "clase Brooke"
+      ],
+      [
+        "usn_ffg_oliver_hazard_perry",
+        "clase Oliver Hazard Perry (Casco corto)"
+      ],
+      [
+        "usn_lha_tarawa",
+        "clase Tarawa"
+      ],
+      [
+        "usn_lka_charleston",
+        "clase Charleston"
+      ],
+      [
+        "usn_lpd_austin",
+        "clase Austin"
+      ],
+      [
+        "usn_lsm_lsm1",
+        "clase LSM-1"
+      ],
+      [
+        "usn_lst_newport",
+        "clase Newport"
+      ],
+      [
+        "usn_msc_adjutant",
+        "clase Adjutant"
+      ],
+      [
+        "usn_mso_aggressive",
+        "clase Aggressive"
+      ],
+      [
+        "usn_pb_pgm-39",
+        "clase PGM-39"
+      ],
+      [
+        "usn_phm_pegasus",
+        "clase Pegasus"
+      ],
+      [
+        "usn_septar_qst-35",
+        "SEPTAR QST-35"
+      ],
+      [
+        "usn_septar_qst-35_small",
+        "SEPTAR QST-35 (RCS reducido)"
+      ],
+      [
+        "usn_ss_balao_guppy_ii",
+        "USN SS BALAO GUPPY II"
+      ],
+      [
+        "usn_ssbn_franklin",
+        "clase Benjamin Franklin"
+      ],
+      [
+        "usn_ssbn_james_madison",
+        "clase James Madison"
+      ],
+      [
+        "usn_ssbn_lafayette",
+        "clase Lafayette"
+      ],
+      [
+        "usn_ssn_los_angeles_76",
+        "Los Angeles-class Flight 1 (Early)"
+      ],
+      [
+        "usn_ssn_permit",
+        "clase Permit"
+      ],
+      [
+        "usn_ssn_permit_68",
+        "clase Permit (Early)"
+      ],
+      [
+        "usn_ssn_skipjack",
+        "clase Skipjack"
+      ],
+      [
+        "usn_ssn_skipjack_68",
+        "clase Skipjack (Early)"
+      ],
+      [
+        "usn_ssn_sturgeon",
+        "clase Sturgeon"
+      ],
+      [
+        "usn_ssn_sturgeon_72",
+        "clase Sturgeon (Temprana)"
+      ],
+      [
+        "usn_takr_algol",
+        "clase Algol"
+      ],
+      [
+        "wp_agi_okean",
+        "clase Okean"
+      ],
+      [
+        "wp_agi_okean_mod",
+        "clase Okean M"
+      ],
+      [
+        "wp_bdk_alligator",
+        "clase Alligator"
+      ],
+      [
+        "wp_bdk_ivan_rogov",
+        "clase Ivan Rogov"
+      ],
+      [
+        "wp_bdk_ropucha",
+        "clase Ropucha"
+      ],
+      [
+        "wp_bpk_kashin",
+        "clase Kashin"
+      ],
+      [
+        "wp_cv_orel",
+        "clase Orel"
+      ],
+      [
+        "wp_kr_sverdlov",
+        "clase Sverdlov"
+      ],
+      [
+        "wp_mpk_grisha3",
+        "clase Grisha III"
+      ],
+      [
+        "wp_mrk_nanuchka",
+        "clase Nanuchka"
+      ],
+      [
+        "wp_ms_andizhan_armed",
+        "clase Andizhan (armada)"
+      ],
+      [
+        "wp_ms_mercur_decoy",
+        "Radar señuelo clase Mercur"
+      ],
+      [
+        "wp_ms_roro_b",
+        "Portaaviones RORO"
+      ],
+      [
+        "wp_msc_T43",
+        "clase T43"
+      ],
+      [
+        "wp_msc_T43K",
+        "clase T43K"
+      ],
+      [
+        "wp_msc_kondor",
+        "clase Kondor"
+      ],
+      [
+        "wp_msc_kondor_II",
+        "clase Kondor II"
+      ],
+      [
+        "wp_msc_kondor_II_85",
+        "clase Kondor II"
+      ],
+      [
+        "wp_pb_don",
+        "clase Don"
+      ],
+      [
+        "wp_pb_zhuk",
+        "clase Zhuk"
+      ],
+      [
+        "wp_pb_zhuk_ME",
+        "clase Zhuk ME"
+      ],
+      [
+        "wp_pkr_moskva",
+        "clase Moskva"
+      ],
+      [
+        "wp_pt_libelle",
+        "clase Libelle"
+      ],
+      [
+        "wp_pt_p4",
+        "clase P4"
+      ],
+      [
+        "wp_pt_p6",
+        "clase P6"
+      ],
+      [
+        "wp_pt_shershen-e",
+        "clase Shershen E"
+      ],
+      [
+        "wp_pt_shershen-er",
+        "clase Mol"
+      ],
+      [
+        "wp_pt_shershen",
+        "clase Shershen"
+      ],
+      [
+        "wp_pt_stenka",
+        "clase Stenka"
+      ],
+      [
+        "wp_pt_turya",
+        "clase Turya"
+      ],
+      [
+        "wp_pt_wisla",
+        "clase Wisla"
+      ],
+      [
+        "wp_ptg_komar",
+        "clase Komar"
+      ],
+      [
+        "wp_ptg_osa1",
+        "clase Osa"
+      ],
+      [
+        "wp_ptg_osa2",
+        "clase Osa 2"
+      ],
+      [
+        "wp_ptg_tarantul",
+        "clase Tarantul"
+      ],
+      [
+        "wp_ptg_tarantul_re",
+        "clase Tarantul RE"
+      ],
+      [
+        "wp_rkr_kresta1",
+        "clase Kresta"
+      ],
+      [
+        "wp_rkr_kynda",
+        "clase Kynda"
+      ],
+      [
+        "wp_skr_petya2",
+        "clase Petya II"
+      ],
+      [
+        "wp_skr_petya3",
+        "clase Petya III"
+      ],
+      [
+        "wp_ss_romeo",
+        "clase Romeo"
+      ],
+      [
+        "wp_ss_tango",
+        "clase Tango"
+      ],
+      [
+        "wp_ssbn_delta3",
+        "clase Delta III"
+      ],
+      [
+        "wp_ssbn_yankee",
+        "clase Yankee"
+      ],
+      [
+        "wp_ssgn_charlie1",
+        "clase Charlie I"
+      ],
+      [
+        "wp_ssgn_charlie2",
+        "clase Charlie II"
+      ],
+      [
+        "wp_ssgn_echo2",
+        "clase Echo II"
+      ],
+      [
+        "wp_ssgn_oscar1",
+        "clase Oscar I"
+      ],
+      [
+        "wp_ssn_alfa",
+        "clase Alfa"
+      ],
+      [
+        "wp_ssn_november",
+        "clase November"
+      ],
+      [
+        "wp_ssn_victor1",
+        "clase Victor I"
+      ],
+      [
+        "wp_ssn_victor2",
+        "clase Victor II"
+      ],
+      [
+        "wp_ssn_victor3",
+        "clase Victor III"
+      ],
+      [
+        "wp_ssn_victor3_imp",
+        "WP SSN VICTOR3 IMP"
+      ],
+      [
+        "wp_vt_boris_chilikin",
+        "clase Boris Chilikin"
+      ],
+      [
+        "wp_vt_kazbek",
+        "clase Kazbek"
+      ]
+    ],
+    "land": [
+      [
+        "airfield_small_1",
+        "Base aérea - pequeña"
+      ],
+      [
+        "arg_arty_mod_56",
+        "ARG ARTY MOD 56"
+      ],
+      [
+        "arg_itb_exocet",
+        "ARG ITB EXOCET"
+      ],
+      [
+        "civ_car_pickup_1983_type63",
+        "Technical - Type63 MLRS"
+      ],
+      [
+        "civ_car_pickup_1983_ub-16",
+        "Technical - UB-16-57KV MLRS"
+      ],
+      [
+        "civ_car_pickup_1983_zu-23",
+        "Technical - Zu-23"
+      ],
+      [
+        "civ_comm_buildings",
+        "Sitio de comunicaciones (Civil)"
+      ],
+      [
+        "civ_radiostation",
+        "Estación de radio (Civil)"
+      ],
+      [
+        "civ_spar_rig",
+        "Plataforma petrolífera"
+      ],
+      [
+        "civ_tgt_bridge_3_part",
+        "Puente (3 vigas)"
+      ],
+      [
+        "civ_tgt_bridge_6_part",
+        "Puente (6 vigas)"
+      ],
+      [
+        "civ_tgt_bridge_arches_6_part",
+        "Puente (arqueado 6 vigas)"
+      ],
+      [
+        "fin_100_56_TK",
+        "Batería TK 100mm"
+      ],
+      [
+        "flk_goose_green",
+        "FLK GOOSE GREEN"
+      ],
+      [
+        "flk_pebble_island",
+        "FLK PEBBLE ISLAND"
+      ],
+      [
+        "flk_san_carlos_fob",
+        "FLK SAN CARLOS FOB"
+      ],
+      [
+        "fr_sam_roland_launcher",
+        "FR SAM ROLAND LAUNCHER"
+      ],
+      [
+        "iqa_mbt_t-55_70",
+        "T-55 M1970"
+      ],
+      [
+        "is_airbase_akureyri",
+        "Base aérea de Akureyri"
+      ],
+      [
+        "is_airbase_isafjordur",
+        "Base aérea de Isafjordur"
+      ],
+      [
+        "is_airbase_keflavik",
+        "Base aérea de Keflavik"
+      ],
+      [
+        "is_airbase_reykjavik",
+        "Base aérea de Reykjavik"
+      ],
+      [
+        "jsdf_apc_type60",
+        "APC Tipo 60"
+      ],
+      [
+        "jsdf_apc_type73",
+        "APC Tipo 73"
+      ],
+      [
+        "jsdf_mbt_type74",
+        "MBT Tipo 74"
+      ],
+      [
+        "jsdf_sam_type81",
+        "SAM Tipo 81"
+      ],
+      [
+        "nato_aaa_gdf",
+        "GDF Skyguard"
+      ],
+      [
+        "nato_aaa_kcb",
+        "NATO AAA KCB"
+      ],
+      [
+        "nato_ewr_station",
+        "Instalación de Radar de Alerta Temprana"
+      ],
+      [
+        "nato_fps-20_radar",
+        "Radar de búsqueda AN/FPS-20"
+      ],
+      [
+        "nato_fps-6_radar",
+        "Radar de determinación de altura AN/FPS-6"
+      ],
+      [
+        "nato_large_ewr_station",
+        "Instalación de Radar de Alerta Temprana (Grande)"
+      ],
+      [
+        "nato_radar",
+        "Emplazamiento de Radar"
+      ],
+      [
+        "nato_sam_skyguard",
+        "SAM Skyguard-Sparrow"
+      ],
+      [
+        "nato_sam_skyguard_radar",
+        "NATO SAM SKYGUARD RADAR"
+      ],
+      [
+        "nato_small_airbase",
+        "Base aérea pequeña"
+      ],
+      [
+        "nato_tps-27_radar",
+        "Radar TPS-27"
+      ],
+      [
+        "nato_very_small_airbase",
+        "Base aérea muy pequeña"
+      ],
+      [
+        "nv_130mm_coastal_artillery",
+        "Batería B-13 130mm"
+      ],
+      [
+        "nv_bofors",
+        "Bofors AAA"
+      ],
+      [
+        "nv_coastal_artillery",
+        "Batería QF 4.5"
+      ],
+      [
+        "nv_headquarters",
+        "Cuartel General del Ejército"
+      ],
+      [
+        "nv_ks-19",
+        "Batería AAA KS-19"
+      ],
+      [
+        "nv_mlrs_grad_emplacement",
+        "Emplazamiento Grad"
+      ],
+      [
+        "nv_pt_boats_docks",
+        "Base de Patrulleras"
+      ],
+      [
+        "nv_pt_boats_docks_small",
+        "Base pequeña de patrulleras"
+      ],
+      [
+        "nv_s-60",
+        "S-60"
+      ],
+      [
+        "nv_watchtower",
+        "Puesto de Observación"
+      ],
+      [
+        "nv_zu-23",
+        "Zu-23"
+      ],
+      [
+        "oil_terminal_1",
+        "Terminal petrolífera"
+      ],
+      [
+        "oil_terminal_2",
+        "Terminal petrolífera"
+      ],
+      [
+        "oil_terminal_3",
+        "Terminal petrolífera"
+      ],
+      [
+        "pla_aaa_type55",
+        "Cañón antiaéreo de 37 mm Tipo 55"
+      ],
+      [
+        "pla_aaa_type65",
+        "Cañón antiaéreo de 37 mm Tipo 65"
+      ],
+      [
+        "pla_apc_type63",
+        "APC Tipo 63"
+      ],
+      [
+        "pla_hy-1_launcher",
+        "Sitio CSSC-2 (HY-1) Silkworm"
+      ],
+      [
+        "pla_hy-2_launcher",
+        "Sitio CSSC-3C (HY-2) Seersucker"
+      ],
+      [
+        "pla_hy-3_launcher",
+        "Sitio CSS-C-6 (HY-3) Sawhorse"
+      ],
+      [
+        "pla_hy-4_launcher",
+        "Sitio CSSC-7 (HY-4) Sadsack"
+      ],
+      [
+        "pla_lt_type_63",
+        "LT Tipo 63"
+      ],
+      [
+        "pla_spaag_type63",
+        "SPAAG Tipo 63"
+      ],
+      [
+        "port_ashdod",
+        "Ashdod"
+      ],
+      [
+        "port_belfast",
+        "Belfast"
+      ],
+      [
+        "port_chennai",
+        "Chennai"
+      ],
+      [
+        "port_cochin",
+        "Cochin"
+      ],
+      [
+        "port_diu",
+        "Diu"
+      ],
+      [
+        "port_dover",
+        "Dover"
+      ],
+      [
+        "port_dublin",
+        "Dublín"
+      ],
+      [
+        "port_eastcoast_charleston",
+        "Charleston"
+      ],
+      [
+        "port_eastcoast_halifax",
+        "Halifax"
+      ],
+      [
+        "port_eastcoast_jacksonville",
+        "Jacksonville"
+      ],
+      [
+        "port_eastcoast_mayport",
+        "Mayport"
+      ],
+      [
+        "port_eastcoast_newport",
+        "Newport"
+      ],
+      [
+        "port_eastcoast_norfolk",
+        "Norfolk"
+      ],
+      [
+        "port_felixstowe",
+        "Felixstowe"
+      ],
+      [
+        "port_haifa",
+        "Haifa"
+      ],
+      [
+        "port_hmnb_clyde",
+        "Base Naval HMNB Clyde"
+      ],
+      [
+        "port_holyhead",
+        "Holyhead"
+      ],
+      [
+        "port_karachi",
+        "Karachi"
+      ],
+      [
+        "port_latakia",
+        "Latakia"
+      ],
+      [
+        "port_liverpool",
+        "Liverpool"
+      ],
+      [
+        "port_lossiemouth",
+        "Puerto de Lossiemouth"
+      ],
+      [
+        "port_milford_haven",
+        "Milford Haven"
+      ],
+      [
+        "port_mumbai",
+        "Mumbai"
+      ],
+      [
+        "port_pg_asaluyeh",
+        "Asaluyeh"
+      ],
+      [
+        "port_pg_bandar_abbas",
+        "Bandar Abbas"
+      ],
+      [
+        "port_pg_bandar_lengeh",
+        "Bandar Lengeh"
+      ],
+      [
+        "port_pg_bushehr",
+        "Bushehr"
+      ],
+      [
+        "port_pg_dammam",
+        "Dammam"
+      ],
+      [
+        "port_pg_fujairah",
+        "Fujairah"
+      ],
+      [
+        "port_pg_kish",
+        "Kish"
+      ],
+      [
+        "port_pg_kuwait",
+        "Kuwait"
+      ],
+      [
+        "port_pg_minah_al_ahmadi",
+        "Mina Al Ahmadi"
+      ],
+      [
+        "port_pg_umm_quasr",
+        "Umm Qasr"
+      ],
+      [
+        "port_plymouth",
+        "Plymouth"
+      ],
+      [
+        "port_portsmouth",
+        "Portsmouth"
+      ],
+      [
+        "port_telaviv",
+        "Tel Aviv"
+      ],
+      [
+        "port_ussr_kandalaksha",
+        "Kandalaksha"
+      ],
+      [
+        "port_ussr_severomorsk",
+        "Severomorsk"
+      ],
+      [
+        "port_weymouth",
+        "Weymouth"
+      ],
+      [
+        "raf_rapier_launcher",
+        "Rapier"
+      ],
+      [
+        "swe_ersta",
+        "Batería ERSTA"
+      ],
+      [
+        "tgt_ammo_depot_small",
+        "Depósito de munición"
+      ],
+      [
+        "tgt_fueltanks_large",
+        "Depósito grande de tanques de combustible"
+      ],
+      [
+        "tgt_fueltanks_large_brown",
+        "Depósito grande de tanques de combustible (Marrón)"
+      ],
+      [
+        "tgt_fueltanks_medium",
+        "Depósito mediano de tanques de combustible"
+      ],
+      [
+        "tgt_fueltanks_medium_sandy",
+        "Depósito mediano de tanques de combustible (Arena)"
+      ],
+      [
+        "tgt_fueltanks_small",
+        "Depósito pequeño de tanques de combustible"
+      ],
+      [
+        "tgt_fueltanks_small_brown",
+        "Depósito pequeño de tanques de combustible (Marrón)"
+      ],
+      [
+        "tgt_industry_buildings_1",
+        "Edificios industriales 1"
+      ],
+      [
+        "tgt_industry_buildings_2",
+        "Edificios industriales 2"
+      ],
+      [
+        "tgt_industry_buildings_2_brown",
+        "Edificios industriales 2 (Marrón)"
+      ],
+      [
+        "tgt_industry_buildings_3",
+        "Edificios industriales 3"
+      ],
+      [
+        "tgt_industry_buildings_4",
+        "Edificios industriales 4"
+      ],
+      [
+        "tgt_refinery_small",
+        "Refinería pequeña"
+      ],
+      [
+        "tgt_refinery_small_2",
+        "Refinería pequeña 2"
+      ],
+      [
+        "tgt_refinery_small_3",
+        "Refinería pequeña 3"
+      ],
+      [
+        "uk_emplacement_m2hb",
+        "UK EMPLACEMENT M2HB"
+      ],
+      [
+        "us_cobra_dane_ewr",
+        "AN/FPS-108 COBRA DANE"
+      ],
+      [
+        "usa_aaa_m42",
+        "M42 Duster"
+      ],
+      [
+        "usa_aaa_m51",
+        "M51 Skysweeper"
+      ],
+      [
+        "usa_aaa_vulcan",
+        "M163A1 Vulcan"
+      ],
+      [
+        "usa_apc_aav7",
+        "AAV-7A1"
+      ],
+      [
+        "usa_apc_m113",
+        "M113"
+      ],
+      [
+        "usa_car_hemtt",
+        "HEMTT"
+      ],
+      [
+        "usa_car_hmmwv",
+        "Humvee"
+      ],
+      [
+        "usa_car_hmmwv_m2",
+        "Humvee M2"
+      ],
+      [
+        "usa_car_hmmwv_tow",
+        "Humvee TOW"
+      ],
+      [
+        "usa_car_m923",
+        "Camión M923"
+      ],
+      [
+        "usa_ifv_bradley",
+        "M2 Bradley"
+      ],
+      [
+        "usa_mbt_abrams",
+        "M1 Abrams"
+      ],
+      [
+        "usa_mbt_m60",
+        "M60"
+      ],
+      [
+        "usa_mim-23_fcr",
+        "MIM-23 Hawk FCR"
+      ],
+      [
+        "usa_mim-23_launcher",
+        "MIM-23 Hawk"
+      ],
+      [
+        "usa_mim-23_radar",
+        "Radar MIM-23 Hawk"
+      ],
+      [
+        "usa_mlrs_m270",
+        "M270 MLRS"
+      ],
+      [
+        "usa_radar_tps-43",
+        "Radar TPS-43"
+      ],
+      [
+        "usa_radar_tps-63",
+        "Radar TPS-63"
+      ],
+      [
+        "usa_sam_site_nike_hercules",
+        "Emplazamiento SAM Nike Hercules"
+      ],
+      [
+        "usa_spa_m109a2",
+        "M109A2 Paladin"
+      ],
+      [
+        "usa_spa_m110a1",
+        "M110A1"
+      ],
+      [
+        "warehouses_1",
+        "Almacenes 1"
+      ],
+      [
+        "warehouses_2",
+        "Almacenes 2"
+      ],
+      [
+        "warehouses_3",
+        "Almacenes 3"
+      ],
+      [
+        "wp_aaa_ural_61K",
+        "37mm sobre camión Ural"
+      ],
+      [
+        "wp_aaa_ural_s-60",
+        "AAA 57mm sobre camión Ural"
+      ],
+      [
+        "wp_aaa_ural_zu-23",
+        "AAA ZU-23 23mm sobre camión Ural"
+      ],
+      [
+        "wp_airbase_1",
+        "Base Aérea Olenya"
+      ],
+      [
+        "wp_airbase_2",
+        "Base Aérea Pechora"
+      ],
+      [
+        "wp_airbase_3",
+        "Base Aérea de Cazas Pequeña"
+      ],
+      [
+        "wp_airbase_4",
+        "Base Aérea Grande"
+      ],
+      [
+        "wp_airbase_5",
+        "Base Aérea Amari"
+      ],
+      [
+        "wp_asc_redut",
+        "Redut"
+      ],
+      [
+        "wp_asc_rubezh",
+        "Rubezh"
+      ],
+      [
+        "wp_car_ural",
+        "Camión Ural"
+      ],
+      [
+        "wp_car_ural_command",
+        "Centro de mando móvil"
+      ],
+      [
+        "wp_cross_slot",
+        "Sitio de Radar Cross Slot"
+      ],
+      [
+        "wp_large_pvo_airbase",
+        "Base Aérea PVO"
+      ],
+      [
+        "wp_mbt_t-55m",
+        "T-55M"
+      ],
+      [
+        "wp_p-10_radar",
+        "Radar P-10 Knife Rest"
+      ],
+      [
+        "wp_p-14_radar",
+        "Radar P-14 Tall King"
+      ],
+      [
+        "wp_p-15_radar",
+        "Radar P-15 Flat Face A"
+      ],
+      [
+        "wp_p-19_radar",
+        "Radar P-19 Flat Face B"
+      ],
+      [
+        "wp_p-35_radar",
+        "Radar P-35 Barlock"
+      ],
+      [
+        "wp_sa-10_flaplid",
+        "SA-10 Flaplid"
+      ],
+      [
+        "wp_sa-10_tel",
+        "TEL SA-10"
+      ],
+      [
+        "wp_sa-11_launcher",
+        "Lanzador SA-11 Gadfly"
+      ],
+      [
+        "wp_sa-11_radar",
+        "Radar SA-11 Tube Arm"
+      ],
+      [
+        "wp_sa-13_launcher",
+        "Emplazamiento SA-13 Gopher"
+      ],
+      [
+        "wp_sa-3_launcher",
+        "SA-3 Goa"
+      ],
+      [
+        "wp_sa-4_launcher",
+        "Lanzador SA-4 Ganef"
+      ],
+      [
+        "wp_sa-4_longtruck",
+        "Radar de búsqueda SA-4 Long Track"
+      ],
+      [
+        "wp_sa-4_pathand",
+        "FCR SA-4 Pat Hand"
+      ],
+      [
+        "wp_sa-5_launcher",
+        "Lanzador SA-5 Gammon"
+      ],
+      [
+        "wp_sa-5_squarepair",
+        "Radar 5N62 Square Pair"
+      ],
+      [
+        "wp_sa-6_straightflush",
+        "Radar SA-6 Straight Flush"
+      ],
+      [
+        "wp_sa-7_launcher",
+        "SA-7 Grail"
+      ],
+      [
+        "wp_sa-8_launcher",
+        "Emplazamiento SA-8 Gecko"
+      ],
+      [
+        "wp_sam_site_sa-10",
+        "Emplazamiento SAM SA-10"
+      ],
+      [
+        "wp_sam_site_sa-11",
+        "Emplazamiento SAM SA-11"
+      ],
+      [
+        "wp_sam_site_sa-11_small",
+        "Emplazamiento SAM SA-11 pequeño"
+      ],
+      [
+        "wp_sam_site_sa-2",
+        "Sitio SA-2 Guideline"
+      ],
+      [
+        "wp_sam_site_sa-2_modernized",
+        "Sitio SA-2 Guideline (Modernizado)"
+      ],
+      [
+        "wp_sam_site_sa-3",
+        "Sitio SA-3 Goa"
+      ],
+      [
+        "wp_sam_site_sa-5",
+        "Emplazamiento SA-5 Gammon"
+      ],
+      [
+        "wp_silkworm_launcher",
+        "Emplazamiento CSSC-1 (SY-1) Scrubbrush"
+      ],
+      [
+        "wp_son-9",
+        "Sitio de Radar Son-9"
+      ],
+      [
+        "wp_tbm_scud_b_tel",
+        "WP TBM SCUD B TEL"
+      ],
+      [
+        "wp_zsu-57",
+        "ZSU-57-2"
+      ]
+    ],
+    "weapon": [
+      [
+        "all_air_chaff_heavy",
+        "all air chaff heavy"
+      ],
+      [
+        "all_air_chaff_standard",
+        "all air chaff standard"
+      ],
+      [
+        "all_assault_raft",
+        "all assault raft"
+      ],
+      [
+        "all_pilot",
+        "Piloto"
+      ],
+      [
+        "all_ship_chaff",
+        "all ship chaff"
+      ],
+      [
+        "all_ship_chaff_early",
+        "all ship chaff early"
+      ],
+      [
+        "all_ship_chaff_late",
+        "all ship chaff late"
+      ],
+      [
+        "bel_hmp-250",
+        "BEL HMP 250"
+      ],
+      [
+        "damage",
+        "DAMAGE"
+      ],
+      [
+        "dummy",
+        "DUMMY"
+      ],
+      [
+        "fin_cal_100mm_d10_tk",
+        "fin cal 100mm d10 tk"
+      ],
+      [
+        "firedecal_testing",
+        "firedecal testing"
+      ],
+      [
+        "fr_alouette_4xM2HB",
+        "fr alouette 4xM2HB"
+      ],
+      [
+        "fr_alouette_III_4xM2HB",
+        "fr alouette III 4xM2HB"
+      ],
+      [
+        "fr_am-39",
+        "AM39"
+      ],
+      [
+        "fr_as11",
+        "AS.11"
+      ],
+      [
+        "fr_as12",
+        "AS.12"
+      ],
+      [
+        "fr_cal_100mm",
+        "FR CAL 100MM"
+      ],
+      [
+        "fr_cal_30mm",
+        "30 mm"
+      ],
+      [
+        "fr_e15",
+        "E15"
+      ],
+      [
+        "fr_f17_mod1",
+        "F17"
+      ],
+      [
+        "fr_f17_mod2",
+        "F17"
+      ],
+      [
+        "fr_f17p",
+        "F17P"
+      ],
+      [
+        "fr_l3",
+        "L3"
+      ],
+      [
+        "fr_l5_mod3",
+        "L5"
+      ],
+      [
+        "fr_r530em",
+        "R-530K (SARH)"
+      ],
+      [
+        "fr_r550",
+        "R550"
+      ],
+      [
+        "fr_roland_2",
+        "FR ROLAND 2"
+      ],
+      [
+        "fr_samp_t21",
+        "SAMP-21"
+      ],
+      [
+        "fr_samp_t25",
+        "SAMP-25"
+      ],
+      [
+        "fr_sm-39",
+        "SM39"
+      ],
+      [
+        "fr_sneb",
+        "FR SNEB"
+      ],
+      [
+        "fr_super-530f",
+        "Super-530F"
+      ],
+      [
+        "fr_tank_1170_f1",
+        "Depósito externo de 2309 l."
+      ],
+      [
+        "fr_type155_sneb",
+        "fr type155 sneb"
+      ],
+      [
+        "ger_dm1",
+        "DM1"
+      ],
+      [
+        "ger_dm2",
+        "DM2"
+      ],
+      [
+        "ger_sst4",
+        "SST4"
+      ],
+      [
+        "ir_107mm_rocket",
+        "Haseb-1"
+      ],
+      [
+        "iriaf_tank_370_f-4e",
+        "iriaf tank 370 f-4e"
+      ],
+      [
+        "iriaf_tank_600_f-4e",
+        "Depósito externo de 2270 l."
+      ],
+      [
+        "is_gabriel_2",
+        "Gabriel 2"
+      ],
+      [
+        "is_gabriel_3",
+        "Gabriel 3"
+      ],
+      [
+        "is_gabriel_3as",
+        "Gabriel 3AS"
+      ],
+      [
+        "it_a-244_ship",
+        "IT A 244 SHIP"
+      ],
+      [
+        "it_a-244s_air",
+        "A-244"
+      ],
+      [
+        "it_aspide_1",
+        "Aspide Mk.1A"
+      ],
+      [
+        "it_cal_40mm_apfsds",
+        "it cal 40mm apfsds"
+      ],
+      [
+        "it_cal_40mm_pfhe",
+        "it cal 40mm pfhe"
+      ],
+      [
+        "it_otomat_mk1",
+        "Otomat MK1"
+      ],
+      [
+        "it_seakiller_2",
+        "Sea Killer 2"
+      ],
+      [
+        "jasdf_asm-1",
+        "ASM-1"
+      ],
+      [
+        "jasdf_tank_830_f-1",
+        "jasdf tank 830 f-1"
+      ],
+      [
+        "jmsdf_type54",
+        "Type 54"
+      ],
+      [
+        "jmsdf_type80",
+        "Type 80"
+      ],
+      [
+        "jsdf_sam1",
+        "Tan-SAM 1"
+      ],
+      [
+        "knm_penguin_mk2",
+        "AGM-119"
+      ],
+      [
+        "knm_terne_shell",
+        "Terne III Mortar"
+      ],
+      [
+        "knm_tp612",
+        "TP612"
+      ],
+      [
+        "knm_tp613",
+        "TP613"
+      ],
+      [
+        "nv_cal_100mm",
+        "100 mm"
+      ],
+      [
+        "nv_cal_40mm",
+        "40 mm"
+      ],
+      [
+        "nv_cal_57mm",
+        "57 mm"
+      ],
+      [
+        "pla_depth_charge",
+        "Depósito de combustible"
+      ],
+      [
+        "pla_fueltank760",
+        "pla fueltank760"
+      ],
+      [
+        "pla_hy-3",
+        "HY-3"
+      ],
+      [
+        "pla_pl-2",
+        "PL-2A"
+      ],
+      [
+        "pla_pl-2b",
+        "PL-2B"
+      ],
+      [
+        "pla_pl-5b",
+        "PL-5B"
+      ],
+      [
+        "pla_pl-5c",
+        "PL-5C"
+      ],
+      [
+        "pla_type-2",
+        "Type-100-2"
+      ],
+      [
+        "pla_type-3-250",
+        "Type-250-3"
+      ],
+      [
+        "pla_type-3-500",
+        "Type-500-3"
+      ],
+      [
+        "pla_yj-1",
+        "YJ-1"
+      ],
+      [
+        "pla_yj-6",
+        "YJ-6"
+      ],
+      [
+        "plan_cal_130mm",
+        "130 mm"
+      ],
+      [
+        "plan_cal_85mm_lt",
+        "85 mm"
+      ],
+      [
+        "plan_hq-61",
+        "HQ-61"
+      ],
+      [
+        "plan_hy-1",
+        "HY-1"
+      ],
+      [
+        "plan_hy-1a",
+        "HY-1A"
+      ],
+      [
+        "plan_hy-1j",
+        "HY-1J"
+      ],
+      [
+        "plan_hy-2",
+        "HY-2"
+      ],
+      [
+        "plan_hy-4",
+        "HY-4"
+      ],
+      [
+        "plan_skf-1",
+        "SKF-1"
+      ],
+      [
+        "plan_skf-2",
+        "SKF-2"
+      ],
+      [
+        "plan_sy-1",
+        "SY-1"
+      ],
+      [
+        "plan_sy-1a",
+        "SY-1A"
+      ],
+      [
+        "plan_type62dc",
+        "FQF-1200"
+      ],
+      [
+        "plan_type75dc",
+        "FQF-2500"
+      ],
+      [
+        "plan_yj-8",
+        "YJ-8"
+      ],
+      [
+        "plan_yu-1",
+        "Yu-1"
+      ],
+      [
+        "plan_yu-1g",
+        "Yu-1G"
+      ],
+      [
+        "plan_yu-3",
+        "Yu-3"
+      ],
+      [
+        "plan_yu-4",
+        "Yu-4A"
+      ],
+      [
+        "raf_bl755",
+        "BL755"
+      ],
+      [
+        "raf_rapier",
+        "FSB Rapier"
+      ],
+      [
+        "ran_ikara",
+        "GWS-40"
+      ],
+      [
+        "rn_cal_113mm",
+        "4.5 pulgadas"
+      ],
+      [
+        "rn_cal_114mm",
+        "4.5 pulgadas"
+      ],
+      [
+        "rn_cal_30mm",
+        "30 mm"
+      ],
+      [
+        "rn_cal_30mm_gcm",
+        "rn cal 30mm gcm"
+      ],
+      [
+        "rn_cp123",
+        "RN CP123"
+      ],
+      [
+        "rn_dc_mk11",
+        "RN DC MK11"
+      ],
+      [
+        "rn_limbo_shell",
+        "LIMBO Mortar"
+      ],
+      [
+        "rn_mark20s",
+        "Mark 20S"
+      ],
+      [
+        "rn_mark23",
+        "Mark 23"
+      ],
+      [
+        "rn_mark24_mod0",
+        "rn mark24 mod0"
+      ],
+      [
+        "rn_mark24_mod1",
+        "rn mark24 mod1"
+      ],
+      [
+        "rn_mark8_mod4",
+        "Mark VIII"
+      ],
+      [
+        "rn_mark9_mod2",
+        "Mark IX"
+      ],
+      [
+        "rn_mk13_1000lb",
+        "rn mk13 1000lb"
+      ],
+      [
+        "rn_seacat",
+        "GWS-21"
+      ],
+      [
+        "rn_seacat_mk2",
+        "GWS-24"
+      ],
+      [
+        "rn_seadart_mod1",
+        "rn seadart mod1"
+      ],
+      [
+        "rn_seaslug_mk2",
+        "rn seaslug mk2"
+      ],
+      [
+        "rn_squid_shell",
+        "SQUID Mortar"
+      ],
+      [
+        "rn_tank_230_frs",
+        "rn tank 230 frs"
+      ],
+      [
+        "rn_tank_230_frs1",
+        "rn tank 230 frs1"
+      ],
+      [
+        "rn_type_182_decoy",
+        "rn type 182 decoy"
+      ],
+      [
+        "rn_wessex_2xM2HB",
+        "rn wessex 2xM2HB"
+      ],
+      [
+        "suicide_bomb",
+        "Bomba suicida"
+      ],
+      [
+        "swe_375mm_rocket",
+        "Bofors M/50"
+      ],
+      [
+        "swe_cal_120mm_ersta",
+        "swe cal 120mm ersta"
+      ],
+      [
+        "usa_bgm-71a",
+        "BGM-71A"
+      ],
+      [
+        "usa_bgm-71c",
+        "BGM-71C"
+      ],
+      [
+        "usa_bgm-71d",
+        "BGM-71D"
+      ],
+      [
+        "usa_m26",
+        "M26"
+      ],
+      [
+        "usa_mim-14",
+        "MIM-14"
+      ],
+      [
+        "usa_mim-23",
+        "MIM-23"
+      ],
+      [
+        "usaf_agm-86c",
+        "AGM-86C"
+      ],
+      [
+        "usaf_aim-9e",
+        "AIM-9E"
+      ],
+      [
+        "usaf_aim-9j",
+        "AIM-9J"
+      ],
+      [
+        "usaf_aim-9p",
+        "AIM-9P"
+      ],
+      [
+        "usaf_alq-119",
+        "USAF ALQ 119"
+      ],
+      [
+        "usaf_cbu-24",
+        "CBU-24"
+      ],
+      [
+        "usaf_gbu-15",
+        "GBU-15"
+      ],
+      [
+        "usaf_gbu-2",
+        "GBU-2"
+      ],
+      [
+        "usaf_m117",
+        "M117"
+      ],
+      [
+        "usaf_m118",
+        "M118"
+      ],
+      [
+        "usaf_pave_spike",
+        "usaf pave spike"
+      ],
+      [
+        "usaf_pilot_f-15c",
+        "Piloto"
+      ],
+      [
+        "usaf_pilot_potus",
+        "usaf pilot potus"
+      ],
+      [
+        "usaf_suu-23",
+        "USAF SUU 23"
+      ],
+      [
+        "usaf_tank_150_f-5",
+        "Depósito externo de 567 l."
+      ],
+      [
+        "usaf_tank_150_f-5a",
+        "usaf tank 150 f-5a"
+      ],
+      [
+        "usaf_tank_230_av-8a",
+        "Depósito externo de 567 l."
+      ],
+      [
+        "usaf_tank_370_f-4e",
+        "Depósito externo de 1400 l."
+      ],
+      [
+        "usaf_tank_370_f-5",
+        "Depósito externo de 1250 l."
+      ],
+      [
+        "usaf_tank_600_f-4e",
+        "Depósito externo de 2270 l."
+      ],
+      [
+        "usaf_tank_610_f-15",
+        "Depósito externo de 2270 l."
+      ],
+      [
+        "usn_adc_mk1_noisemaker",
+        "Contramedida"
+      ],
+      [
+        "usn_agm-122a",
+        "AGM-122A"
+      ],
+      [
+        "usn_agm-123",
+        "AGM-123"
+      ],
+      [
+        "usn_agm-12b",
+        "AGM-12B"
+      ],
+      [
+        "usn_agm-84a",
+        "AGM-84A"
+      ],
+      [
+        "usn_agm-84d",
+        "AGM-84D"
+      ],
+      [
+        "usn_aim-7d",
+        "AIM-7D"
+      ],
+      [
+        "usn_aim-7e",
+        "AIM-7E"
+      ],
+      [
+        "usn_aim-7e2",
+        "AIM-7E-2"
+      ],
+      [
+        "usn_aim-7e4",
+        "AIM-7E-4"
+      ],
+      [
+        "usn_aim-7m",
+        "AIM-7M"
+      ],
+      [
+        "usn_aim-9b",
+        "AIM-9B"
+      ],
+      [
+        "usn_aim-9c",
+        "AIM-9C"
+      ],
+      [
+        "usn_aim-9d",
+        "AIM-9D"
+      ],
+      [
+        "usn_aim-9g",
+        "AIM-9G"
+      ],
+      [
+        "usn_aim-9h",
+        "AIM-9H"
+      ],
+      [
+        "usn_aim-9m",
+        "AIM-9M"
+      ],
+      [
+        "usn_alq-99",
+        "USN ALQ 99"
+      ],
+      [
+        "usn_an_slq_25_nixie_decoy",
+        "AN/SLQ-25"
+      ],
+      [
+        "usn_cal_05in",
+        "0.50 pulgadas"
+      ],
+      [
+        "usn_cal_105mm",
+        "105 mm"
+      ],
+      [
+        "usn_cal_105mm_howitzer",
+        "usn cal 105mm howitzer"
+      ],
+      [
+        "usn_cal_127mm",
+        "127 mm"
+      ],
+      [
+        "usn_cal_152mm",
+        "152 mm"
+      ],
+      [
+        "usn_cal_155mm",
+        "155 mm"
+      ],
+      [
+        "usn_cal_203mm",
+        "203 mm"
+      ],
+      [
+        "usn_cal_203mm_clgp",
+        "203 mm CLGP"
+      ],
+      [
+        "usn_cal_203mm_rap",
+        "203 mm"
+      ],
+      [
+        "usn_cal_20mm",
+        "20mm"
+      ],
+      [
+        "usn_cal_20mm_apds",
+        "usn cal 20mm apds"
+      ],
+      [
+        "usn_cal_25mm_m2",
+        "25 mm"
+      ],
+      [
+        "usn_cal_35mm",
+        "35 mm"
+      ],
+      [
+        "usn_cal_3in50",
+        "76 mm"
+      ],
+      [
+        "usn_cal_406mm",
+        "406 mm"
+      ],
+      [
+        "usn_cal_406mm_ap",
+        "usn cal 406mm ap"
+      ],
+      [
+        "usn_cal_406mm_icm",
+        "usn cal 406mm icm"
+      ],
+      [
+        "usn_cal_40mm",
+        "40 mm"
+      ],
+      [
+        "usn_cal_5in25",
+        "USN CAL 5IN25"
+      ],
+      [
+        "usn_cal_5in38",
+        "127 mm"
+      ],
+      [
+        "usn_cal_75mm",
+        "75 mm"
+      ],
+      [
+        "usn_cal_76mm",
+        "76 mm"
+      ],
+      [
+        "usn_d-704",
+        "AIM-54"
+      ],
+      [
+        "usn_fa-18_tank_330",
+        "Depósito externo de 1135 l."
+      ],
+      [
+        "usn_gbu-10",
+        "GBU-10"
+      ],
+      [
+        "usn_gbu-16",
+        "GBU-16"
+      ],
+      [
+        "usn_hedgehog",
+        "USN HEDGEHOG"
+      ],
+      [
+        "usn_hydra",
+        "Hydra 70"
+      ],
+      [
+        "usn_lau-10a",
+        "USN LAU 10A"
+      ],
+      [
+        "usn_lau-117",
+        "USN LAU 117"
+      ],
+      [
+        "usn_lau-118",
+        "USN LAU 118"
+      ],
+      [
+        "usn_lau-33",
+        "USN LAU 33"
+      ],
+      [
+        "usn_lau-35",
+        "USN LAU 35"
+      ],
+      [
+        "usn_lau-3a",
+        "USN LAU 3A"
+      ],
+      [
+        "usn_lau-68",
+        "USN LAU 68"
+      ],
+      [
+        "usn_mer",
+        "USN MER"
+      ],
+      [
+        "usn_mer_mk82_6",
+        "usn mer mk82 6"
+      ],
+      [
+        "usn_mer_mk82_snakeye_6",
+        "usn mer mk82 snakeye 6"
+      ],
+      [
+        "usn_mer_rockeye_6",
+        "usn mer rockeye 6"
+      ],
+      [
+        "usn_mk-81",
+        "USN MK 81"
+      ],
+      [
+        "usn_mk-82_snakeye",
+        "Mk-82 Snakeye"
+      ],
+      [
+        "usn_mk-84",
+        "Mk-84"
+      ],
+      [
+        "usn_mk13",
+        "USN MK13"
+      ],
+      [
+        "usn_mk16",
+        "Mk-16"
+      ],
+      [
+        "usn_mk37",
+        "Mk-37 Mod 0"
+      ],
+      [
+        "usn_mk37_mod1",
+        "Mk-37 Mod 1"
+      ],
+      [
+        "usn_mk37_mod2",
+        "Mk-37 Mod 2"
+      ],
+      [
+        "usn_mk37_mod3",
+        "Mk-37 Mod 3"
+      ],
+      [
+        "usn_mk37c",
+        "Mk-37C"
+      ],
+      [
+        "usn_mk37e",
+        "Mk-37E"
+      ],
+      [
+        "usn_mk44_air",
+        "Mk-44"
+      ],
+      [
+        "usn_mk44_ship",
+        "Mk-44"
+      ],
+      [
+        "usn_mk46_air",
+        "Mk-46 Mod 2"
+      ],
+      [
+        "usn_mk46_mod5_ship",
+        "Mk-46 Mod 5"
+      ],
+      [
+        "usn_mk46_ship",
+        "Mk-46 Mod 2"
+      ],
+      [
+        "usn_mk48",
+        "Mk-48 Mod 1"
+      ],
+      [
+        "usn_mk48_mod4_adcap",
+        "Mk-48 ADCAP"
+      ],
+      [
+        "usn_mk54_dc",
+        "Mk-54"
+      ],
+      [
+        "usn_moss",
+        "MOSS"
+      ],
+      [
+        "usn_pilot_a-6",
+        "Piloto"
+      ],
+      [
+        "usn_pilot_a-7",
+        "Piloto"
+      ],
+      [
+        "usn_pilot_f-14a",
+        "Piloto"
+      ],
+      [
+        "usn_pilot_f-4",
+        "Piloto"
+      ],
+      [
+        "usn_pilot_president_pod",
+        "Cápsula de escape del Presidente de EE. UU."
+      ],
+      [
+        "usn_pilot_ra-5c",
+        "Piloto"
+      ],
+      [
+        "usn_pilot_s-3a",
+        "Piloto"
+      ],
+      [
+        "usn_pod_aww-9",
+        "USN POD AWW 9"
+      ],
+      [
+        "usn_pod_m260",
+        "USN POD M260"
+      ],
+      [
+        "usn_rgm-109b",
+        "RGM-109B"
+      ],
+      [
+        "usn_rgm-84a",
+        "RGM-84A"
+      ],
+      [
+        "usn_rgm-84d",
+        "RGM-84D"
+      ],
+      [
+        "usn_rgm-8h",
+        "RGM-8H"
+      ],
+      [
+        "usn_rim-24b",
+        "RIM-24B"
+      ],
+      [
+        "usn_rim-2f",
+        "RIM-2F"
+      ],
+      [
+        "usn_rim-66a",
+        "RIM-66A"
+      ],
+      [
+        "usn_rim-66b",
+        "RIM-66B"
+      ],
+      [
+        "usn_rim-66c",
+        "RIM-66C"
+      ],
+      [
+        "usn_rim-66d",
+        "RIM-66D"
+      ],
+      [
+        "usn_rim-66g",
+        "RIM-66G"
+      ],
+      [
+        "usn_rim-66h",
+        "USN RIM 66H"
+      ],
+      [
+        "usn_rim-67a",
+        "RIM-67A"
+      ],
+      [
+        "usn_rim-67c",
+        "RIM-67C"
+      ],
+      [
+        "usn_rim-7",
+        "RIM-7E"
+      ],
+      [
+        "usn_rim-7h",
+        "RIM-7H"
+      ],
+      [
+        "usn_rim-8",
+        "RIM-8J"
+      ],
+      [
+        "usn_rr144_chaff",
+        "Chaff"
+      ],
+      [
+        "usn_rum-139a",
+        "USN RUM 139A"
+      ],
+      [
+        "usn_rur-5",
+        "RUR-5"
+      ],
+      [
+        "usn_ssq-101",
+        "AN/SSQ-101"
+      ],
+      [
+        "usn_ssq-41",
+        "AN/SSQ-41"
+      ],
+      [
+        "usn_ssq-47",
+        "AN/SSQ-47"
+      ],
+      [
+        "usn_ssq-53",
+        "AN/SSQ-53"
+      ],
+      [
+        "usn_ssq-62",
+        "AN/SSQ-62"
+      ],
+      [
+        "usn_ssq-77",
+        "AN/SSQ-77"
+      ],
+      [
+        "usn_tank_150_v-19a",
+        "Depósito externo de 227 l."
+      ],
+      [
+        "usn_tank_267_f-14",
+        "Depósito externo de 871 l."
+      ],
+      [
+        "usn_tank_280_f-14",
+        "usn tank 280 f-14"
+      ],
+      [
+        "usn_tank_300_a-6",
+        "Depósito externo de 1010 l."
+      ],
+      [
+        "usn_tank_300_a-6_c",
+        "Depósito externo de 1135 l."
+      ],
+      [
+        "usn_tank_370_f-4j",
+        "usn tank 370 f-4j"
+      ],
+      [
+        "usn_tank_600_f-4j",
+        "Depósito externo de 1400 l."
+      ],
+      [
+        "usn_tank_60gal_sh-2",
+        "Depósito externo de 5280 l."
+      ],
+      [
+        "usn_ter",
+        "USN TER"
+      ],
+      [
+        "usn_ter_gbu12",
+        "USN TER GBU12"
+      ],
+      [
+        "usn_ter_mk82_3",
+        "usn ter mk82 3"
+      ],
+      [
+        "usn_ter_mk82_snakeye_3",
+        "usn ter mk82 snakeye 3"
+      ],
+      [
+        "usn_ter_mk83_3",
+        "usn ter mk83 3"
+      ],
+      [
+        "usn_ugm-109b",
+        "UGM-109B"
+      ],
+      [
+        "usn_ugm-109c",
+        "UGM-109C"
+      ],
+      [
+        "usn_ugm-84a",
+        "UGM-84A"
+      ],
+      [
+        "usn_ugm-84b",
+        "UGM-84B"
+      ],
+      [
+        "usn_ugm-84c",
+        "UGM-84C"
+      ],
+      [
+        "usn_zuni",
+        "Zuni"
+      ],
+      [
+        "wp_152mm_2a33",
+        "152 mm"
+      ],
+      [
+        "wp_45-36nu",
+        "45-36NU"
+      ],
+      [
+        "wp_53-38",
+        "53-38"
+      ],
+      [
+        "wp_53-39",
+        "53-39"
+      ],
+      [
+        "wp_53-56v",
+        "53-56"
+      ],
+      [
+        "wp_53-61",
+        "WP 53 61"
+      ],
+      [
+        "wp_53-65K",
+        "53-65K"
+      ],
+      [
+        "wp_65-76",
+        "65-76"
+      ],
+      [
+        "wp_aa-10b",
+        "WP AA 10B"
+      ],
+      [
+        "wp_aa-10c",
+        "WP AA 10C"
+      ],
+      [
+        "wp_aa-10d",
+        "WP AA 10D"
+      ],
+      [
+        "wp_aa-2-2",
+        "AA-2D"
+      ],
+      [
+        "wp_aa-2a",
+        "AA-2B"
+      ],
+      [
+        "wp_aa-2c",
+        "AA-2C"
+      ],
+      [
+        "wp_aa-2d",
+        "AA-2D"
+      ],
+      [
+        "wp_aa-3e",
+        "AA-3E"
+      ],
+      [
+        "wp_aa-3f",
+        "AA-3F"
+      ],
+      [
+        "wp_aa-6a",
+        "AA-6A"
+      ],
+      [
+        "wp_aa-6b",
+        "AA-6B"
+      ],
+      [
+        "wp_aa-6c",
+        "AA-6C"
+      ],
+      [
+        "wp_aa-6d",
+        "AA-6D"
+      ],
+      [
+        "wp_aa-7c",
+        "AA-7C"
+      ],
+      [
+        "wp_aa-7d",
+        "AA-7D"
+      ],
+      [
+        "wp_aircraft_chaff",
+        "Chaff"
+      ],
+      [
+        "wp_aku-58",
+        "WP AKU 58"
+      ],
+      [
+        "wp_apk-9",
+        "WP APK 9"
+      ],
+      [
+        "wp_apr-2",
+        "APR-2"
+      ],
+      [
+        "wp_as-11",
+        "AS-11"
+      ],
+      [
+        "wp_as-12",
+        "AS-12"
+      ],
+      [
+        "wp_as-13",
+        "AS-13"
+      ],
+      [
+        "wp_as-14a",
+        "AS-14A"
+      ],
+      [
+        "wp_as-14b",
+        "AS-14B"
+      ],
+      [
+        "wp_as-2",
+        "AS-2"
+      ],
+      [
+        "wp_as-2b",
+        "AS-2B"
+      ],
+      [
+        "wp_as-4b",
+        "AS-4B"
+      ],
+      [
+        "wp_as-6",
+        "AS-6"
+      ],
+      [
+        "wp_as-7",
+        "AS-7"
+      ],
+      [
+        "wp_at-1",
+        "AT-1"
+      ],
+      [
+        "wp_at-10",
+        "AT-10"
+      ],
+      [
+        "wp_at-2",
+        "AT-2"
+      ],
+      [
+        "wp_at-6_rack",
+        "WP AT 6 RACK"
+      ],
+      [
+        "wp_b8m-1",
+        "WP B8M 1"
+      ],
+      [
+        "wp_cal_05in",
+        "12.7mm"
+      ],
+      [
+        "wp_cal_100mm",
+        "100 mm"
+      ],
+      [
+        "wp_cal_100mm_cm5",
+        "100 mm"
+      ],
+      [
+        "wp_cal_100mm_d10",
+        "100 mm"
+      ],
+      [
+        "wp_cal_125mm",
+        "125mm"
+      ],
+      [
+        "wp_cal_130mm",
+        "130 mm"
+      ],
+      [
+        "wp_cal_130mm_ss",
+        "wp cal 130mm ss"
+      ],
+      [
+        "wp_cal_14mm",
+        "14.5mm"
+      ],
+      [
+        "wp_cal_152mm",
+        "152 mm"
+      ],
+      [
+        "wp_cal_23mm",
+        "23mm"
+      ],
+      [
+        "wp_cal_25mm",
+        "25 mm"
+      ],
+      [
+        "wp_cal_30mm",
+        "30 mm"
+      ],
+      [
+        "wp_cal_30mm_ak230",
+        "wp cal 30mm ak230"
+      ],
+      [
+        "wp_cal_37mm",
+        "37mm"
+      ],
+      [
+        "wp_cal_57mm",
+        "57 mm"
+      ],
+      [
+        "wp_cal_57mm_zsu",
+        "57 mm"
+      ],
+      [
+        "wp_cal_76mm",
+        "76 mm"
+      ],
+      [
+        "wp_cal_76mm_d56",
+        "76 mm"
+      ],
+      [
+        "wp_dc_shell",
+        "Carga de profundidad"
+      ],
+      [
+        "wp_dc_shell_helicopter",
+        "wp dc shell helicopter"
+      ],
+      [
+        "wp_fab-100",
+        "OFAB-100"
+      ],
+      [
+        "wp_fab-1500_m54",
+        "FAB-1500 M-54"
+      ],
+      [
+        "wp_fab-250",
+        "FAB-250"
+      ],
+      [
+        "wp_fab-3000_m54",
+        "FAB-3000 M-54"
+      ],
+      [
+        "wp_fab-9000_m54",
+        "FAB-9000 M-54"
+      ],
+      [
+        "wp_fantasmagoria",
+        "wp fantasmagoria"
+      ],
+      [
+        "wp_fueltank3000_w",
+        "Depósito externo de 800 l."
+      ],
+      [
+        "wp_fueltank400_w",
+        "Pod de reabastecimiento D-704"
+      ],
+      [
+        "wp_fueltank450_w",
+        "Depósito externo de 400 l."
+      ],
+      [
+        "wp_fueltank600_f",
+        "Depósito externo de 450 l."
+      ],
+      [
+        "wp_fueltank800_f",
+        "Depósito externo de 800 l."
+      ],
+      [
+        "wp_fueltank800_w",
+        "Depósito externo de 600 l."
+      ],
+      [
+        "wp_grad",
+        "Grad"
+      ],
+      [
+        "wp_kab-500l",
+        "KAB-500L"
+      ],
+      [
+        "wp_mg-44",
+        "MG-44"
+      ],
+      [
+        "wp_mg-74",
+        "MG-74"
+      ],
+      [
+        "wp_noisemaker",
+        "Contramedida"
+      ],
+      [
+        "wp_oro-57k",
+        "WP ORO 57K"
+      ],
+      [
+        "wp_pilot_a",
+        "Piloto"
+      ],
+      [
+        "wp_pilot_d",
+        "Carga de profundidad BB-1"
+      ],
+      [
+        "wp_pilot_k1m_a",
+        "Piloto"
+      ],
+      [
+        "wp_pilot_k1m_d",
+        "Piloto"
+      ],
+      [
+        "wp_plab-100",
+        "PLAB-100"
+      ],
+      [
+        "wp_pod_delta_fcr",
+        "wp pod delta fcr"
+      ],
+      [
+        "wp_pod_kkrm_vrecon",
+        "wp pod kkrm vrecon"
+      ],
+      [
+        "wp_pod_rfk-t_vrecon",
+        "wp pod rfk-t vrecon"
+      ],
+      [
+        "wp_pod_siren_jammer_f",
+        "wp pod siren jammer f"
+      ],
+      [
+        "wp_pod_siren_jammer_w",
+        "wp pod siren jammer w"
+      ],
+      [
+        "wp_pod_tangazh_elint",
+        "wp pod tangazh elint"
+      ],
+      [
+        "wp_rbk-250",
+        "RBK-250"
+      ],
+      [
+        "wp_rbk-500",
+        "RBK-500"
+      ],
+      [
+        "wp_rgb-1",
+        "RGB-1"
+      ],
+      [
+        "wp_rgb-10",
+        "RBU-1000"
+      ],
+      [
+        "wp_rgb-12",
+        "RBU-1200"
+      ],
+      [
+        "wp_rgb-25",
+        "RBU-2500"
+      ],
+      [
+        "wp_rgb-3",
+        "RGB-3"
+      ],
+      [
+        "wp_rgb-60",
+        "RBU-6000"
+      ],
+      [
+        "wp_rgb-nm1",
+        "RGB-NM-1"
+      ],
+      [
+        "wp_s-24",
+        "S-24"
+      ],
+      [
+        "wp_s-25",
+        "S-25"
+      ],
+      [
+        "wp_s-25_pod",
+        "WP S 25 POD"
+      ],
+      [
+        "wp_s-5",
+        "S-5"
+      ],
+      [
+        "wp_s-8",
+        "S-8"
+      ],
+      [
+        "wp_sa-13",
+        "SA-13"
+      ],
+      [
+        "wp_sa-4",
+        "SA-4"
+      ],
+      [
+        "wp_sa-8",
+        "SA-8"
+      ],
+      [
+        "wp_sa-n-1",
+        "SA-N-1"
+      ],
+      [
+        "wp_sa-n-10",
+        "WP SA N 10"
+      ],
+      [
+        "wp_sa-n-12",
+        "WP SA N 12"
+      ],
+      [
+        "wp_sa-n-1c",
+        "SA-N-1C"
+      ],
+      [
+        "wp_sa-n-1d",
+        "WP SA N 1D"
+      ],
+      [
+        "wp_sa-n-3",
+        "SA-N-3"
+      ],
+      [
+        "wp_sa-n-3b",
+        "WP SA N 3B"
+      ],
+      [
+        "wp_sa-n-4",
+        "SA-N-4"
+      ],
+      [
+        "wp_sa-n-4c",
+        "WP SA N 4C"
+      ],
+      [
+        "wp_sa-n-5",
+        "SA-N-5"
+      ],
+      [
+        "wp_sa-n-6",
+        "SA-N-6"
+      ],
+      [
+        "wp_sa-n-7",
+        "SA-N-7"
+      ],
+      [
+        "wp_sa-n-9",
+        "SA-N-9"
+      ],
+      [
+        "wp_saet-50",
+        "WP SAET 50"
+      ],
+      [
+        "wp_set-40",
+        "SET-40"
+      ],
+      [
+        "wp_set-53",
+        "WP SET 53"
+      ],
+      [
+        "wp_set-65",
+        "SET-65"
+      ],
+      [
+        "wp_ss-1c",
+        "WP SS 1C"
+      ],
+      [
+        "wp_ss-n-12",
+        "SS-N-12"
+      ],
+      [
+        "wp_ss-n-14a",
+        "SS-N-14A"
+      ],
+      [
+        "wp_ss-n-14b",
+        "SS-N-14B"
+      ],
+      [
+        "wp_ss-n-16",
+        "SS-N-16"
+      ],
+      [
+        "wp_ss-n-19",
+        "SS-N-19"
+      ],
+      [
+        "wp_ss-n-22",
+        "SS-N-22"
+      ],
+      [
+        "wp_ss-n-22b",
+        "WP SS N 22B"
+      ],
+      [
+        "wp_ss-n-3",
+        "SS-N-3"
+      ],
+      [
+        "wp_ss-n-3b",
+        "SS-N-3B"
+      ],
+      [
+        "wp_ss-n-7",
+        "SS-N-7"
+      ],
+      [
+        "wp_ss-n-9",
+        "SS-N-9"
+      ],
+      [
+        "wp_tank_5280_mig-25",
+        "Depósito externo de 3000 l."
+      ],
+      [
+        "wp_tank_800_ko-45",
+        "Depósito externo de 800 l."
+      ],
+      [
+        "wp_test-71",
+        "TEST-71"
+      ],
+      [
+        "wp_test-71m",
+        "TEST-71M"
+      ],
+      [
+        "wp_ua",
+        "WP UA"
+      ],
+      [
+        "wp_ub-16-57",
+        "WP UB 16 57"
+      ],
+      [
+        "wp_ub-16-57KV",
+        "WP UB 16 57KV"
+      ],
+      [
+        "wp_ub-16-57UM",
+        "WP UB 16 57UM"
+      ],
+      [
+        "wp_umgt-1",
+        "UMGT-1"
+      ],
+      [
+        "wp_upk_23-250",
+        "WP UPK 23 250"
+      ],
+      [
+        "wp_uset-80",
+        "USET-80"
+      ]
+    ]
+  }
+}

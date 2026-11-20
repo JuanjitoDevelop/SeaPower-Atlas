@@ -4,6 +4,8 @@ Asistente táctico para móvil y escritorio, con un catálogo integrado de unida
 
 ## Estado actual · versión 3.11
 
+- **Seguimiento del 100 %:** `reports/galeria-cobertura-1985.json` contabiliza cada uno de los 1.107 ID originales: **106 identificadores distintos con imagen asignada y 1.001 pendientes** (las 107 referencias incluyen una variante editorial duplicada). Se regenera con `node tools/catalog_image_coverage.cjs --write` y se valida con `--check`; las imágenes de familia no se confunden con una fotografía exacta.
+
 - **Lote fotográfico adicional:** 19 archivos individuales de Wikimedia Commons comprobados (1 aeronave, 6 buques, 4 unidades terrestres y 8 armas), elevando a **107** las referencias visuales. Para cada una se ha conservado autor, año, licencia y diferenciación entre variante exacta, familia o ilustración. No se asignan fotografías genéricas a IDs sin correspondencia.
 
 - **Galería internacional ampliada:** 52 entradas visuales del juego fuera de la Task Force (22 aeronaves, 12 buques, 4 terrestres y 14 armas), totalizando **88 referencias**. Las 16 incorporaciones recientes se comprobaron contra páginas originales de Wikimedia Commons y los ID de los INI.
