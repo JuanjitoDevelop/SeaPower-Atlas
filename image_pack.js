@@ -75,9 +75,12 @@ function gallerySettingsMarkup(){
  (galleryIndex.length?'<button type="button" class="btn secondary" id="gallery-clear">Eliminar solo las imágenes importadas</button>':'')+'</div>'+
  '<p class="gallery-info">Se pueden asignar fotografías a unidades o armas desde sus fichas. Los archivos permanecen privados en este navegador y no se incluyen en las copias JSON; si cambias de dispositivo, tendrás que volver a importarlos.</p></section>';
 }
+let galleryProgressTimer=0;
 function galleryProgress(msg,done=false){
  const el=document.getElementById('gallery-progress');if(!el)return;
+ clearTimeout(galleryProgressTimer);
  el.hidden=false;el.textContent=msg;el.classList.toggle('finished',done);
+ if(done)galleryProgressTimer=setTimeout(()=>{el.hidden=true},6500);
 }
 async function galleryZipEntries(file){
  const tailAt=Math.max(0,file.size-66000);
