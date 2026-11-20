@@ -118,6 +118,6 @@ assert.match(root.innerHTML,/data-plan-inv=/);
 assert.match(root.innerHTML,/data-plan-mod=/);
 assert.match(root.innerHTML,/Fuerza principal/);
 const html=fs.readFileSync('index.html','utf8');
-assert.ok(html.indexOf('src="planner.js"')<html.indexOf('src="app.js"'),'script del motor antes del controlador');
+assert.ok(html.search(/src="planner\\.js(?:\\?[^"]*)?"/)<html.search(/src="app\\.js(?:\\?[^"]*)?"/),'script del motor antes del controlador');
 console.log('OK: renderizado y orden de scripts del asistente');
 console.log('Pruebas del planificador correctas:',count);
