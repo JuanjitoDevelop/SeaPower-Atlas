@@ -641,3 +641,29 @@
  .catalog-weapon-rows{padding:2px 7px 10px}
 }
 @media(max-width:360px){.catalog-scope-btn{font-size:11px}}
+
+
+/* v3.3: Catálogo único para fichas, uso y existencias */
+.catalog-scope{grid-template-columns:repeat(4,minmax(0,1fr))}
+.catalog-card-stock{display:flex;align-items:center;justify-content:space-between;gap:10px;border-top:1px solid #284751;padding:10px 0;margin-top:auto}
+.catalog-card-stock-status{font-size:11px;font-weight:750;line-height:1.3;color:#8fd9ba;max-width:50%}
+.catalog-card-stock label{font-size:11px;color:#c6dce2;display:flex;align-items:center;gap:7px;flex-wrap:wrap;justify-content:flex-end}
+.catalog-card-stock input{width:95px;min-height:43px;border:1px solid #46717c;border-radius:8px;background:#102c36;color:#e7fff7;font-size:15px;padding:8px;text-align:right}
+.catalog-card-stock input::placeholder{color:#a6bec5;font-size:11px}
+.catalog-card-stock-status.is-empty{color:#f1b9a5}
+.catalog-inventory{border:1px solid #467b73;background:#122f38;border-radius:11px;padding:15px;margin:18px 0}
+.catalog-inventory>h3{color:#bbfae6}
+.catalog-inventory-note,.catalog-inventory-linked{font-size:12px;line-height:1.6;color:#a9c9ce}
+.catalog-inventory-fields{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:14px 0}
+.catalog-inventory-fields label{display:grid;gap:7px;font-size:12px;font-weight:750;color:#c9e8e6}
+.catalog-inventory-fields input,.catalog-inventory-fields select{width:100%;min-width:0;border:1px solid #527c81;border-radius:9px;background:#112a33;color:#effff7;padding:10px 12px;min-height:48px;font-size:14px}
+.catalog-inventory-status{border-left:3px solid #8ed9c2;padding:8px 11px;background:#1c4544;color:#d9f5ec;border-radius:6px;font-size:12px;line-height:1.5}
+.catalog-fleet-link{background:#204944;border:1px solid #619a8d;border-radius:9px;color:#dcf9ee;padding:10px 13px;min-height:44px;font-size:13px;font-weight:700}
+.catalog-card-stock input:focus-visible,.catalog-inventory-fields select:focus-visible,.catalog-inventory-fields input:focus-visible,.catalog-fleet-link:focus-visible{outline:2px solid #aeffdf;outline-offset:2px}
+@media(max-width:760px){
+ .mobile-nav{grid-template-columns:repeat(4,minmax(0,1fr))}
+ .catalog-scope{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .catalog-card-stock{align-items:center}
+ .catalog-inventory-fields{grid-template-columns:1fr}
+ .catalog-inventory{padding:13px}
+}
