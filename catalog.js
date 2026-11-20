@@ -149,3 +149,33 @@ function catalogCardFact(e){
  if(w&&w.min!==null)return 'Distancia mínima: '+catalogNum(w.min)+' mn';
  return '';
 }
+
+
+function catalogStockCaption(id){
+ const n=campaignAmmoCount(id);
+ return n===null?'Sin comprobar':n===0?'Agotado':n.toLocaleString('es-ES')+' unidades';
+}
+function catalogStockInput(e){
+ if(!e?.gameAmmoId)return '';
+ const id=e.gameAmmoId,n=campaignAmmoCount(id),used=campaignAmmoUsed(id);
+ return '<div class="catalog-card-stock"><span class="catalog-card-stock-status '+(n===0?'is-empty':'')+'">'+(used?'En mi arsenal':'Fuera de uso')+'</span><label>Existencias <input type="number" inputmode="numeric" min="0" max="1000000" step="1" data-catalog-stock="'+esc(id)+'" value="'+(n===null?'':n)+'" placeholder="Sin comprobar" aria-label="Existencias de '+esc(e.name)+'"></label></div>';
+}
+function catalogInventoryMarkup(e){
+ if(!e?.gameAmmoId)return '';
+ const id=e.gameAmmoId,c=campaignInit(),n=campaignAmmoCount(id);
+ const auto=campaignAmmoAuto(id),used=campaignAmmoUsed(id),current=c.use[id]||'auto';
+ const linked=campaignPlatformsForAmmo(id);
+ const names=linked.map(key=>CAMPAIGN_UNITS.find(x=>x[0]===key)?.[1]||entry(key)?.name||key);
+ const option=(v,label)=>'<option value="'+v+'" '+(current===v?'selected':'')+'>'+esc(label)+'</option>';
+ return '<section class="detail-section catalog-inventory" id="catalog-inventory"><h3>Disponibilidad en mi campaña</h3>'+
+ '<p class="catalog-inventory-note">El catálogo muestra lo que existe en el juego; estas opciones reflejan lo que tienes registrado en tu partida. No hay sincronización automática con Sea Power.</p>'+
+ '<div class="catalog-inventory-fields"><label>En uso por mi flota<select data-catalog-use="'+esc(id)+'" aria-label="Uso de '+esc(e.name)+'">'+
+ option('auto','Automático ('+(auto?'asociada':'no asociada')+')')+
+ option('on','Sí, marcar en uso')+
+ option('off','No, excluir')+'</select></label>'+
+ '<label>Existencias registradas<input type="number" inputmode="numeric" min="0" max="1000000" step="1" placeholder="Sin comprobar" value="'+(n===null?'':n)+'" data-catalog-stock="'+esc(id)+'" aria-label="Existencias de '+esc(e.name)+'"></label></div>'+
+ '<p class="catalog-inventory-status"><strong>'+(used?'Relacionada con mi arsenal':'No se considera en uso')+'</strong> · '+esc(catalogStockCaption(id))+'</p>'+
+ (names.length?'<p class="catalog-inventory-linked">Unidades de tu flota con referencia a esta munición: '+esc(names.join(', '))+'. No significa que esté cargada ahora.</p>':'<p class="catalog-inventory-linked">Sin plataformas activas identificadas con esta munición en el catálogo. Puedes marcarla manualmente.</p>')+
+ '<p class="catalog-inventory-note">Dejar el campo vacío significa «sin comprobar»; escribir 0 significa «agotado». El copiloto utiliza los valores que introduzcas.</p>'+
+ '<button type="button" class="catalog-fleet-link" data-page="fleet">Revisar unidades de mi flota</button></section>';
+}
