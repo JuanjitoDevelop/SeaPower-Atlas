@@ -73,7 +73,7 @@ function galleryDetailMarkup(e){
  (galleryIndex.length?'<div class="gallery-detail-actions"><button type="button" class="btn secondary" data-gallery-pick="'+esc(e.id)+'">Asignar imagen personal</button>'+
  (assigned?'<button type="button" class="btn ghost" data-gallery-unassign="'+esc(e.id)+'">Quitar asignación</button>':'')+'</div>':
  '<p class="gallery-info">Las fotografías históricas verificadas aparecen automáticamente. Opcionalmente puedes importar fotografías propias y asignarlas manualmente.</p>')+
- (source?.verified?.record?.note?'<p class="gallery-info gallery-source-note">'+esc(source.record.note)+'</p>':'')+
+ (source?.verified&&source.record?.note?'<p class="gallery-info gallery-source-note">'+esc(source.record.note)+'</p>':'')+
  '<p class="gallery-info">La fotografía no garantiza que esta unidad, arma o configuración exacta esté disponible en tu partida. Las imágenes que no podemos atribuir a una familia concreta no se muestran automáticamente.</p></section>';
 }
 function gallerySettingsMarkup(){
