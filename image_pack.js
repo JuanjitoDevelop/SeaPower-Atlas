@@ -56,7 +56,7 @@ function galleryVerifiedURL(record){
 }
 function galleryVisualMarkup(e,kind='card'){
  const source=gallerySourceFor(e);if(!source)return '';
- const visualClass='gallery-visual gallery-visual-'+kind+(e.category==='weapon'?' gallery-visual-weapon':'');
+ const visualClass='gallery-visual gallery-visual-'+kind+(e.category==='weapon'?' gallery-visual-weapon':'')+(source.verified?' gallery-visual-verified':'');
  if(source.verified){
   const r=source.record;
   const category=r.mediaType==='ilustración'?'Ilustración técnica':parseInt(r.year,10)>2000?'Fotografía documental':'Fotografía histórica';

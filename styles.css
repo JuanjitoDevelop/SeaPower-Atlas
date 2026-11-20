@@ -763,3 +763,6 @@
 .gallery-visual-weapon img{height:calc(100% - 34px);width:100%;object-fit:contain;object-position:center center;box-sizing:border-box;padding:10px 14px 0}
 .gallery-visual-weapon.gallery-visual-detail img{height:calc(100% - 76px);padding:12px 16px 0}
 .gallery-visual-weapon figcaption{background:linear-gradient(transparent,#06151df5 18%)}
+
+/* Galería ampliada: respetar la fotografía verificada completa de aeronaves y buques. */
+.gallery-visual-verified:not(.gallery-visual-weapon) img{object-fit:contain;object-position:center center;background:#102b36}

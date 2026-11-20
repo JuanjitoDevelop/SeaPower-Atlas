@@ -43,7 +43,21 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,36);
+ assert.equal(Object.keys(manifest.items).length,72);
+ const fullCatalog=JSON.parse(fs.readFileSync('catalogo_completo_1985.json','utf8'));
+ const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
+ const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
+ const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
+ assert.equal(additions.length,36,'nuevas fotografías fuera de la flota');
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,16);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,9);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,11);
+ for(const [id,p] of additions){
+  assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
+  assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
+  assert.ok(p.file&&p.label&&p.year&&p.author&&p.license,'Metadatos completos: '+id);
+  assert.match(p.license,/^Dominio público|^CC BY/,'Licencia abierta: '+id);
+ }
  const units=['a6e','fa18a','f14a','ea6b','e2c','s3a','sh2f','sh3h','hh3e','ah1t','nimitz','missouri','virginia','kidd','samuel','losangeles'];
  const catalog=JSON.parse(fs.readFileSync('data.json','utf8'));
  const armament=catalog.entries.filter(e=>e.category==='weapon').map(e=>e.id);
@@ -71,6 +85,11 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const gameHarpoon={id:'game-ammo:usn_agm-84c',gameAmmoId:'usn_agm-84c',category:'weapon',name:'AGM-84C'};
  assert.match(context.tests.galleryCardMarkup(gameHarpoon),/AGM-84A Harpoon/,'La foto se vincula a la entrada de munición interna');
  assert.match(context.tests.galleryCardMarkup(gameHarpoon),/gallery-visual-weapon/,'Armas sin recorte forzado');
+ const easternAircraft={id:'game-unit:a:wp_mig-21',category:'aircraft',name:'MiG-21bis',nation:'Pacto de Varsovia'};
+ const easternWeapon={id:'game-ammo:wp_aa-11',gameAmmoId:'wp_aa-11',category:'weapon',name:'AA-11'};
+ assert.match(context.tests.galleryCardMarkup(easternAircraft),/gallery-visual-verified/,'Imagen en unidad ajena a la flota');
+ assert.match(context.tests.galleryCardMarkup(easternWeapon),/gallery-visual-weapon/,'Arma ajena a la flota sin recorte');
+ assert.match(context.tests.galleryDetailMarkup(easternAircraft),/MiG-21bis/);
  assert.match(context.tests.galleryCardMarkup(gameHarpoon),/Ilustración técnica/,'La ilustración no aparece como fotografía');
  const gameMissile={id:'game-ammo:usn_rim-67b',gameAmmoId:'usn_rim-67b',category:'weapon',name:'RIM-67'};
  assert.match(context.tests.galleryCardMarkup(gameMissile),/RIM-67 Standard ER/,'El misil naval tiene imagen');
