@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "description": "Fotografías históricas identificadas y algunas ilustraciones técnicas, con fuente, fecha, autor, coincidencia por variante y advertencias. Las imágenes nunca constituyen evidencia de que un arma o unidad esté activa en la partida.",
   "items": {
     "a6e": {
@@ -177,7 +177,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "El AGM-78 es visible bajo el A-6E; no se identifica específicamente la subvariante AGM-78D.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_agm-78"
+      ]
     },
     "agm45b": {
       "file": "A-7E VA-66 launching AGM-45 in 1985.JPEG",
@@ -188,7 +191,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Lanzamiento AGM-45 documentado en 1985; la subvariante AGM-45B no está especificada.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_agm-45"
+      ]
     },
     "mk82": {
       "file": "Mk 82 bombs in B-52G 1984.JPEG",
@@ -199,7 +205,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "Fotografía de bombas Mk 82, no de un loadout específico de tu avión.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk-82"
+      ]
     },
     "mk83": {
       "file": "Mk 83 bombs on USS Saratoga (CV-60) in 1991.jpg",
@@ -210,7 +219,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "Fotografía del modelo Mk 83, tomada después de 1985.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk-83"
+      ]
     },
     "gbu12": {
       "file": "GBU-12 profile view picture.jpg",
@@ -221,7 +233,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "Ilustración técnica oficial de perfil, no fotografía.",
-      "mediaType": "ilustración"
+      "mediaType": "ilustración",
+      "ammoIds": [
+        "usn_gbu-12"
+      ]
     },
     "gbu24": {
       "file": "GBU-24 profile view picture.jpg",
@@ -232,7 +247,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "Ilustración técnica de perfil, no fotografía; la disponibilidad histórica depende de la versión y el año.",
-      "mediaType": "ilustración"
+      "mediaType": "ilustración",
+      "ammoIds": [
+        "usn_gbu-24"
+      ]
     },
     "cbu100": {
       "file": "Mk 20 cluster bombs on A-7 at NAS Pax 1984.JPEG",
@@ -243,7 +261,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Fotografía de Mk 20 Mod 6 Rockeye, relacionada con la familia CBU-100/Mk 20, no de todas sus variantes.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rockeye"
+      ]
     },
     "aim54": {
       "file": "YAIM-54A Phoenix missile with F-14A Tomcat in 1973.jpg",
@@ -254,7 +275,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Imagen de un YAIM-54A de pruebas; no corresponde necesariamente a la variante de servicio de tu campaña.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_aim-54a"
+      ]
     },
     "aim7": {
       "file": "AIM-7 Sparrow.jpg",
@@ -265,7 +289,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Ejemplar de la familia AIM-7; la variante exacta no se identifica en la imagen.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_aim-7f"
+      ]
     },
     "aim9": {
       "file": "Sidewinder.jpg",
@@ -276,7 +303,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Ejemplar genérico de la familia AIM-9; no se identifica subvariante.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_aim-9l"
+      ]
     },
     "mk46": {
       "file": "Mark 46 full image.JPEG",
@@ -287,7 +317,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Lanzamiento de un torpedo Mk 46 en 1986; no se puede identificar el Mod 5 a partir de la foto.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk46_mod5_air"
+      ]
     },
     "mk46mod5": {
       "file": "Mark 46 full image.JPEG",
@@ -298,7 +331,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Imagen de un Mk 46 de la misma familia; no representa una variante Mod 5/NEARTIP verificada.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk46_mod5_air"
+      ]
     },
     "mk48": {
       "file": "Mk 48 torpedo on hoist 1982.JPEG",
@@ -309,7 +345,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Fotografía de un Mk 48 recuperado durante pruebas. La subvariante de la campaña no está confirmada.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_mk48_mod4"
+      ]
     },
     "harpoon_ship": {
       "file": "RGM-84 Harpoon missile launch from USS Leahy (CG-16), in 1983.jpg",
@@ -320,7 +359,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "Lanzamiento del sistema antibuque naval RGM-84. No implica que la imagen identifique el lote concreto del juego.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rgm-84c"
+      ]
     },
     "rim66": {
       "file": "Standard missile launcher on USS Norton Sound (AVM-1) 1981.JPEG",
@@ -331,7 +373,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "RIM-66 Standard MR en Mk 26. No verifica si la variante de la partida es SM-1 o SM-2.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-66e"
+      ]
     },
     "rim67": {
       "file": "RIM-67 Standard missiles aboard USS Mahan (DDG-42) on 1 March 1983 (6370832).jpg",
@@ -342,7 +387,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "RIM-67 Standard ER durante maniobra de recarga en marzo de 1983.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rim-67b"
+      ]
     },
     "tomahawk": {
       "file": "A BGM-109 Tomahawk land-attack missile takes to the air after being launched from the battleship USS WISCONSIN (BB-64) during Operation Desert Storm - DPLA - b455bd5c225c1f8db3c5336bdd67ce0d.jpeg",
@@ -353,7 +401,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Lanzamiento de un BGM-109 de la familia Tomahawk en 1991; no verifica la variante del juego ni una misión de 1985.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_rgm-109c"
+      ]
     },
     "agm84c": {
       "file": "A left side view of a B-52 Stratofortress aircraft with an AGM-84A Harpoon missile on its wing, as the aircraft is preparing to takeoff. This is the first launch of a Harpoon missil - DPLA - 3dcdd66b258b82baf382bd0171eae779.jpeg",
@@ -364,7 +415,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "La foto corresponde a un AGM-84A montado en un B-52. NO identifica el AGM-84C de esta ficha; se muestra solo como referencia de familia.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_agm-84c"
+      ]
     },
     "tow": {
       "file": "BGM-71 TOW.jpg",
@@ -375,7 +429,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": false,
       "note": "Fotografía de personal operando un sistema TOW en tierra; no identifica la subvariante del misil ni el montaje aéreo del AH-1T.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usmc_quad_tow"
+      ]
     },
     "agm88a": {
       "file": "F-4D with HARM near Eglin AFB 1983.JPEG",
@@ -386,7 +443,10 @@
       "license": "Dominio público (EE. UU.)",
       "exactVariant": true,
       "note": "AGM-88A documentado en pruebas en 1983. La fotografía no acredita una carga operativa del A-6E en 1985.",
-      "mediaType": "fotografía"
+      "mediaType": "fotografía",
+      "ammoIds": [
+        "usn_agm-88a"
+      ]
     }
   }
 }
