@@ -167,7 +167,7 @@ async function main(){
  assert.match(element('#page-content').innerHTML,/Importar archivo ZIP/);
  vm.runInContext('openDetail("a6e",{skipHistory:true})',context);
  assert.match(element('#detail-panel').innerHTML,/Imagen de referencia/);
- assert.match(element('#detail-panel').innerHTML,/Importar ZIP de imágenes/);
+ assert.match(element('#detail-panel').innerHTML,/fotografías históricas verificadas aparecen automáticamente/);
  console.log('OK: galería privada disponible sin romper las fichas');
  const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
  // El menú debe ofrecer una sola entrada, sin dos secciones similares.
