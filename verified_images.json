@@ -1,6 +1,6 @@
 {
-  "version": 13,
-  "description": "Catálogo visual Sea Power: referencias documentadas en Wikimedia Commons, con archivo real, licencia, autor y diferencias de variante; lote 10 con 40 fotografías/esquemas comprobados.",
+  "version": 14,
+  "description": "Catálogo visual Sea Power: lote 11 con 92 nuevos IDs originales; fuentes Wikimedia Commons con autor, fecha, licencia y diferencias entre coincidencia exacta y familia aproximada.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -3645,6 +3645,926 @@
       "note": "Fotografía de un Alouette III suizo de 1994, no aparato francés del inventario del juego; coincidencia de familia.",
       "mediaType": "fotografía",
       "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:ara_ddg_hercules": {
+      "file": "HMS Sheffield (D80).jpg",
+      "label": "ARA DDG HERCULES · familia Type 42",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sheffield_(D80).jpg",
+      "author": "Nathalmad",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a HMS Sheffield · clase Type 42, no al identificador game-unit:v:ara_ddg_hercules. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. HMS Sheffield no es ARA Hércules."
+    },
+    "game-unit:v:rn_ddg_sheffield_batch0": {
+      "file": "HMS Sheffield (D80).jpg",
+      "label": "RN DDG SHEFFIELD BATCH0 · familia Type 42",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sheffield_(D80).jpg",
+      "author": "Nathalmad",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a HMS Sheffield · clase Type 42, no al identificador game-unit:v:rn_ddg_sheffield_batch0. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. HMS Sheffield no es ARA Hércules."
+    },
+    "game-unit:v:rn_ddg_sheffield_batch2": {
+      "file": "HMS Sheffield (D80).jpg",
+      "label": "RN DDG SHEFFIELD BATCH2 · familia Type 42",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sheffield_(D80).jpg",
+      "author": "Nathalmad",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a HMS Sheffield · clase Type 42, no al identificador game-unit:v:rn_ddg_sheffield_batch2. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. HMS Sheffield no es ARA Hércules."
+    },
+    "game-unit:v:ran_ddg_perth": {
+      "file": "German destroyer Lütjens (D185) underway in 1988.JPEG",
+      "label": "clase Perth · familia Charles F. Adams / Lütjens",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:German_destroyer_L%C3%BCtjens_(D185)_underway_in_1988.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Destructor Lütjens D185, no al identificador game-unit:v:ran_ddg_perth. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El buque mostrado es alemán, no australiano ni estadounidense."
+    },
+    "game-unit:v:usn_ddg_adams_early": {
+      "file": "German destroyer Lütjens (D185) underway in 1988.JPEG",
+      "label": "clase Adams (temprana) · familia Charles F. Adams / Lütjens",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:German_destroyer_L%C3%BCtjens_(D185)_underway_in_1988.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Destructor Lütjens D185, no al identificador game-unit:v:usn_ddg_adams_early. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El buque mostrado es alemán, no australiano ni estadounidense."
+    },
+    "game-unit:v:usn_ddg_adams_early_68": {
+      "file": "German destroyer Lütjens (D185) underway in 1988.JPEG",
+      "label": "clase Adams (temprana) · familia Charles F. Adams / Lütjens",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:German_destroyer_L%C3%BCtjens_(D185)_underway_in_1988.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Destructor Lütjens D185, no al identificador game-unit:v:usn_ddg_adams_early_68. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El buque mostrado es alemán, no australiano ni estadounidense."
+    },
+    "game-unit:v:usn_ddg_adams_late": {
+      "file": "German destroyer Lütjens (D185) underway in 1988.JPEG",
+      "label": "clase Adams (tardía) · familia Charles F. Adams / Lütjens",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:German_destroyer_L%C3%BCtjens_(D185)_underway_in_1988.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Destructor Lütjens D185, no al identificador game-unit:v:usn_ddg_adams_late. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El buque mostrado es alemán, no australiano ni estadounidense."
+    },
+    "game-unit:v:usn_ddg_adams_late_68": {
+      "file": "German destroyer Lütjens (D185) underway in 1988.JPEG",
+      "label": "clase Adams (tardía) · familia Charles F. Adams / Lütjens",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:German_destroyer_L%C3%BCtjens_(D185)_underway_in_1988.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Destructor Lütjens D185, no al identificador game-unit:v:usn_ddg_adams_late_68. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El buque mostrado es alemán, no australiano ni estadounidense."
+    },
+    "game-unit:v:ran_ffg_adelaide_shorthull": {
+      "file": "USS Oliver Hazard Perry (FFG-7) underway in late 1977.jpg",
+      "label": "clase Adelaide (casco corto) · familia Oliver Hazard Perry / Adelaide",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Oliver_Hazard_Perry_(FFG-7)_underway_in_late_1977.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Oliver Hazard Perry · casco corto, no al identificador game-unit:v:ran_ffg_adelaide_shorthull. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:usn_cg_bunker_hill": {
+      "file": "USS Ticonderoga (CG-47) 1985.jpg",
+      "label": "USN CG BUNKER HILL · familia Ticonderoga",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Ticonderoga_(CG-47)_1985.jpg",
+      "author": "PH1 Jeff Hilton / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Ticonderoga CG-47, no al identificador game-unit:v:usn_cg_bunker_hill. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. USS Bunker Hill entró en servicio en 1986."
+    },
+    "game-unit:v:usn_cv_america_79": {
+      "file": "USS Kitty Hawk (CV-63) 1977.jpg",
+      "label": "clase America · familia Kitty Hawk",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Kitty_Hawk_(CV-63)_1977.jpg",
+      "author": "PH1 A. Legare / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Kitty Hawk CV-63, no al identificador game-unit:v:usn_cv_america_79. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto no muestra el USS America."
+    },
+    "game-unit:v:usn_dd_gearing_fram2": {
+      "file": "USS Gearing (DD-710) underway at sea, circa in the 1960s (PC13366).jpg",
+      "label": "clase Gearing FRAM II · familia Gearing",
+      "year": "Década de 1960",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Gearing_(DD-710)_underway_at_sea%2C_circa_in_the_1960s_(PC13366).jpg",
+      "author": "U.S. Navy / NHHC",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Gearing · FRAM I, no al identificador game-unit:v:usn_dd_gearing_fram2. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. No confirma la modernización FRAM II."
+    },
+    "game-unit:v:usn_dd_gearing_fram2_mod": {
+      "file": "USS Gearing (DD-710) underway at sea, circa in the 1960s (PC13366).jpg",
+      "label": "clase Gearing NV mod · familia Gearing",
+      "year": "Década de 1960",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Gearing_(DD-710)_underway_at_sea%2C_circa_in_the_1960s_(PC13366).jpg",
+      "author": "U.S. Navy / NHHC",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Gearing · FRAM I, no al identificador game-unit:v:usn_dd_gearing_fram2_mod. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. No confirma la modernización FRAM II."
+    },
+    "game-unit:v:usn_dd_spruance_abl": {
+      "file": "USS Spruance (DD-963) underway on 20 November 1986 (6416412).jpg",
+      "label": "clase Spruance (ABL) · familia Spruance",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Spruance_(DD-963)_underway_on_20_November_1986_(6416412).jpg",
+      "author": "U.S. Navy / NARA",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Destructor USS Spruance antes de instalar VLS, no al identificador game-unit:v:usn_dd_spruance_abl. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto no corresponde a la configuración ABL."
+    },
+    "game-unit:v:usn_ddg_coontz_68": {
+      "file": "USS Coontz (DLG-9) modernised at Philadelphia Navy Yard c1971.jpg",
+      "label": "clase Coontz · familia Coontz",
+      "year": "Aprox. 1971",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Coontz_(DLG-9)_modernised_at_Philadelphia_Navy_Yard_c1971.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Coontz, clase Coontz, no al identificador game-unit:v:usn_ddg_coontz_68. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. No confirma modernización NTU."
+    },
+    "game-unit:v:usn_ddg_mahan": {
+      "file": "USS Coontz (DLG-9) modernised at Philadelphia Navy Yard c1971.jpg",
+      "label": "clase Coontz (NTU) · familia Coontz",
+      "year": "Aprox. 1971",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Coontz_(DLG-9)_modernised_at_Philadelphia_Navy_Yard_c1971.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Coontz, clase Coontz, no al identificador game-unit:v:usn_ddg_mahan. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. No confirma modernización NTU."
+    },
+    "game-unit:v:usn_ff_knox_72": {
+      "file": "USS Knox (FF-1052) underway at sea on 9 December 1981 (6349375).jpeg",
+      "label": "clase Knox · familia Knox",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Knox_(FF-1052)_underway_at_sea_on_9_December_1981_(6349375).jpeg",
+      "author": "PHCS Steven Harris / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Knox · fragata clase Knox, no al identificador game-unit:v:usn_ff_knox_72. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:usn_ff_knox_84": {
+      "file": "USS Knox (FF-1052) underway at sea on 9 December 1981 (6349375).jpeg",
+      "label": "clase Knox (Tardía) · familia Knox",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Knox_(FF-1052)_underway_at_sea_on_9_December_1981_(6349375).jpeg",
+      "author": "PHCS Steven Harris / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Knox · fragata clase Knox, no al identificador game-unit:v:usn_ff_knox_84. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:usn_cgn_long_beach_73": {
+      "file": "DN-SC-85-07293-Aerial port bow view of USS Long Beach (CGN-9), 1983.jpg",
+      "label": "clase Long Beach · familia USS Long Beach",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:DN-SC-85-07293-Aerial_port_bow_view_of_USS_Long_Beach_(CGN-9)%2C_1983.jpg",
+      "author": "PH3 Yebba / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Long Beach (CGN-9), configuración 1983, no al identificador game-unit:v:usn_cgn_long_beach_73. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto corresponde a una configuración posterior a 1973."
+    },
+    "game-unit:v:usn_ssn_permit_68": {
+      "file": "USS Permit (SSN-594).jpg",
+      "label": "clase Permit (Early) · familia Permit",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Permit_(SSN-594).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Submarino nuclear USS Permit, no al identificador game-unit:v:usn_ssn_permit_68. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:usn_ssn_skipjack_68": {
+      "file": "USS Skipjack (SSN-585) underway, circa in 1965.jpg",
+      "label": "clase Skipjack (Early) · familia Skipjack",
+      "year": "Aprox. 1965",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Skipjack_(SSN-585)_underway%2C_circa_in_1965.jpg",
+      "author": "U.S. Navy / NHHC",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Skipjack · submarino nuclear, no al identificador game-unit:v:usn_ssn_skipjack_68. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:usn_ssn_sturgeon_72": {
+      "file": "USS STURGEON (SSN-637) underway off Long Island, N.Y.jpeg",
+      "label": "clase Sturgeon (Temprana) · familia Sturgeon",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_STURGEON_(SSN-637)_underway_off_Long_Island%2C_N.Y.jpeg",
+      "author": "Naval Imaging Command / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a USS Sturgeon, submarino nuclear, no al identificador game-unit:v:usn_ssn_sturgeon_72. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:rn_ddg_bristol_73": {
+      "file": "HMS Bristol D23.jpg",
+      "label": "RN DDG BRISTOL 73 · familia HMS Bristol",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Bristol_D23.jpg",
+      "author": "Peter Smith",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a HMS Bristol D23, no al identificador game-unit:v:rn_ddg_bristol_73. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:rn_ff_leander_batch2": {
+      "file": "HMS Naiad F39 1982.jpeg",
+      "label": "RN FF LEANDER BATCH2 · familia Leander",
+      "year": "Aprox. 1982",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Naiad_F39_1982.jpeg",
+      "author": "Garvinhouse / U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a HMS Naiad · fragata clase Leander, no al identificador game-unit:v:rn_ff_leander_batch2. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:wp_ptg_tarantul_re": {
+      "file": "No971.jpg",
+      "label": "clase Tarantul RE · familia Tarantul",
+      "year": "1990",
+      "source": "https://commons.wikimedia.org/wiki/File:No971.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Corbeta misilística clase Tarantul I, no al identificador game-unit:v:wp_ptg_tarantul_re. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La versión de exportación puede diferir."
+    },
+    "game-unit:v:wp_ssn_victor3_imp": {
+      "file": "Victor III class submarine.jpg",
+      "label": "WP SSN VICTOR3 IMP · familia Victor III",
+      "year": "Década de 1980",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_III_class_submarine.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Submarino soviético clase Victor III, no al identificador game-unit:v:wp_ssn_victor3_imp. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-unit:v:rcn_ss_oberon": {
+      "file": "HMAS ONSLOW.JPEG",
+      "label": "clase Oberon (RCN) · familia Oberon",
+      "year": "1998",
+      "source": "https://commons.wikimedia.org/wiki/File:HMAS_ONSLOW.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Submarino HMAS Onslow de clase Oberon, no al identificador game-unit:v:rcn_ss_oberon. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra un submarino australiano, no canadiense."
+    },
+    "game-unit:a:iriaf_f-14a": {
+      "file": "Grumman F-14A Tomcat of VF-32 in flight, in 1982.jpg",
+      "label": "F-14A IRIAF · familia F-14A Tomcat",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Grumman_F-14A_Tomcat_of_VF-32_in_flight%2C_in_1982.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a F-14A Tomcat, no al identificador game-unit:a:iriaf_f-14a. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Ejemplar estadounidense y no iraní."
+    },
+    "game-unit:a:iriaf_f-4e": {
+      "file": "F-4E 23 TFS in flight over Eifel 1983.JPEG",
+      "label": "F-4E IRIAF · familia F-4 Phantom II",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:F-4E_23_TFS_in_flight_over_Eifel_1983.JPEG",
+      "author": "Don Sutherland / U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a F-4E Phantom II de USAF, no al identificador game-unit:a:iriaf_f-4e. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Fotografía de F-4E estadounidense, no de la versión o fuerza aérea citadas."
+    },
+    "game-unit:a:iriaf_f-4d": {
+      "file": "F-4E 23 TFS in flight over Eifel 1983.JPEG",
+      "label": "F-4D IRIAF · familia F-4 Phantom II",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:F-4E_23_TFS_in_flight_over_Eifel_1983.JPEG",
+      "author": "Don Sutherland / U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a F-4E Phantom II de USAF, no al identificador game-unit:a:iriaf_f-4d. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Fotografía de F-4E estadounidense, no de la versión o fuerza aérea citadas."
+    },
+    "game-unit:a:iaf_f-4e_kurnass": {
+      "file": "F-4E 23 TFS in flight over Eifel 1983.JPEG",
+      "label": "F-4E Kurnass · familia F-4 Phantom II",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:F-4E_23_TFS_in_flight_over_Eifel_1983.JPEG",
+      "author": "Don Sutherland / U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a F-4E Phantom II de USAF, no al identificador game-unit:a:iaf_f-4e_kurnass. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Fotografía de F-4E estadounidense, no de la versión o fuerza aérea citadas."
+    },
+    "game-unit:a:usaf_f-4d": {
+      "file": "F-4E 23 TFS in flight over Eifel 1983.JPEG",
+      "label": "F-4D · familia F-4 Phantom II",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:F-4E_23_TFS_in_flight_over_Eifel_1983.JPEG",
+      "author": "Don Sutherland / U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a F-4E Phantom II de USAF, no al identificador game-unit:a:usaf_f-4d. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Fotografía de F-4E estadounidense, no de la versión o fuerza aérea citadas."
+    },
+    "game-unit:a:usaf_f-15a": {
+      "file": "First production McDonnell Douglas F-15C in flight.jpg",
+      "label": "F-15A · familia F-15 Eagle",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:First_production_McDonnell_Douglas_F-15C_in_flight.jpg",
+      "author": "U.S. Air Force / National Museum of the USAF",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a F-15C Eagle, primer aparato de serie, no al identificador game-unit:a:usaf_f-15a. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. F-15C de la foto, no F-15A."
+    },
+    "game-unit:a:rn_sea_king_has5": {
+      "file": "SH-3H Sea King of HS-4 with sonar deployed in flight 1983.jpg",
+      "label": "RN SEA KING HAS5 · familia Sea King / S-61",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:SH-3H_Sea_King_of_HS-4_with_sonar_deployed_in_flight_1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a SH-3H Sea King, no al identificador game-unit:a:rn_sea_king_has5. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. SH-3H estadounidense, no la variante ni el operador especificado."
+    },
+    "game-unit:a:jmsdf_hss-2": {
+      "file": "SH-3H Sea King of HS-4 with sonar deployed in flight 1983.jpg",
+      "label": "HSS-2 · familia Sea King / S-61",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:SH-3H_Sea_King_of_HS-4_with_sonar_deployed_in_flight_1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a SH-3H Sea King, no al identificador game-unit:a:jmsdf_hss-2. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. SH-3H estadounidense, no la variante ni el operador especificado."
+    },
+    "game-unit:a:ara_s-61d": {
+      "file": "SH-3H Sea King of HS-4 with sonar deployed in flight 1983.jpg",
+      "label": "ARA S-61D · familia Sea King / S-61",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:SH-3H_Sea_King_of_HS-4_with_sonar_deployed_in_flight_1983.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a SH-3H Sea King, no al identificador game-unit:a:ara_s-61d. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. SH-3H estadounidense, no la variante ni el operador especificado."
+    },
+    "game-unit:a:wp_mig-23ms": {
+      "file": "MiG-23MLD.jpg",
+      "label": "MiG-23MS Flogger · familia MiG-23",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-23MLD.jpg",
+      "author": "U.S. Navy / Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-23MLD Flogger, no al identificador game-unit:a:wp_mig-23ms. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto corresponde a MLD."
+    },
+    "game-unit:a:wp_mig-23a": {
+      "file": "MiG-23MLD.jpg",
+      "label": "MiG-23A Flogger · familia MiG-23",
+      "year": "1986",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-23MLD.jpg",
+      "author": "U.S. Navy / Department of Defense",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-23MLD Flogger, no al identificador game-unit:a:wp_mig-23a. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto corresponde a MLD."
+    },
+    "game-unit:a:wp_mig-25p": {
+      "file": "Mikoyan-Gurevich MiG-25PD ’04 red’ (38537522835).jpg",
+      "label": "MiG-25P Foxbat · familia MiG-25",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25PD_%E2%80%9904_red%E2%80%99_(38537522835).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-25PD Foxbat, no al identificador game-unit:a:wp_mig-25p. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto corresponde a PD, no a variante P ni BM."
+    },
+    "game-unit:a:wp_mig-25bm": {
+      "file": "Mikoyan-Gurevich MiG-25PD ’04 red’ (38537522835).jpg",
+      "label": "MiG-25BM Foxbat · familia MiG-25",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25PD_%E2%80%9904_red%E2%80%99_(38537522835).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-25PD Foxbat, no al identificador game-unit:a:wp_mig-25bm. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto corresponde a PD, no a variante P ni BM."
+    },
+    "game-unit:a:wp_su-24a": {
+      "file": "Су 24М SU 24M.jpg",
+      "label": "Su-24A · familia Su-24",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A1%D1%83_24%D0%9C_SU_24M.jpg",
+      "author": "Ministerio de Defensa de Rusia",
+      "license": "CC BY 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Su-24M Fencer, no al identificador game-unit:a:wp_su-24a. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto corresponde a Su-24M."
+    },
+    "game-unit:a:wp_tu-16p": {
+      "file": "Tu-16 Badger G.jpg",
+      "label": "TU-16P · familia Tu-16 Badger",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:Tu-16_Badger_G.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Tu-16K-26 Badger G, no al identificador game-unit:a:wp_tu-16p. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto es de versión portamisiles, no de versión de interferencia."
+    },
+    "game-unit:a:wp_lim-6": {
+      "file": "Mikoyan-Gurevich MiG-17 (3026) 1991-12-28 Andre Gerwing Collection ID 031963.jpg",
+      "label": "LIM-6 Fresco · familia MiG-17 y derivados",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-17_(3026)_1991-12-28_Andre_Gerwing_Collection_ID_031963.jpg",
+      "author": "André Gerwing",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-17 Fresco en museo, no al identificador game-unit:a:wp_lim-6. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Versiones fabricadas en Polonia o China difieren del MiG-17 original."
+    },
+    "game-unit:a:pla_f-5": {
+      "file": "Mikoyan-Gurevich MiG-17 (3026) 1991-12-28 Andre Gerwing Collection ID 031963.jpg",
+      "label": "F-5 Fresco · familia MiG-17 y derivados",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-17_(3026)_1991-12-28_Andre_Gerwing_Collection_ID_031963.jpg",
+      "author": "André Gerwing",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-17 Fresco en museo, no al identificador game-unit:a:pla_f-5. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Versiones fabricadas en Polonia o China difieren del MiG-17 original."
+    },
+    "game-unit:a:pla_j-5": {
+      "file": "Mikoyan-Gurevich MiG-17 (3026) 1991-12-28 Andre Gerwing Collection ID 031963.jpg",
+      "label": "J-5 Fresco · familia MiG-17 y derivados",
+      "year": "1991",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-17_(3026)_1991-12-28_Andre_Gerwing_Collection_ID_031963.jpg",
+      "author": "André Gerwing",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-17 Fresco en museo, no al identificador game-unit:a:pla_j-5. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. Versiones fabricadas en Polonia o China difieren del MiG-17 original."
+    },
+    "game-unit:a:pla_j-7c": {
+      "file": "MiG-21bis.JPG",
+      "label": "J-7III Fishcan · familia MiG-21 / J-7",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:MiG-21bis.JPG",
+      "author": "Tourbillon",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MiG-21bis Fishbed, no al identificador game-unit:a:pla_j-7c. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. No corresponde a la versión china J-7."
+    },
+    "game-unit:a:raf_gr1": {
+      "file": "Hawker Siddeley Harrier GR.3 ‘XZ997 - V’ (33058618282).jpg",
+      "label": "RAF GR1 · familia Harrier GR",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Hawker_Siddeley_Harrier_GR.3_%E2%80%98XZ997_-_V%E2%80%99_(33058618282).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Harrier GR.3 XZ997 · veterano de 1982, no al identificador game-unit:a:raf_gr1. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra GR.3, no GR.1."
+    },
+    "game-unit:a:ran_a-4g": {
+      "file": "3-A-304 Douglas A-4Q Skyhawk Argentine Armada (8147608891).jpg",
+      "label": "A-4G · familia A-4 Skyhawk",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:3-A-304_Douglas_A-4Q_Skyhawk_Argentine_Armada_(8147608891).jpg",
+      "author": "Aeroprints.com",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a A-4Q Skyhawk argentino, no al identificador game-unit:a:ran_a-4g. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. A-4Q argentino, no A-4G australiano."
+    },
+    "game-unit:l:iqa_mbt_t-55_70": {
+      "file": "T-55A.JPG",
+      "label": "T-55 M1970 · familia T-55",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:T-55A.JPG",
+      "author": "Cooper6",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a T-55A de museo, no al identificador game-unit:l:iqa_mbt_t-55_70. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. No acredita la versión M1970 iraquí."
+    },
+    "game-unit:l:nv_mlrs_grad_emplacement": {
+      "file": "Rocket launcher BM-21 \"Grad\" on Ural-375D chassis.jpg",
+      "label": "Emplazamiento Grad · familia BM-21 Grad",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Rocket_launcher_BM-21_%22Grad%22_on_Ural-375D_chassis.jpg",
+      "author": "Dmitry A. Mottl",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Lanzacohetes BM-21 Grad, no al identificador game-unit:l:nv_mlrs_grad_emplacement. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto no identifica el emplazamiento específico."
+    },
+    "game-unit:l:pla_aaa_type55": {
+      "file": "61-K-37mm-AA-gun-batey-haosef-2-1.jpg",
+      "label": "Cañón antiaéreo de 37 mm Tipo 55 · familia 61-K / Tipo 55",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:61-K-37mm-AA-gun-batey-haosef-2-1.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Cañón antiaéreo soviético 61-K de 37 mm, no al identificador game-unit:l:pla_aaa_type55. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La versión china podría tener modificaciones."
+    },
+    "game-ammo:usn_aim-9g": {
+      "file": "Ordnancemen with AIM-9D Sidewinders on USS Coral Sea (CV-43) 1980.jpg",
+      "label": "AIM-9G · familia AIM-9 Sidewinder",
+      "year": "1980",
+      "source": "https://commons.wikimedia.org/wiki/File:Ordnancemen_with_AIM-9D_Sidewinders_on_USS_Coral_Sea_(CV-43)_1980.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a AIM-9D sobre carro de transporte, no al identificador game-ammo:usn_aim-9g. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra variante D."
+    },
+    "game-ammo:usn_aim-9h": {
+      "file": "Ordnancemen with AIM-9D Sidewinders on USS Coral Sea (CV-43) 1980.jpg",
+      "label": "AIM-9H · familia AIM-9 Sidewinder",
+      "year": "1980",
+      "source": "https://commons.wikimedia.org/wiki/File:Ordnancemen_with_AIM-9D_Sidewinders_on_USS_Coral_Sea_(CV-43)_1980.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a AIM-9D sobre carro de transporte, no al identificador game-ammo:usn_aim-9h. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra variante D."
+    },
+    "game-ammo:usaf_aim-9e": {
+      "file": "AIM-9B Sidewinder Front Left Side View.jpg",
+      "label": "AIM-9E · familia AIM-9 Sidewinder",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9B_Sidewinder_Front_Left_Side_View.jpg",
+      "author": "RoyKabanlit",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Misil AIM-9B Sidewinder, no al identificador game-ammo:usaf_aim-9e. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra variante B."
+    },
+    "game-ammo:usaf_aim-9j": {
+      "file": "AIM-9B Sidewinder Front Left Side View.jpg",
+      "label": "AIM-9J · familia AIM-9 Sidewinder",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9B_Sidewinder_Front_Left_Side_View.jpg",
+      "author": "RoyKabanlit",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Misil AIM-9B Sidewinder, no al identificador game-ammo:usaf_aim-9j. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra variante B."
+    },
+    "game-ammo:usaf_aim-9p": {
+      "file": "AIM-9B Sidewinder Front Left Side View.jpg",
+      "label": "AIM-9P · familia AIM-9 Sidewinder",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-9B_Sidewinder_Front_Left_Side_View.jpg",
+      "author": "RoyKabanlit",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Misil AIM-9B Sidewinder, no al identificador game-ammo:usaf_aim-9p. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto muestra variante B."
+    },
+    "game-ammo:rn_seadart_mod1": {
+      "file": "Sea Dart missile HMS Cardiff 1982.JPG",
+      "label": "rn seadart mod1 · familia Sea Dart",
+      "year": "1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Sea_Dart_missile_HMS_Cardiff_1982.JPG",
+      "author": "Ken Griffiths",
+      "license": "Dominio público (cedido por autor)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Sea Dart naval, no al identificador game-ammo:rn_seadart_mod1. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-ammo:wp_as-4b": {
+      "file": "Raduga Kh-22, side view.JPG",
+      "label": "AS-4B · familia Kh-22 Kitchen",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Raduga_Kh-22%2C_side_view.JPG",
+      "author": "Anton Borodin",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Kh-22 (AS-4 Kitchen) en exposición, no al identificador game-ammo:wp_as-4b. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. "
+    },
+    "game-ammo:wp_sa-n-1": {
+      "file": "S-125 Neva Pechora Saaremaa.jpg",
+      "label": "SA-N-1 · familia S-125 / SA-N-1",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:S-125_Neva_Pechora_Saaremaa.jpg",
+      "author": "Wilson44691",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a S-125 Neva / SA-3 Goa, no al identificador game-ammo:wp_sa-n-1. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El misil de la fotografía es terrestre, no naval."
+    },
+    "game-ammo:wp_sa-n-1c": {
+      "file": "S-125 Neva Pechora Saaremaa.jpg",
+      "label": "SA-N-1C · familia S-125 / SA-N-1",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:S-125_Neva_Pechora_Saaremaa.jpg",
+      "author": "Wilson44691",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a S-125 Neva / SA-3 Goa, no al identificador game-ammo:wp_sa-n-1c. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El misil de la fotografía es terrestre, no naval."
+    },
+    "game-ammo:wp_sa-n-1d": {
+      "file": "S-125 Neva Pechora Saaremaa.jpg",
+      "label": "WP SA N 1D · familia S-125 / SA-N-1",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:S-125_Neva_Pechora_Saaremaa.jpg",
+      "author": "Wilson44691",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a S-125 Neva / SA-3 Goa, no al identificador game-ammo:wp_sa-n-1d. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. El misil de la fotografía es terrestre, no naval."
+    },
+    "game-ammo:wp_sa-n-4": {
+      "file": "Osa raketa.jpg",
+      "label": "SA-N-4 · familia 9M33 Osa / Osa-M",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Osa_raketa.jpg",
+      "author": "Stanislav Kozlovskiy",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Misil 9M33 del sistema Osa, no al identificador game-ammo:wp_sa-n-4. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La versión de la foto es terrestre."
+    },
+    "game-ammo:wp_sa-n-4c": {
+      "file": "Osa raketa.jpg",
+      "label": "WP SA N 4C · familia 9M33 Osa / Osa-M",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Osa_raketa.jpg",
+      "author": "Stanislav Kozlovskiy",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Misil 9M33 del sistema Osa, no al identificador game-ammo:wp_sa-n-4c. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La versión de la foto es terrestre."
+    },
+    "game-ammo:wp_sa-n-7": {
+      "file": "9M38 surface-to-air missile of Buk system.jpg",
+      "label": "SA-N-7 · familia Buk / Shtil",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:9M38_surface-to-air_missile_of_Buk_system.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a 9M38 Buk / SA-11 Gadfly, no al identificador game-ammo:wp_sa-n-7. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La versión de la foto es terrestre."
+    },
+    "game-ammo:usn_rgm-8h": {
+      "file": "Talos.jpg",
+      "label": "RGM-8H · familia Talos",
+      "year": "Sin fecha",
+      "source": "https://commons.wikimedia.org/wiki/File:Talos.jpg",
+      "author": "U.S. Army / White Sands Missile Range Museum",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a Misil naval RIM-8 Talos en museo, no al identificador game-ammo:usn_rgm-8h. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto no identifica la subvariante de ataque a superficie."
+    },
+    "game-ammo:fr_sm-39": {
+      "file": "Exocet MM38.jpg",
+      "label": "SM39 · familia Exocet",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Exocet_MM38.jpg",
+      "author": "Ryan4314",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La fotografía corresponde a MM38 Exocet expuesto, no al identificador game-ammo:fr_sm-39. Es una referencia visual de la misma familia, sin confirmar subvariante, operador, modernización ni configuración en 1985. La foto es del MM38, no del SM39 encapsulado."
+    },
+    "game-ammo:usn_agm-84a": {
+      "file": "AGM-84L Harpoon exhibited.jpg",
+      "label": "AGM-84A · Harpoon AGM-84 expuesto",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-84L_Harpoon_exhibited.jpg",
+      "author": "Hill Air Force Base / U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Foto de AGM-84L, no de A ni D."
+    },
+    "game-ammo:usn_agm-84d": {
+      "file": "AGM-84L Harpoon exhibited.jpg",
+      "label": "AGM-84D · Harpoon AGM-84 expuesto",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-84L_Harpoon_exhibited.jpg",
+      "author": "Hill Air Force Base / U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Foto de AGM-84L, no de A ni D."
+    },
+    "game-ammo:usn_rgm-84a": {
+      "file": "RGM-84A Harpoon Parow 2024 (cropped).JPG",
+      "label": "RGM-84A · Harpoon naval aislado",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:RGM-84A_Harpoon_Parow_2024_(cropped).JPG",
+      "author": "Boevaya mashina; recorte Fabrice Ram",
+      "license": "CC BY-SA 3.0 de",
+      "exactVariant": false,
+      "note": "Demostrador RGM-84A; el ejemplar de exposición no acredita configuración operativa de 1985 y no equivale al D."
+    },
+    "game-ammo:usn_rgm-84d": {
+      "file": "RGM-84A Harpoon Parow 2024 (cropped).JPG",
+      "label": "RGM-84D · Harpoon naval aislado",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:RGM-84A_Harpoon_Parow_2024_(cropped).JPG",
+      "author": "Boevaya mashina; recorte Fabrice Ram",
+      "license": "CC BY-SA 3.0 de",
+      "exactVariant": false,
+      "note": "Demostrador RGM-84A; el ejemplar de exposición no acredita configuración operativa de 1985 y no equivale al D."
+    },
+    "game-ammo:usn_ugm-84a": {
+      "file": "UGM-84 Harpoon.jpg",
+      "label": "UGM-84A · Harpoon submarino",
+      "year": "1983 (derivado en 2011)",
+      "source": "https://commons.wikimedia.org/wiki/File:UGM-84_Harpoon.jpg",
+      "author": "U.S. Navy; derivación Matrek",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzamiento de UGM-84, sin bloque A/B/C identificado de forma concluyente."
+    },
+    "game-ammo:usn_ugm-84b": {
+      "file": "UGM-84 Harpoon.jpg",
+      "label": "UGM-84B · Harpoon submarino",
+      "year": "1983 (derivado en 2011)",
+      "source": "https://commons.wikimedia.org/wiki/File:UGM-84_Harpoon.jpg",
+      "author": "U.S. Navy; derivación Matrek",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzamiento de UGM-84, sin bloque A/B/C identificado de forma concluyente."
+    },
+    "game-ammo:usn_ugm-84c": {
+      "file": "UGM-84 Harpoon.jpg",
+      "label": "UGM-84C · Harpoon submarino",
+      "year": "1983 (derivado en 2011)",
+      "source": "https://commons.wikimedia.org/wiki/File:UGM-84_Harpoon.jpg",
+      "author": "U.S. Navy; derivación Matrek",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Lanzamiento de UGM-84, sin bloque A/B/C identificado de forma concluyente."
+    },
+    "game-ammo:usn_rgm-109b": {
+      "file": "BGM-109 Tomahawk Ship-launched Cruise Missile.jpg",
+      "label": "RGM-109B · Tomahawk de pruebas",
+      "year": "2008 (prototipo de 1976–78)",
+      "source": "https://commons.wikimedia.org/wiki/File:BGM-109_Tomahawk_Ship-launched_Cruise_Missile.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Prototipo de pruebas no específico de la variante operativa B/C o del sistema de lanzamiento."
+    },
+    "game-ammo:usn_ugm-109b": {
+      "file": "BGM-109 Tomahawk Ship-launched Cruise Missile.jpg",
+      "label": "UGM-109B · Tomahawk de pruebas",
+      "year": "2008 (prototipo de 1976–78)",
+      "source": "https://commons.wikimedia.org/wiki/File:BGM-109_Tomahawk_Ship-launched_Cruise_Missile.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Prototipo de pruebas no específico de la variante operativa B/C o del sistema de lanzamiento."
+    },
+    "game-ammo:usn_ugm-109c": {
+      "file": "BGM-109 Tomahawk Ship-launched Cruise Missile.jpg",
+      "label": "UGM-109C · Tomahawk de pruebas",
+      "year": "2008 (prototipo de 1976–78)",
+      "source": "https://commons.wikimedia.org/wiki/File:BGM-109_Tomahawk_Ship-launched_Cruise_Missile.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Prototipo de pruebas no específico de la variante operativa B/C o del sistema de lanzamiento."
+    },
+    "game-ammo:fr_am-39": {
+      "file": "Exocet AM39 P1220892-detoured.jpg",
+      "label": "AM39 · Exocet AM39 aislado",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Exocet_AM39_P1220892-detoured.jpg",
+      "author": "David Monniaux; edición Rama",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Misil AM39 identificado en foto posterior a 1985."
+    },
+    "game-ammo:plan_hy-1": {
+      "file": "HY-1 Missile, China (9871305465).jpg",
+      "label": "HY-1 · HY-1 de museo",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:HY-1_Missile%2C_China_(9871305465).jpg",
+      "author": "Gary Todd",
+      "license": "CC0 1.0",
+      "exactVariant": true,
+      "note": "Misil HY-1, foto posterior a 1985."
+    },
+    "game-ammo:plan_hy-1a": {
+      "file": "HY-1 Missile, China (9871305465).jpg",
+      "label": "HY-1A · familia HY-1",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:HY-1_Missile%2C_China_(9871305465).jpg",
+      "author": "Gary Todd",
+      "license": "CC0 1.0",
+      "exactVariant": false,
+      "note": "No se confirma la subvariante A/J."
+    },
+    "game-ammo:plan_hy-1j": {
+      "file": "HY-1 Missile, China (9871305465).jpg",
+      "label": "HY-1J · familia HY-1",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:HY-1_Missile%2C_China_(9871305465).jpg",
+      "author": "Gary Todd",
+      "license": "CC0 1.0",
+      "exactVariant": false,
+      "note": "No se confirma la subvariante A/J."
+    },
+    "game-ammo:plan_hy-2": {
+      "file": "HY-2 Missile 20170902.jpg",
+      "label": "HY-2 · HY-2 expuesto",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:HY-2_Missile_20170902.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "HY-2 de museo, foto posterior a 1985."
+    },
+    "game-ammo:plan_sy-1": {
+      "file": "SY-1 Missile 20170919.jpg",
+      "label": "SY-1 · SY-1 expuesto",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:SY-1_Missile_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "SY-1 de museo."
+    },
+    "game-ammo:plan_sy-1a": {
+      "file": "SY-1 Missile 20170919.jpg",
+      "label": "SY-1A · familia SY-1",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:SY-1_Missile_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "No se confirma la subvariante 1A."
+    },
+    "game-ammo:pla_yj-6": {
+      "file": "YJ-6 Anti-ship missiles 20170919.jpg",
+      "label": "YJ-6 · YJ-6 expuesto",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:YJ-6_Anti-ship_missiles_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil YJ-6 de museo."
+    },
+    "game-ammo:plan_yj-8": {
+      "file": "YJ-8 Missile 20220203.jpg",
+      "label": "YJ-8 · familia YJ-8",
+      "year": "2022",
+      "source": "https://commons.wikimedia.org/wiki/File:YJ-8_Missile_20220203.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Ejemplar YJ-8A, no verificada variante base del juego."
+    },
+    "game-ammo:pla_pl-2": {
+      "file": "Air-to-air missile of China 20170919.jpg",
+      "label": "PL-2A · familia PL-2",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Air-to-air_missile_of_China_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Sin comprobación de subvariante PL-2A/B."
+    },
+    "game-ammo:pla_pl-2b": {
+      "file": "Air-to-air missile of China 20170919.jpg",
+      "label": "PL-2B · familia PL-2",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Air-to-air_missile_of_China_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Sin comprobación de subvariante PL-2A/B."
+    },
+    "game-ammo:it_aspide_1": {
+      "file": "Misil Aspide.jpg",
+      "label": "Aspide Mk.1A · Aspide naval",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Misil_Aspide.jpg",
+      "author": "Martin Garcia",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "El misil documentado no está identificado expresamente como Mk.1A."
+    },
+    "game-unit:a:rn_wasp_has1": {
+      "file": "Westland Wasp HAS.1 ‘XS567 - 434’ (39393399554).jpg",
+      "label": "Wasp HAS.1 · Wasp HAS.1",
+      "year": "2018 (ejemplar histórico 1982)",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Wasp_HAS.1_%E2%80%98XS567_-_434%E2%80%99_(39393399554).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Ejemplar HAS.1 de HMS Endurance, fotografiado posteriormente."
+    },
+    "game-unit:a:rn_wessex_has3": {
+      "file": "Westland Wessex HAS3 (c-n WA75, s-n XP142) 1990-05-02 Andre Gerwing Collection ID 030922.jpg",
+      "label": "Wessex HAS.3 · Wessex HAS.3",
+      "year": "1990",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Wessex_HAS3_(c-n_WA75%2C_s-n_XP142)_1990-05-02_Andre_Gerwing_Collection_ID_030922.jpg",
+      "author": "André Gerwing",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Helicóptero HAS.3 auténtico, imagen posterior a 1985."
+    },
+    "game-unit:a:irina_sh-3d": {
+      "file": "SH-3D Sea King of HS-3 in flight in 1974.jpg",
+      "label": "ASH-3D IRINA · SH-3D Sea King",
+      "year": "1974",
+      "source": "https://commons.wikimedia.org/wiki/File:SH-3D_Sea_King_of_HS-3_in_flight_in_1974.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Variante SH-3D real pero operador de la foto estadounidense, no iraní."
+    },
+    "game-unit:a:wp_mig-25rb": {
+      "file": "Mikoyan-Gurevich MiG-25.jpg",
+      "label": "MiG-25RB Foxbat · MiG-25RB",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25.jpg",
+      "author": "Tarek Siala",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Fotografía de variante MiG-25RB libia, no de fuerzas soviéticas."
     }
   }
 }

@@ -8,27 +8,27 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 301,
-    "covered": 300,
-    "exactAssigned": 177,
-    "familyAssigned": 123,
-    "pending": 807,
+    "references": 393,
+    "covered": 392,
+    "exactAssigned": 184,
+    "familyAssigned": 208,
+    "pending": 715,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 55
+        "covered": 80
       },
       "ship": {
         "total": 295,
-        "covered": 80
+        "covered": 107
       },
       "land": {
         "total": 197,
-        "covered": 57
+        "covered": 60
       },
       "weapon": {
         "total": 471,
-        "covered": 108
+        "covered": 145
       }
     },
     "unmatchedManifestIds": []
@@ -50,10 +50,6 @@
       [
         "ara_p-95",
         "EMB-111"
-      ],
-      [
-        "ara_s-61d",
-        "ARA S-61D"
       ],
       [
         "civ_707",
@@ -116,10 +112,6 @@
         "SA.321"
       ],
       [
-        "iaf_f-4e_kurnass",
-        "F-4E Kurnass"
-      ],
-      [
         "iaf_md500",
         "MD500 Lahatut"
       ],
@@ -132,32 +124,12 @@
         "AH-1J"
       ],
       [
-        "iriaf_f-14a",
-        "F-14A IRIAF"
-      ],
-      [
-        "iriaf_f-4d",
-        "F-4D IRIAF"
-      ],
-      [
-        "iriaf_f-4e",
-        "F-4E IRIAF"
-      ],
-      [
-        "irina_sh-3d",
-        "ASH-3D IRINA"
-      ],
-      [
         "jasdf_f-1",
         "F-1"
       ],
       [
         "jasdf_t-2",
         "T-2"
-      ],
-      [
-        "jmsdf_hss-2",
-        "HSS-2"
       ],
       [
         "jmsdf_ps-1",
@@ -168,24 +140,12 @@
         "US-1A"
       ],
       [
-        "pla_f-5",
-        "F-5 Fresco"
-      ],
-      [
         "pla_h-6a",
         "H-6A"
       ],
       [
         "pla_h-6d",
         "H-6D"
-      ],
-      [
-        "pla_j-5",
-        "J-5 Fresco"
-      ],
-      [
-        "pla_j-7c",
-        "J-7III Fishcan"
       ],
       [
         "pla_q-5",
@@ -216,10 +176,6 @@
         "RAAF SEARCHMASTER L"
       ],
       [
-        "raf_gr1",
-        "RAF GR1"
-      ],
-      [
         "raf_sc-7",
         "RAF SC-7"
       ],
@@ -232,10 +188,6 @@
         "RAF VICTOR"
       ],
       [
-        "ran_a-4g",
-        "A-4G"
-      ],
-      [
         "rn_canberra",
         "RN CANBERRA"
       ],
@@ -244,20 +196,8 @@
         "Lynx HAS.2"
       ],
       [
-        "rn_sea_king_has5",
-        "RN SEA KING HAS5"
-      ],
-      [
-        "rn_wasp_has1",
-        "Wasp HAS.1"
-      ],
-      [
         "rn_wessex_has1",
         "RN WESSEX HAS1"
-      ],
-      [
-        "rn_wessex_has3",
-        "Wessex HAS.3"
       ],
       [
         "rn_wessex_hu5",
@@ -266,14 +206,6 @@
       [
         "shared_settings",
         "SHARED SETTINGS"
-      ],
-      [
-        "usaf_f-15a",
-        "F-15A"
-      ],
-      [
-        "usaf_f-4d",
-        "F-4D"
       ],
       [
         "usaf_kc-10",
@@ -332,32 +264,8 @@
         "Ka-29"
       ],
       [
-        "wp_lim-6",
-        "LIM-6 Fresco"
-      ],
-      [
-        "wp_mig-23a",
-        "MiG-23A Flogger"
-      ],
-      [
-        "wp_mig-23ms",
-        "MiG-23MS Flogger"
-      ],
-      [
-        "wp_mig-25bm",
-        "MiG-25BM Foxbat"
-      ],
-      [
-        "wp_mig-25p",
-        "MiG-25P Foxbat"
-      ],
-      [
         "wp_mig-25pu",
         "MiG-25PU Foxbat"
-      ],
-      [
-        "wp_mig-25rb",
-        "MiG-25RB Foxbat"
       ],
       [
         "wp_mig-28",
@@ -372,20 +280,12 @@
         "P-42RLDN"
       ],
       [
-        "wp_su-24a",
-        "Su-24A"
-      ],
-      [
         "wp_taifun",
         "Ko-45"
       ],
       [
         "wp_taifun_ew",
         "Ko-45E EW"
-      ],
-      [
-        "wp_tu-16p",
-        "TU-16P"
       ],
       [
         "wp_tu-95rt",
@@ -424,10 +324,6 @@
       [
         "ara_dd_sumner_fram2",
         "ARA DD SUMNER FRAM2"
-      ],
-      [
-        "ara_ddg_hercules",
-        "ARA DDG HERCULES"
       ],
       [
         "ara_fs_drummond",
@@ -842,18 +738,6 @@
         "clase Hashmat"
       ],
       [
-        "ran_ddg_perth",
-        "clase Perth"
-      ],
-      [
-        "ran_ffg_adelaide_shorthull",
-        "clase Adelaide (casco corto)"
-      ],
-      [
-        "rcn_ss_oberon",
-        "clase Oberon (RCN)"
-      ],
-      [
         "rn_ao_leaf",
         "RN AO LEAF"
       ],
@@ -874,10 +758,6 @@
         "clase Z"
       ],
       [
-        "rn_ddg_bristol_73",
-        "RN DDG BRISTOL 73"
-      ],
-      [
         "rn_ddg_county_batch1",
         "RN DDG COUNTY BATCH1"
       ],
@@ -888,18 +768,6 @@
       [
         "rn_ddg_county_batch2_75",
         "RN DDG COUNTY BATCH2 75"
-      ],
-      [
-        "rn_ddg_sheffield_batch0",
-        "RN DDG SHEFFIELD BATCH0"
-      ],
-      [
-        "rn_ddg_sheffield_batch2",
-        "RN DDG SHEFFIELD BATCH2"
-      ],
-      [
-        "rn_ff_leander_batch2",
-        "RN FF LEANDER BATCH2"
       ],
       [
         "rn_lsl_roundtable",
@@ -954,68 +822,12 @@
         "clase Barnegat (Modificada)"
       ],
       [
-        "usn_cg_bunker_hill",
-        "USN CG BUNKER HILL"
-      ],
-      [
         "usn_cgn_alaska",
         "clase Alaska"
       ],
       [
-        "usn_cgn_long_beach_73",
-        "clase Long Beach"
-      ],
-      [
         "usn_clg_oklahoma_city",
         "clase Galveston"
-      ],
-      [
-        "usn_cv_america_79",
-        "clase America"
-      ],
-      [
-        "usn_dd_gearing_fram2",
-        "clase Gearing FRAM II"
-      ],
-      [
-        "usn_dd_gearing_fram2_mod",
-        "clase Gearing NV mod"
-      ],
-      [
-        "usn_dd_spruance_abl",
-        "clase Spruance (ABL)"
-      ],
-      [
-        "usn_ddg_adams_early",
-        "clase Adams (temprana)"
-      ],
-      [
-        "usn_ddg_adams_early_68",
-        "clase Adams (temprana)"
-      ],
-      [
-        "usn_ddg_adams_late",
-        "clase Adams (tardía)"
-      ],
-      [
-        "usn_ddg_adams_late_68",
-        "clase Adams (tardía)"
-      ],
-      [
-        "usn_ddg_coontz_68",
-        "clase Coontz"
-      ],
-      [
-        "usn_ddg_mahan",
-        "clase Coontz (NTU)"
-      ],
-      [
-        "usn_ff_knox_72",
-        "clase Knox"
-      ],
-      [
-        "usn_ff_knox_84",
-        "clase Knox (Tardía)"
       ],
       [
         "usn_lka_charleston",
@@ -1060,18 +872,6 @@
       [
         "usn_ssn_los_angeles_76",
         "Los Angeles-class Flight 1 (Early)"
-      ],
-      [
-        "usn_ssn_permit_68",
-        "clase Permit (Early)"
-      ],
-      [
-        "usn_ssn_skipjack_68",
-        "clase Skipjack (Early)"
-      ],
-      [
-        "usn_ssn_sturgeon_72",
-        "clase Sturgeon (Temprana)"
       ],
       [
         "usn_takr_algol",
@@ -1190,10 +990,6 @@
         "clase Komar"
       ],
       [
-        "wp_ptg_tarantul_re",
-        "clase Tarantul RE"
-      ],
-      [
         "wp_rkr_kynda",
         "clase Kynda"
       ],
@@ -1240,10 +1036,6 @@
       [
         "wp_ssn_victor2",
         "clase Victor II"
-      ],
-      [
-        "wp_ssn_victor3_imp",
-        "WP SSN VICTOR3 IMP"
       ],
       [
         "wp_vt_boris_chilikin",
@@ -1318,10 +1110,6 @@
       [
         "flk_san_carlos_fob",
         "FLK SAN CARLOS FOB"
-      ],
-      [
-        "iqa_mbt_t-55_70",
-        "T-55 M1970"
       ],
       [
         "is_airbase_akureyri",
@@ -1408,10 +1196,6 @@
         "Batería AAA KS-19"
       ],
       [
-        "nv_mlrs_grad_emplacement",
-        "Emplazamiento Grad"
-      ],
-      [
         "nv_pt_boats_docks",
         "Base de Patrulleras"
       ],
@@ -1434,10 +1218,6 @@
       [
         "oil_terminal_3",
         "Terminal petrolífera"
-      ],
-      [
-        "pla_aaa_type55",
-        "Cañón antiaéreo de 37 mm Tipo 55"
       ],
       [
         "pla_aaa_type65",
@@ -1874,10 +1654,6 @@
         "fr alouette III 4xM2HB"
       ],
       [
-        "fr_am-39",
-        "AM39"
-      ],
-      [
         "fr_as12",
         "AS.12"
       ],
@@ -1930,10 +1706,6 @@
         "SAMP-25"
       ],
       [
-        "fr_sm-39",
-        "SM39"
-      ],
-      [
         "fr_sneb",
         "FR SNEB"
       ],
@@ -1984,10 +1756,6 @@
       [
         "it_a-244s_air",
         "A-244"
-      ],
-      [
-        "it_aspide_1",
-        "Aspide Mk.1A"
       ],
       [
         "it_cal_40mm_apfsds",
@@ -2058,14 +1826,6 @@
         "HY-3"
       ],
       [
-        "pla_pl-2",
-        "PL-2A"
-      ],
-      [
-        "pla_pl-2b",
-        "PL-2B"
-      ],
-      [
         "pla_pl-5b",
         "PL-5B"
       ],
@@ -2090,10 +1850,6 @@
         "YJ-1"
       ],
       [
-        "pla_yj-6",
-        "YJ-6"
-      ],
-      [
         "plan_cal_130mm",
         "130 mm"
       ],
@@ -2104,22 +1860,6 @@
       [
         "plan_hq-61",
         "HQ-61"
-      ],
-      [
-        "plan_hy-1",
-        "HY-1"
-      ],
-      [
-        "plan_hy-1a",
-        "HY-1A"
-      ],
-      [
-        "plan_hy-1j",
-        "HY-1J"
-      ],
-      [
-        "plan_hy-2",
-        "HY-2"
       ],
       [
         "plan_hy-4",
@@ -2134,24 +1874,12 @@
         "SKF-2"
       ],
       [
-        "plan_sy-1",
-        "SY-1"
-      ],
-      [
-        "plan_sy-1a",
-        "SY-1A"
-      ],
-      [
         "plan_type62dc",
         "FQF-1200"
       ],
       [
         "plan_type75dc",
         "FQF-2500"
-      ],
-      [
-        "plan_yj-8",
-        "YJ-8"
       ],
       [
         "plan_yu-1",
@@ -2238,10 +1966,6 @@
         "rn mk13 1000lb"
       ],
       [
-        "rn_seadart_mod1",
-        "rn seadart mod1"
-      ],
-      [
         "rn_squid_shell",
         "SQUID Mortar"
       ],
@@ -2284,18 +2008,6 @@
       [
         "usaf_agm-86c",
         "AGM-86C"
-      ],
-      [
-        "usaf_aim-9e",
-        "AIM-9E"
-      ],
-      [
-        "usaf_aim-9j",
-        "AIM-9J"
-      ],
-      [
-        "usaf_aim-9p",
-        "AIM-9P"
       ],
       [
         "usaf_alq-119",
@@ -2372,22 +2084,6 @@
       [
         "usn_agm-122a",
         "AGM-122A"
-      ],
-      [
-        "usn_agm-84a",
-        "AGM-84A"
-      ],
-      [
-        "usn_agm-84d",
-        "AGM-84D"
-      ],
-      [
-        "usn_aim-9g",
-        "AIM-9G"
-      ],
-      [
-        "usn_aim-9h",
-        "AIM-9H"
       ],
       [
         "usn_alq-99",
@@ -2602,22 +2298,6 @@
         "USN POD M260"
       ],
       [
-        "usn_rgm-109b",
-        "RGM-109B"
-      ],
-      [
-        "usn_rgm-84a",
-        "RGM-84A"
-      ],
-      [
-        "usn_rgm-84d",
-        "RGM-84D"
-      ],
-      [
-        "usn_rgm-8h",
-        "RGM-8H"
-      ],
-      [
         "usn_rr144_chaff",
         "Chaff"
       ],
@@ -2704,26 +2384,6 @@
       [
         "usn_ter_mk83_3",
         "usn ter mk83 3"
-      ],
-      [
-        "usn_ugm-109b",
-        "UGM-109B"
-      ],
-      [
-        "usn_ugm-109c",
-        "UGM-109C"
-      ],
-      [
-        "usn_ugm-84a",
-        "UGM-84A"
-      ],
-      [
-        "usn_ugm-84b",
-        "UGM-84B"
-      ],
-      [
-        "usn_ugm-84c",
-        "UGM-84C"
       ],
       [
         "usn_zuni",
@@ -2832,10 +2492,6 @@
       [
         "wp_as-2b",
         "AS-2B"
-      ],
-      [
-        "wp_as-4b",
-        "AS-4B"
       ],
       [
         "wp_as-6",
@@ -3110,24 +2766,12 @@
         "SA-4"
       ],
       [
-        "wp_sa-n-1",
-        "SA-N-1"
-      ],
-      [
         "wp_sa-n-10",
         "WP SA N 10"
       ],
       [
         "wp_sa-n-12",
         "WP SA N 12"
-      ],
-      [
-        "wp_sa-n-1c",
-        "SA-N-1C"
-      ],
-      [
-        "wp_sa-n-1d",
-        "WP SA N 1D"
       ],
       [
         "wp_sa-n-3",
@@ -3138,24 +2782,12 @@
         "WP SA N 3B"
       ],
       [
-        "wp_sa-n-4",
-        "SA-N-4"
-      ],
-      [
-        "wp_sa-n-4c",
-        "WP SA N 4C"
-      ],
-      [
         "wp_sa-n-5",
         "SA-N-5"
       ],
       [
         "wp_sa-n-6",
         "SA-N-6"
-      ],
-      [
-        "wp_sa-n-7",
-        "SA-N-7"
       ],
       [
         "wp_sa-n-9",
