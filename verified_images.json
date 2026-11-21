@@ -1,6 +1,6 @@
 {
-  "version": 19,
-  "description": "Sea Power Atlas, lote 16: 25 nuevas fichas documentadas de armamento y equipos; fotografías individuales, variantes aproximadas marcadas y tres ilustraciones expresamente identificadas.",
+  "version": 20,
+  "description": "Sea Power Atlas, lote 17: HY-3 identificado y cohete Bofors de 375 mm documentado como familia, sin atribuir variante M/50.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -5582,6 +5582,26 @@
       "license": "CC BY-SA 4.0",
       "exactVariant": false,
       "note": "Imagen de un prototipo Marte MK2 de 1971; no confirma que la unidad corresponda a la versión operativa Sea Killer 2."
+    },
+    "game-ammo:pla_hy-3": {
+      "file": "HY-3 Missile 20170919.jpg",
+      "label": "HY-3 Haiying-3",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:HY-3_Missile_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Ejemplar identificado explícitamente como misil Haiying-3 (HY-3), expuesto en el Museo Militar de la Revolución Popular China; fotografía de 2017."
+    },
+    "game-ammo:swe_375mm_rocket": {
+      "file": "Bofors U-Jagd-Rakete 375 mm.JPG",
+      "label": "Bofors M/50 · Cohete antisubmarino de 375 mm",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:Bofors_U-Jagd-Rakete_375_mm.JPG",
+      "author": "Alf van Beem",
+      "license": "CC0 1.0",
+      "exactVariant": false,
+      "note": "Fotografía de un cohete antisubmarino Bofors de 375 mm; la fuente no acredita que sea específicamente la variante M/50."
     }
   }
 }
