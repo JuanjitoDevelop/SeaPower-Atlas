@@ -1,0 +1,41 @@
+name: Validar catálogo visual
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'verified_images.json'
+      - 'reports/galeria-cobertura-1985.json'
+      - 'README.md'
+      - 'tools/catalog_image_coverage.cjs'
+      - 'image_pack.test.cjs'
+      - 'planner.test.cjs'
+      - 'runtime.smoke.cjs'
+      - '.github/workflows/validar-galeria.yml'
+  push:
+    branches:
+      - 'dev/feature/galeria-lote13-armamento-verificado'
+
+permissions:
+  contents: read
+
+jobs:
+  pruebas:
+    name: Comprobar catálogo y regresiones
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validar manifiesto e informe
+        run: node tools/catalog_image_coverage.cjs --check
+      - name: Probar imágenes y navegación
+        run: node image_pack.test.cjs
+      - name: Probar planificador
+        run: node planner.test.cjs
+      - name: Probar interfaz y rutas
+        run: node runtime.smoke.cjs
