@@ -1,6 +1,6 @@
 {
-  "version": 21,
-  "description": "Sea Power Atlas, lote 18: 22 referencias documentadas: 15 fichas navales, 7 misiles; fotografías históricas o museo, dibujos identificados y variantes de familia diferenciadas.",
+  "version": 22,
+  "description": "Sea Power Atlas, lote 19: 22 referencias de buques, submarinos y dragaminas con fuentes originales de Commons; fotos históricas, fechas, autores, licencias y variantes documentadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -5826,6 +5826,228 @@
       "license": "CC BY-SA 3.0",
       "exactVariant": true,
       "note": "Patrullera misilera S55 Alk P6155 de la clase Tiger, fotografiada exactamente en 1985."
+    },
+    "game-unit:v:wp_mrk_nanuchka": {
+      "file": "Nanuchka class corvette.JPG",
+      "label": "Nanuchka · corbeta soviética proyecto 1234",
+      "year": "1/03/1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanuchka_class_corvette.JPG",
+      "author": "U.S. Navy (fotógrafo no identificado)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía DN-ST-82-04639 de una Nanuchka-I proyecto 1234. La entrada del juego indica Nanuchka genérico; no se presume la misma subvariante ni electrónica."
+    },
+    "game-unit:v:wp_mpk_grisha3": {
+      "file": "Project1124-1985-2.jpg",
+      "label": "Grisha III · MPK-170",
+      "year": "23/12/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Project1124-1985-2.jpg",
+      "author": "U.S. Navy (fotógrafo no identificado)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fuente DN-SC-86-01983: pequeña unidad antisubmarina proyecto 1124 MPK-170 identificada como Grisha III en 1985."
+    },
+    "game-unit:v:wp_ssbn_delta3": {
+      "file": "Submarine Delta III class.jpg",
+      "label": "Delta III · submarino balístico 667BDR",
+      "year": "1/04/1983",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Delta_III_class.jpg",
+      "author": "U.S. Navy / Soviet Military Power 1983",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Toma de un SSBN soviético Delta III documentada en DN-SN-83-07078 y publicación de 1983."
+    },
+    "game-unit:v:wp_ssn_victor1": {
+      "file": "Victor class diving.jpg",
+      "label": "Victor I · submarino soviético en navegación",
+      "year": "21/03/1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_class_diving.jpg",
+      "author": "Moore / U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía naval DN-SN-84-07510 identifica expresamente un submarino clase Victor I, cerca del grupo USS Kitty Hawk."
+    },
+    "game-unit:v:wp_pkr_moskva": {
+      "file": "Moskva class helecopter carrier.JPEG",
+      "label": "Moskva · porthelicópteros clase 1123",
+      "year": "1/10/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Moskva_class_helecopter_carrier.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía oficial de Leningrad, segundo buque de la clase Moskva (proyecto 1123); no es el crucero llamado Moskva ni otro proyecto posterior."
+    },
+    "game-unit:v:wp_rkr_kynda": {
+      "file": "Kynda class cruiser underway.jpg",
+      "label": "Kynda · crucero Groznyy modernizado",
+      "year": "12/09/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kynda_class_cruiser_underway.jpg",
+      "author": "LT Dave Parsons / U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Groznyy clase Kynda de proyecto 58, fotografiado en 1985 tras modernización; comprobar que representa la clase, no cada casco."
+    },
+    "game-unit:v:wp_msc_kondor_II": {
+      "file": "Kondor II Class.jpg",
+      "label": "Kondor II · dragaminas Eilsleben 312",
+      "year": "1/07/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kondor_II_Class.jpg",
+      "author": "Iain (f0rbe5)",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Fotografía de época del Eilsleben 312, segundo casco de la clase Kondor II de la Volksmarine; su silueta está centrada."
+    },
+    "game-unit:v:wp_msc_kondor_II_85": {
+      "file": "Kondor II Class.jpg",
+      "label": "Kondor II 1985 · Eilsleben 312",
+      "year": "1/07/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kondor_II_Class.jpg",
+      "author": "Iain (f0rbe5)",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "La misma foto documenta el buque y la época de la configuración 1985; no certifica pequeños cambios de equipo."
+    },
+    "game-unit:v:wp_ssgn_echo2": {
+      "file": "Submarine Echo II class.jpg",
+      "label": "Echo II · submarino de misiles soviético",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Echo_II_class.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Imagen oficial estadounidense de Echo II navegando en superficie; 1988 es fecha de toma, posterior al escenario 1985."
+    },
+    "game-unit:v:wp_ssgn_charlie1": {
+      "file": "Charlie class submarine.jpg",
+      "label": "Charlie I · submarino Chakra ex soviético",
+      "year": "26/08/1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Charlie_class_submarine.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Clase Charlie I, unidad soviética cedida a India como Chakra; imagen tras la cesión de 1988, no bajo bandera soviética."
+    },
+    "game-unit:v:wp_ssgn_charlie2": {
+      "file": "Charlie II class SSGN.svg",
+      "label": "Charlie II · silueta proyecto 670M",
+      "year": "29/09/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Charlie_II_class_SSGN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Silueta del B-542 proyecto 670M Chayka/Charlie II; ilustración vectorial y no fotografía.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:wp_ssn_november": {
+      "file": "November class SSN 627A project.svg",
+      "label": "November · silueta submarino K-159 proyecto 627A",
+      "year": "12/10/2010",
+      "source": "https://commons.wikimedia.org/wiki/File:November_class_SSN_627A_project.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Ilustración de variante modernizada 627A (K-159); el ID de juego es noviembre genérico, sin detalle del lote base.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:wp_ssgn_oscar1": {
+      "file": "Soviet Oscar Class submarine.JPEG",
+      "label": "Oscar I · SSGN soviético",
+      "year": "26/08/1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Soviet_Oscar_Class_submarine.JPEG",
+      "author": "U.S. Department of Defense (autor individual desconocido)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Imagen de archivo DD-ST-88-09447 que identifica expresamente Oscar I, con perfil y vela visibles."
+    },
+    "game-unit:v:wp_pb_zhuk": {
+      "file": "PSKApr1400M(DN-ST-89-08524).jpg",
+      "label": "Zhuk · tres patrulleras soviéticas 1400M",
+      "year": "1988 (fecha de archivo original aproximada)",
+      "source": "https://commons.wikimedia.org/wiki/File:PSKApr1400M(DN-ST-89-08524).jpg",
+      "author": "Derek Moore / Department of Defense",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": false,
+      "note": "Vista de tres patrulleras Zhuk proyecto 1400M atracadas; el ID genérico no confirma si se trata de la variante M."
+    },
+    "game-unit:v:wp_pb_zhuk_ME": {
+      "file": "Project 1400M Zhuk Class Ukrainian Border Guard Patrol Boats in Odessa 2010.jpg",
+      "label": "Zhuk ME · referencia de familia 1400M",
+      "year": "18/08/2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Project_1400M_Zhuk_Class_Ukrainian_Border_Guard_Patrol_Boats_in_Odessa_2010.jpg",
+      "author": "TMg",
+      "license": "CC BY-SA 3.0 de",
+      "exactVariant": false,
+      "note": "Cuatro patrulleras ucranianas tipo 1400M en Odesa. Solo semejanza de familia con la variante exportación 1400ME; no prueba equipo de ME."
+    },
+    "game-unit:v:usn_ssbn_james_madison": {
+      "file": "USS James Madison SSBN-627.jpg",
+      "label": "James Madison · USS SSBN-627",
+      "year": "17/01/1986",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_James_Madison_SSBN-627.jpg",
+      "author": "U.S. Navy (fotógrafo no indicado)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de USS James Madison SSBN-627, casco de la clase del juego, al año siguiente del escenario de 1985."
+    },
+    "game-unit:v:usn_ae_kilauea": {
+      "file": "USS Kilauea (AE-26) underway c1970.jpg",
+      "label": "Kilauea · buque de municiones AE-26",
+      "year": "h. 1970",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Kilauea_(AE-26)_underway_c1970.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque cabeza de clase de apoyo logístico Kilauea AE-26; equipo histórico de 1970, no idéntico garantizado al de 1985."
+    },
+    "game-unit:v:usn_mso_aggressive": {
+      "file": "USS Aggressive MSO-422.jpg",
+      "label": "Aggressive · dragaminas MSO-422",
+      "year": "h. 1955",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Aggressive_MSO-422.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Aggressive, unidad cabeza de la clase de dragaminas oceánicos del juego; fotografía de 1955."
+    },
+    "game-unit:v:usn_takr_algol": {
+      "file": "USNS Algol (T-AKR-287) underway at sea in 1984.jpg",
+      "label": "Algol · USNS T-AKR-287",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:USNS_Algol_(T-AKR-287)_underway_at_sea_in_1984.jpg",
+      "author": "U.S. Navy (NH 96657)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "USNS Algol T-AKR-287 en 1984 después de convertirse en buque de transporte logístico; fotografía oficial NH 96657."
+    },
+    "game-unit:v:usn_avp_barnegat": {
+      "file": "USS Barnegat (AVP-10) underway off the coast of Brazil on 4 April 1944 (80-G-361055).jpg",
+      "label": "Barnegat · hidroaviones AVP-10",
+      "year": "4/04/1944",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Barnegat_(AVP-10)_underway_off_the_coast_of_Brazil_on_4_April_1944_(80-G-361055).jpg",
+      "author": "U.S. Navy / Naval History and Heritage Command",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Barnegat AVP-10 durante II Guerra Mundial con grúa y radar de la configuración 1944; no válida para las variantes modernizadas."
+    },
+    "game-unit:v:usn_lsm_lsm1": {
+      "file": "Uss LSM-437.jpg",
+      "label": "LSM-1 · USS LSM-437",
+      "year": "Después de 1945 (fecha exacta no indicada)",
+      "source": "https://commons.wikimedia.org/wiki/File:Uss_LSM-437.jpg",
+      "author": "U.S. Navy / NHHC (cortesía Donald M. McPherson)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía naval NH 84896 de LSM-437, casco real de la clase Landing Ship Medium LSM-1."
+    },
+    "game-unit:v:wp_msc_T43": {
+      "file": "ORP Dzik projektu 254M.jpg",
+      "label": "T-43 · referencia familia proyecto 254M",
+      "year": "Fecha de la imagen no especificada",
+      "source": "https://commons.wikimedia.org/wiki/File:ORP_Dzik_projektu_254M.jpg",
+      "author": "Tatar1",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El ORP Dzik polaco es variante 254M, no el proyecto soviético 254 de la ficha T-43; útil solamente como referencia de familia y puede diferir en superestructura."
     }
   }
 }
