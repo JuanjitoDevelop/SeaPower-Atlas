@@ -8,27 +8,27 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 422,
-    "covered": 421,
-    "exactAssigned": 195,
-    "familyAssigned": 226,
-    "pending": 686,
+    "references": 585,
+    "covered": 584,
+    "exactAssigned": 301,
+    "familyAssigned": 283,
+    "pending": 523,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 80
+        "covered": 116
       },
       "ship": {
         "total": 295,
-        "covered": 107
+        "covered": 172
       },
       "land": {
         "total": 197,
-        "covered": 60
+        "covered": 80
       },
       "weapon": {
         "total": 471,
-        "covered": 174
+        "covered": 216
       }
     },
     "unmatchedManifestIds": []
@@ -36,28 +36,8 @@
   "pending": {
     "aircraft": [
       [
-        "ara_a-4p",
-        "ARA A-4P"
-      ],
-      [
         "ara_b-707",
         "B-707"
-      ],
-      [
-        "ara_dagger",
-        "ARA DAGGER"
-      ],
-      [
-        "ara_p-95",
-        "EMB-111"
-      ],
-      [
-        "civ_707",
-        "Avión Comercial 707"
-      ],
-      [
-        "civ_c340",
-        "Bimotor Ligero"
       ],
       [
         "civ_e100",
@@ -68,32 +48,12 @@
         "Jet Ejecutivo Pequeño"
       ],
       [
-        "civ_il-18",
-        "Avión Comercial Il-18"
-      ],
-      [
-        "civ_il-62",
-        "Avión Comercial Il-62"
-      ],
-      [
-        "civ_tu-154",
-        "Avión Comercial Tu-154"
-      ],
-      [
         "civ_v35",
         "Monomotor Ligero"
       ],
       [
         "fab_c-95",
         "FAB C-95"
-      ],
-      [
-        "fr_alouette_II",
-        "SA.313"
-      ],
-      [
-        "fr_as-350",
-        "AS.350"
       ],
       [
         "fr_f1a",
@@ -108,10 +68,6 @@
         "Bizjet armado"
       ],
       [
-        "fr_sa-321",
-        "SA.321"
-      ],
-      [
         "iaf_md500",
         "MD500 Lahatut"
       ],
@@ -124,48 +80,12 @@
         "AH-1J"
       ],
       [
-        "jasdf_f-1",
-        "F-1"
-      ],
-      [
-        "jasdf_t-2",
-        "T-2"
-      ],
-      [
-        "jmsdf_ps-1",
-        "PS-1"
-      ],
-      [
-        "jmsdf_us-1",
-        "US-1A"
-      ],
-      [
         "pla_h-6a",
         "H-6A"
       ],
       [
         "pla_h-6d",
         "H-6D"
-      ],
-      [
-        "pla_q-5",
-        "Q-5 Fantan"
-      ],
-      [
-        "pla_q-5a",
-        "Q-5A Fantan"
-      ],
-      [
-        "pla_z-8",
-        "Z-8"
-      ],
-      [
-        "plan_sh-5",
-        "SH-5"
-      ],
-      [
-        "raaf_n22",
-        "RAAF N22"
       ],
       [
         "raaf_searchmaster_b",
@@ -180,76 +100,20 @@
         "RAF SC-7"
       ],
       [
-        "raf_scout_ah1",
-        "RAF SCOUT AH1"
-      ],
-      [
-        "raf_victor",
-        "RAF VICTOR"
-      ],
-      [
         "rn_canberra",
         "RN CANBERRA"
-      ],
-      [
-        "rn_lynx_has2",
-        "Lynx HAS.2"
       ],
       [
         "rn_wessex_has1",
         "RN WESSEX HAS1"
       ],
       [
-        "rn_wessex_hu5",
-        "Wessex HU.5"
-      ],
-      [
         "shared_settings",
         "SHARED SETTINGS"
       ],
       [
-        "usaf_kc-10",
-        "USAF KC-10"
-      ],
-      [
-        "usaf_vc-137c",
-        "VC-137C"
-      ],
-      [
         "usmc_av-8a",
         "AV-8C"
-      ],
-      [
-        "usn_ch-46",
-        "CH-46"
-      ],
-      [
-        "usn_eka-3b",
-        "EKA-3B"
-      ],
-      [
-        "usn_ka-3b",
-        "KA-3B"
-      ],
-      [
-        "usn_qh-50c",
-        "QH-50C"
-      ],
-      [
-        "usn_qh-50d",
-        "QH-50D"
-      ],
-      [
-        "usn_ra-3b",
-        "RA-3B"
-      ],
-      [
-        "usn_ra-5c",
-        "RA-5C"
-      ],
-      [
-        "usn_s-2e",
-        "USN S-2E"
       ],
       [
         "usn_v-19a",
@@ -258,14 +122,6 @@
       [
         "wp_ka-25ts",
         "Ka-25TS"
-      ],
-      [
-        "wp_ka-29",
-        "Ka-29"
-      ],
-      [
-        "wp_mig-25pu",
-        "MiG-25PU Foxbat"
       ],
       [
         "wp_mig-28",
@@ -324,14 +180,6 @@
       [
         "ara_dd_sumner_fram2",
         "ARA DD SUMNER FRAM2"
-      ],
-      [
-        "ara_fs_drummond",
-        "ARA FS DRUMMOND"
-      ],
-      [
-        "ara_ss_santa_fe",
-        "ARA SS SANTA FE"
       ],
       [
         "civ_fv_crabboat",
@@ -510,30 +358,6 @@
         "clase Yuniy Partizan"
       ],
       [
-        "es_ssk_delfin",
-        "clase Delfín"
-      ],
-      [
-        "fgs_ptg_tiger",
-        "Tipo 148 clase Tiger"
-      ],
-      [
-        "fgs_ss_type_205",
-        "clase Type 205"
-      ],
-      [
-        "fgs_ss_type_206",
-        "clase Type 206"
-      ],
-      [
-        "fgs_ss_type_209-1200",
-        "FGS SS TYPE 209-1200"
-      ],
-      [
-        "fr_ss_daphne",
-        "clase Daphné"
-      ],
-      [
         "ins_ff_blackwood",
         "clase Blackwood"
       ],
@@ -550,24 +374,12 @@
         "clase Hetz"
       ],
       [
-        "ins_ptg_saar_4",
-        "clase Sa'ar 4"
-      ],
-      [
-        "ins_ss_gal",
-        "clase Gal"
-      ],
-      [
         "ir_aor_delvar",
         "clase Delvar"
       ],
       [
         "ir_fab_boghammar",
         "Boghammar"
-      ],
-      [
-        "ir_ffg_alvand",
-        "clase Alvand"
       ],
       [
         "ir_pf_bayandor",
@@ -594,40 +406,8 @@
         "clase Minegumo"
       ],
       [
-        "jmsdf_dd_takatsuki",
-        "clase Takatsuki"
-      ],
-      [
-        "jmsdf_dd_takatsuki_84",
-        "JMSDF DD TAKATSUKI 84"
-      ],
-      [
         "jmsdf_dd_yamagumo",
         "Clase Yamagumo"
-      ],
-      [
-        "jmsdf_ddg_tachikaze",
-        "clase Tachikaze"
-      ],
-      [
-        "jmsdf_ddg_tachikaze_84",
-        "JMSDF DDG TACHIKAZE 84"
-      ],
-      [
-        "jmsdf_ddh_haruna",
-        "clase Haruna"
-      ],
-      [
-        "jmsdf_ss_asashio",
-        "Clase Asashio"
-      ],
-      [
-        "jmsdf_ss_uzushio",
-        "Clase Uzushio"
-      ],
-      [
-        "jmsdf_ss_yushio",
-        "Clase Yushio"
       ],
       [
         "knm_fs_sleipner",
@@ -638,16 +418,8 @@
         "Clase Sauda"
       ],
       [
-        "knm_ptg_hauk",
-        "Clase Hauk"
-      ],
-      [
         "knm_ptg_snogg",
         "Clase Snøgg"
-      ],
-      [
-        "knm_ss_kobben",
-        "clase Kobben"
       ],
       [
         "ln_ptg_beir_grassa",
@@ -664,10 +436,6 @@
       [
         "plan_ap_qiongsha",
         "clase Qiongsha"
-      ],
-      [
-        "plan_dd_luda1",
-        "clase Luda I"
       ],
       [
         "plan_ff_chengdu",
@@ -718,20 +486,12 @@
         "Tipo 024 (Heku)"
       ],
       [
-        "plan_ss_romeo",
-        "clase Tipo 033"
-      ],
-      [
         "plan_ssg_wuhan",
         "clase Wuhan"
       ],
       [
         "plan_ssn_han",
         "clase Han"
-      ],
-      [
-        "pns_ss_hangor",
-        "clase Hangor"
       ],
       [
         "pns_ss_hashmat",
@@ -742,56 +502,12 @@
         "RN AO LEAF"
       ],
       [
-        "rn_cv_centaur",
-        "RN CV CENTAUR"
-      ],
-      [
-        "rn_dd_battle",
-        "clase Battle"
-      ],
-      [
         "rn_dd_c-class",
         "clase C"
       ],
       [
-        "rn_dd_z-class",
-        "clase Z"
-      ],
-      [
-        "rn_ddg_county_batch1",
-        "RN DDG COUNTY BATCH1"
-      ],
-      [
-        "rn_ddg_county_batch2",
-        "RN DDG COUNTY BATCH2"
-      ],
-      [
-        "rn_ddg_county_batch2_75",
-        "RN DDG COUNTY BATCH2 75"
-      ],
-      [
         "rn_lsl_roundtable",
         "RN LSL ROUNDTABLE"
-      ],
-      [
-        "rn_ss_porpoise",
-        "RN SS PORPOISE"
-      ],
-      [
-        "rn_ssn_churchill",
-        "RN SSN CHURCHILL"
-      ],
-      [
-        "rn_ssn_churchill_late",
-        "RN SSN CHURCHILL LATE"
-      ],
-      [
-        "rn_ssn_swiftsure",
-        "RN SSN SWIFTSURE"
-      ],
-      [
-        "rn_ssn_trafalgar",
-        "RN SSN TRAFALGAR"
       ],
       [
         "rocn_ss_hai_shih",
@@ -806,16 +522,8 @@
         "TEST"
       ],
       [
-        "usn_ae_kilauea",
-        "clase Kilauea"
-      ],
-      [
         "usn_ao_t2",
         "clase T2 (modificado)"
-      ],
-      [
-        "usn_avp_barnegat",
-        "clase Barnegat"
       ],
       [
         "usn_avp_barnegat_mod",
@@ -826,24 +534,8 @@
         "clase Alaska"
       ],
       [
-        "usn_clg_oklahoma_city",
-        "clase Galveston"
-      ],
-      [
-        "usn_lka_charleston",
-        "clase Charleston"
-      ],
-      [
-        "usn_lsm_lsm1",
-        "clase LSM-1"
-      ],
-      [
         "usn_msc_adjutant",
         "clase Adjutant"
-      ],
-      [
-        "usn_mso_aggressive",
-        "clase Aggressive"
       ],
       [
         "usn_pb_pgm-39",
@@ -856,26 +548,6 @@
       [
         "usn_septar_qst-35_small",
         "SEPTAR QST-35 (RCS reducido)"
-      ],
-      [
-        "usn_ss_balao_guppy_ii",
-        "USN SS BALAO GUPPY II"
-      ],
-      [
-        "usn_ssbn_franklin",
-        "clase Benjamin Franklin"
-      ],
-      [
-        "usn_ssbn_james_madison",
-        "clase James Madison"
-      ],
-      [
-        "usn_ssn_los_angeles_76",
-        "Los Angeles-class Flight 1 (Early)"
-      ],
-      [
-        "usn_takr_algol",
-        "clase Algol"
       ],
       [
         "wp_agi_okean",
@@ -894,14 +566,6 @@
         "clase Orel"
       ],
       [
-        "wp_mpk_grisha3",
-        "clase Grisha III"
-      ],
-      [
-        "wp_mrk_nanuchka",
-        "clase Nanuchka"
-      ],
-      [
         "wp_ms_andizhan_armed",
         "clase Andizhan (armada)"
       ],
@@ -914,10 +578,6 @@
         "Portaaviones RORO"
       ],
       [
-        "wp_msc_T43",
-        "clase T43"
-      ],
-      [
         "wp_msc_T43K",
         "clase T43K"
       ],
@@ -926,28 +586,8 @@
         "clase Kondor"
       ],
       [
-        "wp_msc_kondor_II",
-        "clase Kondor II"
-      ],
-      [
-        "wp_msc_kondor_II_85",
-        "clase Kondor II"
-      ],
-      [
         "wp_pb_don",
         "clase Don"
-      ],
-      [
-        "wp_pb_zhuk",
-        "clase Zhuk"
-      ],
-      [
-        "wp_pb_zhuk_ME",
-        "clase Zhuk ME"
-      ],
-      [
-        "wp_pkr_moskva",
-        "clase Moskva"
       ],
       [
         "wp_pt_libelle",
@@ -986,56 +626,12 @@
         "clase Wisla"
       ],
       [
-        "wp_ptg_komar",
-        "clase Komar"
-      ],
-      [
-        "wp_rkr_kynda",
-        "clase Kynda"
-      ],
-      [
         "wp_skr_petya2",
         "clase Petya II"
       ],
       [
         "wp_skr_petya3",
         "clase Petya III"
-      ],
-      [
-        "wp_ss_romeo",
-        "clase Romeo"
-      ],
-      [
-        "wp_ssbn_delta3",
-        "clase Delta III"
-      ],
-      [
-        "wp_ssgn_charlie1",
-        "clase Charlie I"
-      ],
-      [
-        "wp_ssgn_charlie2",
-        "clase Charlie II"
-      ],
-      [
-        "wp_ssgn_echo2",
-        "clase Echo II"
-      ],
-      [
-        "wp_ssgn_oscar1",
-        "clase Oscar I"
-      ],
-      [
-        "wp_ssn_november",
-        "clase November"
-      ],
-      [
-        "wp_ssn_victor1",
-        "clase Victor I"
-      ],
-      [
-        "wp_ssn_victor2",
-        "clase Victor II"
       ],
       [
         "wp_vt_boris_chilikin",
@@ -1128,28 +724,12 @@
         "Base aérea de Reykjavik"
       ],
       [
-        "jsdf_sam_type81",
-        "SAM Tipo 81"
-      ],
-      [
-        "nato_aaa_gdf",
-        "GDF Skyguard"
-      ],
-      [
         "nato_aaa_kcb",
         "NATO AAA KCB"
       ],
       [
         "nato_ewr_station",
         "Instalación de Radar de Alerta Temprana"
-      ],
-      [
-        "nato_fps-20_radar",
-        "Radar de búsqueda AN/FPS-20"
-      ],
-      [
-        "nato_fps-6_radar",
-        "Radar de determinación de altura AN/FPS-6"
       ],
       [
         "nato_large_ewr_station",
@@ -1164,10 +744,6 @@
         "SAM Skyguard-Sparrow"
       ],
       [
-        "nato_sam_skyguard_radar",
-        "NATO SAM SKYGUARD RADAR"
-      ],
-      [
         "nato_small_airbase",
         "Base aérea pequeña"
       ],
@@ -1180,20 +756,8 @@
         "Base aérea muy pequeña"
       ],
       [
-        "nv_130mm_coastal_artillery",
-        "Batería B-13 130mm"
-      ],
-      [
-        "nv_coastal_artillery",
-        "Batería QF 4.5"
-      ],
-      [
         "nv_headquarters",
         "Cuartel General del Ejército"
-      ],
-      [
-        "nv_ks-19",
-        "Batería AAA KS-19"
       ],
       [
         "nv_pt_boats_docks",
@@ -1220,10 +784,6 @@
         "Terminal petrolífera"
       ],
       [
-        "pla_aaa_type65",
-        "Cañón antiaéreo de 37 mm Tipo 65"
-      ],
-      [
         "pla_hy-1_launcher",
         "Sitio CSSC-2 (HY-1) Silkworm"
       ],
@@ -1238,14 +798,6 @@
       [
         "pla_hy-4_launcher",
         "Sitio CSSC-7 (HY-4) Sadsack"
-      ],
-      [
-        "pla_lt_type_63",
-        "LT Tipo 63"
-      ],
-      [
-        "pla_spaag_type63",
-        "SPAAG Tipo 63"
       ],
       [
         "port_ashdod",
@@ -1472,22 +1024,6 @@
         "UK EMPLACEMENT M2HB"
       ],
       [
-        "us_cobra_dane_ewr",
-        "AN/FPS-108 COBRA DANE"
-      ],
-      [
-        "usa_car_hmmwv_m2",
-        "Humvee M2"
-      ],
-      [
-        "usa_radar_tps-43",
-        "Radar TPS-43"
-      ],
-      [
-        "usa_radar_tps-63",
-        "Radar TPS-63"
-      ],
-      [
         "warehouses_1",
         "Almacenes 1"
       ],
@@ -1532,10 +1068,6 @@
         "Redut"
       ],
       [
-        "wp_asc_rubezh",
-        "Rubezh"
-      ],
-      [
         "wp_car_ural_command",
         "Centro de mando móvil"
       ],
@@ -1550,18 +1082,6 @@
       [
         "wp_sa-11_radar",
         "Radar SA-11 Tube Arm"
-      ],
-      [
-        "wp_sa-4_longtruck",
-        "Radar de búsqueda SA-4 Long Track"
-      ],
-      [
-        "wp_sa-4_pathand",
-        "FCR SA-4 Pat Hand"
-      ],
-      [
-        "wp_sa-7_launcher",
-        "SA-7 Grail"
       ],
       [
         "wp_sam_site_sa-10",
@@ -1590,10 +1110,6 @@
       [
         "wp_son-9",
         "Sitio de Radar Son-9"
-      ],
-      [
-        "wp_tbm_scud_b_tel",
-        "WP TBM SCUD B TEL"
       ]
     ],
     "weapon": [
@@ -1652,10 +1168,6 @@
       [
         "fr_alouette_III_4xM2HB",
         "fr alouette III 4xM2HB"
-      ],
-      [
-        "fr_as12",
-        "AS.12"
       ],
       [
         "fr_cal_100mm",
@@ -1726,10 +1238,6 @@
         "Depósito externo de 2270 l."
       ],
       [
-        "is_gabriel_3as",
-        "Gabriel 3AS"
-      ],
-      [
         "it_a-244_ship",
         "IT A 244 SHIP"
       ],
@@ -1746,24 +1254,12 @@
         "it cal 40mm pfhe"
       ],
       [
-        "it_seakiller_2",
-        "Sea Killer 2"
-      ],
-      [
-        "jasdf_asm-1",
-        "ASM-1"
-      ],
-      [
         "jasdf_tank_830_f-1",
         "jasdf tank 830 f-1"
       ],
       [
         "jmsdf_type54",
         "Type 54"
-      ],
-      [
-        "jmsdf_type80",
-        "Type 80"
       ],
       [
         "jsdf_sam1",
@@ -1802,18 +1298,6 @@
         "pla fueltank760"
       ],
       [
-        "pla_hy-3",
-        "HY-3"
-      ],
-      [
-        "pla_pl-5b",
-        "PL-5B"
-      ],
-      [
-        "pla_pl-5c",
-        "PL-5C"
-      ],
-      [
         "pla_type-2",
         "Type-100-2"
       ],
@@ -1836,10 +1320,6 @@
       [
         "plan_cal_85mm_lt",
         "85 mm"
-      ],
-      [
-        "plan_hq-61",
-        "HQ-61"
       ],
       [
         "plan_hy-4",
@@ -1958,10 +1438,6 @@
         "Bomba suicida"
       ],
       [
-        "swe_375mm_rocket",
-        "Bofors M/50"
-      ],
-      [
         "swe_cal_120mm_ersta",
         "swe cal 120mm ersta"
       ],
@@ -1970,24 +1446,12 @@
         "M26"
       ],
       [
-        "usa_mim-14",
-        "MIM-14"
-      ],
-      [
         "usaf_cbu-24",
         "CBU-24"
       ],
       [
         "usaf_gbu-2",
         "GBU-2"
-      ],
-      [
-        "usaf_m118",
-        "M118"
-      ],
-      [
-        "usaf_pave_spike",
-        "usaf pave spike"
       ],
       [
         "usaf_pilot_f-15c",
@@ -2036,14 +1500,6 @@
       [
         "usn_agm-122a",
         "AGM-122A"
-      ],
-      [
-        "usn_alq-99",
-        "USN ALQ 99"
-      ],
-      [
-        "usn_an_slq_25_nixie_decoy",
-        "AN/SLQ-25"
       ],
       [
         "usn_cal_05in",
@@ -2142,10 +1598,6 @@
         "Depósito externo de 1135 l."
       ],
       [
-        "usn_hedgehog",
-        "USN HEDGEHOG"
-      ],
-      [
         "usn_lau-10a",
         "USN LAU 10A"
       ],
@@ -2188,10 +1640,6 @@
       [
         "usn_mer_rockeye_6",
         "usn mer rockeye 6"
-      ],
-      [
-        "usn_mk13",
-        "USN MK13"
       ],
       [
         "usn_moss",
@@ -2338,48 +1786,8 @@
         "WP 53 61"
       ],
       [
-        "wp_53-65K",
-        "53-65K"
-      ],
-      [
         "wp_65-76",
         "65-76"
-      ],
-      [
-        "wp_aa-10c",
-        "WP AA 10C"
-      ],
-      [
-        "wp_aa-2-2",
-        "AA-2D"
-      ],
-      [
-        "wp_aa-2a",
-        "AA-2B"
-      ],
-      [
-        "wp_aa-2c",
-        "AA-2C"
-      ],
-      [
-        "wp_aa-2d",
-        "AA-2D"
-      ],
-      [
-        "wp_aa-3e",
-        "AA-3E"
-      ],
-      [
-        "wp_aa-3f",
-        "AA-3F"
-      ],
-      [
-        "wp_aa-7c",
-        "AA-7C"
-      ],
-      [
-        "wp_aa-7d",
-        "AA-7D"
       ],
       [
         "wp_aircraft_chaff",
@@ -2396,10 +1804,6 @@
       [
         "wp_apr-2",
         "APR-2"
-      ],
-      [
-        "wp_as-12",
-        "AS-12"
       ],
       [
         "wp_as-13",
@@ -2522,14 +1926,6 @@
         "OFAB-100"
       ],
       [
-        "wp_fab-3000_m54",
-        "FAB-3000 M-54"
-      ],
-      [
-        "wp_fab-9000_m54",
-        "FAB-9000 M-54"
-      ],
-      [
         "wp_fantasmagoria",
         "wp fantasmagoria"
       ],
@@ -2622,14 +2018,6 @@
         "wp pod tangazh elint"
       ],
       [
-        "wp_rbk-250",
-        "RBK-250"
-      ],
-      [
-        "wp_rbk-500",
-        "RBK-500"
-      ],
-      [
         "wp_rgb-1",
         "RGB-1"
       ],
@@ -2662,28 +2050,12 @@
         "WP S 25 POD"
       ],
       [
-        "wp_s-5",
-        "S-5"
-      ],
-      [
-        "wp_s-8",
-        "S-8"
-      ],
-      [
-        "wp_sa-4",
-        "SA-4"
-      ],
-      [
         "wp_sa-n-10",
         "WP SA N 10"
       ],
       [
         "wp_sa-n-12",
         "WP SA N 12"
-      ],
-      [
-        "wp_sa-n-3",
-        "SA-N-3"
       ],
       [
         "wp_sa-n-3b",
@@ -2734,14 +2106,6 @@
         "SS-N-16"
       ],
       [
-        "wp_ss-n-7",
-        "SS-N-7"
-      ],
-      [
-        "wp_ss-n-9",
-        "SS-N-9"
-      ],
-      [
         "wp_tank_5280_mig-25",
         "Depósito externo de 3000 l."
       ],
@@ -2762,24 +2126,8 @@
         "WP UA"
       ],
       [
-        "wp_ub-16-57",
-        "WP UB 16 57"
-      ],
-      [
-        "wp_ub-16-57KV",
-        "WP UB 16 57KV"
-      ],
-      [
-        "wp_ub-16-57UM",
-        "WP UB 16 57UM"
-      ],
-      [
         "wp_umgt-1",
         "UMGT-1"
-      ],
-      [
-        "wp_upk_23-250",
-        "WP UPK 23 250"
       ],
       [
         "wp_uset-80",

@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "description": "Sea Power Atlas, lote 12: 29 nuevas asignaciones de armamento con páginas originales de Wikimedia Commons verificadas, indicando fotografías, esquemas y variantes de familia.",
+  "version": 24,
+  "description": "Sea Power Atlas, lote 21: 22 referencias documentadas de armamento y equipos terrestres (19 tierra, 3 armas); metadatos de Wikimedia Commons y variantes diferenciadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -4859,6 +4859,1648 @@
       "license": "CC BY-SA 3.0 Francia",
       "exactVariant": false,
       "note": "Misil de sistema Rapier fotografiado aislado en IWM Duxford; no certifica la subvariante FSB o su emplazamiento."
+    },
+    "game-ammo:jasdf_asm-1": {
+      "file": "ASM-1新田原.JPG",
+      "label": "ASM-1 · Misil antibuque japonés Type 80",
+      "year": "2007 (ejemplar expuesto)",
+      "source": "https://commons.wikimedia.org/wiki/File:ASM-1%E6%96%B0%E7%94%B0%E5%8E%9F.JPG",
+      "author": "Gala8357",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Fotografía del Type 80 ASM-1 completo y aislado tomada en la base de Nyutabaru el 2-12-2007; fecha de captura posterior al escenario de 1985."
+    },
+    "game-ammo:usa_mim-14": {
+      "file": "MIM-14 Nike Hercules at Soesterberg.jpg",
+      "label": "MIM-14 Nike Hercules · Misil antiaéreo expuesto",
+      "year": "2016 (pieza de la Guerra Fría)",
+      "source": "https://commons.wikimedia.org/wiki/File:MIM-14_Nike_Hercules_at_Soesterberg.jpg",
+      "author": "LP98",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil MIM-14 Nike Hercules en exposición en el Nationaal Militair Museum de Soesterberg, sin asignación a subvariante no documentada."
+    },
+    "game-ammo:wp_upk_23-250": {
+      "file": "UPK-23-250 gun pod Army-2018.jpg",
+      "label": "UPK-23-250 · Contenedor de cañón GSh-23",
+      "year": "2018 (ejemplar de exposición)",
+      "source": "https://commons.wikimedia.org/wiki/File:UPK-23-250_gun_pod_Army-2018.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Contenedor UPK-23-250 fotografiado como equipo independiente en Army-2018; el año de la fotografía no identifica una configuración particular de 1985."
+    },
+    "game-unit:a:ara_a-4p": {
+      "file": "C-207 Douglas A-4P Skyhawk (7310427820).jpg",
+      "label": "ARA A-4P Skyhawk",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:C-207_Douglas_A-4P_Skyhawk_(7310427820).jpg",
+      "author": "Aeroprints.com",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Douglas A-4P argentino C-207 identificado; ejemplar preservado fotografiado en 2008."
+    },
+    "game-unit:a:ara_dagger": {
+      "file": "IAI Dagger.jpg",
+      "label": "IAI Dagger argentino",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:IAI_Dagger.jpg",
+      "author": "Horacio Claria",
+      "license": "CC BY 2.5",
+      "exactVariant": true,
+      "note": "Fotografía de la Fuerza Aérea Argentina en 1981."
+    },
+    "game-unit:a:civ_707": {
+      "file": "Pan Am B-707 N415PA.jpg",
+      "label": "Boeing 707 civil (Pan Am)",
+      "year": "Década de 1970",
+      "source": "https://commons.wikimedia.org/wiki/File:Pan_Am_B-707_N415PA.jpg",
+      "author": "Piergiuliano Chesi",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Boeing 707-321B N415PA de Pan Am; avión de pasajeros real. No implica este operador en la partida."
+    },
+    "game-unit:a:civ_c340": {
+      "file": "Cessna340C-FZOH01.jpg",
+      "label": "Cessna 340",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Cessna340C-FZOH01.jpg",
+      "author": "Ahunt",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Cessna 340 bimotor civil, identificada como tal en la página del archivo."
+    },
+    "game-unit:a:civ_il-18": {
+      "file": "TAROM Ilyushin Il-18 Marmet-1.jpg",
+      "label": "Ilyushin Il-18 (TAROM)",
+      "year": "1980",
+      "source": "https://commons.wikimedia.org/wiki/File:TAROM_Ilyushin_Il-18_Marmet-1.jpg",
+      "author": "Eduard Marmet",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La foto identifica un Il-18V; la variante del registro genérico Il-18 de Sea Power no está especificada."
+    },
+    "game-unit:a:civ_il-62": {
+      "file": "Ilyushin Il-62 454.jpg",
+      "label": "Ilyushin Il-62",
+      "year": "1973",
+      "source": "https://commons.wikimedia.org/wiki/File:Ilyushin_Il-62_454.jpg",
+      "author": "Piergiuliano Chesi",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Il-62 de Aeroflot en exposición estática; tipo de avión correctamente identificado."
+    },
+    "game-unit:a:civ_tu-154": {
+      "file": "Tupolev Tu-154.jpg",
+      "label": "Tupolev Tu-154",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-154.jpg",
+      "author": "Dmitry A. Mottl",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Tu-154 civil documentado; fotografía posterior a 1985."
+    },
+    "game-unit:a:fr_as-350": {
+      "file": "Un hélicoptère Aérospatiale AS350 B Écureuil (2).JPG",
+      "label": "Aérospatiale AS350 Écureuil",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:Un_h%C3%A9licopt%C3%A8re_A%C3%A9rospatiale_AS350_B_%C3%89cureuil_(2).JPG",
+      "author": "Jean-Pierre Bazard",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "AS350B civil, misma familia AS350; no acredita configuración operativa francesa de 1985."
+    },
+    "game-unit:a:fr_sa-321": {
+      "file": "Super Frelon 1.jpg",
+      "label": "SA321 Super Frelon",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Super_Frelon_1.jpg",
+      "author": "Guillaume Rueda",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "exactVariant": true,
+      "note": "SA321 Super Frelon francés fotografiado sobre cubierta del Clemenceau en 1985."
+    },
+    "game-unit:a:jasdf_f-1": {
+      "file": "Mitsubishi F-1 02.jpg",
+      "label": "Mitsubishi F-1",
+      "year": "2002",
+      "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_F-1_02.jpg",
+      "author": "Japan Air Self Defense Force",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Avión de ataque Mitsubishi F-1 de la JASDF."
+    },
+    "game-unit:a:jasdf_t-2": {
+      "file": "T-2 Gifu (13589111533).jpg",
+      "label": "Mitsubishi T-2",
+      "year": "1994",
+      "source": "https://commons.wikimedia.org/wiki/File:T-2_Gifu_(13589111533).jpg",
+      "author": "Rob Schleiffert",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fuente muestra un T-2B de Gifu, sin especificación de subvariante en la ficha del juego."
+    },
+    "game-unit:a:pla_q-5": {
+      "file": "Nanchang Q-5.jpg",
+      "label": "Nanchang Q-5 Fantan",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanchang_Q-5.jpg",
+      "author": "Shizhao",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Q-5 expuesto en museo aeronáutico chino; subvariante de la foto no especificada."
+    },
+    "game-unit:a:pla_q-5a": {
+      "file": "Nanchang Q-5.jpg",
+      "label": "Nanchang Q-5 · familia de Q-5A",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanchang_Q-5.jpg",
+      "author": "Shizhao",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "Fotografía de un Q-5, no demuestra visualmente que sea la subvariante Q-5A."
+    },
+    "game-unit:a:raaf_n22": {
+      "file": "A Philippine Air Force GAF Nomad N22.jpg",
+      "label": "GAF Nomad N22",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Philippine_Air_Force_GAF_Nomad_N22.jpg",
+      "author": "Philippine Air Force",
+      "license": "Dominio público (Gobierno de Filipinas)",
+      "exactVariant": false,
+      "note": "Mismo modelo australiano GAF Nomad N22, pero ejemplar de Filipinas, no RAAF."
+    },
+    "game-unit:a:raf_victor": {
+      "file": "Handley-Page Victor K.2.jpg",
+      "label": "Handley Page Victor",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Handley-Page_Victor_K.2.jpg",
+      "author": "Chris Robertshaw",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Ejemplar Victor K.2 conservado. La ficha RAF Victor no concreta subvariante ni misión."
+    },
+    "game-unit:a:usaf_kc-10": {
+      "file": "A KC-10 Extender in flight.jpg",
+      "label": "KC-10 Extender",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:A_KC-10_Extender_in_flight.jpg",
+      "author": "Staff Sgt. Aaron Allmon / U.S. Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Avión cisterna USAF KC-10A en vuelo."
+    },
+    "game-unit:a:usaf_vc-137c": {
+      "file": "VC-137C Air Force One at Berlin-Tempelhof 1987.JPEG",
+      "label": "VC-137C",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:VC-137C_Air_Force_One_at_Berlin-Tempelhof_1987.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "VC-137C SAM 26000 fotografiado en Berlín en 1987."
+    },
+    "game-unit:a:usn_ch-46": {
+      "file": "US Navy 030214-N-4142G-011 A CH-46 \"Sea Knight\" helicopter.jpg",
+      "label": "Boeing Vertol CH-46 Sea Knight",
+      "year": "2003",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_030214-N-4142G-011_A_CH-46_%22Sea_Knight%22_helicopter.jpg",
+      "author": "Photographer's Mate 2nd Class Felix Garza Jr. / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Helicóptero CH-46 de la US Navy, subvariante no especificada en el registro de Sea Power."
+    },
+    "game-unit:a:usn_ra-5c": {
+      "file": "RA-5C Vigilante armed with AGM-12 Bullpup missiles.jpg",
+      "label": "North American RA-5C Vigilante",
+      "year": "Década de 1960",
+      "source": "https://commons.wikimedia.org/wiki/File:RA-5C_Vigilante_armed_with_AGM-12_Bullpup_missiles.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "RA-5C fotografiado con misiles AGM-12 en configuración de prueba; no es una carga operativa habitual."
+    },
+    "game-unit:a:usn_s-2e": {
+      "file": "S-2E Tracker of VS-37 in flight in June 1970.jpg",
+      "label": "Grumman S-2E Tracker",
+      "year": "1970",
+      "source": "https://commons.wikimedia.org/wiki/File:S-2E_Tracker_of_VS-37_in_flight_in_June_1970.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "S-2E Tracker de VS-37 fotografiado en vuelo en junio de 1970."
+    },
+    "game-unit:a:wp_ka-29": {
+      "file": "Kamov Ka-29 in 1990 (2).JPEG",
+      "label": "Kamov Ka-29",
+      "year": "1990",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamov_Ka-29_in_1990_(2).JPEG",
+      "author": "U.S. Department of Defense (fotógrafo no identificado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Kamov Ka-29 soviético documentado en vuelo en 1990."
+    },
+    "game-unit:a:wp_mig-25pu": {
+      "file": "Mikoyan-Gurevich MiG-25PU ’53 blue’ (38094148876).jpg",
+      "label": "Mikoyan MiG-25PU · 53 azul",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25PU_%E2%80%9953_blue%E2%80%99_(38094148876).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "MiG-25PU 53 azul preservado en Park Patriot, Kubinka; fotografía de 2017, no configuración operativa específica de 1985."
+    },
+    "game-unit:a:jmsdf_ps-1": {
+      "file": "PS-1 (13779941653).jpg",
+      "label": "PS-1 · Hidroavión antisubmarino Shin Meiwa",
+      "year": "2014 (ejemplar en exposición)",
+      "source": "https://commons.wikimedia.org/wiki/File:PS-1_(13779941653).jpg",
+      "author": "Rob Schleiffert",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Fotografía del PS-1 preservado en Iwakuni; no confundir con el US-1."
+    },
+    "game-unit:a:jmsdf_us-1": {
+      "file": "JSDF US-1A Flying boat.jpg",
+      "label": "US-1A · Hidroavión japonés",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:JSDF_US-1A_Flying_boat.jpg",
+      "author": "Max Smith (Megapixie)",
+      "license": "Dominio público (PD-self)",
+      "exactVariant": true,
+      "note": "Versión US-1A declarada en el título original."
+    },
+    "game-unit:a:rn_wessex_hu5": {
+      "file": "Westland Wessex HU.5 ‘XS508’ (49924259832).jpg",
+      "label": "Wessex HU.5 · Westland XS508",
+      "year": "2019 (ejemplar histórico)",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Wessex_HU.5_%E2%80%98XS508%E2%80%99_(49924259832).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Helicóptero HU.5 de museo, no el HAS.3 previamente documentado."
+    },
+    "game-unit:a:rn_lynx_has2": {
+      "file": "Westland Lynx HAS.2 ‘XX910’.jpg",
+      "label": "Lynx HAS.2 · Prototipo naval XX910",
+      "year": "2020 (restaurado para museo)",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Lynx_HAS.2_%E2%80%98XX910%E2%80%99.jpg",
+      "author": "HawkeyeUK (Alan Wilson)",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "XX910 es un prototipo naval documentado de la familia HAS.2; no refleja necesariamente el equipamiento operacional de 1985."
+    },
+    "game-unit:a:raf_scout_ah1": {
+      "file": "Westland Scout AH.1 helicopter.JPG",
+      "label": "Scout AH.1 · Helicóptero Westland",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Scout_AH.1_helicopter.JPG",
+      "author": "AlfvanBeem",
+      "license": "CC0",
+      "exactVariant": true,
+      "note": "Modelo Scout AH.1 identificado explícitamente en Commons."
+    },
+    "game-unit:a:fr_alouette_II": {
+      "file": "SA318 (cropped).jpg",
+      "label": "Alouette II · SA318, familia SA313",
+      "year": "2019 (recorte)",
+      "source": "https://commons.wikimedia.org/wiki/File:SA318_(cropped).jpg",
+      "author": "Airwolfhound",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fuente representa un Alouette II SA318, pero el juego identifica SA.313; no es la misma subvariante."
+    },
+    "game-unit:a:ara_p-95": {
+      "file": "Aeronave BANDEIRANTE PATRULHA (P-95) - Força Aérea Brasileira (52345199236).jpg",
+      "label": "EMB-111 P-95 · Bandeirante Patrulha",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Aeronave_BANDEIRANTE_PATRULHA_(P-95)_-_For%C3%A7a_A%C3%A9rea_Brasileira_(52345199236).jpg",
+      "author": "Marinha do Brasil",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "Ejemplar brasileño P-95/EMB-111; corresponde a la familia de avión patrullero, pero no a una variante o operador argentino documentado."
+    },
+    "game-unit:a:plan_sh-5": {
+      "file": "Chinese Shuihong 5 amphibious aircraft.jpg",
+      "label": "SH-5 · Hidroavión chino Shuihong 5",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Shuihong_5_amphibious_aircraft.jpg",
+      "author": "tienvijftien",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "Hidroavión chino SH-5 documentado por la fuente."
+    },
+    "game-unit:a:pla_z-8": {
+      "file": "Z8J Chinese Navy (15771199253).jpg",
+      "label": "Z-8 · Helicóptero naval Z-8J",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:Z8J_Chinese_Navy_(15771199253).jpg",
+      "author": "Rob Schleiffert",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "Imagen del Z-8J naval; el catálogo utiliza Z-8 genérico y no certifica esta subvariante."
+    },
+    "game-unit:v:ara_fs_drummond": {
+      "file": "ARA Drummond en base naval Mar del Plata.jpg",
+      "label": "ARA Drummond · Corbeta argentina",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:ARA_Drummond_en_base_naval_Mar_del_Plata.jpg",
+      "author": "Dario Alpern",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Corbeta ARA Drummond fotografiada en Mar del Plata; equipamiento fotografiado en 2013, no reconstrucción 1985."
+    },
+    "game-unit:v:ir_ffg_alvand": {
+      "file": "IS Alvand (F-71) 1977.jpg",
+      "label": "Alvand F-71 · Fragata iraní",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:IS_Alvand_(F-71)_1977.jpg",
+      "author": "U.S. Navy (fotografía naval)",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Fragata Alvand F-71 de la clase Vosper Mk 5 en fecha próxima al escenario."
+    },
+    "game-unit:v:jmsdf_ddg_tachikaze": {
+      "file": "JDS Tachikaze.jpg",
+      "label": "JDS Tachikaze DDG-168 · Destructor",
+      "year": "1990",
+      "source": "https://commons.wikimedia.org/wiki/File:JDS_Tachikaze.jpg",
+      "author": "OS2 John Bouvia / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque Tachikaze DDG-168 identificado, fotografía posterior a 1985."
+    },
+    "game-unit:v:jmsdf_ddg_tachikaze_84": {
+      "file": "JDS Tachikaze.jpg",
+      "label": "Tachikaze 1984 · Referencia del mismo buque",
+      "year": "1990 (referencia posterior)",
+      "source": "https://commons.wikimedia.org/wiki/File:JDS_Tachikaze.jpg",
+      "author": "OS2 John Bouvia / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": false,
+      "note": "Corresponde al buque de la misma clase, pero no se acredita la configuración específica de 1984."
+    },
+    "game-unit:v:jmsdf_dd_takatsuki": {
+      "file": "JS Takatsuki(DD-164).JPG",
+      "label": "Takatsuki DD-164 · Destructor",
+      "year": "2000",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Takatsuki(DD-164).JPG",
+      "author": "Yokohama1998",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Destructor Takatsuki DD-164; foto posterior al escenario del juego."
+    },
+    "game-unit:v:jmsdf_dd_takatsuki_84": {
+      "file": "JS Takatsuki(DD-164).JPG",
+      "label": "Takatsuki 1984 · Referencia de familia",
+      "year": "2000 (referencia posterior)",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Takatsuki(DD-164).JPG",
+      "author": "Yokohama1998",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Fotografía del Takatsuki pero no se ha documentado correspondencia de equipamiento con 1984."
+    },
+    "game-unit:v:jmsdf_ss_yushio": {
+      "file": "JS Yushio, SS-573.jpg",
+      "label": "Yushio SS-573 · Submarino JMSDF",
+      "year": "2017 (imagen archivada)",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Yushio,_SS-573.jpg",
+      "author": "Maritime Self-Defense Force (JMSDF)",
+      "license": "CC BY 4.0 (licencia compatible según términos de uso del Gobierno de Japón)",
+      "exactVariant": true,
+      "note": "Fotografía oficial del submarino Yushio SS-573; fecha de carga no prueba la fecha de toma."
+    },
+    "game-unit:v:ins_ptg_saar_4": {
+      "file": "PikiWiki Israel 29176 saar 4.jpg",
+      "label": "Sa'ar 4 · Patrullera misilera israelí",
+      "year": "1980–1985",
+      "source": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_29176_saar_4.jpg",
+      "author": "Nir Maor / Museo Naval de Haifa",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Fotografía histórica identificada como Sa'ar 4; no extrapolar a subvariantes posteriores."
+    },
+    "game-unit:v:plan_ss_romeo": {
+      "file": "Chinese Romeo class submarine.JPEG",
+      "label": "Tipo 033 Romeo · Submarino chino",
+      "year": "1989",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Romeo_class_submarine.JPEG",
+      "author": "PH1 Mike Flynn / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Submarino de la clase Romeo (Tipo 033 chino); no se identifica casco individual."
+    },
+    "game-unit:v:plan_dd_luda1": {
+      "file": "Luda DN-SN-89-03098.jpg",
+      "label": "Luda I · Destructor clase Luda",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Luda_DN-SN-89-03098.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": false,
+      "note": "Destructores clase Luda: sin confirmación de que la fotografía represente exactamente la configuración Luda I de 1985."
+    },
+    "game-unit:l:jsdf_sam_type81": {
+      "file": "Type 81 SAM - launcher.jpg",
+      "label": "Tan-SAM Tipo 81 · Lanzador japonés",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_81_SAM_-_launcher.jpg",
+      "author": "Max Smith",
+      "license": "Dominio público (PD-self)",
+      "exactVariant": true,
+      "note": "Lanzador 6x6 del sistema japonés Type 81 Tan-SAM, identificado expresamente en Commons."
+    },
+    "game-ammo:fr_as12": {
+      "file": "As 12Priddy's Hard.JPG",
+      "label": "AS.12 · Misil aire-superficie aislado",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:As_12Priddy%27s_Hard.JPG",
+      "author": "Geni",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Misil AS.12 individual fotografiado fuera de aeronave."
+    },
+    "game-ammo:usn_hedgehog": {
+      "file": "Hedgehog ASW mortar on USS Wallace L. Lind (DD-703), circa in 1970.jpg",
+      "label": "Hedgehog · Lanzador antisubmarino",
+      "year": "ca. 1970",
+      "source": "https://commons.wikimedia.org/wiki/File:Hedgehog_ASW_mortar_on_USS_Wallace_L._Lind_(DD-703),_circa_in_1970.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Mortero antisubmarino Hedgehog claramente identificable a bordo del destructor, sin aeronave."
+    },
+    "game-ammo:usn_mk13": {
+      "file": "USMC Mk 13 torpedoes on Okinawa in May 1945.jpg",
+      "label": "Mk 13 · Torpedos estadounidenses de época",
+      "year": "1945",
+      "source": "https://commons.wikimedia.org/wiki/File:USMC_Mk_13_torpedoes_on_Okinawa_in_May_1945.jpg",
+      "author": "David Douglas Duncan / U.S. Marine Corps",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "El ID del juego es el torpedo aéreo Mk 13, NO el lanzador de misiles Mk 13. Fotografía histórica de torpedos del USMC sobre el terreno."
+    },
+    "game-ammo:usn_an_slq_25_nixie_decoy": {
+      "file": "SLQ-25 Nixie aboard USS Iowa (BB-61).jpg",
+      "label": "AN/SLQ-25 Nixie · Contramedidas antisubmarinas",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:SLQ-25_Nixie_aboard_USS_Iowa_(BB-61).jpg",
+      "author": "PH1 Jeff Hilton / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía histórica de los equipos AN/SLQ-25 a bordo del USS Iowa (1984). Muestra el equipo de contramedidas y al operario, no un señuelo aislado."
+    },
+    "game-ammo:usaf_pave_spike": {
+      "file": "Pave Spike targeting pod on display.jpg",
+      "label": "Pave Spike · Pod designador expuesto",
+      "year": "Fecha de fotografía no declarada",
+      "source": "https://commons.wikimedia.org/wiki/File:Pave_Spike_targeting_pod_on_display.jpg",
+      "author": "Greg Goebel",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "Contenedor AN/ASQ-153 Pave Spike fotografiado por separado. El ID genérico no confirma subvariante o configuración USAF específica."
+    },
+    "game-ammo:usaf_m118": {
+      "file": "M118 3,000lb Demolition Bomb NMUSAF.jpg",
+      "label": "M118 · Bomba de demolición 3.000 lb",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:M118_3%2C000lb_Demolition_Bomb_NMUSAF.jpg",
+      "author": "Christopher M. Reed",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "La bomba M118 aparece en primer plano sobre soporte de museo, con el F-105 al fondo. No representa una carga montada en aeronave."
+    },
+    "game-ammo:wp_s-5": {
+      "file": "S-5KO.jpg",
+      "label": "S-5 · Cohete soviético de 57 mm en exposición",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:S-5KO.jpg",
+      "author": "Pibwl",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Imagen de una variante S-5MO o S-5KO; la ficha del juego es S-5 genérica. Cohete aislado."
+    },
+    "game-ammo:wp_s-8": {
+      "file": "S-8 KOM 80 mm rocket.jpg",
+      "label": "S-8 · Cohete aislado, variante KOM",
+      "year": "Fecha no indicada (documento oficial)",
+      "source": "https://commons.wikimedia.org/wiki/File:S-8_KOM_80_mm_rocket.jpg",
+      "author": "U.S. Government / documento técnico",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía/documentación del S-8 KOM; no certifica la subvariante genérica del juego."
+    },
+    "game-ammo:wp_rbk-250": {
+      "file": "RBK250 cassette bomb G1.jpg",
+      "label": "RBK-250 · Bomba de racimo soviética",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:RBK250_cassette_bomb_G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Ejemplar RBK-250 expuesto de forma independiente en el museo de la Fuerza Aérea ucraniana."
+    },
+    "game-ammo:wp_53-65K": {
+      "file": "53-65K torpedo MW.JPG",
+      "label": "53-65K · Torpedo soviético expuesto",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:53-65K_torpedo_MW.JPG",
+      "author": "BrokenSphere",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "El archivo identifica expresamente el torpedo 53-65K almacenado en el buque museo Minsk."
+    },
+    "game-ammo:jmsdf_type80": {
+      "file": "JMSDF Type 80 torpedo in JMSDF Kure Museum 20140915.JPG",
+      "label": "Type 80 · Torpedo japonés en museo",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:JMSDF_Type_80_torpedo_in_JMSDF_Kure_Museum_20140915.JPG",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Tipo 80 identificado en la exposición del museo JMSDF Kure, fotografiado sin buque."
+    },
+    "game-ammo:plan_hq-61": {
+      "file": "Pair of HQ-61 missiles.jpg",
+      "label": "HQ-61 · Dos misiles en el museo naval de Qingdao",
+      "year": "2025",
+      "source": "https://commons.wikimedia.org/wiki/File:Pair_of_HQ-61_missiles.jpg",
+      "author": "Benlisquare",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Pareja de misiles HQ-61 identificada en museo. El archivo contiene una advertencia de elementos incidentales protegidos: no recortar sobre esos elementos."
+    },
+    "game-ammo:wp_sa-4": {
+      "file": "Eesti Lennundusmuuseum 2022 27.jpg",
+      "label": "SA-4 Ganef · Misil 9M8 expuesto",
+      "year": "2022",
+      "source": "https://commons.wikimedia.org/wiki/File:Eesti_Lennundusmuuseum_2022_27.jpg",
+      "author": "VargaA",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Fotografía de un misil 9M8 de la familia Krug/SA-4 sin lanzador. No se identifica la subvariante del juego."
+    },
+    "game-ammo:wp_ub-16-57": {
+      "file": "УБ-16-57.JPG",
+      "label": "UB-16-57 · Contenedor de cohetes S-5",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%91-16-57.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Contenedor UB-16-57 fotografiado por separado en museo de aviación de Kiev."
+    },
+    "game-ammo:wp_ub-16-57KV": {
+      "file": "УБ-16-57.JPG",
+      "label": "UB-16-57KV · Fotografía de familia UB-16",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%91-16-57.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El archivo acredita UB-16-57 genérico, no la variante KV. Coincidencia únicamente de familia; no afirmar intercambiabilidad de soportes."
+    },
+    "game-ammo:wp_ub-16-57UM": {
+      "file": "УБ-16-57.JPG",
+      "label": "UB-16-57UM · Fotografía de familia UB-16",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%91-16-57.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El archivo acredita UB-16-57 genérico, no la variante UM. Coincidencia únicamente de familia."
+    },
+    "game-ammo:wp_sa-n-3": {
+      "file": "4K60 surface-to-air missile at Park Patriot 01crop.jpg",
+      "label": "SA-N-3 · Misil naval 4K60 del sistema Shtorm",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:4K60_surface-to-air_missile_at_Park_Patriot_01crop.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Misil naval 4K60 aislado, familia SA-N-3; no se puede acreditar la subvariante específica que usa el juego."
+    },
+    "game-ammo:usn_alq-99": {
+      "file": "US Navy 080610-N-5617R-004 Aviation Electronic's Technician 2nd Class Victor Galloway hooks the main power cable to an ALQ-99 Air Launched Countermeasure.jpg",
+      "label": "AN/ALQ-99 · Contenedor de guerra electrónica",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_080610-N-5617R-004_Aviation_Electronic's_Technician_2nd_Class_Victor_Galloway_hooks_the_main_power_cable_to_an_ALQ-99_Air_Launched_Countermeasure.jpg",
+      "author": "Rialyn Rodrigo / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Pod fotografiado separado de la aeronave en taller a bordo del USS Abraham Lincoln. Equipo ALQ-99, pero no se acredita generación ni configuración de 1985."
+    },
+    "game-ammo:wp_aa-2a": {
+      "file": "K-13 (AA-2 'Atoll').jpg",
+      "label": "AA-2B · Misil K-13/Atoll de la misma familia",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:K-13_(AA-2_'Atoll').jpg",
+      "author": "cliff1066",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "El museo documenta un K-13 Atoll sin certificar que el ejemplar corresponda al subtipo de código AA-2B del juego."
+    },
+    "game-ammo:wp_aa-2c": {
+      "file": "K-13 (AA-2 'Atoll').jpg",
+      "label": "AA-2C · Referencia visual de familia K-13",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:K-13_(AA-2_'Atoll').jpg",
+      "author": "cliff1066",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "K-13 genérico exhibido; no identifica el subtipo AA-2C ni su buscador."
+    },
+    "game-ammo:wp_aa-2d": {
+      "file": "R-13M harjoitusohjus Keski-Suomen ilmailumuseo 1.JPG",
+      "label": "AA-2D · Referencia visual R-13M de entrenamiento",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:R-13M_harjoitusohjus_Keski-Suomen_ilmailumuseo_1.JPG",
+      "author": "MKFI",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "El ejemplar del museo es R-13M de entrenamiento; NO es una variante operativa AA-2D confirmada."
+    },
+    "game-ammo:wp_aa-2-2": {
+      "file": "R-13M harjoitusohjus Keski-Suomen ilmailumuseo 1.JPG",
+      "label": "AA-2D · Referencia R-13M de entrenamiento",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:R-13M_harjoitusohjus_Keski-Suomen_ilmailumuseo_1.JPG",
+      "author": "MKFI",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "Foto de misil de entrenamiento R-13M, no acredita la configuración AA-2D de esta entrada."
+    },
+    "game-ammo:wp_aa-3e": {
+      "file": "AA-3 Anab profile view drawing.png",
+      "label": "AA-3E · Esquema de familia R-8/Anab",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-3_Anab_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "DIBUJO TÉCNICO del Kaliningrad R-8 (familia AA-3); no documenta la subvariante E.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_aa-3f": {
+      "file": "AA-3 Anab profile view drawing.png",
+      "label": "AA-3F · Esquema de familia R-8/Anab",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-3_Anab_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "DIBUJO TÉCNICO del Kaliningrad R-8 (familia AA-3); no documenta la subvariante F.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_as-12": {
+      "file": "KH-25MP profile view drawing.svg",
+      "label": "AS-12 · Esquema Kh-25MP",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:KH-25MP_profile_view_drawing.svg",
+      "author": "Allocer",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "DIBUJO TÉCNICO de la Kh-25MP asociada a AS-12; no fotografía, no acredita configuración exacta de juego.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:is_gabriel_3as": {
+      "file": "HN-Gabriel-2.jpg",
+      "label": "Gabriel 3AS · Fotografía de la familia Gabriel",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:HN-Gabriel-2.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY 2.5",
+      "exactVariant": false,
+      "note": "Ejemplar Gabriel genérico fotografiado por separado en Haifa. NO demuestra ser una variante lanzada desde aeronave 3AS."
+    },
+    "game-ammo:it_seakiller_2": {
+      "file": "Marte -prototipo missile 1971.jpg",
+      "label": "Sea Killer 2 · Prototipo Marte/Sea Killer",
+      "year": "1971 (prototipo; foto publicada en 2014)",
+      "source": "https://commons.wikimedia.org/wiki/File:Marte_-prototipo_missile_1971.jpg",
+      "author": "Bourianakis",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Imagen de un prototipo Marte MK2 de 1971; no confirma que la unidad corresponda a la versión operativa Sea Killer 2."
+    },
+    "game-ammo:pla_hy-3": {
+      "file": "HY-3 Missile 20170919.jpg",
+      "label": "HY-3 Haiying-3",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:HY-3_Missile_20170919.jpg",
+      "author": "Tyg728",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Ejemplar identificado explícitamente como misil Haiying-3 (HY-3), expuesto en el Museo Militar de la Revolución Popular China; fotografía de 2017."
+    },
+    "game-ammo:swe_375mm_rocket": {
+      "file": "Bofors U-Jagd-Rakete 375 mm.JPG",
+      "label": "Bofors M/50 · Cohete antisubmarino de 375 mm",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:Bofors_U-Jagd-Rakete_375_mm.JPG",
+      "author": "Alf van Beem",
+      "license": "CC0 1.0",
+      "exactVariant": false,
+      "note": "Fotografía de un cohete antisubmarino Bofors de 375 mm; la fuente no acredita que sea específicamente la variante M/50."
+    },
+    "game-ammo:wp_ss-n-9": {
+      "file": "P-120 4K85 Malakhit anti-ship cruise missile.jpg",
+      "label": "SS-N-9 Siren · P-120 4K85 Malakhit",
+      "year": "24/08/2017",
+      "source": "https://commons.wikimedia.org/wiki/File:P-120_4K85_Malakhit_anti-ship_cruise_missile.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "P-120 (4K85) exhibido aislado; la foto de 2017 no representa estado operacional de 1985."
+    },
+    "game-ammo:pla_pl-5b": {
+      "file": "Misil aire-aire de corto alcance (SRAAM) PiLi-5 (PL-5) - (inertes para entrenamiento).jpg",
+      "label": "PL-5B · Familia PL-5 inerte",
+      "year": "30/07/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Misil_aire-aire_de_corto_alcance_(SRAAM)_PiLi-5_(PL-5)_-_(inertes_para_entrenamiento).jpg",
+      "author": "Carlos E. Perez S.L",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Imagen de misil PL-5 de entrenamiento; no acredita que el ejemplar corresponda a PL-5B ni que sea una munición operativa."
+    },
+    "game-ammo:pla_pl-5c": {
+      "file": "Misil aire-aire de corto alcance (SRAAM) PiLi-5 (PL-5) - (inertes para entrenamiento).jpg",
+      "label": "PL-5C · Familia PL-5 inerte",
+      "year": "30/07/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Misil_aire-aire_de_corto_alcance_(SRAAM)_PiLi-5_(PL-5)_-_(inertes_para_entrenamiento).jpg",
+      "author": "Carlos E. Perez S.L",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Solo familia PL-5 de entrenamiento; la subvariante C no está documentada y entró en servicio después de 1985."
+    },
+    "game-ammo:wp_aa-7c": {
+      "file": "AA-7 Apex profile view drawing.png",
+      "label": "AA-7C Apex · esquema R-23/R-24",
+      "year": "09/07/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-7_Apex_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración de familia R-23/R-24, no identifica con certeza la AA-7C; no es fotografía.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_aa-7d": {
+      "file": "AA-7 Apex profile view drawing.png",
+      "label": "AA-7D Apex · esquema R-23/R-24",
+      "year": "09/07/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-7_Apex_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración general de la familia AA-7 Apex, no representa una AA-7D confirmada.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_aa-10c": {
+      "file": "AA-10-Alamo.png",
+      "label": "AA-10C · esquema de familia R-27",
+      "year": "10/07/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-10-Alamo.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "El dibujo representa un R-27R, no identifica la variante R-27ER/AA-10C del juego; representación de familia no fotografía. La variante C es posterior a 1985.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_ss-n-7": {
+      "file": "P-70 Ametist sketch.svg",
+      "label": "SS-N-7 · esquema P-70 Ametist",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:P-70_Ametist_sketch.svg",
+      "author": "Allocer",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Esquema del misil P-70/SS-N-7 sin la configuración concreta del juego; no es una fotografía.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:fgs_ss_type_205": {
+      "file": "U-Boot-Klasse 205 U-9.jpg",
+      "label": "Tipo 205 · Submarino U-9 alemán",
+      "year": "04/07/2004",
+      "source": "https://commons.wikimedia.org/wiki/File:U-Boot-Klasse_205_U-9.jpg",
+      "author": "Stefan Kühn",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Submarino tipo 205 auténtico, conservado en museo de Speyer; fotografía posterior a 1985."
+    },
+    "game-unit:v:fgs_ss_type_206": {
+      "file": "Type 206 Submarine, S 196, on display at the Technik-Museum Speyer, Baden-Württemberg, Deutschland (3) (53462512100).jpg",
+      "label": "Tipo 206 · U-17 S196 en museo",
+      "year": "27/07/2023",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_206_Submarine,_S_196,_on_display_at_the_Technik-Museum_Speyer,_Baden-Württemberg,_Deutschland_(3)_(53462512100).jpg",
+      "author": "Charles (Port Chester)",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "U-17 S196 identificado como tipo 206, exhibido fuera de servicio en Speyer."
+    },
+    "game-unit:v:fgs_ss_type_209-1200": {
+      "file": "SSK 063 CHOI MUSON.JPEG",
+      "label": "Tipo 209/1200 · Submarino Choi Muson",
+      "year": "01/10/1996",
+      "source": "https://commons.wikimedia.org/wiki/File:SSK_063_CHOI_MUSON.JPEG",
+      "author": "PO3 Robert Morales / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Choi Muson coreano de la clase Type 209/1200; foto de 1996, no prueba la configuración específica alemana de 1985."
+    },
+    "game-unit:v:knm_ss_kobben": {
+      "file": "KNM Utstein, Kobben-Class left side.jpg",
+      "label": "Kobben · KNM Utstein en museo",
+      "year": "24/08/2022",
+      "source": "https://commons.wikimedia.org/wiki/File:KNM_Utstein,_Kobben-Class_left_side.jpg",
+      "author": "Vincent Malloy",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Submarino noruego KNM Utstein de la clase Kobben, en museo de Horten; fotografía moderna."
+    },
+    "game-unit:v:usn_lka_charleston": {
+      "file": "USS Charleston (LKA-113) underway 1988.JPEG",
+      "label": "Charleston · LKA-113 en navegación",
+      "year": "1988 (metadatos de fuente indican 1989)",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Charleston_(LKA-113)_underway_1988.JPEG",
+      "author": "U.S. Navy / DefenseImagery",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque USS Charleston LKA-113 identificado en formación de grupo naval; fecha catalogada inconsistentemente como 1988/1989."
+    },
+    "game-unit:v:usn_clg_oklahoma_city": {
+      "file": "USS Oklahoma City (CLG-5) steams out of San Francisco Bay on 16 November 1960 (NH 98663).jpg",
+      "label": "Oklahoma City CLG-5 · Crucero lanzamisiles",
+      "year": "16/11/1960",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Oklahoma_City_(CLG-5)_steams_out_of_San_Francisco_Bay_on_16_November_1960_(NH_98663).jpg",
+      "author": "U.S. Navy / Naval Air Station Alameda",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Oklahoma City CLG-5 identificado y visible en 1960; el equipo exacto puede diferir de épocas posteriores."
+    },
+    "game-unit:v:usn_ssn_los_angeles_76": {
+      "file": "An aerial view of the nuclear-powered attack submarine USS LOS ANGELES (SSN-688) - DPLA - e9184b0a78fce19931130f2af731cdb1.jpeg",
+      "label": "USS Los Angeles SSN-688 · fotografía de 1981",
+      "year": "23/11/1981",
+      "source": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_nuclear-powered_attack_submarine_USS_LOS_ANGELES_(SSN-688)_-_DPLA_-_e9184b0a78fce19931130f2af731cdb1.jpeg",
+      "author": "AFSC / U.S. Department of Defense (NARA)",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": false,
+      "note": "El submarino SSN-688 está identificado; la imagen de 1981 no acredita configuración idéntica a la ficha de 1976."
+    },
+    "game-unit:v:es_ssk_delfin": {
+      "file": "Submarine (S 61)-Delfin.jpg",
+      "label": "Delfín S-61 · Submarino español",
+      "year": "04/08/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_(S_61)-Delfin.jpg",
+      "author": "Francisco Tevar Baños",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Submarino Delfín S-61 real de la clase Delfín/Daphné, conservado en Torrevieja; fotografía posterior al servicio."
+    },
+    "game-unit:v:fr_ss_daphne": {
+      "file": "Submarine (S 61)-Delfin.jpg",
+      "label": "Daphné · Submarino de familia española",
+      "year": "04/08/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_(S_61)-Delfin.jpg",
+      "author": "Francisco Tevar Baños",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "Delfín S-61 de la Armada española, construido bajo el diseño francés Daphné; no es un submarino operado por la Marine nationale."
+    },
+    "game-unit:v:pns_ss_hangor": {
+      "file": "Submarine (S 61)-Delfin.jpg",
+      "label": "Hangor · Referencia de clase Daphné",
+      "year": "04/08/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_(S_61)-Delfin.jpg",
+      "author": "Francisco Tevar Baños",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La clase Hangor pakistaní procede del diseño francés Daphné; fotografía del español Delfín como referencia de familia, NO del PNS Hangor."
+    },
+    "game-unit:v:jmsdf_ddh_haruna": {
+      "file": "DDH141 Haruna JMSDF(Japanese Navy).jpg",
+      "label": "Haruna DDH-141 · Destructor portahelicópteros",
+      "year": "11/01/2003",
+      "source": "https://commons.wikimedia.org/wiki/File:DDH141_Haruna_JMSDF(Japanese_Navy).jpg",
+      "author": "Kemu64",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Haruna DDH-141 real fotografiado en 2003; puede haber modernizaciones desde 1985."
+    },
+    "game-unit:v:knm_ptg_hauk": {
+      "file": "Norwegian Hauk class MTB in Bergen.jpg",
+      "label": "Clase Hauk · Lanchas noruegas",
+      "year": "25/08/2005 (aproximada)",
+      "source": "https://commons.wikimedia.org/wiki/File:Norwegian_Hauk_class_MTB_in_Bergen.jpg",
+      "author": "U.S. Air Force, autor individual no identificado",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto de dos patrulleras noruegas clase Hauk en Bergen; el autor individual no consta en la fuente."
+    },
+    "game-unit:v:usn_ssbn_franklin": {
+      "file": "USS Benjamin Franklin 1 sep 1985.jpg",
+      "label": "Benjamin Franklin SSBN-640 · submarino de 1985",
+      "year": "01/09/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Benjamin_Franklin_1_sep_1985.jpg",
+      "author": "U.S. Navy / DN-SC-85-11073",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto oficial del SSBN-640 navegando el 1 de septiembre de 1985; fecha de archivo distinguida de la captura."
+    },
+    "game-unit:v:ins_ss_gal": {
+      "file": "Hn-INS-Gal-01.jpg",
+      "label": "INS Gal · Submarino israelí preservado",
+      "year": "12/05/2019",
+      "source": "https://commons.wikimedia.org/wiki/File:Hn-INS-Gal-01.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Submarino INS Gal real en museo naval de Haifa; foto de la embarcación preservada."
+    },
+    "game-unit:v:fgs_ptg_tiger": {
+      "file": "German fast attack craft S55 Alk (P6155) at Olpenitz, Germany, on 28 August 1985.jpg",
+      "label": "Tipo 148 Tiger · S55 Alk en 1985",
+      "year": "28/08/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:German_fast_attack_craft_S55_Alk_(P6155)_at_Olpenitz,_Germany,_on_28_August_1985.jpg",
+      "author": "Cobatfor",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Patrullera misilera S55 Alk P6155 de la clase Tiger, fotografiada exactamente en 1985."
+    },
+    "game-unit:v:wp_mrk_nanuchka": {
+      "file": "Nanuchka class corvette.JPG",
+      "label": "Nanuchka · corbeta soviética proyecto 1234",
+      "year": "1/03/1982",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanuchka_class_corvette.JPG",
+      "author": "U.S. Navy (fotógrafo no identificado)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía DN-ST-82-04639 de una Nanuchka-I proyecto 1234. La entrada del juego indica Nanuchka genérico; no se presume la misma subvariante ni electrónica."
+    },
+    "game-unit:v:wp_mpk_grisha3": {
+      "file": "Project1124-1985-2.jpg",
+      "label": "Grisha III · MPK-170",
+      "year": "23/12/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Project1124-1985-2.jpg",
+      "author": "U.S. Navy (fotógrafo no identificado)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fuente DN-SC-86-01983: pequeña unidad antisubmarina proyecto 1124 MPK-170 identificada como Grisha III en 1985."
+    },
+    "game-unit:v:wp_ssbn_delta3": {
+      "file": "Submarine Delta III class.jpg",
+      "label": "Delta III · submarino balístico 667BDR",
+      "year": "1/04/1983",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Delta_III_class.jpg",
+      "author": "U.S. Navy / Soviet Military Power 1983",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Toma de un SSBN soviético Delta III documentada en DN-SN-83-07078 y publicación de 1983."
+    },
+    "game-unit:v:wp_ssn_victor1": {
+      "file": "Victor class diving.jpg",
+      "label": "Victor I · submarino soviético en navegación",
+      "year": "21/03/1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor_class_diving.jpg",
+      "author": "Moore / U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía naval DN-SN-84-07510 identifica expresamente un submarino clase Victor I, cerca del grupo USS Kitty Hawk."
+    },
+    "game-unit:v:wp_pkr_moskva": {
+      "file": "Moskva class helecopter carrier.JPEG",
+      "label": "Moskva · porthelicópteros clase 1123",
+      "year": "1/10/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Moskva_class_helecopter_carrier.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía oficial de Leningrad, segundo buque de la clase Moskva (proyecto 1123); no es el crucero llamado Moskva ni otro proyecto posterior."
+    },
+    "game-unit:v:wp_rkr_kynda": {
+      "file": "Kynda class cruiser underway.jpg",
+      "label": "Kynda · crucero Groznyy modernizado",
+      "year": "12/09/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kynda_class_cruiser_underway.jpg",
+      "author": "LT Dave Parsons / U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Groznyy clase Kynda de proyecto 58, fotografiado en 1985 tras modernización; comprobar que representa la clase, no cada casco."
+    },
+    "game-unit:v:wp_msc_kondor_II": {
+      "file": "Kondor II Class.jpg",
+      "label": "Kondor II · dragaminas Eilsleben 312",
+      "year": "1/07/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kondor_II_Class.jpg",
+      "author": "Iain (f0rbe5)",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Fotografía de época del Eilsleben 312, segundo casco de la clase Kondor II de la Volksmarine; su silueta está centrada."
+    },
+    "game-unit:v:wp_msc_kondor_II_85": {
+      "file": "Kondor II Class.jpg",
+      "label": "Kondor II 1985 · Eilsleben 312",
+      "year": "1/07/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Kondor_II_Class.jpg",
+      "author": "Iain (f0rbe5)",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "La misma foto documenta el buque y la época de la configuración 1985; no certifica pequeños cambios de equipo."
+    },
+    "game-unit:v:wp_ssgn_echo2": {
+      "file": "Submarine Echo II class.jpg",
+      "label": "Echo II · submarino de misiles soviético",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_Echo_II_class.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Imagen oficial estadounidense de Echo II navegando en superficie; 1988 es fecha de toma, posterior al escenario 1985."
+    },
+    "game-unit:v:wp_ssgn_charlie1": {
+      "file": "Charlie class submarine.jpg",
+      "label": "Charlie I · submarino Chakra ex soviético",
+      "year": "26/08/1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Charlie_class_submarine.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Clase Charlie I, unidad soviética cedida a India como Chakra; imagen tras la cesión de 1988, no bajo bandera soviética."
+    },
+    "game-unit:v:wp_ssgn_charlie2": {
+      "file": "Charlie II class SSGN.svg",
+      "label": "Charlie II · silueta proyecto 670M",
+      "year": "29/09/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Charlie_II_class_SSGN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Silueta del B-542 proyecto 670M Chayka/Charlie II; ilustración vectorial y no fotografía.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:wp_ssn_november": {
+      "file": "November class SSN 627A project.svg",
+      "label": "November · silueta submarino K-159 proyecto 627A",
+      "year": "12/10/2010",
+      "source": "https://commons.wikimedia.org/wiki/File:November_class_SSN_627A_project.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Ilustración de variante modernizada 627A (K-159); el ID de juego es noviembre genérico, sin detalle del lote base.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:wp_ssgn_oscar1": {
+      "file": "Soviet Oscar Class submarine.JPEG",
+      "label": "Oscar I · SSGN soviético",
+      "year": "26/08/1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Soviet_Oscar_Class_submarine.JPEG",
+      "author": "U.S. Department of Defense (autor individual desconocido)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Imagen de archivo DD-ST-88-09447 que identifica expresamente Oscar I, con perfil y vela visibles."
+    },
+    "game-unit:v:wp_pb_zhuk": {
+      "file": "PSKApr1400M(DN-ST-89-08524).jpg",
+      "label": "Zhuk · tres patrulleras soviéticas 1400M",
+      "year": "1988 (fecha de archivo original aproximada)",
+      "source": "https://commons.wikimedia.org/wiki/File:PSKApr1400M(DN-ST-89-08524).jpg",
+      "author": "Derek Moore / Department of Defense",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": false,
+      "note": "Vista de tres patrulleras Zhuk proyecto 1400M atracadas; el ID genérico no confirma si se trata de la variante M."
+    },
+    "game-unit:v:wp_pb_zhuk_ME": {
+      "file": "Project 1400M Zhuk Class Ukrainian Border Guard Patrol Boats in Odessa 2010.jpg",
+      "label": "Zhuk ME · referencia de familia 1400M",
+      "year": "18/08/2010",
+      "source": "https://commons.wikimedia.org/wiki/File:Project_1400M_Zhuk_Class_Ukrainian_Border_Guard_Patrol_Boats_in_Odessa_2010.jpg",
+      "author": "TMg",
+      "license": "CC BY-SA 3.0 de",
+      "exactVariant": false,
+      "note": "Cuatro patrulleras ucranianas tipo 1400M en Odesa. Solo semejanza de familia con la variante exportación 1400ME; no prueba equipo de ME."
+    },
+    "game-unit:v:usn_ssbn_james_madison": {
+      "file": "USS James Madison SSBN-627.jpg",
+      "label": "James Madison · USS SSBN-627",
+      "year": "17/01/1986",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_James_Madison_SSBN-627.jpg",
+      "author": "U.S. Navy (fotógrafo no indicado)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía de USS James Madison SSBN-627, casco de la clase del juego, al año siguiente del escenario de 1985."
+    },
+    "game-unit:v:usn_ae_kilauea": {
+      "file": "USS Kilauea (AE-26) underway c1970.jpg",
+      "label": "Kilauea · buque de municiones AE-26",
+      "year": "h. 1970",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Kilauea_(AE-26)_underway_c1970.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque cabeza de clase de apoyo logístico Kilauea AE-26; equipo histórico de 1970, no idéntico garantizado al de 1985."
+    },
+    "game-unit:v:usn_mso_aggressive": {
+      "file": "USS Aggressive MSO-422.jpg",
+      "label": "Aggressive · dragaminas MSO-422",
+      "year": "h. 1955",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Aggressive_MSO-422.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Aggressive, unidad cabeza de la clase de dragaminas oceánicos del juego; fotografía de 1955."
+    },
+    "game-unit:v:usn_takr_algol": {
+      "file": "USNS Algol (T-AKR-287) underway at sea in 1984.jpg",
+      "label": "Algol · USNS T-AKR-287",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:USNS_Algol_(T-AKR-287)_underway_at_sea_in_1984.jpg",
+      "author": "U.S. Navy (NH 96657)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "USNS Algol T-AKR-287 en 1984 después de convertirse en buque de transporte logístico; fotografía oficial NH 96657."
+    },
+    "game-unit:v:usn_avp_barnegat": {
+      "file": "USS Barnegat (AVP-10) underway off the coast of Brazil on 4 April 1944 (80-G-361055).jpg",
+      "label": "Barnegat · hidroaviones AVP-10",
+      "year": "4/04/1944",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Barnegat_(AVP-10)_underway_off_the_coast_of_Brazil_on_4_April_1944_(80-G-361055).jpg",
+      "author": "U.S. Navy / Naval History and Heritage Command",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Barnegat AVP-10 durante II Guerra Mundial con grúa y radar de la configuración 1944; no válida para las variantes modernizadas."
+    },
+    "game-unit:v:usn_lsm_lsm1": {
+      "file": "Uss LSM-437.jpg",
+      "label": "LSM-1 · USS LSM-437",
+      "year": "Después de 1945 (fecha exacta no indicada)",
+      "source": "https://commons.wikimedia.org/wiki/File:Uss_LSM-437.jpg",
+      "author": "U.S. Navy / NHHC (cortesía Donald M. McPherson)",
+      "license": "Dominio público (obra oficial de la Marina/Defensa de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía naval NH 84896 de LSM-437, casco real de la clase Landing Ship Medium LSM-1."
+    },
+    "game-unit:v:wp_msc_T43": {
+      "file": "ORP Dzik projektu 254M.jpg",
+      "label": "T-43 · referencia familia proyecto 254M",
+      "year": "Fecha de la imagen no especificada",
+      "source": "https://commons.wikimedia.org/wiki/File:ORP_Dzik_projektu_254M.jpg",
+      "author": "Tatar1",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El ORP Dzik polaco es variante 254M, no el proyecto soviético 254 de la ficha T-43; útil solamente como referencia de familia y puede diferir en superestructura."
+    },
+    "game-unit:v:rn_cv_centaur": {
+      "file": "HMS Centaur (R06) 1962.jpg",
+      "label": "HMS Centaur (R06) · Portaaviones de 1962",
+      "year": "1962",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Centaur_(R06)_1962.jpg",
+      "author": "U.S. Navy, Naval Aviation News",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto del HMS Centaur real en 1962; no demuestra cada modificación de equipo de 1985."
+    },
+    "game-unit:v:rn_ss_porpoise": {
+      "file": "HMS Sealion (11389754416).jpg",
+      "label": "Porpoise · HMS Sealion",
+      "year": "08/1980 (fotografía de archivo)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sealion_(11389754416).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "HMS Sealion de la clase Porpoise; evitar confusión con el submarino de 1934 del mismo nombre."
+    },
+    "game-unit:v:rn_ssn_trafalgar": {
+      "file": "HMS Trafalgar SSN cropped.JPG",
+      "label": "Trafalgar · Submarino nuclear HMS Trafalgar",
+      "year": "10/12/2008",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Trafalgar_SSN_cropped.JPG",
+      "author": "Brian Burnell; edición Hic et nunc",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Foto del submarino nuclear, no del destructor histórico HMS Trafalgar. Fecha de fotografía posterior al escenario de 1985."
+    },
+    "game-unit:v:rn_ssn_churchill": {
+      "file": "Churchill-class SSN.svg",
+      "label": "Churchill · Silueta HMS Conqueror",
+      "year": "01/08/2022 (dibujo de un buque de 1982)",
+      "source": "https://commons.wikimedia.org/wiki/File:Churchill-class_SSN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Esquema del HMS Conqueror de la clase Churchill; no identifica el casco HMS Churchill ni una dotación precisa del juego.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:rn_ssn_churchill_late": {
+      "file": "Churchill-class SSN.svg",
+      "label": "Churchill late · Silueta de clase Churchill",
+      "year": "01/08/2022 (dibujo de un buque de 1982)",
+      "source": "https://commons.wikimedia.org/wiki/File:Churchill-class_SSN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Esquema de HMS Conqueror en 1982, no certifica la configuración posterior late del juego.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:rn_ssn_swiftsure": {
+      "file": "Swiftsure class SSN.svg",
+      "label": "Swiftsure · HMS Sceptre, silueta de clase",
+      "year": "04/12/2022",
+      "source": "https://commons.wikimedia.org/wiki/File:Swiftsure_class_SSN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Silueta de HMS Sceptre (S104) clase Swiftsure; ES ilustración técnica, no foto del crucero HMS Swiftsure.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:rn_dd_z-class": {
+      "file": "HMS Zebra.jpg",
+      "label": "Z-class · HMS Zebra (R81)",
+      "year": "12/10/1944",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Zebra.jpg",
+      "author": "W. Ralston, fotógrafo oficial Royal Navy",
+      "license": "Dominio público (Gobierno del Reino Unido)",
+      "exactVariant": true,
+      "note": "Destructor HMS Zebra de clase Z durante la Segunda Guerra Mundial; fotografía anterior al escenario."
+    },
+    "game-unit:v:rn_dd_battle": {
+      "file": "HMS Armada.jpg",
+      "label": "Battle · Destructor HMS Armada",
+      "year": "06/1945",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Armada.jpg",
+      "author": "Royal Navy (fotógrafo oficial)",
+      "license": "Dominio público (Gobierno del Reino Unido)",
+      "exactVariant": true,
+      "note": "El HMS Armada de clase Battle durante la Segunda Guerra Mundial, no otras clases de destructores."
+    },
+    "game-unit:v:rn_ddg_county_batch1": {
+      "file": "HMS Devonshire (39577005780).jpg",
+      "label": "County Batch 1 · HMS Devonshire",
+      "year": "08/1980 (diapositiva original)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Devonshire_(39577005780).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "HMS Devonshire de la primera serie de County; escaneado/subido mucho después de su toma de 1980."
+    },
+    "game-unit:v:rn_ddg_county_batch2": {
+      "file": "HMS Fife (27516079478).jpg",
+      "label": "County Batch 2 · HMS Fife",
+      "year": "08/1980 (diapositiva original)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Fife_(27516079478).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "HMS Fife de Batch 2 con torreta B sustituida por Exocet, fotografiado en Portsmouth en agosto de 1980."
+    },
+    "game-unit:v:rn_ddg_county_batch2_75": {
+      "file": "HMS Fife (27516079478).jpg",
+      "label": "County Batch 2 (1975) · Referencia de HMS Fife",
+      "year": "08/1980 (diapositiva original)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Fife_(27516079478).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La imagen ya muestra conversión con Exocet en 1980; no demuestra cómo era la configuración de 1975."
+    },
+    "game-unit:v:jmsdf_ss_asashio": {
+      "file": "JS Asashio (SS-562).jpg",
+      "label": "Asashio · Submarino SS-562",
+      "year": "Fotografía histórica; carga 2014",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Asashio_(SS-562).jpg",
+      "author": "Japan Maritime Self-Defense Force (Ministerio de Defensa de Japón)",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "El SS-562 es de la clase Asashio histórica, distinto del Asashio SS-589 de 1997."
+    },
+    "game-unit:v:jmsdf_ss_uzushio": {
+      "file": "JS Uzushio (SS-566).jpg",
+      "label": "Uzushio · Submarino SS-566",
+      "year": "Fotografía histórica; carga 2014",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Uzushio_(SS-566).jpg",
+      "author": "Japan Maritime Self-Defense Force (Ministerio de Defensa de Japón)",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Identifica el SS-566 de la serie Uzushio de 1971; no confundir con SS-592 de 1998."
+    },
+    "game-unit:v:wp_ssn_victor2": {
+      "file": "Victor2.jpg",
+      "label": "Victor II · Submarino soviético, vela",
+      "year": "07/02/1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor2.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto de identificación de un Victor II tomada cerca de 1985; encuadre parcial, muestra sobre todo la vela."
+    },
+    "game-unit:v:usn_ss_balao_guppy_ii": {
+      "file": "USS Corporal (SS-346) after GUPPY II conversion in 1948.jpg",
+      "label": "GUPPY II · USS Corporal SS-346",
+      "year": "1948",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Corporal_(SS-346)_after_GUPPY_II_conversion_in_1948.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque estadounidense con conversión GUPPY II confirmada, no confundir con versiones GUPPY IA/III."
+    },
+    "game-unit:v:ara_ss_santa_fe": {
+      "file": "USS Catfish;0833910.jpg",
+      "label": "ARA Santa Fe S-21 · antiguo USS Catfish",
+      "year": "1956, antes de transferencia a Argentina",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Catfish%3B0833910.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "USS Catfish SS-339 antes de ser ARA Santa Fe (S-21) en 1971; NO representa armamento ni estructura exacta del servicio argentino."
+    },
+    "game-unit:v:wp_ptg_komar": {
+      "file": "183R.JPG",
+      "label": "Komar · Lancha misilera proyecto 183R",
+      "year": "1974 (publicación histórica)",
+      "source": "https://commons.wikimedia.org/wiki/File:183R.JPG",
+      "author": "Leszek Komuda",
+      "license": "Dominio público (fotografía histórica polaca)",
+      "exactVariant": true,
+      "note": "Proyecto 183R clase Komar, fuente histórica; no extrapolar a subtipos de exportación."
+    },
+    "game-unit:v:wp_ss_romeo": {
+      "file": "Chinese Romeo class submarine.JPEG",
+      "label": "Romeo · Referencia de la variante china Type 033",
+      "year": "1989",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Romeo_class_submarine.JPEG",
+      "author": "PH1 Mike Flynn / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "La foto muestra una variante china Tipo 033 derivada del proyecto soviético 633 Romeo; no certifica un casco soviético."
+    },
+    "game-unit:a:usn_eka-3b": {
+      "file": "EKA-3B Skywarrior of VAQ-135 in flight c1973.jpg",
+      "label": "EKA-3B Skywarrior · VAQ-135",
+      "year": "c. 1973",
+      "source": "https://commons.wikimedia.org/wiki/File:EKA-3B_Skywarrior_of_VAQ-135_in_flight_c1973.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Variante EKA-3B de apoyo ECM/reabastecimiento identificada; vuelo histórico de VAQ-135."
+    },
+    "game-unit:a:usn_ka-3b": {
+      "file": "Douglas KA-3B of VAK-308 in flight, in 1984.jpg",
+      "label": "KA-3B Skywarrior · VAK-308",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Douglas_KA-3B_of_VAK-308_in_flight%2C_in_1984.jpg",
+      "author": "U.S. Navy (NHHC)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Variante de cisterna KA-3B fotografiada en vuelo en 1984, no EKA-3B."
+    },
+    "game-unit:a:usn_ra-3b": {
+      "file": "RA-3B Skywarrior VQ-1 in flight 1974.JPEG",
+      "label": "RA-3B Skywarrior · VQ-1",
+      "year": "1974",
+      "source": "https://commons.wikimedia.org/wiki/File:RA-3B_Skywarrior_VQ-1_in_flight_1974.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "RA-3B reconocible con las marcas de VQ-1; el avión fue posteriormente modificado a NRA-3B."
+    },
+    "game-unit:a:usn_qh-50c": {
+      "file": "Gyrodyne QH-50C DASH Udvar-Hazy.jpg",
+      "label": "QH-50C DASH · Drone antisubmarino",
+      "year": "13/04/2019 (ejemplar en museo)",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyrodyne_QH-50C_DASH_Udvar-Hazy.jpg",
+      "author": "Alpacaaviator",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Drone QH-50C identificado en museo Udvar-Hazy. Foto de aeronave independiente."
+    },
+    "game-unit:a:usn_qh-50d": {
+      "file": "Gyrodyne QH-50D DASH ‘DS-1660’ “Mary Ann” (29550163533).jpg",
+      "label": "QH-50D DASH · DS-1660 Mary Ann",
+      "year": "04/03/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyrodyne_QH-50D_DASH_%E2%80%98DS-1660%E2%80%99_%E2%80%9CMary_Ann%E2%80%9D_(29550163533).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "QH-50D con registro DS-1660 fotografiado en el Aerospace Museum of California, diferente al QH-50C."
+    },
+    "game-unit:l:nato_fps-20_radar": {
+      "file": "AN-FPS-20 Radar.jpg",
+      "label": "AN/FPS-20 · Radar de alerta temprana",
+      "year": "Década de 1950",
+      "source": "https://commons.wikimedia.org/wiki/File:AN-FPS-20_Radar.jpg",
+      "author": "United States Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Ilustración/fotografía histórica institucional del radar Bendix AN/FPS-20; no se identifica un emplazamiento concreto de 1985."
+    },
+    "game-unit:l:nato_fps-6_radar": {
+      "file": "AN-FPS6.jpg",
+      "label": "AN/FPS-6 · Radar de altura",
+      "year": "1965",
+      "source": "https://commons.wikimedia.org/wiki/File:AN-FPS6.jpg",
+      "author": "Bscmirage",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Radar AN/FPS-6 auténtico instalado en Beacon Hill, Australia, en 1965; no implica uso por todas las fuerzas OTAN."
+    },
+    "game-unit:l:nato_aaa_gdf": {
+      "file": "Swiss Oerlikon GDF 35 mm Anti-aircraft Gun with Skyguard Fire Control System 1979.jpg",
+      "label": "Oerlikon GDF · Artillería antiaérea suiza 35 mm",
+      "year": "1979",
+      "source": "https://commons.wikimedia.org/wiki/File:Swiss_Oerlikon_GDF_35_mm_Anti-aircraft_Gun_with_Skyguard_Fire_Control_System_1979.jpg",
+      "author": "Comet Photo AG (Zürich) / ETH-Bibliothek",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Cañón suizo de 35 mm y central Skyguard en la misma foto de 1979; corresponde a la familia GDF, sin demostrar la subvariante/operador NATO del juego."
+    },
+    "game-unit:l:nato_sam_skyguard_radar": {
+      "file": "Skyguard radar (cropped).JPG",
+      "label": "Skyguard · Radar de dirección de tiro",
+      "year": "04/09/2014 (recorte publicado en 2026)",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyguard_radar_(cropped).JPG",
+      "author": "Hornet Driver",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Central radar Skyguard suiza, aislada y centrada; identifica la familia de equipos pero NO acredita la variante de Skyguard-Sparrow incluida en el juego."
+    },
+    "game-unit:l:usa_radar_tps-43": {
+      "file": "DF-ST-83-07919 ANTPS-43E radar equipment is set up by personnel of the 622nd Tactical Control Flight.jpeg",
+      "label": "AN/TPS-43 · Radar móvil durante UREX 82",
+      "year": "22/04/1982",
+      "source": "https://commons.wikimedia.org/wiki/File:DF-ST-83-07919_ANTPS-43E_radar_equipment_is_set_up_by_personnel_of_the_622nd_Tactical_Control_Flight.jpeg",
+      "author": "Sutherland / U.S. Department of Defense",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía militar histórica del AN/TPS-43E; la ficha del juego no determina si esta subvariante es la misma."
+    },
+    "game-unit:l:usa_radar_tps-63": {
+      "file": "DF-ST-86-09270 (1).jpg",
+      "label": "AN/TPS-63 · Radar móvil de vigilancia",
+      "year": "12/04/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:DF-ST-86-09270_(1).jpg",
+      "author": "SSgt Zimmerman / U.S. Department of Defense",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Radar AN/TPS-63 identificado durante el ejercicio Cope Canine '85; imagen tomada en pleno escenario de 1985."
+    },
+    "game-unit:l:us_cobra_dane_ewr": {
+      "file": "FPS-108 Cobra Dane.jpg",
+      "label": "AN/FPS-108 Cobra Dane · Radar de Shemya",
+      "year": "01/06/1977",
+      "source": "https://commons.wikimedia.org/wiki/File:FPS-108_Cobra_Dane.jpg",
+      "author": "Sgt Robert S. Thompson / U.S. Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía institucional de la matriz fija COBRA DANE en Shemya, Alaska; sistema original de alerta de misiles balísticos."
+    },
+    "game-unit:l:nv_ks-19": {
+      "file": "KS-19.jpg",
+      "label": "KS-19 · Pieza antiaérea de 100 mm",
+      "year": "19/05/2007",
+      "source": "https://commons.wikimedia.org/wiki/File:KS-19.jpg",
+      "author": "One half 3544",
+      "license": "Dominio público (cesión expresa del autor)",
+      "exactVariant": true,
+      "note": "Cañón KS-19 individual en el Museo de Artillería de San Petersburgo; no se afirma correspondencia de emplazamiento vietnamita."
+    },
+    "game-unit:l:wp_sa-4_pathand": {
+      "file": "1S32 Pat Hand.JPG",
+      "label": "1S32 Pat Hand · Radar de guiado del SA-4",
+      "year": "27/08/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:1S32_Pat_Hand.JPG",
+      "author": "Tourbillon",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Radar de dirección de tiro 1S32 Pat Hand identificado en Commons; fotografía del vehículo completo sin sustituirlo por un lanzador 2P24."
+    },
+    "game-unit:l:wp_sa-4_longtruck": {
+      "file": "P-40, 1S12 Radar (NATO Long-Track), from Zsámbék, Hungary.jpg",
+      "label": "1S12 Long Track · Radar P-40 del SA-4",
+      "year": "15/10/2011",
+      "source": "https://commons.wikimedia.org/wiki/File:P-40%2C_1S12_Radar_(NATO_Long-Track)%2C_from_Zs%C3%A1mb%C3%A9k%2C_Hungary.jpg",
+      "author": "Sinkovics",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Radar 1S12/P-40 Long Track en el museo de Zsámbék, Hungría; no confundir con el 1S32 Pat Hand."
+    },
+    "game-unit:l:wp_asc_rubezh": {
+      "file": "Romanian missile launchers.jpg",
+      "label": "4K51 Rubezh · Lanzador costero en desfile",
+      "year": "01/12/2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Romanian_missile_launchers.jpg",
+      "author": "Nicubunu",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "Un sistema 4K51 Rubezh rumano en desfile; identifica la familia del vehículo costero, pero no garantiza configuración soviética de 1985."
+    },
+    "game-unit:l:wp_sa-7_launcher": {
+      "file": "Sa-7.jpg",
+      "label": "9K32 Strela-2 · Lanzador portátil SA-7",
+      "year": "1983 (archivo militar de época)",
+      "source": "https://commons.wikimedia.org/wiki/File:Sa-7.jpg",
+      "author": "U.S. Department of Defense (autor individual no identificado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Soldado soviético sosteniendo el lanzador portátil Strela-2; el objeto principal es el arma y no un vehículo inexistente."
+    },
+    "game-unit:l:pla_lt_type_63": {
+      "file": "Type 63 tank - above.jpg",
+      "label": "Tipo 63 · Carro anfibio chino",
+      "year": "08/2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_63_tank_-_above.jpg",
+      "author": "Max Smith (Megapixie)",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Carro anfibio ligero Type 63 en el Museo Militar de Pekín; no confundir con el transporte blindado Type 63."
+    },
+    "game-unit:l:wp_tbm_scud_b_tel": {
+      "file": "SS-1C Scud B missiles on TEL.JPEG",
+      "label": "Scud B · Misiles R-17 sobre vehículo lanzador",
+      "year": "23/05/1984",
+      "source": "https://commons.wikimedia.org/wiki/File:SS-1C_Scud_B_missiles_on_TEL.JPEG",
+      "author": "U.S. Department of Defense (autor individual no identificado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Documento militar de 1984 del misil R-17 Scud B sobre TEL; el ID es el vehículo lanzador completo, por lo que se muestra también el camión."
+    },
+    "game-unit:l:usa_car_hmmwv_m2": {
+      "file": "Marines patrol an area of the desert in an M998 multipurpose wheeled vehicle equipped with an M2 .50-caliber machine gun during the multinational, joint service Exercise BRIGHT STAR - DPLA - ff60881663d2afb53a7588295ccbb952.jpeg",
+      "label": "HMMWV M998 · Ametralladora M2",
+      "year": "01/08/1987",
+      "source": "https://commons.wikimedia.org/wiki/File:Marines_patrol_an_area_of_the_desert_in_an_M998_multipurpose_wheeled_vehicle_equipped_with_an_M2_.50-caliber_machine_gun_during_the_multinational%2C_joint_service_Exercise_BRIGHT_STAR_-_DPLA_-_ff60881663d2afb53a7588295ccbb952.jpeg",
+      "author": "Cpl Vincent E. Aldridge / U.S. Marine Corps",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Vehículo HMMWV M998 con ametralladora M2 fotografiado en Bright Star 1987. Se registra la fecha posterior a 1985."
+    },
+    "game-unit:l:pla_aaa_type65": {
+      "file": "Type 65 Twin 37 antiaircraft gun.jpg",
+      "label": "Tipo 65 · Cañón gemelo 37 mm chino",
+      "year": "26/08/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_65_Twin_37_antiaircraft_gun.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Cañón antiaéreo chino Type 65 doble de 37 mm preservado en Fort Lewis; no confundir con la versión autopropulsada."
+    },
+    "game-unit:l:pla_spaag_type63": {
+      "file": "Type 65 37mm Air Defense Gun.jpg",
+      "label": "SPAAG Tipo 63 · Referencia cercana sobre T-34",
+      "year": "06/06/1987",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_65_37mm_Air_Defense_Gun.jpg",
+      "author": "Don S. Montgomery / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fuente describe un Type 65 autopropulsado con cañones chinos de 37 mm sobre chasis T-34; referencia visual de la familia de SPAAG china, NO certifica que sea el modelo Type 63 del juego."
+    },
+    "game-unit:l:nv_130mm_coastal_artillery": {
+      "file": "130 50 N in front of mine control bunker in Kuivasaari.JPG",
+      "label": "B-13 · Cañón costero 130 mm",
+      "year": "02/08/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:130_50_N_in_front_of_mine_control_bunker_in_Kuivasaari.JPG",
+      "author": "MKFI",
+      "license": "Dominio público (cesión expresa del autor)",
+      "exactVariant": false,
+      "note": "Cañón soviético B-13 de 130 mm capturado por Finlandia; muestra la pieza física, no la disposición de una batería vietnamita completa."
+    },
+    "game-unit:l:nv_coastal_artillery": {
+      "file": "QF 4.5-inch Mark 5 gun on twin Mark 6 mounting at Explosion Museum.jpg",
+      "label": "QF 4.5 · Torre gemela naval en museo",
+      "year": "22/04/2023",
+      "source": "https://commons.wikimedia.org/wiki/File:QF_4.5-inch_Mark_5_gun_on_twin_Mark_6_mounting_at_Explosion_Museum.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Cañón naval QF 4.5 Mark 5 en montaje gemelo Mark 6; solo comparte familia/calibre con la batería costera genérica del juego, no demuestra una instalación costera idéntica."
+    },
+    "game-ammo:wp_fab-3000_m54": {
+      "file": "ФАБ-3000М-54.JPG",
+      "label": "FAB-3000 M-54 · Bomba soviética aislada",
+      "year": "20/04/2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%90%D0%91-3000%D0%9C-54.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Bomba de museo FAB-3000M-54 identificada exactamente, fotografiada separada y sin aeronave."
+    },
+    "game-ammo:wp_fab-9000_m54": {
+      "file": "ФАБ-9000М-54.JPG",
+      "label": "FAB-9000 M-54 · Bomba soviética aislada",
+      "year": "20/04/2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%90%D0%91-9000%D0%9C-54.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Bomba de museo FAB-9000M-54 identificada exactamente, mostrada sola sin avión."
+    },
+    "game-ammo:wp_rbk-500": {
+      "file": "RBK-500 AO-2,5RT aerial bomb in Park Patriot 01.jpg",
+      "label": "RBK-500 · Bomba de racimo soviética",
+      "year": "23/10/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:RBK-500_AO-2%2C5RT_aerial_bomb_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La foto documenta una RBK-500 con submunición AO-2,5RT; el ID genérico del juego no acredita ese relleno concreto."
     }
   }
 }
