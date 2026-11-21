@@ -1,6 +1,6 @@
 {
-  "version": 12,
-  "description": "261 referencias visuales del catálogo Sea Power con 48 nuevas fichas documentadas y corrección histórica del M270 de 1984; cada imagen conserva archivo, autor, licencia y precisión de variante.",
+  "version": 13,
+  "description": "Catálogo visual Sea Power: referencias documentadas en Wikimedia Commons, con archivo real, licencia, autor y diferencias de variante; lote 10 con 40 fotografías/esquemas comprobados.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -3078,6 +3078,573 @@
       "ammoIds": [
         "knm_penguin_mk2"
       ]
+    },
+    "game-ammo:usa_bgm-71a": {
+      "file": "TOW family of missiles.jpg",
+      "label": "BGM-71A básico · comparativa",
+      "year": "Década de 1990",
+      "source": "https://commons.wikimedia.org/wiki/File:TOW_family_of_missiles.jpg",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "La fotografía del manual U.S. Army de 1998 muestra cinco modelos TOW; la variante indicada está identificada en la fila (A, C y D), pero aparecen varios misiles.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usa_bgm-71a"
+      ]
+    },
+    "game-ammo:usa_bgm-71c": {
+      "file": "TOW family of missiles.jpg",
+      "label": "BGM-71C ITOW · comparativa",
+      "year": "Década de 1990",
+      "source": "https://commons.wikimedia.org/wiki/File:TOW_family_of_missiles.jpg",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "La fotografía del manual U.S. Army de 1998 muestra cinco modelos TOW; la variante indicada está identificada en la fila (A, C y D), pero aparecen varios misiles.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usa_bgm-71c"
+      ]
+    },
+    "game-ammo:usa_bgm-71d": {
+      "file": "TOW family of missiles.jpg",
+      "label": "BGM-71D TOW 2 · comparativa",
+      "year": "Década de 1990",
+      "source": "https://commons.wikimedia.org/wiki/File:TOW_family_of_missiles.jpg",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "La fotografía del manual U.S. Army de 1998 muestra cinco modelos TOW; la variante indicada está identificada en la fila (A, C y D), pero aparecen varios misiles.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usa_bgm-71d"
+      ]
+    },
+    "game-ammo:usn_mk46_air": {
+      "file": "JMSDF Mark 46 dummy torpedo left front view at Tateyama Air Base July 21, 2024.jpg",
+      "label": "Mk 46 para lanzamiento aéreo · torpedo de entrenamiento",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:JMSDF_Mark_46_dummy_torpedo_left_front_view_at_Tateyama_Air_Base_July_21%2C_2024.jpg",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Torpedo inerte/dummy Mk 46 de la JMSDF, expuesto completo y sin aeronave en 2024; la fotografía no identifica Mod 2 ni Mod 5.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk46_air"
+      ]
+    },
+    "game-ammo:usn_mk46_ship": {
+      "file": "JMSDF Mark 46 dummy torpedo left front view at Tateyama Air Base July 21, 2024.jpg",
+      "label": "Mk 46 Mod 2 lanzado desde buque · torpedo de entrenamiento",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:JMSDF_Mark_46_dummy_torpedo_left_front_view_at_Tateyama_Air_Base_July_21%2C_2024.jpg",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Torpedo inerte/dummy Mk 46 de la JMSDF, expuesto completo y sin aeronave en 2024; la fotografía no identifica Mod 2 ni Mod 5.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk46_ship"
+      ]
+    },
+    "game-ammo:usn_mk46_mod5_ship": {
+      "file": "JMSDF Mark 46 dummy torpedo left front view at Tateyama Air Base July 21, 2024.jpg",
+      "label": "Mk 46 Mod 5 lanzado desde buque · torpedo de entrenamiento",
+      "year": "2024",
+      "source": "https://commons.wikimedia.org/wiki/File:JMSDF_Mark_46_dummy_torpedo_left_front_view_at_Tateyama_Air_Base_July_21%2C_2024.jpg",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Torpedo inerte/dummy Mk 46 de la JMSDF, expuesto completo y sin aeronave en 2024; la fotografía no identifica Mod 2 ni Mod 5.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk46_mod5_ship"
+      ]
+    },
+    "game-ammo:usn_mk37_mod2": {
+      "file": "Mark 37 Electric Torpedo.jpg",
+      "label": "Mk 37 Mod 2 · referencia Mk 37",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_37_Electric_Torpedo.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Mk 37 eléctrico expuesto en USS Bowfin (2007), pero no hay acreditación de la modificación Mk 37 Mod 2.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk37_mod2"
+      ]
+    },
+    "game-ammo:usn_mk37_mod3": {
+      "file": "Mark 37 Electric Torpedo.jpg",
+      "label": "Mk 37 Mod 3 · referencia Mk 37",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_37_Electric_Torpedo.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Mk 37 eléctrico expuesto en USS Bowfin (2007), pero no hay acreditación de la modificación Mk 37 Mod 3.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk37_mod3"
+      ]
+    },
+    "game-ammo:usn_mk37c": {
+      "file": "Mark 37 Electric Torpedo.jpg",
+      "label": "Mk 37C · referencia Mk 37",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_37_Electric_Torpedo.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Mk 37 eléctrico expuesto en USS Bowfin (2007), pero no hay acreditación de la modificación Mk 37C.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk37c"
+      ]
+    },
+    "game-ammo:usn_mk37e": {
+      "file": "Mark 37 Electric Torpedo.jpg",
+      "label": "Mk 37E · referencia Mk 37",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_37_Electric_Torpedo.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Mk 37 eléctrico expuesto en USS Bowfin (2007), pero no hay acreditación de la modificación Mk 37E.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_mk37e"
+      ]
+    },
+    "game-ammo:usn_aim-7d": {
+      "file": "AIM-7 Sparrow at the Wings Over the Rockies Air and Space Museum (4282633229).jpg",
+      "label": "AIM-7D · familia Sparrow",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-7_Sparrow_at_the_Wings_Over_the_Rockies_Air_and_Space_Museum_(4282633229).jpg",
+      "author": "Ryan Frost",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "AIM-7 Sparrow expuesto individualmente en el Wings Over the Rockies Museum; subvariante AIM-7D no confirmada por la ficha de la imagen.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_aim-7d"
+      ]
+    },
+    "game-ammo:usn_aim-7e2": {
+      "file": "AIM-7 Sparrow at the Wings Over the Rockies Air and Space Museum (4282633229).jpg",
+      "label": "AIM-7E-2 · familia Sparrow",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-7_Sparrow_at_the_Wings_Over_the_Rockies_Air_and_Space_Museum_(4282633229).jpg",
+      "author": "Ryan Frost",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "AIM-7 Sparrow expuesto individualmente en el Wings Over the Rockies Museum; subvariante AIM-7E-2 no confirmada por la ficha de la imagen.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_aim-7e2"
+      ]
+    },
+    "game-ammo:usn_aim-7e4": {
+      "file": "AIM-7 Sparrow at the Wings Over the Rockies Air and Space Museum (4282633229).jpg",
+      "label": "AIM-7E-4 · familia Sparrow",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-7_Sparrow_at_the_Wings_Over_the_Rockies_Air_and_Space_Museum_(4282633229).jpg",
+      "author": "Ryan Frost",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "AIM-7 Sparrow expuesto individualmente en el Wings Over the Rockies Museum; subvariante AIM-7E-4 no confirmada por la ficha de la imagen.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_aim-7e4"
+      ]
+    },
+    "game-ammo:usn_aim-7m": {
+      "file": "AIM-7 Sparrow at the Wings Over the Rockies Air and Space Museum (4282633229).jpg",
+      "label": "AIM-7M · familia Sparrow",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:AIM-7_Sparrow_at_the_Wings_Over_the_Rockies_Air_and_Space_Museum_(4282633229).jpg",
+      "author": "Ryan Frost",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "AIM-7 Sparrow expuesto individualmente en el Wings Over the Rockies Museum; subvariante AIM-7M no confirmada por la ficha de la imagen.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_aim-7m"
+      ]
+    },
+    "game-ammo:usn_rim-66a": {
+      "file": "RIM-66 launch from USS Norton Sound (AVM-1) 1983.JPEG",
+      "label": "RIM-66A · familia Standard MR",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-66_launch_from_USS_Norton_Sound_(AVM-1)_1983.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fuente documenta el lanzamiento de un RIM-66B en 1983. Es una referencia de familia Standard MR, NO la subvariante RIM-66A.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_rim-66a"
+      ]
+    },
+    "game-ammo:usn_rim-66d": {
+      "file": "RIM-66 launch from USS Norton Sound (AVM-1) 1983.JPEG",
+      "label": "RIM-66D · familia Standard MR",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-66_launch_from_USS_Norton_Sound_(AVM-1)_1983.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fuente documenta el lanzamiento de un RIM-66B en 1983. Es una referencia de familia Standard MR, NO la subvariante RIM-66D.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_rim-66d"
+      ]
+    },
+    "game-ammo:usn_rim-66g": {
+      "file": "RIM-66 launch from USS Norton Sound (AVM-1) 1983.JPEG",
+      "label": "RIM-66G · familia Standard MR",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-66_launch_from_USS_Norton_Sound_(AVM-1)_1983.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fuente documenta el lanzamiento de un RIM-66B en 1983. Es una referencia de familia Standard MR, NO la subvariante RIM-66G.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_rim-66g"
+      ]
+    },
+    "game-ammo:usn_rim-66h": {
+      "file": "RIM-66 launch from USS Norton Sound (AVM-1) 1983.JPEG",
+      "label": "RIM-66H · familia Standard MR",
+      "year": "1983",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-66_launch_from_USS_Norton_Sound_(AVM-1)_1983.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La fuente documenta el lanzamiento de un RIM-66B en 1983. Es una referencia de familia Standard MR, NO la subvariante RIM-66H.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_rim-66h"
+      ]
+    },
+    "game-ammo:usn_rim-67c": {
+      "file": "RIM-67B Standard.JPEG",
+      "label": "RIM-67C · familia Standard ER",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:RIM-67B_Standard.JPEG",
+      "author": "Lt. Raine / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Imagen de RIM-67B/SM-2ER de 1987. El modelo C del juego no se identifica de manera inequívoca.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_rim-67c"
+      ]
+    },
+    "game-ammo:usn_rim-7h": {
+      "file": "US Navy 020805-N-9593M-009 Sailors load RIM-7 missiles into launcher aboard CVN 72.jpg",
+      "label": "RIM-7H · familia Sea Sparrow",
+      "year": "2002",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_020805-N-9593M-009_Sailors_load_RIM-7_missiles_into_launcher_aboard_CVN_72.jpg",
+      "author": "Philip A. McDaniel / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Misil RIM-7 cargado a mano en un lanzador de buque en 2002; no está identificada la subvariante H.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usn_rim-7h"
+      ]
+    },
+    "game-ammo:is_gabriel_2": {
+      "file": "HN-Gabriel-1.jpg",
+      "label": "Gabriel 2 · familia antibuque",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:HN-Gabriel-1.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Fotografía de un misil Gabriel temprano expuesto en Haifa (2006), no se documenta como Gabriel 2 ni Gabriel 3; referencia de familia, no variante exacta.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "is_gabriel_2"
+      ]
+    },
+    "game-ammo:is_gabriel_3": {
+      "file": "HN-Gabriel-1.jpg",
+      "label": "Gabriel 3 · familia antibuque",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:HN-Gabriel-1.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Fotografía de un misil Gabriel temprano expuesto en Haifa (2006), no se documenta como Gabriel 2 ni Gabriel 3; referencia de familia, no variante exacta.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "is_gabriel_3"
+      ]
+    },
+    "game-ammo:wp_aa-10b": {
+      "file": "R-27T medium-to-long-range air-to-air missile in Park Patriot 01.jpg",
+      "label": "AA-10B/R-27T · referencia R-27T",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:R-27T_medium-to-long-range_air-to-air_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La imagen documenta un misil infrarrojo R-27T expuesto en 2016; no confirma la variante AA-10B/R-27T.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "wp_aa-10b"
+      ]
+    },
+    "game-ammo:wp_aa-10d": {
+      "file": "R-27T medium-to-long-range air-to-air missile in Park Patriot 01.jpg",
+      "label": "AA-10D/R-27ET · referencia R-27T",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:R-27T_medium-to-long-range_air-to-air_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La imagen documenta un misil infrarrojo R-27T expuesto en 2016; no confirma la variante AA-10D/R-27ET.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "wp_aa-10d"
+      ]
+    },
+    "game-ammo:wp_aa-6a": {
+      "file": "AA-6 Acrid profile view drawing.png",
+      "label": "AA-6A · esquema R-40",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-6_Acrid_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración de perfil de la familia Molniya/Vympel R-40 Acrid de 2006. No es fotografía ni certifica AA-6A.",
+      "mediaType": "ilustración",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "wp_aa-6a"
+      ]
+    },
+    "game-ammo:wp_aa-6b": {
+      "file": "AA-6 Acrid profile view drawing.png",
+      "label": "AA-6B · esquema R-40",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-6_Acrid_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración de perfil de la familia Molniya/Vympel R-40 Acrid de 2006. No es fotografía ni certifica AA-6B.",
+      "mediaType": "ilustración",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "wp_aa-6b"
+      ]
+    },
+    "game-ammo:wp_aa-6c": {
+      "file": "AA-6 Acrid profile view drawing.png",
+      "label": "AA-6C · esquema R-40",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-6_Acrid_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración de perfil de la familia Molniya/Vympel R-40 Acrid de 2006. No es fotografía ni certifica AA-6C.",
+      "mediaType": "ilustración",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "wp_aa-6c"
+      ]
+    },
+    "game-ammo:wp_aa-6d": {
+      "file": "AA-6 Acrid profile view drawing.png",
+      "label": "AA-6D · esquema R-40",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-6_Acrid_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración de perfil de la familia Molniya/Vympel R-40 Acrid de 2006. No es fotografía ni certifica AA-6D.",
+      "mediaType": "ilustración",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "wp_aa-6d"
+      ]
+    },
+    "game-ammo:usa_mim-23": {
+      "file": "Hawkbamizad.jpg",
+      "label": "MIM-23 Hawk · misiles en desfile",
+      "year": "1965",
+      "source": "https://commons.wikimedia.org/wiki/File:Hawkbamizad.jpg",
+      "author": "Abraham Amir",
+      "license": "Dominio público (autor)",
+      "exactVariant": true,
+      "note": "Misiles MIM-23 Hawk de las fuerzas israelíes fotografiados en 1965; la imagen muestra el arma en una plataforma, no un misil aislado.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21",
+      "ammoIds": [
+        "usa_mim-23"
+      ]
+    },
+    "game-unit:l:wp_sa-10_flaplid": {
+      "file": "30N6 (FLAP LID) fire control system-2.JPG",
+      "label": "30N6 Flap Lid · radar de tiro",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:30N6_(FLAP_LID)_fire_control_system-2.JPG",
+      "author": "ShinePhantom",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Antena 30N6 del sistema S-300 en museo de Togliatti. La variante de 1985 no está acreditada en esta fotografía posterior.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:jmsdf_dd_hatsuyuki": {
+      "file": "JMSDF DD122 Hatsuyuki.JPG",
+      "label": "JDS Hatsuyuki DD-122",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:JMSDF_DD122_Hatsuyuki.JPG",
+      "author": "W_misaki",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Buque cabeza de clase, fotografiado en 2007; los equipos de a bordo pueden haber cambiado desde 1985.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:knm_ffg_oslo": {
+      "file": "Norwegian frigate KNM Oslo (F300) underway in the North Atlantic Ocean on 1 October 1971 (NH 96867).jpg",
+      "label": "Fragata KNM Oslo F300",
+      "year": "1971",
+      "source": "https://commons.wikimedia.org/wiki/File:Norwegian_frigate_KNM_Oslo_(F300)_underway_in_the_North_Atlantic_Ocean_on_1_October_1971_(NH_96867).jpg",
+      "author": "PHCS L. Hinojosa / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía naval de KNM Oslo durante reabastecimiento al norte de Noruega el 1 de octubre de 1971.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:fgs_ddg_lutjens": {
+      "file": "German destroyer Lütjens (D185) underway in 1988.JPEG",
+      "label": "Destructor Lütjens D185",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:German_destroyer_L%C3%BCtjens_(D185)_underway_in_1988.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Buque alemán clase Lütjens fotografiado en 1988; no verifica configuración exacta de 1985.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:rn_ss_oberon": {
+      "file": "Royal Navy Oberon class submarine.jpg",
+      "label": "Submarino clase Oberon británico",
+      "year": "Aprox. 1981",
+      "source": "https://commons.wikimedia.org/wiki/File:Royal_Navy_Oberon_class_submarine.jpg",
+      "author": "Joost J. Bakker",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Submarino Oberon de Royal Navy en canal holandés hacia 1981; el número de casco no está confirmado.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:ran_ss_oberon": {
+      "file": "HMAS ONSLOW.JPEG",
+      "label": "Submarino HMAS Onslow de clase Oberon",
+      "year": "1998",
+      "source": "https://commons.wikimedia.org/wiki/File:HMAS_ONSLOW.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía exterior de costado del HMAS Onslow durante RIMPAC 1998. Imagen posterior a 1985.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:es_ss_galerna": {
+      "file": "Mistral gran carena.JPG",
+      "label": "Submarino Mistral S73 · clase Galerna",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:Mistral_gran_carena.JPG",
+      "author": "Outisnn",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Mistral de la Armada Española durante gran carena en 2011; modelo Galerna/Agosta de la ficha, pero con estado posterior a 1985.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:fr_ss_agosta": {
+      "file": "Mistral gran carena.JPG",
+      "label": "Familia Agosta · Mistral español",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:Mistral_gran_carena.JPG",
+      "author": "Outisnn",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El submarino de la foto es Mistral S73, variante española de la clase Agosta; no es un buque francés ni muestra la configuración francesa exacta.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:ins_ptg_saar_3": {
+      "file": "MBSaar3.jpg",
+      "label": "Lancha misilística israelí Sa'ar 3",
+      "year": "1973",
+      "source": "https://commons.wikimedia.org/wiki/File:MBSaar3.jpg",
+      "author": "Nir Maor / Clandestine Immigration and Naval Museum",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Fotografía histórica de una Sa'ar 3 de 1973 del museo naval de Haifa.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:v:ins_ptg_saar_2": {
+      "file": "Sa'ar 2 INS AKKO.jpg",
+      "label": "INS Akko 323 · Sa'ar 2/3",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Sa'ar_2_INS_AKKO.jpg",
+      "author": "PH2 Tracy Didas / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "El título de Commons clasifica la nave como Sa'ar 2 mientras la descripción histórica original la denomina Sa'ar 3; asignación de familia con clasificación contradictoria.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
+    },
+    "game-unit:a:fr_alouette_III": {
+      "file": "MHR Alouette III.jpg",
+      "label": "Alouette III · modelo suizo",
+      "year": "1994",
+      "source": "https://commons.wikimedia.org/wiki/File:MHR_Alouette_III.jpg",
+      "author": "Anidaat",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Fotografía de un Alouette III suizo de 1994, no aparato francés del inventario del juego; coincidencia de familia.",
+      "mediaType": "fotografía",
+      "verifiedOn": "2026-11-21"
     }
   }
 }

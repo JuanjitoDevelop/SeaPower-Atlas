@@ -43,7 +43,7 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,261);
+ assert.equal(Object.keys(manifest.items).length,301);
  assert.ok(manifest.items['game-unit:l:jsdf_mbt_type74']?.exactVariant,'Modelo Type 74 japonés identificado');
  assert.equal(manifest.items['game-unit:l:wp_sa-11_launcher']?.exactVariant,false,'Buk-M1-2 no debe confundirse con la variante de 1985');
  assert.equal(manifest.items['game-ammo:fr_as11']?.file,'Aerospatiale AS11 (50121972776).jpg','AS11 aislado');
@@ -63,15 +63,20 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  assert.equal(manifest.items['game-unit:l:wp_mbt_t-55m'].exactVariant,false,'T-55M finlandés no es modernización soviética');
  assert.equal(manifest.items['game-ammo:usn_rim-7'].exactVariant,false,'RIM-7F no debe figurar como RIM-7E exacto');
  assert.equal(manifest.items['game-ammo:knm_penguin_mk2'].exactVariant,true,'Penguin MK2 mod 6 documentado');
+ assert.equal(manifest.items['game-ammo:usa_bgm-71a'].file,'TOW family of missiles.jpg','La serie A figura en comparativa TOW');
+ assert.equal(manifest.items['game-ammo:usn_mk46_air'].exactVariant,false,'Dummy Mk46 sin mod acreditado');
+ assert.equal(manifest.items['game-ammo:wp_aa-6b'].mediaType,'ilustración','AA-6 es dibujo técnico');
+ assert.equal(manifest.items['game-unit:v:es_ss_galerna'].file,'Mistral gran carena.JPG','Galerna española, no submarino homónimo de otra época');
+ assert.equal(manifest.items['game-unit:v:ins_ptg_saar_2'].exactVariant,false,'Clasificación Sa’ar 2/3 ambigua en Commons');
  const fullCatalog=JSON.parse(fs.readFileSync('catalogo_completo_1985.json','utf8'));
  const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
  const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
  const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
- assert.equal(additions.length,225,'nuevas fotografías fuera de la flota');
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,44);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,65);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,56);
- assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,60);
+ assert.equal(additions.length,265,'nuevas fotografías fuera de la flota');
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,45);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,74);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,57);
+ assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,89);
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);

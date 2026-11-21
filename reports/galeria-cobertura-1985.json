@@ -8,27 +8,27 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 261,
-    "covered": 260,
-    "exactAssigned": 169,
-    "familyAssigned": 91,
-    "pending": 847,
+    "references": 301,
+    "covered": 300,
+    "exactAssigned": 177,
+    "familyAssigned": 123,
+    "pending": 807,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 54
+        "covered": 55
       },
       "ship": {
         "total": 295,
-        "covered": 71
+        "covered": 80
       },
       "land": {
         "total": 197,
-        "covered": 56
+        "covered": 57
       },
       "weapon": {
         "total": 471,
-        "covered": 79
+        "covered": 108
       }
     },
     "unmatchedManifestIds": []
@@ -94,10 +94,6 @@
       [
         "fr_alouette_II",
         "SA.313"
-      ],
-      [
-        "fr_alouette_III",
-        "FR ALOUETTE III"
       ],
       [
         "fr_as-350",
@@ -618,16 +614,8 @@
         "clase Yuniy Partizan"
       ],
       [
-        "es_ss_galerna",
-        "clase Galerna"
-      ],
-      [
         "es_ssk_delfin",
         "clase Delfín"
-      ],
-      [
-        "fgs_ddg_lutjens",
-        "clase Lütjens"
       ],
       [
         "fgs_ptg_tiger",
@@ -644,10 +632,6 @@
       [
         "fgs_ss_type_209-1200",
         "FGS SS TYPE 209-1200"
-      ],
-      [
-        "fr_ss_agosta",
-        "clase Agosta"
       ],
       [
         "fr_ss_daphne",
@@ -668,14 +652,6 @@
       [
         "ins_ptg_hetz",
         "clase Hetz"
-      ],
-      [
-        "ins_ptg_saar_2",
-        "clase Sa'ar 2"
-      ],
-      [
-        "ins_ptg_saar_3",
-        "clase Sa'ar 3"
       ],
       [
         "ins_ptg_saar_4",
@@ -718,10 +694,6 @@
         "clase Kaivan"
       ],
       [
-        "jmsdf_dd_hatsuyuki",
-        "JMSDF DD HATSUYUKI"
-      ],
-      [
         "jmsdf_dd_minegumo",
         "clase Minegumo"
       ],
@@ -760,10 +732,6 @@
       [
         "jmsdf_ss_yushio",
         "Clase Yushio"
-      ],
-      [
-        "knm_ffg_oslo",
-        "Clase Oslo"
       ],
       [
         "knm_fs_sleipner",
@@ -882,10 +850,6 @@
         "clase Adelaide (casco corto)"
       ],
       [
-        "ran_ss_oberon",
-        "clase Oberon (RAN)"
-      ],
-      [
         "rcn_ss_oberon",
         "clase Oberon (RCN)"
       ],
@@ -940,10 +904,6 @@
       [
         "rn_lsl_roundtable",
         "RN LSL ROUNDTABLE"
-      ],
-      [
-        "rn_ss_oberon",
-        "RN SS OBERON"
       ],
       [
         "rn_ss_porpoise",
@@ -1808,10 +1768,6 @@
         "Base Aérea PVO"
       ],
       [
-        "wp_sa-10_flaplid",
-        "SA-10 Flaplid"
-      ],
-      [
         "wp_sa-11_radar",
         "Radar SA-11 Tube Arm"
       ],
@@ -2016,14 +1972,6 @@
       [
         "iriaf_tank_600_f-4e",
         "Depósito externo de 2270 l."
-      ],
-      [
-        "is_gabriel_2",
-        "Gabriel 2"
-      ],
-      [
-        "is_gabriel_3",
-        "Gabriel 3"
       ],
       [
         "is_gabriel_3as",
@@ -2326,28 +2274,12 @@
         "swe cal 120mm ersta"
       ],
       [
-        "usa_bgm-71a",
-        "BGM-71A"
-      ],
-      [
-        "usa_bgm-71c",
-        "BGM-71C"
-      ],
-      [
-        "usa_bgm-71d",
-        "BGM-71D"
-      ],
-      [
         "usa_m26",
         "M26"
       ],
       [
         "usa_mim-14",
         "MIM-14"
-      ],
-      [
-        "usa_mim-23",
-        "MIM-23"
       ],
       [
         "usaf_agm-86c",
@@ -2448,22 +2380,6 @@
       [
         "usn_agm-84d",
         "AGM-84D"
-      ],
-      [
-        "usn_aim-7d",
-        "AIM-7D"
-      ],
-      [
-        "usn_aim-7e2",
-        "AIM-7E-2"
-      ],
-      [
-        "usn_aim-7e4",
-        "AIM-7E-4"
-      ],
-      [
-        "usn_aim-7m",
-        "AIM-7M"
       ],
       [
         "usn_aim-9g",
@@ -2642,34 +2558,6 @@
         "Mk-16"
       ],
       [
-        "usn_mk37_mod2",
-        "Mk-37 Mod 2"
-      ],
-      [
-        "usn_mk37_mod3",
-        "Mk-37 Mod 3"
-      ],
-      [
-        "usn_mk37c",
-        "Mk-37C"
-      ],
-      [
-        "usn_mk37e",
-        "Mk-37E"
-      ],
-      [
-        "usn_mk46_air",
-        "Mk-46 Mod 2"
-      ],
-      [
-        "usn_mk46_mod5_ship",
-        "Mk-46 Mod 5"
-      ],
-      [
-        "usn_mk46_ship",
-        "Mk-46 Mod 2"
-      ],
-      [
         "usn_mk54_dc",
         "Mk-54"
       ],
@@ -2728,30 +2616,6 @@
       [
         "usn_rgm-8h",
         "RGM-8H"
-      ],
-      [
-        "usn_rim-66a",
-        "RIM-66A"
-      ],
-      [
-        "usn_rim-66d",
-        "RIM-66D"
-      ],
-      [
-        "usn_rim-66g",
-        "RIM-66G"
-      ],
-      [
-        "usn_rim-66h",
-        "USN RIM 66H"
-      ],
-      [
-        "usn_rim-67c",
-        "RIM-67C"
-      ],
-      [
-        "usn_rim-7h",
-        "RIM-7H"
       ],
       [
         "usn_rr144_chaff",
@@ -2898,16 +2762,8 @@
         "65-76"
       ],
       [
-        "wp_aa-10b",
-        "WP AA 10B"
-      ],
-      [
         "wp_aa-10c",
         "WP AA 10C"
-      ],
-      [
-        "wp_aa-10d",
-        "WP AA 10D"
       ],
       [
         "wp_aa-2-2",
@@ -2932,22 +2788,6 @@
       [
         "wp_aa-3f",
         "AA-3F"
-      ],
-      [
-        "wp_aa-6a",
-        "AA-6A"
-      ],
-      [
-        "wp_aa-6b",
-        "AA-6B"
-      ],
-      [
-        "wp_aa-6c",
-        "AA-6C"
-      ],
-      [
-        "wp_aa-6d",
-        "AA-6D"
       ],
       [
         "wp_aa-7c",
