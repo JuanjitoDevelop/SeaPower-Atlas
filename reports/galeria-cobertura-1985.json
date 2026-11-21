@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 496,
-    "covered": 495,
-    "exactAssigned": 239,
-    "familyAssigned": 256,
-    "pending": 612,
+    "references": 518,
+    "covered": 517,
+    "exactAssigned": 252,
+    "familyAssigned": 265,
+    "pending": 590,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -20,7 +20,7 @@
       },
       "ship": {
         "total": 295,
-        "covered": 117
+        "covered": 132
       },
       "land": {
         "total": 197,
@@ -28,7 +28,7 @@
       },
       "weapon": {
         "total": 471,
-        "covered": 206
+        "covered": 213
       }
     },
     "unmatchedManifestIds": []
@@ -382,30 +382,6 @@
         "clase Yuniy Partizan"
       ],
       [
-        "es_ssk_delfin",
-        "clase Delfín"
-      ],
-      [
-        "fgs_ptg_tiger",
-        "Tipo 148 clase Tiger"
-      ],
-      [
-        "fgs_ss_type_205",
-        "clase Type 205"
-      ],
-      [
-        "fgs_ss_type_206",
-        "clase Type 206"
-      ],
-      [
-        "fgs_ss_type_209-1200",
-        "FGS SS TYPE 209-1200"
-      ],
-      [
-        "fr_ss_daphne",
-        "clase Daphné"
-      ],
-      [
         "ins_ff_blackwood",
         "clase Blackwood"
       ],
@@ -420,10 +396,6 @@
       [
         "ins_ptg_hetz",
         "clase Hetz"
-      ],
-      [
-        "ins_ss_gal",
-        "clase Gal"
       ],
       [
         "ir_aor_delvar",
@@ -462,10 +434,6 @@
         "Clase Yamagumo"
       ],
       [
-        "jmsdf_ddh_haruna",
-        "clase Haruna"
-      ],
-      [
         "jmsdf_ss_asashio",
         "Clase Asashio"
       ],
@@ -482,16 +450,8 @@
         "Clase Sauda"
       ],
       [
-        "knm_ptg_hauk",
-        "Clase Hauk"
-      ],
-      [
         "knm_ptg_snogg",
         "Clase Snøgg"
-      ],
-      [
-        "knm_ss_kobben",
-        "clase Kobben"
       ],
       [
         "ln_ptg_beir_grassa",
@@ -564,10 +524,6 @@
       [
         "plan_ssn_han",
         "clase Han"
-      ],
-      [
-        "pns_ss_hangor",
-        "clase Hangor"
       ],
       [
         "pns_ss_hashmat",
@@ -662,14 +618,6 @@
         "clase Alaska"
       ],
       [
-        "usn_clg_oklahoma_city",
-        "clase Galveston"
-      ],
-      [
-        "usn_lka_charleston",
-        "clase Charleston"
-      ],
-      [
         "usn_lsm_lsm1",
         "clase LSM-1"
       ],
@@ -698,16 +646,8 @@
         "USN SS BALAO GUPPY II"
       ],
       [
-        "usn_ssbn_franklin",
-        "clase Benjamin Franklin"
-      ],
-      [
         "usn_ssbn_james_madison",
         "clase James Madison"
-      ],
-      [
-        "usn_ssn_los_angeles_76",
-        "Los Angeles-class Flight 1 (Early)"
       ],
       [
         "usn_takr_algol",
@@ -1614,14 +1554,6 @@
         "pla fueltank760"
       ],
       [
-        "pla_pl-5b",
-        "PL-5B"
-      ],
-      [
-        "pla_pl-5c",
-        "PL-5C"
-      ],
-      [
         "pla_type-2",
         "Type-100-2"
       ],
@@ -2114,18 +2046,6 @@
         "65-76"
       ],
       [
-        "wp_aa-10c",
-        "WP AA 10C"
-      ],
-      [
-        "wp_aa-7c",
-        "AA-7C"
-      ],
-      [
-        "wp_aa-7d",
-        "AA-7D"
-      ],
-      [
         "wp_aircraft_chaff",
         "Chaff"
       ],
@@ -2452,14 +2372,6 @@
       [
         "wp_ss-n-16",
         "SS-N-16"
-      ],
-      [
-        "wp_ss-n-7",
-        "SS-N-7"
-      ],
-      [
-        "wp_ss-n-9",
-        "SS-N-9"
       ],
       [
         "wp_tank_5280_mig-25",
