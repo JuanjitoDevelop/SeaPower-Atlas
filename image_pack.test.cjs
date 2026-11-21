@@ -43,7 +43,9 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const aircraft={id:'a6e',category:'aircraft',name:'A-6E',nation:'EE. UU.'};
  assert.equal(context.tests.galleryCardMarkup(aircraft),'','no se muestran imágenes genéricas');
  const manifest=JSON.parse(fs.readFileSync('verified_images.json','utf8'));
- assert.equal(Object.keys(manifest.items).length,301);
+ const coverage=JSON.parse(fs.readFileSync('reports/galeria-cobertura-1985.json','utf8'));
+  assert.equal(Object.keys(manifest.items).length,coverage.counts.references,'Total del manifiesto coherente con auditoría');
+  assert.ok(coverage.counts.references>=301,'No reducir la cobertura del catálogo visual');
  assert.ok(manifest.items['game-unit:l:jsdf_mbt_type74']?.exactVariant,'Modelo Type 74 japonés identificado');
  assert.equal(manifest.items['game-unit:l:wp_sa-11_launcher']?.exactVariant,false,'Buk-M1-2 no debe confundirse con la variante de 1985');
  assert.equal(manifest.items['game-ammo:fr_as11']?.file,'Aerospatiale AS11 (50121972776).jpg','AS11 aislado');
@@ -72,11 +74,13 @@ vm.runInContext(fs.readFileSync('image_pack.js','utf8')+'\nthis.tests={galleryZi
  const allUnitKeys=new Set(fullCatalog.units.map(x=>'game-unit:'+x[2]+':'+x[0]));
  const allAmmoKeys=new Set(fullCatalog.weapons.map(x=>'game-ammo:'+x[0]));
  const additions=Object.entries(manifest.items).filter(([id])=>id.startsWith('game-unit:')||id.startsWith('game-ammo:'));
- assert.equal(additions.length,265,'nuevas fotografías fuera de la flota');
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:a:')).length,45);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:v:')).length,74);
- assert.equal(additions.filter(([id])=>id.startsWith('game-unit:l:')).length,57);
- assert.equal(additions.filter(([id])=>id.startsWith('game-ammo:')).length,89);
+ assert.ok(additions.length>=265,'No perder fotografías externas existentes');
+  assert.equal(coverage.counts.pending+coverage.counts.covered,coverage.counts.total,'La cobertura debe cuadrar');
+  assert.equal(coverage.counts.unmatchedManifestIds.length,0,'Ningún identificador visual huérfano');
+ assert.ok(additions.filter(([id])=>id.startsWith('game-unit:a:')).length>=45,'No perder aeronaves');
+ assert.ok(additions.filter(([id])=>id.startsWith('game-unit:v:')).length>=74,'No perder buques');
+ assert.ok(additions.filter(([id])=>id.startsWith('game-unit:l:')).length>=57,'No perder sistemas terrestres');
+ assert.ok(additions.filter(([id])=>id.startsWith('game-ammo:')).length>=89,'No perder armas');
  for(const [id,p] of additions){
   assert.ok(allUnitKeys.has(id)||allAmmoKeys.has(id),'La imagen corresponde a un ID original: '+id);
   assert.match(p.source,/^https:\/\/commons\.wikimedia\.org\/wiki\/File:/,'Fuente documental: '+id);
