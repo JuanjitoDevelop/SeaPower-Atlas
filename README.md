@@ -4,6 +4,8 @@ Asistente táctico para móvil y escritorio, con un catálogo integrado de unida
 
 ## Estado actual · versión 3.19
 
+- **Lote 14 (rama de revisión) — 22 aeronaves documentadas**: se amplían imágenes de material argentino, francés, japonés, chino, civil, RAF, USAF, US Navy y soviético, con licencias y notas sobre subvariantes. **446/1107 (40,3 %) representadas en esta rama**, 661 pendientes, 214 identificaciones exactas y 232 de familia. Pendiente de revisión y fusión con main; no se altera la versión publicada.
+
 - **Lote 13 — 3 referencias de armamento pendientes de pruebas de integración:** ASM-1 (Japón), MIM-14 Nike Hercules y UPK-23-250, con página de Wikimedia Commons, autor, fecha y licencia contrastados. En esta rama de revisión: **424/1107 (38,3 %)**, 683 pendientes, 198 identificaciones exactas y 226 de familia. La versión publicada sigue siendo 3.19 hasta superar las pruebas automáticas; no se incluyen simulaciones o entradas técnicas como fotografías.
 
 - **Lote 12 — 29 nuevas imágenes documentadas de armas**, elevando la cobertura a **421/1107 (38,0 %)**, con **686 IDs pendientes**; 195 fichas con versión identificada y 226 aproximaciones de familia. Se han contrastado páginas de Wikimedia Commons de sistemas Roland, Matra SNEB/Type 155, R550, Super 530, Hydra, Ikara, ASROC, Bazalt, Granit, Moskit, Kh-58, S-24/S-25, Mk 16, Mk 54, GBU-15/16, BL755, Zuni, ALQ-119 y M117. Las fotografías de maquetas y esquemas se identifican como tales; ningún registro sin correspondencia física se rellena arbitrariamente.
