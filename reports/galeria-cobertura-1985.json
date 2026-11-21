@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 494,
-    "covered": 493,
-    "exactAssigned": 238,
-    "familyAssigned": 255,
-    "pending": 614,
+    "references": 496,
+    "covered": 495,
+    "exactAssigned": 239,
+    "familyAssigned": 256,
+    "pending": 612,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -28,7 +28,7 @@
       },
       "weapon": {
         "total": 471,
-        "covered": 204
+        "covered": 206
       }
     },
     "unmatchedManifestIds": []
@@ -1614,10 +1614,6 @@
         "pla fueltank760"
       ],
       [
-        "pla_hy-3",
-        "HY-3"
-      ],
-      [
         "pla_pl-5b",
         "PL-5B"
       ],
@@ -1764,10 +1760,6 @@
       [
         "suicide_bomb",
         "Bomba suicida"
-      ],
-      [
-        "swe_375mm_rocket",
-        "Bofors M/50"
       ],
       [
         "swe_cal_120mm_ersta",
