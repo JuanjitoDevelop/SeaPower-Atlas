@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 422,
-    "covered": 421,
-    "exactAssigned": 195,
+    "references": 425,
+    "covered": 424,
+    "exactAssigned": 198,
     "familyAssigned": 226,
-    "pending": 686,
+    "pending": 683,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -28,7 +28,7 @@
       },
       "weapon": {
         "total": 471,
-        "covered": 174
+        "covered": 177
       }
     },
     "unmatchedManifestIds": []
@@ -1750,10 +1750,6 @@
         "Sea Killer 2"
       ],
       [
-        "jasdf_asm-1",
-        "ASM-1"
-      ],
-      [
         "jasdf_tank_830_f-1",
         "jasdf tank 830 f-1"
       ],
@@ -1968,10 +1964,6 @@
       [
         "usa_m26",
         "M26"
-      ],
-      [
-        "usa_mim-14",
-        "MIM-14"
       ],
       [
         "usaf_cbu-24",
@@ -2776,10 +2768,6 @@
       [
         "wp_umgt-1",
         "UMGT-1"
-      ],
-      [
-        "wp_upk_23-250",
-        "WP UPK 23 250"
       ],
       [
         "wp_uset-80",
