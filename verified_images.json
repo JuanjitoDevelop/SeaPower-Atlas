@@ -1,6 +1,6 @@
 {
-  "version": 17,
-  "description": "Sea Power Atlas, lote 14: 22 nuevas asignaciones de aeronaves con fuente Commons, autor, fecha, licencia y advertencias de variante; se conservan lotes anteriores.",
+  "version": 18,
+  "description": "Sea Power Atlas, lote 15 propuesto: 22 nuevas asignaciones documentadas (9 aeronaves, 10 buques/submarinos, 1 sistema terrestre y 2 armas). Fuentes Wikimedia Commons y límites de variantes.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -5109,6 +5109,226 @@
       "license": "CC BY-SA 2.0",
       "exactVariant": true,
       "note": "MiG-25PU 53 azul preservado en Park Patriot, Kubinka; fotografía de 2017, no configuración operativa específica de 1985."
+    },
+    "game-unit:a:jmsdf_ps-1": {
+      "file": "PS-1 (13779941653).jpg",
+      "label": "PS-1 · Hidroavión antisubmarino Shin Meiwa",
+      "year": "2014 (ejemplar en exposición)",
+      "source": "https://commons.wikimedia.org/wiki/File:PS-1_(13779941653).jpg",
+      "author": "Rob Schleiffert",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Fotografía del PS-1 preservado en Iwakuni; no confundir con el US-1."
+    },
+    "game-unit:a:jmsdf_us-1": {
+      "file": "JSDF US-1A Flying boat.jpg",
+      "label": "US-1A · Hidroavión japonés",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:JSDF_US-1A_Flying_boat.jpg",
+      "author": "Max Smith (Megapixie)",
+      "license": "Dominio público (PD-self)",
+      "exactVariant": true,
+      "note": "Versión US-1A declarada en el título original."
+    },
+    "game-unit:a:rn_wessex_hu5": {
+      "file": "Westland Wessex HU.5 ‘XS508’ (49924259832).jpg",
+      "label": "Wessex HU.5 · Westland XS508",
+      "year": "2019 (ejemplar histórico)",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Wessex_HU.5_%E2%80%98XS508%E2%80%99_(49924259832).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Helicóptero HU.5 de museo, no el HAS.3 previamente documentado."
+    },
+    "game-unit:a:rn_lynx_has2": {
+      "file": "Westland Lynx HAS.2 ‘XX910’.jpg",
+      "label": "Lynx HAS.2 · Prototipo naval XX910",
+      "year": "2020 (restaurado para museo)",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Lynx_HAS.2_%E2%80%98XX910%E2%80%99.jpg",
+      "author": "HawkeyeUK (Alan Wilson)",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "XX910 es un prototipo naval documentado de la familia HAS.2; no refleja necesariamente el equipamiento operacional de 1985."
+    },
+    "game-unit:a:raf_scout_ah1": {
+      "file": "Westland Scout AH.1 helicopter.JPG",
+      "label": "Scout AH.1 · Helicóptero Westland",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:Westland_Scout_AH.1_helicopter.JPG",
+      "author": "AlfvanBeem",
+      "license": "CC0",
+      "exactVariant": true,
+      "note": "Modelo Scout AH.1 identificado explícitamente en Commons."
+    },
+    "game-unit:a:fr_alouette_II": {
+      "file": "SA318 (cropped).jpg",
+      "label": "Alouette II · SA318, familia SA313",
+      "year": "2019 (recorte)",
+      "source": "https://commons.wikimedia.org/wiki/File:SA318_(cropped).jpg",
+      "author": "Airwolfhound",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fuente representa un Alouette II SA318, pero el juego identifica SA.313; no es la misma subvariante."
+    },
+    "game-unit:a:ara_p-95": {
+      "file": "Aeronave BANDEIRANTE PATRULHA (P-95) - Força Aérea Brasileira (52345199236).jpg",
+      "label": "EMB-111 P-95 · Bandeirante Patrulha",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Aeronave_BANDEIRANTE_PATRULHA_(P-95)_-_For%C3%A7a_A%C3%A9rea_Brasileira_(52345199236).jpg",
+      "author": "Marinha do Brasil",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "Ejemplar brasileño P-95/EMB-111; corresponde a la familia de avión patrullero, pero no a una variante o operador argentino documentado."
+    },
+    "game-unit:a:plan_sh-5": {
+      "file": "Chinese Shuihong 5 amphibious aircraft.jpg",
+      "label": "SH-5 · Hidroavión chino Shuihong 5",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Shuihong_5_amphibious_aircraft.jpg",
+      "author": "tienvijftien",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "Hidroavión chino SH-5 documentado por la fuente."
+    },
+    "game-unit:a:pla_z-8": {
+      "file": "Z8J Chinese Navy (15771199253).jpg",
+      "label": "Z-8 · Helicóptero naval Z-8J",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:Z8J_Chinese_Navy_(15771199253).jpg",
+      "author": "Rob Schleiffert",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "Imagen del Z-8J naval; el catálogo utiliza Z-8 genérico y no certifica esta subvariante."
+    },
+    "game-unit:v:ara_fs_drummond": {
+      "file": "ARA Drummond en base naval Mar del Plata.jpg",
+      "label": "ARA Drummond · Corbeta argentina",
+      "year": "2013",
+      "source": "https://commons.wikimedia.org/wiki/File:ARA_Drummond_en_base_naval_Mar_del_Plata.jpg",
+      "author": "Dario Alpern",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Corbeta ARA Drummond fotografiada en Mar del Plata; equipamiento fotografiado en 2013, no reconstrucción 1985."
+    },
+    "game-unit:v:ir_ffg_alvand": {
+      "file": "IS Alvand (F-71) 1977.jpg",
+      "label": "Alvand F-71 · Fragata iraní",
+      "year": "1977",
+      "source": "https://commons.wikimedia.org/wiki/File:IS_Alvand_(F-71)_1977.jpg",
+      "author": "U.S. Navy (fotografía naval)",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Fragata Alvand F-71 de la clase Vosper Mk 5 en fecha próxima al escenario."
+    },
+    "game-unit:v:jmsdf_ddg_tachikaze": {
+      "file": "JDS Tachikaze.jpg",
+      "label": "JDS Tachikaze DDG-168 · Destructor",
+      "year": "1990",
+      "source": "https://commons.wikimedia.org/wiki/File:JDS_Tachikaze.jpg",
+      "author": "OS2 John Bouvia / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque Tachikaze DDG-168 identificado, fotografía posterior a 1985."
+    },
+    "game-unit:v:jmsdf_ddg_tachikaze_84": {
+      "file": "JDS Tachikaze.jpg",
+      "label": "Tachikaze 1984 · Referencia del mismo buque",
+      "year": "1990 (referencia posterior)",
+      "source": "https://commons.wikimedia.org/wiki/File:JDS_Tachikaze.jpg",
+      "author": "OS2 John Bouvia / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": false,
+      "note": "Corresponde al buque de la misma clase, pero no se acredita la configuración específica de 1984."
+    },
+    "game-unit:v:jmsdf_dd_takatsuki": {
+      "file": "JS Takatsuki(DD-164).JPG",
+      "label": "Takatsuki DD-164 · Destructor",
+      "year": "2000",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Takatsuki(DD-164).JPG",
+      "author": "Yokohama1998",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Destructor Takatsuki DD-164; foto posterior al escenario del juego."
+    },
+    "game-unit:v:jmsdf_dd_takatsuki_84": {
+      "file": "JS Takatsuki(DD-164).JPG",
+      "label": "Takatsuki 1984 · Referencia de familia",
+      "year": "2000 (referencia posterior)",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Takatsuki(DD-164).JPG",
+      "author": "Yokohama1998",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Fotografía del Takatsuki pero no se ha documentado correspondencia de equipamiento con 1984."
+    },
+    "game-unit:v:jmsdf_ss_yushio": {
+      "file": "JS Yushio, SS-573.jpg",
+      "label": "Yushio SS-573 · Submarino JMSDF",
+      "year": "2017 (imagen archivada)",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Yushio,_SS-573.jpg",
+      "author": "Maritime Self-Defense Force (JMSDF)",
+      "license": "Licencia compatible CC BY 4.0 (Gobierno Japón)",
+      "exactVariant": true,
+      "note": "Fotografía oficial del submarino Yushio SS-573; fecha de carga no prueba la fecha de toma."
+    },
+    "game-unit:v:ins_ptg_saar_4": {
+      "file": "PikiWiki Israel 29176 saar 4.jpg",
+      "label": "Sa'ar 4 · Patrullera misilera israelí",
+      "year": "1980–1985",
+      "source": "https://commons.wikimedia.org/wiki/File:PikiWiki_Israel_29176_saar_4.jpg",
+      "author": "Nir Maor / Museo Naval de Haifa",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Fotografía histórica identificada como Sa'ar 4; no extrapolar a subvariantes posteriores."
+    },
+    "game-unit:v:plan_ss_romeo": {
+      "file": "Chinese Romeo class submarine.JPEG",
+      "label": "Tipo 033 Romeo · Submarino chino",
+      "year": "1989",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Romeo_class_submarine.JPEG",
+      "author": "PH1 Mike Flynn / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Submarino de la clase Romeo (Tipo 033 chino); no se identifica casco individual."
+    },
+    "game-unit:v:plan_dd_luda1": {
+      "file": "Luda DN-SN-89-03098.jpg",
+      "label": "Luda I · Destructor clase Luda",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Luda_DN-SN-89-03098.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": false,
+      "note": "Destructores clase Luda: sin confirmación de que la fotografía represente exactamente la configuración Luda I de 1985."
+    },
+    "game-unit:l:jsdf_sam_type81": {
+      "file": "Type 81 SAM - launcher.jpg",
+      "label": "Tan-SAM Tipo 81 · Lanzador japonés",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_81_SAM_-_launcher.jpg",
+      "author": "Max Smith",
+      "license": "Dominio público (PD-self)",
+      "exactVariant": true,
+      "note": "Lanzador 6x6 del sistema japonés Type 81 Tan-SAM, identificado expresamente en Commons."
+    },
+    "game-ammo:fr_as12": {
+      "file": "As 12Priddy's Hard.JPG",
+      "label": "AS.12 · Misil aire-superficie aislado",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:As_12Priddy%27s_Hard.JPG",
+      "author": "Geni",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Misil AS.12 individual fotografiado fuera de aeronave."
+    },
+    "game-ammo:usn_hedgehog": {
+      "file": "Hedgehog ASW mortar on USS Wallace L. Lind (DD-703), circa in 1970.jpg",
+      "label": "Hedgehog · Lanzador antisubmarino",
+      "year": "ca. 1970",
+      "source": "https://commons.wikimedia.org/wiki/File:Hedgehog_ASW_mortar_on_USS_Wallace_L._Lind_(DD-703),_circa_in_1970.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Mortero antisubmarino Hedgehog claramente identificable a bordo del destructor, sin aeronave."
     }
   }
 }
