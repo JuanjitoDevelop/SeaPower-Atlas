@@ -1,6 +1,6 @@
 {
-  "version": 22,
-  "description": "Sea Power Atlas, lote 19: 22 referencias de buques, submarinos y dragaminas con fuentes originales de Commons; fotos históricas, fechas, autores, licencias y variantes documentadas.",
+  "version": 23,
+  "description": "Sea Power Atlas lote 20: 23 referencias navales y aéreas (5 aeronaves y 18 buques) de Wikimedia Commons, 3 ilustraciones SVG de submarinos señaladas, fotos históricas, variantes y licencias documentadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -6048,6 +6048,239 @@
       "license": "CC BY-SA 3.0",
       "exactVariant": false,
       "note": "El ORP Dzik polaco es variante 254M, no el proyecto soviético 254 de la ficha T-43; útil solamente como referencia de familia y puede diferir en superestructura."
+    },
+    "game-unit:v:rn_cv_centaur": {
+      "file": "HMS Centaur (R06) 1962.jpg",
+      "label": "HMS Centaur (R06) · Portaaviones de 1962",
+      "year": "1962",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Centaur_(R06)_1962.jpg",
+      "author": "U.S. Navy, Naval Aviation News",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto del HMS Centaur real en 1962; no demuestra cada modificación de equipo de 1985."
+    },
+    "game-unit:v:rn_ss_porpoise": {
+      "file": "HMS Sealion (11389754416).jpg",
+      "label": "Porpoise · HMS Sealion",
+      "year": "08/1980 (fotografía de archivo)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Sealion_(11389754416).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "HMS Sealion de la clase Porpoise; evitar confusión con el submarino de 1934 del mismo nombre."
+    },
+    "game-unit:v:rn_ssn_trafalgar": {
+      "file": "HMS Trafalgar SSN cropped.JPG",
+      "label": "Trafalgar · Submarino nuclear HMS Trafalgar",
+      "year": "10/12/2008",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Trafalgar_SSN_cropped.JPG",
+      "author": "Brian Burnell; edición Hic et nunc",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Foto del submarino nuclear, no del destructor histórico HMS Trafalgar. Fecha de fotografía posterior al escenario de 1985."
+    },
+    "game-unit:v:rn_ssn_churchill": {
+      "file": "Churchill-class SSN.svg",
+      "label": "Churchill · Silueta HMS Conqueror",
+      "year": "01/08/2022 (dibujo de un buque de 1982)",
+      "source": "https://commons.wikimedia.org/wiki/File:Churchill-class_SSN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Esquema del HMS Conqueror de la clase Churchill; no identifica el casco HMS Churchill ni una dotación precisa del juego.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:rn_ssn_churchill_late": {
+      "file": "Churchill-class SSN.svg",
+      "label": "Churchill late · Silueta de clase Churchill",
+      "year": "01/08/2022 (dibujo de un buque de 1982)",
+      "source": "https://commons.wikimedia.org/wiki/File:Churchill-class_SSN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Esquema de HMS Conqueror en 1982, no certifica la configuración posterior late del juego.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:rn_ssn_swiftsure": {
+      "file": "Swiftsure class SSN.svg",
+      "label": "Swiftsure · HMS Sceptre, silueta de clase",
+      "year": "04/12/2022",
+      "source": "https://commons.wikimedia.org/wiki/File:Swiftsure_class_SSN.svg",
+      "author": "Mike1979 Russia",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Silueta de HMS Sceptre (S104) clase Swiftsure; ES ilustración técnica, no foto del crucero HMS Swiftsure.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:rn_dd_z-class": {
+      "file": "HMS Zebra.jpg",
+      "label": "Z-class · HMS Zebra (R81)",
+      "year": "12/10/1944",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Zebra.jpg",
+      "author": "W. Ralston, fotógrafo oficial Royal Navy",
+      "license": "Dominio público (Gobierno del Reino Unido)",
+      "exactVariant": true,
+      "note": "Destructor HMS Zebra de clase Z durante la Segunda Guerra Mundial; fotografía anterior al escenario."
+    },
+    "game-unit:v:rn_dd_battle": {
+      "file": "HMS Armada.jpg",
+      "label": "Battle · Destructor HMS Armada",
+      "year": "06/1945",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Armada.jpg",
+      "author": "Royal Navy (fotógrafo oficial)",
+      "license": "Dominio público (Gobierno del Reino Unido)",
+      "exactVariant": true,
+      "note": "El HMS Armada de clase Battle durante la Segunda Guerra Mundial, no otras clases de destructores."
+    },
+    "game-unit:v:rn_ddg_county_batch1": {
+      "file": "HMS Devonshire (39577005780).jpg",
+      "label": "County Batch 1 · HMS Devonshire",
+      "year": "08/1980 (diapositiva original)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Devonshire_(39577005780).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "HMS Devonshire de la primera serie de County; escaneado/subido mucho después de su toma de 1980."
+    },
+    "game-unit:v:rn_ddg_county_batch2": {
+      "file": "HMS Fife (27516079478).jpg",
+      "label": "County Batch 2 · HMS Fife",
+      "year": "08/1980 (diapositiva original)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Fife_(27516079478).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "HMS Fife de Batch 2 con torreta B sustituida por Exocet, fotografiado en Portsmouth en agosto de 1980."
+    },
+    "game-unit:v:rn_ddg_county_batch2_75": {
+      "file": "HMS Fife (27516079478).jpg",
+      "label": "County Batch 2 (1975) · Referencia de HMS Fife",
+      "year": "08/1980 (diapositiva original)",
+      "source": "https://commons.wikimedia.org/wiki/File:HMS_Fife_(27516079478).jpg",
+      "author": "Hugh Llewelyn",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La imagen ya muestra conversión con Exocet en 1980; no demuestra cómo era la configuración de 1975."
+    },
+    "game-unit:v:jmsdf_ss_asashio": {
+      "file": "JS Asashio (SS-562).jpg",
+      "label": "Asashio · Submarino SS-562",
+      "year": "Fotografía histórica; carga 2014",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Asashio_(SS-562).jpg",
+      "author": "Japan Maritime Self-Defense Force (Ministerio de Defensa de Japón)",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "El SS-562 es de la clase Asashio histórica, distinto del Asashio SS-589 de 1997."
+    },
+    "game-unit:v:jmsdf_ss_uzushio": {
+      "file": "JS Uzushio (SS-566).jpg",
+      "label": "Uzushio · Submarino SS-566",
+      "year": "Fotografía histórica; carga 2014",
+      "source": "https://commons.wikimedia.org/wiki/File:JS_Uzushio_(SS-566).jpg",
+      "author": "Japan Maritime Self-Defense Force (Ministerio de Defensa de Japón)",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Identifica el SS-566 de la serie Uzushio de 1971; no confundir con SS-592 de 1998."
+    },
+    "game-unit:v:wp_ssn_victor2": {
+      "file": "Victor2.jpg",
+      "label": "Victor II · Submarino soviético, vela",
+      "year": "07/02/1986",
+      "source": "https://commons.wikimedia.org/wiki/File:Victor2.jpg",
+      "author": "U.S. Department of Defense",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto de identificación de un Victor II tomada cerca de 1985; encuadre parcial, muestra sobre todo la vela."
+    },
+    "game-unit:v:usn_ss_balao_guppy_ii": {
+      "file": "USS Corporal (SS-346) after GUPPY II conversion in 1948.jpg",
+      "label": "GUPPY II · USS Corporal SS-346",
+      "year": "1948",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Corporal_(SS-346)_after_GUPPY_II_conversion_in_1948.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque estadounidense con conversión GUPPY II confirmada, no confundir con versiones GUPPY IA/III."
+    },
+    "game-unit:v:ara_ss_santa_fe": {
+      "file": "USS Catfish;0833910.jpg",
+      "label": "ARA Santa Fe S-21 · antiguo USS Catfish",
+      "year": "1956, antes de transferencia a Argentina",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Catfish%3B0833910.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "USS Catfish SS-339 antes de ser ARA Santa Fe (S-21) en 1971; NO representa armamento ni estructura exacta del servicio argentino."
+    },
+    "game-unit:v:wp_ptg_komar": {
+      "file": "183R.JPG",
+      "label": "Komar · Lancha misilera proyecto 183R",
+      "year": "1974 (publicación histórica)",
+      "source": "https://commons.wikimedia.org/wiki/File:183R.JPG",
+      "author": "Leszek Komuda",
+      "license": "Dominio público (fotografía histórica polaca)",
+      "exactVariant": true,
+      "note": "Proyecto 183R clase Komar, fuente histórica; no extrapolar a subtipos de exportación."
+    },
+    "game-unit:v:wp_ss_romeo": {
+      "file": "Chinese Romeo class submarine.JPEG",
+      "label": "Romeo · Referencia de la variante china Type 033",
+      "year": "1989",
+      "source": "https://commons.wikimedia.org/wiki/File:Chinese_Romeo_class_submarine.JPEG",
+      "author": "PH1 Mike Flynn / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "La foto muestra una variante china Tipo 033 derivada del proyecto soviético 633 Romeo; no certifica un casco soviético."
+    },
+    "game-unit:a:usn_eka-3b": {
+      "file": "EKA-3B Skywarrior of VAQ-135 in flight c1973.jpg",
+      "label": "EKA-3B Skywarrior · VAQ-135",
+      "year": "c. 1973",
+      "source": "https://commons.wikimedia.org/wiki/File:EKA-3B_Skywarrior_of_VAQ-135_in_flight_c1973.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Variante EKA-3B de apoyo ECM/reabastecimiento identificada; vuelo histórico de VAQ-135."
+    },
+    "game-unit:a:usn_ka-3b": {
+      "file": "Douglas KA-3B of VAK-308 in flight, in 1984.jpg",
+      "label": "KA-3B Skywarrior · VAK-308",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:Douglas_KA-3B_of_VAK-308_in_flight%2C_in_1984.jpg",
+      "author": "U.S. Navy (NHHC)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Variante de cisterna KA-3B fotografiada en vuelo en 1984, no EKA-3B."
+    },
+    "game-unit:a:usn_ra-3b": {
+      "file": "RA-3B Skywarrior VQ-1 in flight 1974.JPEG",
+      "label": "RA-3B Skywarrior · VQ-1",
+      "year": "1974",
+      "source": "https://commons.wikimedia.org/wiki/File:RA-3B_Skywarrior_VQ-1_in_flight_1974.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "RA-3B reconocible con las marcas de VQ-1; el avión fue posteriormente modificado a NRA-3B."
+    },
+    "game-unit:a:usn_qh-50c": {
+      "file": "Gyrodyne QH-50C DASH Udvar-Hazy.jpg",
+      "label": "QH-50C DASH · Drone antisubmarino",
+      "year": "13/04/2019 (ejemplar en museo)",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyrodyne_QH-50C_DASH_Udvar-Hazy.jpg",
+      "author": "Alpacaaviator",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Drone QH-50C identificado en museo Udvar-Hazy. Foto de aeronave independiente."
+    },
+    "game-unit:a:usn_qh-50d": {
+      "file": "Gyrodyne QH-50D DASH ‘DS-1660’ “Mary Ann” (29550163533).jpg",
+      "label": "QH-50D DASH · DS-1660 Mary Ann",
+      "year": "04/03/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Gyrodyne_QH-50D_DASH_%E2%80%98DS-1660%E2%80%99_%E2%80%9CMary_Ann%E2%80%9D_(29550163533).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "QH-50D con registro DS-1660 fotografiado en el Aerospace Museum of California, diferente al QH-50C."
     }
   }
 }
