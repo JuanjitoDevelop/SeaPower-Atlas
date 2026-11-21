@@ -4,6 +4,8 @@ Asistente táctico para móvil y escritorio, con un catálogo integrado de unida
 
 ## Estado actual · versión 3.19
 
+- **Lote 16 (PR #11, armamento):** se añaden **25** referencias de armas y equipos con fuentes y licencias de Wikimedia Commons, en especial torpedo Mk 13 (no confundir con el lanzador Mk 13), Nixie histórico de 1984, bombas M118 y RBK-250, torpedos 53-65K y Type 80, misiles S-5/S-8, SA-4, SA-N-3, HQ-61, pods UB-16-57, Pave Spike y ALQ-99, y familias Atoll/Anab. Tres registros son **ilustraciones técnicas** marcadas, no fotografías; las variantes dudosas tienen `exactVariant=false`. Cobertura preparada **493/1107 (44,5 %)**, quedan **614** IDs sin imagen. Pendiente de CI y revisión visual antes de desplegar.
+
 - **Lote 15 (PR #11, en validación):** 22 nuevas fichas de fuentes abiertas (9 aeronaves, 10 buques/submarinos, 1 lanzador terrestre y 2 armas), con especial atención a imágenes individualizadas de PS-1/US-1A, Lynx HAS.2, Scout AH.1, ARA Drummond, Takatsuki, Tachikaze, Type 81 y misil AS.12. Cobertura propuesta **468/1107 (42,3 %)**, **639 pendientes**, coincidencias exactas **230**, de familia **238**. Fotografías posteriores a 1985 y variantes de familia identificadas; edición en desarrollo, sin despliegue a main hasta validar CI.
 
 - **Lote 14 (rama de revisión) — 22 aeronaves documentadas**: se amplían imágenes de material argentino, francés, japonés, chino, civil, RAF, USAF, US Navy y soviético, con licencias y notas sobre subvariantes. **446/1107 (40,3 %) representadas en esta rama**, 661 pendientes, 214 identificaciones exactas y 232 de familia. Pendiente de revisión y fusión con main; no se altera la versión publicada.
