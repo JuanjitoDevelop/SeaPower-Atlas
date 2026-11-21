@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 518,
-    "covered": 517,
-    "exactAssigned": 252,
-    "familyAssigned": 265,
-    "pending": 590,
+    "references": 540,
+    "covered": 539,
+    "exactAssigned": 269,
+    "familyAssigned": 270,
+    "pending": 568,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -20,7 +20,7 @@
       },
       "ship": {
         "total": 295,
-        "covered": 132
+        "covered": 154
       },
       "land": {
         "total": 197,
@@ -598,16 +598,8 @@
         "TEST"
       ],
       [
-        "usn_ae_kilauea",
-        "clase Kilauea"
-      ],
-      [
         "usn_ao_t2",
         "clase T2 (modificado)"
-      ],
-      [
-        "usn_avp_barnegat",
-        "clase Barnegat"
       ],
       [
         "usn_avp_barnegat_mod",
@@ -618,16 +610,8 @@
         "clase Alaska"
       ],
       [
-        "usn_lsm_lsm1",
-        "clase LSM-1"
-      ],
-      [
         "usn_msc_adjutant",
         "clase Adjutant"
-      ],
-      [
-        "usn_mso_aggressive",
-        "clase Aggressive"
       ],
       [
         "usn_pb_pgm-39",
@@ -646,14 +630,6 @@
         "USN SS BALAO GUPPY II"
       ],
       [
-        "usn_ssbn_james_madison",
-        "clase James Madison"
-      ],
-      [
-        "usn_takr_algol",
-        "clase Algol"
-      ],
-      [
         "wp_agi_okean",
         "clase Okean"
       ],
@@ -670,14 +646,6 @@
         "clase Orel"
       ],
       [
-        "wp_mpk_grisha3",
-        "clase Grisha III"
-      ],
-      [
-        "wp_mrk_nanuchka",
-        "clase Nanuchka"
-      ],
-      [
         "wp_ms_andizhan_armed",
         "clase Andizhan (armada)"
       ],
@@ -690,10 +658,6 @@
         "Portaaviones RORO"
       ],
       [
-        "wp_msc_T43",
-        "clase T43"
-      ],
-      [
         "wp_msc_T43K",
         "clase T43K"
       ],
@@ -702,28 +666,8 @@
         "clase Kondor"
       ],
       [
-        "wp_msc_kondor_II",
-        "clase Kondor II"
-      ],
-      [
-        "wp_msc_kondor_II_85",
-        "clase Kondor II"
-      ],
-      [
         "wp_pb_don",
         "clase Don"
-      ],
-      [
-        "wp_pb_zhuk",
-        "clase Zhuk"
-      ],
-      [
-        "wp_pb_zhuk_ME",
-        "clase Zhuk ME"
-      ],
-      [
-        "wp_pkr_moskva",
-        "clase Moskva"
       ],
       [
         "wp_pt_libelle",
@@ -766,10 +710,6 @@
         "clase Komar"
       ],
       [
-        "wp_rkr_kynda",
-        "clase Kynda"
-      ],
-      [
         "wp_skr_petya2",
         "clase Petya II"
       ],
@@ -780,34 +720,6 @@
       [
         "wp_ss_romeo",
         "clase Romeo"
-      ],
-      [
-        "wp_ssbn_delta3",
-        "clase Delta III"
-      ],
-      [
-        "wp_ssgn_charlie1",
-        "clase Charlie I"
-      ],
-      [
-        "wp_ssgn_charlie2",
-        "clase Charlie II"
-      ],
-      [
-        "wp_ssgn_echo2",
-        "clase Echo II"
-      ],
-      [
-        "wp_ssgn_oscar1",
-        "clase Oscar I"
-      ],
-      [
-        "wp_ssn_november",
-        "clase November"
-      ],
-      [
-        "wp_ssn_victor1",
-        "clase Victor I"
       ],
       [
         "wp_ssn_victor2",
