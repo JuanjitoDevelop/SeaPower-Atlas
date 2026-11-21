@@ -1,6 +1,6 @@
 {
-  "version": 18,
-  "description": "Sea Power Atlas, lote 15 propuesto: 22 nuevas asignaciones documentadas (9 aeronaves, 10 buques/submarinos, 1 sistema terrestre y 2 armas). Fuentes Wikimedia Commons y límites de variantes.",
+  "version": 19,
+  "description": "Sea Power Atlas, lote 16: 25 nuevas fichas documentadas de armamento y equipos; fotografías individuales, variantes aproximadas marcadas y tres ilustraciones expresamente identificadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -5329,6 +5329,259 @@
       "license": "Dominio público (Gobierno EE. UU.)",
       "exactVariant": true,
       "note": "Mortero antisubmarino Hedgehog claramente identificable a bordo del destructor, sin aeronave."
+    },
+    "game-ammo:usn_mk13": {
+      "file": "USMC Mk 13 torpedoes on Okinawa in May 1945.jpg",
+      "label": "Mk 13 · Torpedos estadounidenses de época",
+      "year": "1945",
+      "source": "https://commons.wikimedia.org/wiki/File:USMC_Mk_13_torpedoes_on_Okinawa_in_May_1945.jpg",
+      "author": "David Douglas Duncan / U.S. Marine Corps",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "El ID del juego es el torpedo aéreo Mk 13, NO el lanzador de misiles Mk 13. Fotografía histórica de torpedos del USMC sobre el terreno."
+    },
+    "game-ammo:usn_an_slq_25_nixie_decoy": {
+      "file": "SLQ-25 Nixie aboard USS Iowa (BB-61).jpg",
+      "label": "AN/SLQ-25 Nixie · Contramedidas antisubmarinas",
+      "year": "1984",
+      "source": "https://commons.wikimedia.org/wiki/File:SLQ-25_Nixie_aboard_USS_Iowa_(BB-61).jpg",
+      "author": "PH1 Jeff Hilton / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía histórica de los equipos AN/SLQ-25 a bordo del USS Iowa (1984). Muestra el equipo de contramedidas y al operario, no un señuelo aislado."
+    },
+    "game-ammo:usaf_pave_spike": {
+      "file": "Pave Spike targeting pod on display.jpg",
+      "label": "Pave Spike · Pod designador expuesto",
+      "year": "Fecha de fotografía no declarada",
+      "source": "https://commons.wikimedia.org/wiki/File:Pave_Spike_targeting_pod_on_display.jpg",
+      "author": "Greg Goebel",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "Contenedor AN/ASQ-153 Pave Spike fotografiado por separado. El ID genérico no confirma subvariante o configuración USAF específica."
+    },
+    "game-ammo:usaf_m118": {
+      "file": "M118 3,000lb Demolition Bomb NMUSAF.jpg",
+      "label": "M118 · Bomba de demolición 3.000 lb",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:M118_3%2C000lb_Demolition_Bomb_NMUSAF.jpg",
+      "author": "Christopher M. Reed",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "La bomba M118 aparece en primer plano sobre soporte de museo, con el F-105 al fondo. No representa una carga montada en aeronave."
+    },
+    "game-ammo:wp_s-5": {
+      "file": "S-5KO.jpg",
+      "label": "S-5 · Cohete soviético de 57 mm en exposición",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:S-5KO.jpg",
+      "author": "Pibwl",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Imagen de una variante S-5MO o S-5KO; la ficha del juego es S-5 genérica. Cohete aislado."
+    },
+    "game-ammo:wp_s-8": {
+      "file": "S-8 KOM 80 mm rocket.jpg",
+      "label": "S-8 · Cohete aislado, variante KOM",
+      "year": "Fecha no indicada (documento oficial)",
+      "source": "https://commons.wikimedia.org/wiki/File:S-8_KOM_80_mm_rocket.jpg",
+      "author": "U.S. Government / documento técnico",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía/documentación del S-8 KOM; no certifica la subvariante genérica del juego."
+    },
+    "game-ammo:wp_rbk-250": {
+      "file": "RBK250 cassette bomb G1.jpg",
+      "label": "RBK-250 · Bomba de racimo soviética",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:RBK250_cassette_bomb_G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Ejemplar RBK-250 expuesto de forma independiente en el museo de la Fuerza Aérea ucraniana."
+    },
+    "game-ammo:wp_53-65K": {
+      "file": "53-65K torpedo MW.JPG",
+      "label": "53-65K · Torpedo soviético expuesto",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:53-65K_torpedo_MW.JPG",
+      "author": "BrokenSphere",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "El archivo identifica expresamente el torpedo 53-65K almacenado en el buque museo Minsk."
+    },
+    "game-ammo:jmsdf_type80": {
+      "file": "JMSDF Type 80 torpedo in JMSDF Kure Museum 20140915.JPG",
+      "label": "Type 80 · Torpedo japonés en museo",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:JMSDF_Type_80_torpedo_in_JMSDF_Kure_Museum_20140915.JPG",
+      "author": "Hunini",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Tipo 80 identificado en la exposición del museo JMSDF Kure, fotografiado sin buque."
+    },
+    "game-ammo:plan_hq-61": {
+      "file": "Pair of HQ-61 missiles.jpg",
+      "label": "HQ-61 · Dos misiles en el museo naval de Qingdao",
+      "year": "2025",
+      "source": "https://commons.wikimedia.org/wiki/File:Pair_of_HQ-61_missiles.jpg",
+      "author": "Benlisquare",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Pareja de misiles HQ-61 identificada en museo. El archivo contiene una advertencia de elementos incidentales protegidos: no recortar sobre esos elementos."
+    },
+    "game-ammo:wp_sa-4": {
+      "file": "Eesti Lennundusmuuseum 2022 27.jpg",
+      "label": "SA-4 Ganef · Misil 9M8 expuesto",
+      "year": "2022",
+      "source": "https://commons.wikimedia.org/wiki/File:Eesti_Lennundusmuuseum_2022_27.jpg",
+      "author": "VargaA",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Fotografía de un misil 9M8 de la familia Krug/SA-4 sin lanzador. No se identifica la subvariante del juego."
+    },
+    "game-ammo:wp_ub-16-57": {
+      "file": "УБ-16-57.JPG",
+      "label": "UB-16-57 · Contenedor de cohetes S-5",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%91-16-57.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Contenedor UB-16-57 fotografiado por separado en museo de aviación de Kiev."
+    },
+    "game-ammo:wp_ub-16-57KV": {
+      "file": "УБ-16-57.JPG",
+      "label": "UB-16-57KV · Fotografía de familia UB-16",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%91-16-57.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El archivo acredita UB-16-57 genérico, no la variante KV. Coincidencia únicamente de familia; no afirmar intercambiabilidad de soportes."
+    },
+    "game-ammo:wp_ub-16-57UM": {
+      "file": "УБ-16-57.JPG",
+      "label": "UB-16-57UM · Fotografía de familia UB-16",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A3%D0%91-16-57.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "El archivo acredita UB-16-57 genérico, no la variante UM. Coincidencia únicamente de familia."
+    },
+    "game-ammo:wp_sa-n-3": {
+      "file": "4K60 surface-to-air missile at Park Patriot 01crop.jpg",
+      "label": "SA-N-3 · Misil naval 4K60 del sistema Shtorm",
+      "year": "2015",
+      "source": "https://commons.wikimedia.org/wiki/File:4K60_surface-to-air_missile_at_Park_Patriot_01crop.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Misil naval 4K60 aislado, familia SA-N-3; no se puede acreditar la subvariante específica que usa el juego."
+    },
+    "game-ammo:usn_alq-99": {
+      "file": "US Navy 080610-N-5617R-004 Aviation Electronic's Technician 2nd Class Victor Galloway hooks the main power cable to an ALQ-99 Air Launched Countermeasure.jpg",
+      "label": "AN/ALQ-99 · Contenedor de guerra electrónica",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_080610-N-5617R-004_Aviation_Electronic's_Technician_2nd_Class_Victor_Galloway_hooks_the_main_power_cable_to_an_ALQ-99_Air_Launched_Countermeasure.jpg",
+      "author": "Rialyn Rodrigo / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Pod fotografiado separado de la aeronave en taller a bordo del USS Abraham Lincoln. Equipo ALQ-99, pero no se acredita generación ni configuración de 1985."
+    },
+    "game-ammo:wp_aa-2a": {
+      "file": "K-13 (AA-2 'Atoll').jpg",
+      "label": "AA-2B · Misil K-13/Atoll de la misma familia",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:K-13_(AA-2_'Atoll').jpg",
+      "author": "cliff1066",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "El museo documenta un K-13 Atoll sin certificar que el ejemplar corresponda al subtipo de código AA-2B del juego."
+    },
+    "game-ammo:wp_aa-2c": {
+      "file": "K-13 (AA-2 'Atoll').jpg",
+      "label": "AA-2C · Referencia visual de familia K-13",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:K-13_(AA-2_'Atoll').jpg",
+      "author": "cliff1066",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "K-13 genérico exhibido; no identifica el subtipo AA-2C ni su buscador."
+    },
+    "game-ammo:wp_aa-2d": {
+      "file": "R-13M harjoitusohjus Keski-Suomen ilmailumuseo 1.JPG",
+      "label": "AA-2D · Referencia visual R-13M de entrenamiento",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:R-13M_harjoitusohjus_Keski-Suomen_ilmailumuseo_1.JPG",
+      "author": "MKFI",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "El ejemplar del museo es R-13M de entrenamiento; NO es una variante operativa AA-2D confirmada."
+    },
+    "game-ammo:wp_aa-2-2": {
+      "file": "R-13M harjoitusohjus Keski-Suomen ilmailumuseo 1.JPG",
+      "label": "AA-2D · Referencia R-13M de entrenamiento",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:R-13M_harjoitusohjus_Keski-Suomen_ilmailumuseo_1.JPG",
+      "author": "MKFI",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "Foto de misil de entrenamiento R-13M, no acredita la configuración AA-2D de esta entrada."
+    },
+    "game-ammo:wp_aa-3e": {
+      "file": "AA-3 Anab profile view drawing.png",
+      "label": "AA-3E · Esquema de familia R-8/Anab",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-3_Anab_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "DIBUJO TÉCNICO del Kaliningrad R-8 (familia AA-3); no documenta la subvariante E.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_aa-3f": {
+      "file": "AA-3 Anab profile view drawing.png",
+      "label": "AA-3F · Esquema de familia R-8/Anab",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-3_Anab_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "DIBUJO TÉCNICO del Kaliningrad R-8 (familia AA-3); no documenta la subvariante F.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_as-12": {
+      "file": "KH-25MP profile view drawing.svg",
+      "label": "AS-12 · Esquema Kh-25MP",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:KH-25MP_profile_view_drawing.svg",
+      "author": "Allocer",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "DIBUJO TÉCNICO de la Kh-25MP asociada a AS-12; no fotografía, no acredita configuración exacta de juego.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:is_gabriel_3as": {
+      "file": "HN-Gabriel-2.jpg",
+      "label": "Gabriel 3AS · Fotografía de la familia Gabriel",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:HN-Gabriel-2.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY 2.5",
+      "exactVariant": false,
+      "note": "Ejemplar Gabriel genérico fotografiado por separado en Haifa. NO demuestra ser una variante lanzada desde aeronave 3AS."
+    },
+    "game-ammo:it_seakiller_2": {
+      "file": "Marte -prototipo missile 1971.jpg",
+      "label": "Sea Killer 2 · Prototipo Marte/Sea Killer",
+      "year": "1971 (prototipo; foto publicada en 2014)",
+      "source": "https://commons.wikimedia.org/wiki/File:Marte_-prototipo_missile_1971.jpg",
+      "author": "Bourianakis",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Imagen de un prototipo Marte MK2 de 1971; no confirma que la unidad corresponda a la versión operativa Sea Killer 2."
     }
   }
 }
