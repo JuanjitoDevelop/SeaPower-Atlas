@@ -8,19 +8,19 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 540,
-    "covered": 539,
-    "exactAssigned": 269,
-    "familyAssigned": 270,
-    "pending": 568,
+    "references": 563,
+    "covered": 562,
+    "exactAssigned": 287,
+    "familyAssigned": 275,
+    "pending": 545,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 111
+        "covered": 116
       },
       "ship": {
         "total": 295,
-        "covered": 154
+        "covered": 172
       },
       "land": {
         "total": 197,
@@ -116,26 +116,6 @@
         "AV-8C"
       ],
       [
-        "usn_eka-3b",
-        "EKA-3B"
-      ],
-      [
-        "usn_ka-3b",
-        "KA-3B"
-      ],
-      [
-        "usn_qh-50c",
-        "QH-50C"
-      ],
-      [
-        "usn_qh-50d",
-        "QH-50D"
-      ],
-      [
-        "usn_ra-3b",
-        "RA-3B"
-      ],
-      [
         "usn_v-19a",
         "V-19A"
       ],
@@ -200,10 +180,6 @@
       [
         "ara_dd_sumner_fram2",
         "ARA DD SUMNER FRAM2"
-      ],
-      [
-        "ara_ss_santa_fe",
-        "ARA SS SANTA FE"
       ],
       [
         "civ_fv_crabboat",
@@ -434,14 +410,6 @@
         "Clase Yamagumo"
       ],
       [
-        "jmsdf_ss_asashio",
-        "Clase Asashio"
-      ],
-      [
-        "jmsdf_ss_uzushio",
-        "Clase Uzushio"
-      ],
-      [
         "knm_fs_sleipner",
         "Clase Sleipner"
       ],
@@ -534,56 +502,12 @@
         "RN AO LEAF"
       ],
       [
-        "rn_cv_centaur",
-        "RN CV CENTAUR"
-      ],
-      [
-        "rn_dd_battle",
-        "clase Battle"
-      ],
-      [
         "rn_dd_c-class",
         "clase C"
       ],
       [
-        "rn_dd_z-class",
-        "clase Z"
-      ],
-      [
-        "rn_ddg_county_batch1",
-        "RN DDG COUNTY BATCH1"
-      ],
-      [
-        "rn_ddg_county_batch2",
-        "RN DDG COUNTY BATCH2"
-      ],
-      [
-        "rn_ddg_county_batch2_75",
-        "RN DDG COUNTY BATCH2 75"
-      ],
-      [
         "rn_lsl_roundtable",
         "RN LSL ROUNDTABLE"
-      ],
-      [
-        "rn_ss_porpoise",
-        "RN SS PORPOISE"
-      ],
-      [
-        "rn_ssn_churchill",
-        "RN SSN CHURCHILL"
-      ],
-      [
-        "rn_ssn_churchill_late",
-        "RN SSN CHURCHILL LATE"
-      ],
-      [
-        "rn_ssn_swiftsure",
-        "RN SSN SWIFTSURE"
-      ],
-      [
-        "rn_ssn_trafalgar",
-        "RN SSN TRAFALGAR"
       ],
       [
         "rocn_ss_hai_shih",
@@ -624,10 +548,6 @@
       [
         "usn_septar_qst-35_small",
         "SEPTAR QST-35 (RCS reducido)"
-      ],
-      [
-        "usn_ss_balao_guppy_ii",
-        "USN SS BALAO GUPPY II"
       ],
       [
         "wp_agi_okean",
@@ -706,24 +626,12 @@
         "clase Wisla"
       ],
       [
-        "wp_ptg_komar",
-        "clase Komar"
-      ],
-      [
         "wp_skr_petya2",
         "clase Petya II"
       ],
       [
         "wp_skr_petya3",
         "clase Petya III"
-      ],
-      [
-        "wp_ss_romeo",
-        "clase Romeo"
-      ],
-      [
-        "wp_ssn_victor2",
-        "clase Victor II"
       ],
       [
         "wp_vt_boris_chilikin",
