@@ -8,15 +8,15 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 425,
-    "covered": 424,
-    "exactAssigned": 198,
-    "familyAssigned": 226,
-    "pending": 683,
+    "references": 447,
+    "covered": 446,
+    "exactAssigned": 214,
+    "familyAssigned": 232,
+    "pending": 661,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 80
+        "covered": 102
       },
       "ship": {
         "total": 295,
@@ -36,28 +36,12 @@
   "pending": {
     "aircraft": [
       [
-        "ara_a-4p",
-        "ARA A-4P"
-      ],
-      [
         "ara_b-707",
         "B-707"
       ],
       [
-        "ara_dagger",
-        "ARA DAGGER"
-      ],
-      [
         "ara_p-95",
         "EMB-111"
-      ],
-      [
-        "civ_707",
-        "Avión Comercial 707"
-      ],
-      [
-        "civ_c340",
-        "Bimotor Ligero"
       ],
       [
         "civ_e100",
@@ -66,18 +50,6 @@
       [
         "civ_h700",
         "Jet Ejecutivo Pequeño"
-      ],
-      [
-        "civ_il-18",
-        "Avión Comercial Il-18"
-      ],
-      [
-        "civ_il-62",
-        "Avión Comercial Il-62"
-      ],
-      [
-        "civ_tu-154",
-        "Avión Comercial Tu-154"
       ],
       [
         "civ_v35",
@@ -92,10 +64,6 @@
         "SA.313"
       ],
       [
-        "fr_as-350",
-        "AS.350"
-      ],
-      [
         "fr_f1a",
         "F1A"
       ],
@@ -108,10 +76,6 @@
         "Bizjet armado"
       ],
       [
-        "fr_sa-321",
-        "SA.321"
-      ],
-      [
         "iaf_md500",
         "MD500 Lahatut"
       ],
@@ -122,14 +86,6 @@
       [
         "iriaf_ah-1j",
         "AH-1J"
-      ],
-      [
-        "jasdf_f-1",
-        "F-1"
-      ],
-      [
-        "jasdf_t-2",
-        "T-2"
       ],
       [
         "jmsdf_ps-1",
@@ -148,24 +104,12 @@
         "H-6D"
       ],
       [
-        "pla_q-5",
-        "Q-5 Fantan"
-      ],
-      [
-        "pla_q-5a",
-        "Q-5A Fantan"
-      ],
-      [
         "pla_z-8",
         "Z-8"
       ],
       [
         "plan_sh-5",
         "SH-5"
-      ],
-      [
-        "raaf_n22",
-        "RAAF N22"
       ],
       [
         "raaf_searchmaster_b",
@@ -182,10 +126,6 @@
       [
         "raf_scout_ah1",
         "RAF SCOUT AH1"
-      ],
-      [
-        "raf_victor",
-        "RAF VICTOR"
       ],
       [
         "rn_canberra",
@@ -208,20 +148,8 @@
         "SHARED SETTINGS"
       ],
       [
-        "usaf_kc-10",
-        "USAF KC-10"
-      ],
-      [
-        "usaf_vc-137c",
-        "VC-137C"
-      ],
-      [
         "usmc_av-8a",
         "AV-8C"
-      ],
-      [
-        "usn_ch-46",
-        "CH-46"
       ],
       [
         "usn_eka-3b",
@@ -244,28 +172,12 @@
         "RA-3B"
       ],
       [
-        "usn_ra-5c",
-        "RA-5C"
-      ],
-      [
-        "usn_s-2e",
-        "USN S-2E"
-      ],
-      [
         "usn_v-19a",
         "V-19A"
       ],
       [
         "wp_ka-25ts",
         "Ka-25TS"
-      ],
-      [
-        "wp_ka-29",
-        "Ka-29"
-      ],
-      [
-        "wp_mig-25pu",
-        "MiG-25PU Foxbat"
       ],
       [
         "wp_mig-28",
