@@ -8,27 +8,27 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 447,
-    "covered": 446,
-    "exactAssigned": 214,
-    "familyAssigned": 232,
-    "pending": 661,
+    "references": 469,
+    "covered": 468,
+    "exactAssigned": 230,
+    "familyAssigned": 238,
+    "pending": 639,
     "byType": {
       "aircraft": {
         "total": 144,
-        "covered": 102
+        "covered": 111
       },
       "ship": {
         "total": 295,
-        "covered": 107
+        "covered": 117
       },
       "land": {
         "total": 197,
-        "covered": 60
+        "covered": 61
       },
       "weapon": {
         "total": 471,
-        "covered": 177
+        "covered": 179
       }
     },
     "unmatchedManifestIds": []
@@ -38,10 +38,6 @@
       [
         "ara_b-707",
         "B-707"
-      ],
-      [
-        "ara_p-95",
-        "EMB-111"
       ],
       [
         "civ_e100",
@@ -58,10 +54,6 @@
       [
         "fab_c-95",
         "FAB C-95"
-      ],
-      [
-        "fr_alouette_II",
-        "SA.313"
       ],
       [
         "fr_f1a",
@@ -88,28 +80,12 @@
         "AH-1J"
       ],
       [
-        "jmsdf_ps-1",
-        "PS-1"
-      ],
-      [
-        "jmsdf_us-1",
-        "US-1A"
-      ],
-      [
         "pla_h-6a",
         "H-6A"
       ],
       [
         "pla_h-6d",
         "H-6D"
-      ],
-      [
-        "pla_z-8",
-        "Z-8"
-      ],
-      [
-        "plan_sh-5",
-        "SH-5"
       ],
       [
         "raaf_searchmaster_b",
@@ -124,24 +100,12 @@
         "RAF SC-7"
       ],
       [
-        "raf_scout_ah1",
-        "RAF SCOUT AH1"
-      ],
-      [
         "rn_canberra",
         "RN CANBERRA"
       ],
       [
-        "rn_lynx_has2",
-        "Lynx HAS.2"
-      ],
-      [
         "rn_wessex_has1",
         "RN WESSEX HAS1"
-      ],
-      [
-        "rn_wessex_hu5",
-        "Wessex HU.5"
       ],
       [
         "shared_settings",
@@ -236,10 +200,6 @@
       [
         "ara_dd_sumner_fram2",
         "ARA DD SUMNER FRAM2"
-      ],
-      [
-        "ara_fs_drummond",
-        "ARA FS DRUMMOND"
       ],
       [
         "ara_ss_santa_fe",
@@ -462,10 +422,6 @@
         "clase Hetz"
       ],
       [
-        "ins_ptg_saar_4",
-        "clase Sa'ar 4"
-      ],
-      [
         "ins_ss_gal",
         "clase Gal"
       ],
@@ -476,10 +432,6 @@
       [
         "ir_fab_boghammar",
         "Boghammar"
-      ],
-      [
-        "ir_ffg_alvand",
-        "clase Alvand"
       ],
       [
         "ir_pf_bayandor",
@@ -506,24 +458,8 @@
         "clase Minegumo"
       ],
       [
-        "jmsdf_dd_takatsuki",
-        "clase Takatsuki"
-      ],
-      [
-        "jmsdf_dd_takatsuki_84",
-        "JMSDF DD TAKATSUKI 84"
-      ],
-      [
         "jmsdf_dd_yamagumo",
         "Clase Yamagumo"
-      ],
-      [
-        "jmsdf_ddg_tachikaze",
-        "clase Tachikaze"
-      ],
-      [
-        "jmsdf_ddg_tachikaze_84",
-        "JMSDF DDG TACHIKAZE 84"
       ],
       [
         "jmsdf_ddh_haruna",
@@ -536,10 +472,6 @@
       [
         "jmsdf_ss_uzushio",
         "Clase Uzushio"
-      ],
-      [
-        "jmsdf_ss_yushio",
-        "Clase Yushio"
       ],
       [
         "knm_fs_sleipner",
@@ -576,10 +508,6 @@
       [
         "plan_ap_qiongsha",
         "clase Qiongsha"
-      ],
-      [
-        "plan_dd_luda1",
-        "clase Luda I"
       ],
       [
         "plan_ff_chengdu",
@@ -628,10 +556,6 @@
       [
         "plan_ptg_type_024",
         "Tipo 024 (Heku)"
-      ],
-      [
-        "plan_ss_romeo",
-        "clase Tipo 033"
       ],
       [
         "plan_ssg_wuhan",
@@ -1038,10 +962,6 @@
       [
         "is_airbase_reykjavik",
         "Base aérea de Reykjavik"
-      ],
-      [
-        "jsdf_sam_type81",
-        "SAM Tipo 81"
       ],
       [
         "nato_aaa_gdf",
@@ -1566,10 +1486,6 @@
         "fr alouette III 4xM2HB"
       ],
       [
-        "fr_as12",
-        "AS.12"
-      ],
-      [
         "fr_cal_100mm",
         "FR CAL 100MM"
       ],
@@ -2044,10 +1960,6 @@
       [
         "usn_fa-18_tank_330",
         "Depósito externo de 1135 l."
-      ],
-      [
-        "usn_hedgehog",
-        "USN HEDGEHOG"
       ],
       [
         "usn_lau-10a",
