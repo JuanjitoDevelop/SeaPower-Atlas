@@ -1,6 +1,6 @@
 {
-  "version": 14,
-  "description": "Catálogo visual Sea Power: lote 11 con 92 nuevos IDs originales; fuentes Wikimedia Commons con autor, fecha, licencia y diferencias entre coincidencia exacta y familia aproximada.",
+  "version": 15,
+  "description": "Sea Power Atlas, lote 12: 29 nuevas asignaciones de armamento con páginas originales de Wikimedia Commons verificadas, indicando fotografías, esquemas y variantes de familia.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -4565,6 +4565,300 @@
       "license": "CC BY 2.0",
       "exactVariant": false,
       "note": "Fotografía de variante MiG-25RB libia, no de fuerzas soviéticas."
+    },
+    "game-ammo:fr_type155_sneb": {
+      "file": "MATRA TYPE155RL W 68MM RP.JPG",
+      "label": "fr type155 sneb · Lanzacohetes Matra Type 155",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:MATRA_TYPE155RL_W_68MM_RP.JPG",
+      "author": "Dave1185",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Fotografía del pod Type 155 con cohetes inertes de 68 mm; no es una toma de armamento montado en un avión."
+    },
+    "game-ammo:fr_sneb": {
+      "file": "MATRA TYPE155RL W 68MM RP.JPG",
+      "label": "FR SNEB · Pod Matra 68 mm SNEB",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:MATRA_TYPE155RL_W_68MM_RP.JPG",
+      "author": "Dave1185",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La foto incluye cohetes SNEB de 68 mm dentro de un pod Type 155; representa la familia, no una subvariante individual específica."
+    },
+    "game-ammo:fr_r550": {
+      "file": "MATRA R550 Magic 2 (4892769624).jpg",
+      "label": "R550 · Matra R550 Magic II",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:MATRA_R550_Magic_2_(4892769624).jpg",
+      "author": "André Gustavo Stumpf",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "La foto representa Magic II; el archivo del juego solo identifica R550, por lo que no se confirma que coincida su subvariante."
+    },
+    "game-ammo:fr_roland_2": {
+      "file": "Roland missile diagram.png",
+      "label": "FR ROLAND 2 · Esquema del misil Roland",
+      "year": "1973",
+      "source": "https://commons.wikimedia.org/wiki/File:Roland_missile_diagram.png",
+      "author": "U.S. Army",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Ilustración técnica de 1973 de un misil Roland genérico, no acreditada como Roland 2.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:fr_super-530f": {
+      "file": "Super 530-plan.png",
+      "label": "Super-530F · Comparativa R530 / Super 530 F / D",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Super_530-plan.png",
+      "author": "Duch.seb",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Esquema comparativo con el Super 530 F identificado entre otras dos variantes. Es una ilustración, no una fotografía real del misil.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:usn_hydra": {
+      "file": "Hydra 70 (All)-01.jpg",
+      "label": "Hydra 70 · Cohete Hydra 70 aislado",
+      "year": "2018",
+      "source": "https://commons.wikimedia.org/wiki/File:Hydra_70_(All)-01.jpg",
+      "author": "AkelaFreedom",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Cohete de la familia Hydra 70 fotografiado solo; no se acredita la cabeza de guerra o versión de 1985."
+    },
+    "game-ammo:usn_rur-5": {
+      "file": "USS Gridley (CG-21) launches a RUR-5 ASROC near Coronado Island, California (USA), circa in the early 1980s (6458129).jpg",
+      "label": "RUR-5 · RUR-5A ASROC en lanzamiento",
+      "year": "Principios de los años 80",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Gridley_(CG-21)_launches_a_RUR-5_ASROC_near_Coronado_Island%2C_California_(USA)%2C_circa_in_the_early_1980s_(6458129).jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Lanzamiento identificado por el archivo como RUR-5A desde el USS Gridley; el buque aparece de fondo, pero el proyectil está en vuelo."
+    },
+    "game-ammo:ran_ikara": {
+      "file": "Ikara missile.JPG",
+      "label": "GWS-40 · Ikara de prácticas sobre HMAS Stuart",
+      "year": "1988",
+      "source": "https://commons.wikimedia.org/wiki/File:Ikara_missile.JPG",
+      "author": "Mongreldog",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Misil de prácticas Ikara fotografiado en 1988 sobre un buque australiano; no demuestra que corresponda exactamente a la variante GWS-40 del juego."
+    },
+    "game-ammo:wp_ss-n-12": {
+      "file": "P-500 Bazalt in Vladivostok Fortress Museum.JPG",
+      "label": "SS-N-12 · P-500 Bazalt expuesto",
+      "year": "2010",
+      "source": "https://commons.wikimedia.org/wiki/File:P-500_Bazalt_in_Vladivostok_Fortress_Museum.JPG",
+      "author": "Hellmaster ru",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Misil P-500 Bazalt, familia identificada como SS-N-12 Sandbox; foto de museo posterior a 1985."
+    },
+    "game-ammo:wp_ss-n-19": {
+      "file": "P700Granit.jpg",
+      "label": "SS-N-19 · Dibujo del P-700 Granit",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:P700Granit.jpg",
+      "author": "AdmiralHood",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Dibujo documental del P-700 Granit/SS-N-19, no fotografía de un ejemplar físico. Debe figurar en la galería como ilustración.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_ss-n-22": {
+      "file": "3M80E Moskit SS-N-22 Sunburn at ARMY-2022.JPG",
+      "label": "SS-N-22 · Maqueta 3M80E Moskit",
+      "year": "2022",
+      "source": "https://commons.wikimedia.org/wiki/File:3M80E_Moskit_SS-N-22_Sunburn_at_ARMY-2022.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 Alemania",
+      "exactVariant": false,
+      "note": "La fotografía muestra una MAQUETA de la variante de exportación 3M80E (2022), no una versión operativa soviética ni la subvariante del identificador."
+    },
+    "game-ammo:wp_ss-n-22b": {
+      "file": "3M80E Moskit SS-N-22 Sunburn at ARMY-2022.JPG",
+      "label": "WP SS N 22B · Maqueta 3M80E Moskit",
+      "year": "2022",
+      "source": "https://commons.wikimedia.org/wiki/File:3M80E_Moskit_SS-N-22_Sunburn_at_ARMY-2022.JPG",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 3.0 Alemania",
+      "exactVariant": false,
+      "note": "La fotografía muestra una MAQUETA de la variante de exportación 3M80E (2022), no una versión operativa soviética ni la subvariante del identificador."
+    },
+    "game-ammo:wp_ss-n-3": {
+      "file": "P-35 cruise missile (NPO Mashinostroyenia).jpg",
+      "label": "SS-N-3 · Misil antibuque P-35",
+      "year": "2020 (publicación)",
+      "source": "https://commons.wikimedia.org/wiki/File:P-35_cruise_missile_(NPO_Mashinostroyenia).jpg",
+      "author": "Ministerio de Defensa de Rusia (Mil.ru)",
+      "license": "CC BY 4.0",
+      "exactVariant": false,
+      "note": "Misil P-35 de la familia P-5/P-6/P-35, asociada al SS-N-3; no se demuestra la coincidencia de la variante SS-N-3/3B."
+    },
+    "game-ammo:wp_ss-n-3b": {
+      "file": "P-35 cruise missile (NPO Mashinostroyenia).jpg",
+      "label": "SS-N-3B · Misil antibuque P-35",
+      "year": "2020 (publicación)",
+      "source": "https://commons.wikimedia.org/wiki/File:P-35_cruise_missile_(NPO_Mashinostroyenia).jpg",
+      "author": "Ministerio de Defensa de Rusia (Mil.ru)",
+      "license": "CC BY 4.0",
+      "exactVariant": false,
+      "note": "Misil P-35 de la familia P-5/P-6/P-35, asociada al SS-N-3; no se demuestra la coincidencia de la variante SS-N-3/3B."
+    },
+    "game-ammo:wp_as-11": {
+      "file": "Kh-58U anti-radiation missile in Park Patriot 01.jpg",
+      "label": "AS-11 · Kh-58U antirradiación expuesto",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Kh-58U_anti-radiation_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Fotografía del Kh-58U, evolución de la familia Kh-58/AS-11; el identificador genérico del juego no acredita la variante U."
+    },
+    "game-ammo:wp_as-7": {
+      "file": "GROM.JPG",
+      "label": "AS-7 · Grom-021 derivado del Kh-23",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:GROM.JPG",
+      "author": "Srđan Popović",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Misil serbio Grom-021-GTM derivado de la familia Kh-23/AS-7 Kerry, NO un ejemplar soviético Kh-23 idéntico."
+    },
+    "game-ammo:wp_s-24": {
+      "file": "Missiles S-24 S-21M 2008 G1.jpg",
+      "label": "S-24 · Cohete S-24 expuesto",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Missiles_S-24_S-21M_2008_G1.jpg",
+      "author": "George Chernilevsky",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Fotografía de cohetes S-24 y S-21M expuestos; la imagen incluye ambas piezas y debe identificarse claramente cuál es el S-24."
+    },
+    "game-ammo:wp_s-25": {
+      "file": "S-25-OFM unguided missile in Park Patriot 01.jpg",
+      "label": "S-25 · Cohete aéreo S-25-OFM",
+      "year": "2016",
+      "source": "https://commons.wikimedia.org/wiki/File:S-25-OFM_unguided_missile_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Variante S-25-OFM fotografiada fuera del avión; el registro genérico del juego no identifica esa subvariante."
+    },
+    "game-ammo:usn_mk16": {
+      "file": "Mark 16 torpedo diagram.jpg",
+      "label": "Mk-16 · Diagrama torpedo Mark 16",
+      "year": "1978 (documento); 2013 (digitalización)",
+      "source": "https://commons.wikimedia.org/wiki/File:Mark_16_torpedo_diagram.jpg",
+      "author": "United States Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": true,
+      "note": "Esquema de torpedo Mk 16 publicado por la U.S. Navy en 1978; no representa una fotografía real.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:usn_mk54_dc": {
+      "file": "Mk 54 Mod 1 350lb depth bomb at the National Museum of Naval Aviation.jpg",
+      "label": "Mk-54 · Carga de profundidad Mk 54 Mod 1",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Mk_54_Mod_1_350lb_depth_bomb_at_the_National_Museum_of_Naval_Aviation.jpg",
+      "author": "Greg Goebel",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": true,
+      "note": "Carga de profundidad de 350 lb Mk 54 Mod 1 expuesta en museo; no confundir con torpedo moderno Mk 54."
+    },
+    "game-ammo:usn_gbu-16": {
+      "file": "GBU-16 1 (ORDATA).jpg",
+      "label": "GBU-16 · GBU-16/B Paveway II",
+      "year": "Fecha no indicada",
+      "source": "https://commons.wikimedia.org/wiki/File:GBU-16_1_(ORDATA).jpg",
+      "author": "Autor no identificado / ORDATA (base de datos EOD del Gobierno de EE. UU.)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Ficha ORDATA de bomba GBU-16/B sin aeronave; se identifica el tipo pero no las posibles subvariantes de kits."
+    },
+    "game-ammo:usaf_gbu-15": {
+      "file": "GBU-15 profile view picture.jpg",
+      "label": "GBU-15 · GBU-15(V)21/B de perfil",
+      "year": "Fecha no indicada",
+      "source": "https://commons.wikimedia.org/wiki/File:GBU-15_profile_view_picture.jpg",
+      "author": "U.S. Air Force (autor individual no indicado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía oficial de variante GBU-15(V)21/B; la ficha del juego solo especifica GBU-15 y no el subtipo."
+    },
+    "game-ammo:usaf_agm-86c": {
+      "file": "AGM-86B C D Air-launched Cruise Missile (7414666668).jpg",
+      "label": "AGM-86C · Misil de crucero familia AGM-86",
+      "year": "2012",
+      "source": "https://commons.wikimedia.org/wiki/File:AGM-86B_C_D_Air-launched_Cruise_Missile_(7414666668).jpg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "La fuente documenta conjuntamente los modelos AGM-86B/C/D y no certifica que el ejemplar físico de la foto sea la variante C."
+    },
+    "game-ammo:usn_ssq-53": {
+      "file": "US Navy 111005-N-ZN240-028 Aviation Ordnanceman 2nd Class Matthew Quanstrom, assigned to Patrol Squadron (VP).jpg",
+      "label": "AN/SSQ-53 · Sonoboyas AN/SSQ-53F",
+      "year": "2011",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_111005-N-ZN240-028_Aviation_Ordnanceman_2nd_Class_Matthew_Quanstrom%2C_assigned_to_Patrol_Squadron_(VP).jpg",
+      "author": "Julian R. Moorefield / U.S. Navy",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "La foto muestra sonoboyas AN/SSQ-53F durante comprobación en 2011; ficha genérica SSQ-53, no confirmada la variante F en 1985."
+    },
+    "game-ammo:raf_bl755": {
+      "file": "BL755.jpg",
+      "label": "BL755 · Bomba de racimo BL755 expuesta",
+      "year": "2012 (archivo de museo)",
+      "source": "https://commons.wikimedia.org/wiki/File:BL755.jpg",
+      "author": "Jan Wellen",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Ejemplar BL755 fotografiado en museo; no implica que la variante mostrada sea idéntica a todas las versiones usadas en 1985."
+    },
+    "game-ammo:usn_zuni": {
+      "file": "Zuni unguided rocket.jpg",
+      "label": "Zuni · Cohete Zuni aislado",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Zuni_unguided_rocket.jpg",
+      "author": "Cliff (Carl Clifford)",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "Cohete Zuni de exposición fotografiado por separado, sin aeronave."
+    },
+    "game-ammo:usaf_alq-119": {
+      "file": "Advanced Electro-Optical Countermeasures Pod.jpg",
+      "label": "USAF ALQ 119 · Pod ALQ-119/ALR-46",
+      "year": "1975",
+      "source": "https://commons.wikimedia.org/wiki/File:Advanced_Electro-Optical_Countermeasures_Pod.jpg",
+      "author": "U.S. Air Force",
+      "license": "Dominio público (EE. UU.)",
+      "exactVariant": false,
+      "note": "Imagen oficial de equipo AN/ALQ-119/ALR-46, no acredita la configuración de una subvariante concreta."
+    },
+    "game-ammo:usaf_m117": {
+      "file": "M117 bomb.jpg",
+      "label": "M117 · Bomba M117 de perfil",
+      "year": "Fecha del documento no indicada",
+      "source": "https://commons.wikimedia.org/wiki/File:M117_bomb.jpg",
+      "author": "U.S. Navy EOD Technical Division (autor individual no identificado)",
+      "license": "Dominio público (Ejército de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía individual M117 extraída de documento técnico de la Marina estadounidense; época de la foto sin confirmar."
+    },
+    "game-ammo:raf_rapier": {
+      "file": "Rapier missile-IMG 6330.JPG",
+      "label": "FSB Rapier · Misil Rapier expuesto",
+      "year": "2018",
+      "source": "https://commons.wikimedia.org/wiki/File:Rapier_missile-IMG_6330.JPG",
+      "author": "Rama",
+      "license": "CC BY-SA 3.0 Francia",
+      "exactVariant": false,
+      "note": "Misil de sistema Rapier fotografiado aislado en IWM Duxford; no certifica la subvariante FSB o su emplazamiento."
     }
   }
 }

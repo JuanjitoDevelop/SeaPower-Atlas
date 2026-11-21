@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 393,
-    "covered": 392,
-    "exactAssigned": 184,
-    "familyAssigned": 208,
-    "pending": 715,
+    "references": 422,
+    "covered": 421,
+    "exactAssigned": 195,
+    "familyAssigned": 226,
+    "pending": 686,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -28,7 +28,7 @@
       },
       "weapon": {
         "total": 471,
-        "covered": 145
+        "covered": 174
       }
     },
     "unmatchedManifestIds": []
@@ -1690,14 +1690,6 @@
         "L5"
       ],
       [
-        "fr_r550",
-        "R550"
-      ],
-      [
-        "fr_roland_2",
-        "FR ROLAND 2"
-      ],
-      [
         "fr_samp_t21",
         "SAMP-21"
       ],
@@ -1706,20 +1698,8 @@
         "SAMP-25"
       ],
       [
-        "fr_sneb",
-        "FR SNEB"
-      ],
-      [
-        "fr_super-530f",
-        "Super-530F"
-      ],
-      [
         "fr_tank_1170_f1",
         "Depósito externo de 2309 l."
-      ],
-      [
-        "fr_type155_sneb",
-        "fr type155 sneb"
       ],
       [
         "ger_dm1",
@@ -1898,18 +1878,6 @@
         "Yu-4A"
       ],
       [
-        "raf_bl755",
-        "BL755"
-      ],
-      [
-        "raf_rapier",
-        "FSB Rapier"
-      ],
-      [
-        "ran_ikara",
-        "GWS-40"
-      ],
-      [
         "rn_cal_113mm",
         "4.5 pulgadas"
       ],
@@ -2006,28 +1974,12 @@
         "MIM-14"
       ],
       [
-        "usaf_agm-86c",
-        "AGM-86C"
-      ],
-      [
-        "usaf_alq-119",
-        "USAF ALQ 119"
-      ],
-      [
         "usaf_cbu-24",
         "CBU-24"
       ],
       [
-        "usaf_gbu-15",
-        "GBU-15"
-      ],
-      [
         "usaf_gbu-2",
         "GBU-2"
-      ],
-      [
-        "usaf_m117",
-        "M117"
       ],
       [
         "usaf_m118",
@@ -2190,16 +2142,8 @@
         "Depósito externo de 1135 l."
       ],
       [
-        "usn_gbu-16",
-        "GBU-16"
-      ],
-      [
         "usn_hedgehog",
         "USN HEDGEHOG"
-      ],
-      [
-        "usn_hydra",
-        "Hydra 70"
       ],
       [
         "usn_lau-10a",
@@ -2250,14 +2194,6 @@
         "USN MK13"
       ],
       [
-        "usn_mk16",
-        "Mk-16"
-      ],
-      [
-        "usn_mk54_dc",
-        "Mk-54"
-      ],
-      [
         "usn_moss",
         "MOSS"
       ],
@@ -2306,10 +2242,6 @@
         "USN RUM 139A"
       ],
       [
-        "usn_rur-5",
-        "RUR-5"
-      ],
-      [
         "usn_ssq-101",
         "AN/SSQ-101"
       ],
@@ -2320,10 +2252,6 @@
       [
         "usn_ssq-47",
         "AN/SSQ-47"
-      ],
-      [
-        "usn_ssq-53",
-        "AN/SSQ-53"
       ],
       [
         "usn_ssq-62",
@@ -2384,10 +2312,6 @@
       [
         "usn_ter_mk83_3",
         "usn ter mk83 3"
-      ],
-      [
-        "usn_zuni",
-        "Zuni"
       ],
       [
         "wp_152mm_2a33",
@@ -2474,10 +2398,6 @@
         "APR-2"
       ],
       [
-        "wp_as-11",
-        "AS-11"
-      ],
-      [
         "wp_as-12",
         "AS-12"
       ],
@@ -2496,10 +2416,6 @@
       [
         "wp_as-6",
         "AS-6"
-      ],
-      [
-        "wp_as-7",
-        "AS-7"
       ],
       [
         "wp_at-1",
@@ -2742,14 +2658,6 @@
         "RGB-NM-1"
       ],
       [
-        "wp_s-24",
-        "S-24"
-      ],
-      [
-        "wp_s-25",
-        "S-25"
-      ],
-      [
         "wp_s-25_pod",
         "WP S 25 POD"
       ],
@@ -2814,10 +2722,6 @@
         "WP SS 1C"
       ],
       [
-        "wp_ss-n-12",
-        "SS-N-12"
-      ],
-      [
         "wp_ss-n-14a",
         "SS-N-14A"
       ],
@@ -2828,26 +2732,6 @@
       [
         "wp_ss-n-16",
         "SS-N-16"
-      ],
-      [
-        "wp_ss-n-19",
-        "SS-N-19"
-      ],
-      [
-        "wp_ss-n-22",
-        "SS-N-22"
-      ],
-      [
-        "wp_ss-n-22b",
-        "WP SS N 22B"
-      ],
-      [
-        "wp_ss-n-3",
-        "SS-N-3"
-      ],
-      [
-        "wp_ss-n-3b",
-        "SS-N-3B"
       ],
       [
         "wp_ss-n-7",

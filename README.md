@@ -2,7 +2,10 @@
 
 Asistente táctico para móvil y escritorio, con un catálogo integrado de unidades, armas y existencias para la campaña Task Force ambientada en **1985**.
 
-## Estado actual · versión 3.18
+## Estado actual · versión 3.19
+
+- **Lote 12 — 29 nuevas imágenes documentadas de armas**, elevando la cobertura a **421/1107 (38,0 %)**, con **686 IDs pendientes**; 195 fichas con versión identificada y 226 aproximaciones de familia. Se han contrastado páginas de Wikimedia Commons de sistemas Roland, Matra SNEB/Type 155, R550, Super 530, Hydra, Ikara, ASROC, Bazalt, Granit, Moskit, Kh-58, S-24/S-25, Mk 16, Mk 54, GBU-15/16, BL755, Zuni, ALQ-119 y M117. Las fotografías de maquetas y esquemas se identifican como tales; ningún registro sin correspondencia física se rellena arbitrariamente.
+- **Control editorial:** 11 de las nuevas asignaciones identifican el tipo o variante representado con claridad. Las demás señalan expresamente los límites de configuración/época; el 100 % del universo bruto puede no ser posible para entradas técnicas (`damage`, `dummy` o equivalentes). El flujo de GitHub Pages ejecuta las pruebas automáticas y la validación de cobertura antes de publicar.
 
 - **Lote 11 — 92 nuevas fichas:** 37 armas, 27 buques/submarinos, 25 aeronaves y 3 unidades terrestres. La galería suma **392/1107 modelos con imagen** (35,4 %) y **715 pendientes**; 184 coincidencias exactas y 208 referencias visuales de clase/familia. Se incorporan fuentes específicas del Harpoon recortado, Tomahawk, Exocet AM39, HY-1, HY-2, SY-1, YJ-6, YJ-8, PL-2 y Aspide, además de Wasp HAS.1 y Wessex HAS.3. Las fichas reutilizadas de familia indican claramente cuándo no corresponden a la subvariante del juego; se dejan sin imagen los identificadores sin objeto físico identificable.
 
