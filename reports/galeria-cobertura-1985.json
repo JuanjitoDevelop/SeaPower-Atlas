@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 563,
-    "covered": 562,
-    "exactAssigned": 287,
-    "familyAssigned": 275,
-    "pending": 545,
+    "references": 585,
+    "covered": 584,
+    "exactAssigned": 301,
+    "familyAssigned": 283,
+    "pending": 523,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -24,11 +24,11 @@
       },
       "land": {
         "total": 197,
-        "covered": 61
+        "covered": 80
       },
       "weapon": {
         "total": 471,
-        "covered": 213
+        "covered": 216
       }
     },
     "unmatchedManifestIds": []
@@ -724,24 +724,12 @@
         "Base aérea de Reykjavik"
       ],
       [
-        "nato_aaa_gdf",
-        "GDF Skyguard"
-      ],
-      [
         "nato_aaa_kcb",
         "NATO AAA KCB"
       ],
       [
         "nato_ewr_station",
         "Instalación de Radar de Alerta Temprana"
-      ],
-      [
-        "nato_fps-20_radar",
-        "Radar de búsqueda AN/FPS-20"
-      ],
-      [
-        "nato_fps-6_radar",
-        "Radar de determinación de altura AN/FPS-6"
       ],
       [
         "nato_large_ewr_station",
@@ -756,10 +744,6 @@
         "SAM Skyguard-Sparrow"
       ],
       [
-        "nato_sam_skyguard_radar",
-        "NATO SAM SKYGUARD RADAR"
-      ],
-      [
         "nato_small_airbase",
         "Base aérea pequeña"
       ],
@@ -772,20 +756,8 @@
         "Base aérea muy pequeña"
       ],
       [
-        "nv_130mm_coastal_artillery",
-        "Batería B-13 130mm"
-      ],
-      [
-        "nv_coastal_artillery",
-        "Batería QF 4.5"
-      ],
-      [
         "nv_headquarters",
         "Cuartel General del Ejército"
-      ],
-      [
-        "nv_ks-19",
-        "Batería AAA KS-19"
       ],
       [
         "nv_pt_boats_docks",
@@ -812,10 +784,6 @@
         "Terminal petrolífera"
       ],
       [
-        "pla_aaa_type65",
-        "Cañón antiaéreo de 37 mm Tipo 65"
-      ],
-      [
         "pla_hy-1_launcher",
         "Sitio CSSC-2 (HY-1) Silkworm"
       ],
@@ -830,14 +798,6 @@
       [
         "pla_hy-4_launcher",
         "Sitio CSSC-7 (HY-4) Sadsack"
-      ],
-      [
-        "pla_lt_type_63",
-        "LT Tipo 63"
-      ],
-      [
-        "pla_spaag_type63",
-        "SPAAG Tipo 63"
       ],
       [
         "port_ashdod",
@@ -1064,22 +1024,6 @@
         "UK EMPLACEMENT M2HB"
       ],
       [
-        "us_cobra_dane_ewr",
-        "AN/FPS-108 COBRA DANE"
-      ],
-      [
-        "usa_car_hmmwv_m2",
-        "Humvee M2"
-      ],
-      [
-        "usa_radar_tps-43",
-        "Radar TPS-43"
-      ],
-      [
-        "usa_radar_tps-63",
-        "Radar TPS-63"
-      ],
-      [
         "warehouses_1",
         "Almacenes 1"
       ],
@@ -1124,10 +1068,6 @@
         "Redut"
       ],
       [
-        "wp_asc_rubezh",
-        "Rubezh"
-      ],
-      [
         "wp_car_ural_command",
         "Centro de mando móvil"
       ],
@@ -1142,18 +1082,6 @@
       [
         "wp_sa-11_radar",
         "Radar SA-11 Tube Arm"
-      ],
-      [
-        "wp_sa-4_longtruck",
-        "Radar de búsqueda SA-4 Long Track"
-      ],
-      [
-        "wp_sa-4_pathand",
-        "FCR SA-4 Pat Hand"
-      ],
-      [
-        "wp_sa-7_launcher",
-        "SA-7 Grail"
       ],
       [
         "wp_sam_site_sa-10",
@@ -1182,10 +1110,6 @@
       [
         "wp_son-9",
         "Sitio de Radar Son-9"
-      ],
-      [
-        "wp_tbm_scud_b_tel",
-        "WP TBM SCUD B TEL"
       ]
     ],
     "weapon": [
@@ -2002,14 +1926,6 @@
         "OFAB-100"
       ],
       [
-        "wp_fab-3000_m54",
-        "FAB-3000 M-54"
-      ],
-      [
-        "wp_fab-9000_m54",
-        "FAB-9000 M-54"
-      ],
-      [
         "wp_fantasmagoria",
         "wp fantasmagoria"
       ],
@@ -2100,10 +2016,6 @@
       [
         "wp_pod_tangazh_elint",
         "wp pod tangazh elint"
-      ],
-      [
-        "wp_rbk-500",
-        "RBK-500"
       ],
       [
         "wp_rgb-1",
