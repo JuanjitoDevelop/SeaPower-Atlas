@@ -1,6 +1,6 @@
 {
-  "version": 23,
-  "description": "Sea Power Atlas lote 20: 23 referencias navales y aéreas (5 aeronaves y 18 buques) de Wikimedia Commons, 3 ilustraciones SVG de submarinos señaladas, fotos históricas, variantes y licencias documentadas.",
+  "version": 24,
+  "description": "Sea Power Atlas, lote 21: 22 referencias documentadas de armamento y equipos terrestres (19 tierra, 3 armas); metadatos de Wikimedia Commons y variantes diferenciadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -6281,6 +6281,226 @@
       "license": "CC BY-SA 2.0",
       "exactVariant": true,
       "note": "QH-50D con registro DS-1660 fotografiado en el Aerospace Museum of California, diferente al QH-50C."
+    },
+    "game-unit:l:nato_fps-20_radar": {
+      "file": "AN-FPS-20 Radar.jpg",
+      "label": "AN/FPS-20 · Radar de alerta temprana",
+      "year": "Década de 1950",
+      "source": "https://commons.wikimedia.org/wiki/File:AN-FPS-20_Radar.jpg",
+      "author": "United States Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Ilustración/fotografía histórica institucional del radar Bendix AN/FPS-20; no se identifica un emplazamiento concreto de 1985."
+    },
+    "game-unit:l:nato_fps-6_radar": {
+      "file": "AN-FPS6.jpg",
+      "label": "AN/FPS-6 · Radar de altura",
+      "year": "1965",
+      "source": "https://commons.wikimedia.org/wiki/File:AN-FPS6.jpg",
+      "author": "Bscmirage",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Radar AN/FPS-6 auténtico instalado en Beacon Hill, Australia, en 1965; no implica uso por todas las fuerzas OTAN."
+    },
+    "game-unit:l:nato_aaa_gdf": {
+      "file": "Swiss Oerlikon GDF 35 mm Anti-aircraft Gun with Skyguard Fire Control System 1979.jpg",
+      "label": "Oerlikon GDF · Artillería antiaérea suiza 35 mm",
+      "year": "1979",
+      "source": "https://commons.wikimedia.org/wiki/File:Swiss_Oerlikon_GDF_35_mm_Anti-aircraft_Gun_with_Skyguard_Fire_Control_System_1979.jpg",
+      "author": "Comet Photo AG (Zürich) / ETH-Bibliothek",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Cañón suizo de 35 mm y central Skyguard en la misma foto de 1979; corresponde a la familia GDF, sin demostrar la subvariante/operador NATO del juego."
+    },
+    "game-unit:l:nato_sam_skyguard_radar": {
+      "file": "Skyguard radar (cropped).JPG",
+      "label": "Skyguard · Radar de dirección de tiro",
+      "year": "04/09/2014 (recorte publicado en 2026)",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyguard_radar_(cropped).JPG",
+      "author": "Hornet Driver",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Central radar Skyguard suiza, aislada y centrada; identifica la familia de equipos pero NO acredita la variante de Skyguard-Sparrow incluida en el juego."
+    },
+    "game-unit:l:usa_radar_tps-43": {
+      "file": "DF-ST-83-07919 ANTPS-43E radar equipment is set up by personnel of the 622nd Tactical Control Flight.jpeg",
+      "label": "AN/TPS-43 · Radar móvil durante UREX 82",
+      "year": "22/04/1982",
+      "source": "https://commons.wikimedia.org/wiki/File:DF-ST-83-07919_ANTPS-43E_radar_equipment_is_set_up_by_personnel_of_the_622nd_Tactical_Control_Flight.jpeg",
+      "author": "Sutherland / U.S. Department of Defense",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fotografía militar histórica del AN/TPS-43E; la ficha del juego no determina si esta subvariante es la misma."
+    },
+    "game-unit:l:usa_radar_tps-63": {
+      "file": "DF-ST-86-09270 (1).jpg",
+      "label": "AN/TPS-63 · Radar móvil de vigilancia",
+      "year": "12/04/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:DF-ST-86-09270_(1).jpg",
+      "author": "SSgt Zimmerman / U.S. Department of Defense",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Radar AN/TPS-63 identificado durante el ejercicio Cope Canine '85; imagen tomada en pleno escenario de 1985."
+    },
+    "game-unit:l:us_cobra_dane_ewr": {
+      "file": "FPS-108 Cobra Dane.jpg",
+      "label": "AN/FPS-108 Cobra Dane · Radar de Shemya",
+      "year": "01/06/1977",
+      "source": "https://commons.wikimedia.org/wiki/File:FPS-108_Cobra_Dane.jpg",
+      "author": "Sgt Robert S. Thompson / U.S. Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Fotografía institucional de la matriz fija COBRA DANE en Shemya, Alaska; sistema original de alerta de misiles balísticos."
+    },
+    "game-unit:l:nv_ks-19": {
+      "file": "KS-19.jpg",
+      "label": "KS-19 · Pieza antiaérea de 100 mm",
+      "year": "19/05/2007",
+      "source": "https://commons.wikimedia.org/wiki/File:KS-19.jpg",
+      "author": "One half 3544",
+      "license": "Dominio público (cesión expresa del autor)",
+      "exactVariant": true,
+      "note": "Cañón KS-19 individual en el Museo de Artillería de San Petersburgo; no se afirma correspondencia de emplazamiento vietnamita."
+    },
+    "game-unit:l:wp_sa-4_pathand": {
+      "file": "1S32 Pat Hand.JPG",
+      "label": "1S32 Pat Hand · Radar de guiado del SA-4",
+      "year": "27/08/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:1S32_Pat_Hand.JPG",
+      "author": "Tourbillon",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Radar de dirección de tiro 1S32 Pat Hand identificado en Commons; fotografía del vehículo completo sin sustituirlo por un lanzador 2P24."
+    },
+    "game-unit:l:wp_sa-4_longtruck": {
+      "file": "P-40, 1S12 Radar (NATO Long-Track), from Zsámbék, Hungary.jpg",
+      "label": "1S12 Long Track · Radar P-40 del SA-4",
+      "year": "15/10/2011",
+      "source": "https://commons.wikimedia.org/wiki/File:P-40%2C_1S12_Radar_(NATO_Long-Track)%2C_from_Zs%C3%A1mb%C3%A9k%2C_Hungary.jpg",
+      "author": "Sinkovics",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Radar 1S12/P-40 Long Track en el museo de Zsámbék, Hungría; no confundir con el 1S32 Pat Hand."
+    },
+    "game-unit:l:wp_asc_rubezh": {
+      "file": "Romanian missile launchers.jpg",
+      "label": "4K51 Rubezh · Lanzador costero en desfile",
+      "year": "01/12/2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Romanian_missile_launchers.jpg",
+      "author": "Nicubunu",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "Un sistema 4K51 Rubezh rumano en desfile; identifica la familia del vehículo costero, pero no garantiza configuración soviética de 1985."
+    },
+    "game-unit:l:wp_sa-7_launcher": {
+      "file": "Sa-7.jpg",
+      "label": "9K32 Strela-2 · Lanzador portátil SA-7",
+      "year": "1983 (archivo militar de época)",
+      "source": "https://commons.wikimedia.org/wiki/File:Sa-7.jpg",
+      "author": "U.S. Department of Defense (autor individual no identificado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Soldado soviético sosteniendo el lanzador portátil Strela-2; el objeto principal es el arma y no un vehículo inexistente."
+    },
+    "game-unit:l:pla_lt_type_63": {
+      "file": "Type 63 tank - above.jpg",
+      "label": "Tipo 63 · Carro anfibio chino",
+      "year": "08/2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_63_tank_-_above.jpg",
+      "author": "Max Smith (Megapixie)",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Carro anfibio ligero Type 63 en el Museo Militar de Pekín; no confundir con el transporte blindado Type 63."
+    },
+    "game-unit:l:wp_tbm_scud_b_tel": {
+      "file": "SS-1C Scud B missiles on TEL.JPEG",
+      "label": "Scud B · Misiles R-17 sobre vehículo lanzador",
+      "year": "23/05/1984",
+      "source": "https://commons.wikimedia.org/wiki/File:SS-1C_Scud_B_missiles_on_TEL.JPEG",
+      "author": "U.S. Department of Defense (autor individual no identificado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Documento militar de 1984 del misil R-17 Scud B sobre TEL; el ID es el vehículo lanzador completo, por lo que se muestra también el camión."
+    },
+    "game-unit:l:usa_car_hmmwv_m2": {
+      "file": "Marines patrol an area of the desert in an M998 multipurpose wheeled vehicle equipped with an M2 .50-caliber machine gun during the multinational, joint service Exercise BRIGHT STAR - DPLA - ff60881663d2afb53a7588295ccbb952.jpeg",
+      "label": "HMMWV M998 · Ametralladora M2",
+      "year": "01/08/1987",
+      "source": "https://commons.wikimedia.org/wiki/File:Marines_patrol_an_area_of_the_desert_in_an_M998_multipurpose_wheeled_vehicle_equipped_with_an_M2_.50-caliber_machine_gun_during_the_multinational%2C_joint_service_Exercise_BRIGHT_STAR_-_DPLA_-_ff60881663d2afb53a7588295ccbb952.jpeg",
+      "author": "Cpl Vincent E. Aldridge / U.S. Marine Corps",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Vehículo HMMWV M998 con ametralladora M2 fotografiado en Bright Star 1987. Se registra la fecha posterior a 1985."
+    },
+    "game-unit:l:pla_aaa_type65": {
+      "file": "Type 65 Twin 37 antiaircraft gun.jpg",
+      "label": "Tipo 65 · Cañón gemelo 37 mm chino",
+      "year": "26/08/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_65_Twin_37_antiaircraft_gun.jpg",
+      "author": "Joe Mabel",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Cañón antiaéreo chino Type 65 doble de 37 mm preservado en Fort Lewis; no confundir con la versión autopropulsada."
+    },
+    "game-unit:l:pla_spaag_type63": {
+      "file": "Type 65 37mm Air Defense Gun.jpg",
+      "label": "SPAAG Tipo 63 · Referencia cercana sobre T-34",
+      "year": "06/06/1987",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_65_37mm_Air_Defense_Gun.jpg",
+      "author": "Don S. Montgomery / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": false,
+      "note": "Fuente describe un Type 65 autopropulsado con cañones chinos de 37 mm sobre chasis T-34; referencia visual de la familia de SPAAG china, NO certifica que sea el modelo Type 63 del juego."
+    },
+    "game-unit:l:nv_130mm_coastal_artillery": {
+      "file": "130 50 N in front of mine control bunker in Kuivasaari.JPG",
+      "label": "B-13 · Cañón costero 130 mm",
+      "year": "02/08/2009",
+      "source": "https://commons.wikimedia.org/wiki/File:130_50_N_in_front_of_mine_control_bunker_in_Kuivasaari.JPG",
+      "author": "MKFI",
+      "license": "Dominio público (cesión expresa del autor)",
+      "exactVariant": false,
+      "note": "Cañón soviético B-13 de 130 mm capturado por Finlandia; muestra la pieza física, no la disposición de una batería vietnamita completa."
+    },
+    "game-unit:l:nv_coastal_artillery": {
+      "file": "QF 4.5-inch Mark 5 gun on twin Mark 6 mounting at Explosion Museum.jpg",
+      "label": "QF 4.5 · Torre gemela naval en museo",
+      "year": "22/04/2023",
+      "source": "https://commons.wikimedia.org/wiki/File:QF_4.5-inch_Mark_5_gun_on_twin_Mark_6_mounting_at_Explosion_Museum.jpg",
+      "author": "The wub",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Cañón naval QF 4.5 Mark 5 en montaje gemelo Mark 6; solo comparte familia/calibre con la batería costera genérica del juego, no demuestra una instalación costera idéntica."
+    },
+    "game-ammo:wp_fab-3000_m54": {
+      "file": "ФАБ-3000М-54.JPG",
+      "label": "FAB-3000 M-54 · Bomba soviética aislada",
+      "year": "20/04/2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%90%D0%91-3000%D0%9C-54.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Bomba de museo FAB-3000M-54 identificada exactamente, fotografiada separada y sin aeronave."
+    },
+    "game-ammo:wp_fab-9000_m54": {
+      "file": "ФАБ-9000М-54.JPG",
+      "label": "FAB-9000 M-54 · Bomba soviética aislada",
+      "year": "20/04/2014",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%A4%D0%90%D0%91-9000%D0%9C-54.JPG",
+      "author": "Апатинаити",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Bomba de museo FAB-9000M-54 identificada exactamente, mostrada sola sin avión."
+    },
+    "game-ammo:wp_rbk-500": {
+      "file": "RBK-500 AO-2,5RT aerial bomb in Park Patriot 01.jpg",
+      "label": "RBK-500 · Bomba de racimo soviética",
+      "year": "23/10/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:RBK-500_AO-2%2C5RT_aerial_bomb_in_Park_Patriot_01.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "La foto documenta una RBK-500 con submunición AO-2,5RT; el ID genérico del juego no acredita ese relleno concreto."
     }
   }
 }
