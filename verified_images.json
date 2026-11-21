@@ -1,6 +1,6 @@
 {
-  "version": 20,
-  "description": "Sea Power Atlas, lote 17: HY-3 identificado y cohete Bofors de 375 mm documentado como familia, sin atribuir variante M/50.",
+  "version": 21,
+  "description": "Sea Power Atlas, lote 18: 22 referencias documentadas: 15 fichas navales, 7 misiles; fotografías históricas o museo, dibujos identificados y variantes de familia diferenciadas.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -5602,6 +5602,230 @@
       "license": "CC0 1.0",
       "exactVariant": false,
       "note": "Fotografía de un cohete antisubmarino Bofors de 375 mm; la fuente no acredita que sea específicamente la variante M/50."
+    },
+    "game-ammo:wp_ss-n-9": {
+      "file": "P-120 4K85 Malakhit anti-ship cruise missile.jpg",
+      "label": "SS-N-9 Siren · P-120 4K85 Malakhit",
+      "year": "24/08/2017",
+      "source": "https://commons.wikimedia.org/wiki/File:P-120_4K85_Malakhit_anti-ship_cruise_missile.jpg",
+      "author": "Vitaly V. Kuzmin",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "P-120 (4K85) exhibido aislado; la foto de 2017 no representa estado operacional de 1985."
+    },
+    "game-ammo:pla_pl-5b": {
+      "file": "Misil aire-aire de corto alcance (SRAAM) PiLi-5 (PL-5) - (inertes para entrenamiento).jpg",
+      "label": "PL-5B · Familia PL-5 inerte",
+      "year": "30/07/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Misil_aire-aire_de_corto_alcance_(SRAAM)_PiLi-5_(PL-5)_-_(inertes_para_entrenamiento).jpg",
+      "author": "Carlos E. Perez S.L",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Imagen de misil PL-5 de entrenamiento; no acredita que el ejemplar corresponda a PL-5B ni que sea una munición operativa."
+    },
+    "game-ammo:pla_pl-5c": {
+      "file": "Misil aire-aire de corto alcance (SRAAM) PiLi-5 (PL-5) - (inertes para entrenamiento).jpg",
+      "label": "PL-5C · Familia PL-5 inerte",
+      "year": "30/07/2016",
+      "source": "https://commons.wikimedia.org/wiki/File:Misil_aire-aire_de_corto_alcance_(SRAAM)_PiLi-5_(PL-5)_-_(inertes_para_entrenamiento).jpg",
+      "author": "Carlos E. Perez S.L",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": false,
+      "note": "Solo familia PL-5 de entrenamiento; la subvariante C no está documentada y entró en servicio después de 1985."
+    },
+    "game-ammo:wp_aa-7c": {
+      "file": "AA-7 Apex profile view drawing.png",
+      "label": "AA-7C Apex · esquema R-23/R-24",
+      "year": "09/07/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-7_Apex_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración de familia R-23/R-24, no identifica con certeza la AA-7C; no es fotografía.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_aa-7d": {
+      "file": "AA-7 Apex profile view drawing.png",
+      "label": "AA-7D Apex · esquema R-23/R-24",
+      "year": "09/07/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-7_Apex_profile_view_drawing.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "Ilustración general de la familia AA-7 Apex, no representa una AA-7D confirmada.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_aa-10c": {
+      "file": "AA-10-Alamo.png",
+      "label": "AA-10C · esquema de familia R-27",
+      "year": "10/07/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:AA-10-Alamo.png",
+      "author": "F l a n k e r",
+      "license": "Dominio público (autor)",
+      "exactVariant": false,
+      "note": "El dibujo representa un R-27R, no identifica la variante R-27ER/AA-10C del juego; representación de familia no fotografía. La variante C es posterior a 1985.",
+      "mediaType": "ilustración"
+    },
+    "game-ammo:wp_ss-n-7": {
+      "file": "P-70 Ametist sketch.svg",
+      "label": "SS-N-7 · esquema P-70 Ametist",
+      "year": "2009",
+      "source": "https://commons.wikimedia.org/wiki/File:P-70_Ametist_sketch.svg",
+      "author": "Allocer",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "Esquema del misil P-70/SS-N-7 sin la configuración concreta del juego; no es una fotografía.",
+      "mediaType": "ilustración"
+    },
+    "game-unit:v:fgs_ss_type_205": {
+      "file": "U-Boot-Klasse 205 U-9.jpg",
+      "label": "Tipo 205 · Submarino U-9 alemán",
+      "year": "04/07/2004",
+      "source": "https://commons.wikimedia.org/wiki/File:U-Boot-Klasse_205_U-9.jpg",
+      "author": "Stefan Kühn",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Submarino tipo 205 auténtico, conservado en museo de Speyer; fotografía posterior a 1985."
+    },
+    "game-unit:v:fgs_ss_type_206": {
+      "file": "Type 206 Submarine, S 196, on display at the Technik-Museum Speyer, Baden-Württemberg, Deutschland (3) (53462512100).jpg",
+      "label": "Tipo 206 · U-17 S196 en museo",
+      "year": "27/07/2023",
+      "source": "https://commons.wikimedia.org/wiki/File:Type_206_Submarine,_S_196,_on_display_at_the_Technik-Museum_Speyer,_Baden-Württemberg,_Deutschland_(3)_(53462512100).jpg",
+      "author": "Charles (Port Chester)",
+      "license": "CC BY 2.0",
+      "exactVariant": true,
+      "note": "U-17 S196 identificado como tipo 206, exhibido fuera de servicio en Speyer."
+    },
+    "game-unit:v:fgs_ss_type_209-1200": {
+      "file": "SSK 063 CHOI MUSON.JPEG",
+      "label": "Tipo 209/1200 · Submarino Choi Muson",
+      "year": "01/10/1996",
+      "source": "https://commons.wikimedia.org/wiki/File:SSK_063_CHOI_MUSON.JPEG",
+      "author": "PO3 Robert Morales / U.S. Navy",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Choi Muson coreano de la clase Type 209/1200; foto de 1996, no prueba la configuración específica alemana de 1985."
+    },
+    "game-unit:v:knm_ss_kobben": {
+      "file": "KNM Utstein, Kobben-Class left side.jpg",
+      "label": "Kobben · KNM Utstein en museo",
+      "year": "24/08/2022",
+      "source": "https://commons.wikimedia.org/wiki/File:KNM_Utstein,_Kobben-Class_left_side.jpg",
+      "author": "Vincent Malloy",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Submarino noruego KNM Utstein de la clase Kobben, en museo de Horten; fotografía moderna."
+    },
+    "game-unit:v:usn_lka_charleston": {
+      "file": "USS Charleston (LKA-113) underway 1988.JPEG",
+      "label": "Charleston · LKA-113 en navegación",
+      "year": "1988 (metadatos de fuente indican 1989)",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Charleston_(LKA-113)_underway_1988.JPEG",
+      "author": "U.S. Navy / DefenseImagery",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Buque USS Charleston LKA-113 identificado en formación de grupo naval; fecha catalogada inconsistentemente como 1988/1989."
+    },
+    "game-unit:v:usn_clg_oklahoma_city": {
+      "file": "USS Oklahoma City (CLG-5) steams out of San Francisco Bay on 16 November 1960 (NH 98663).jpg",
+      "label": "Oklahoma City CLG-5 · Crucero lanzamisiles",
+      "year": "16/11/1960",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Oklahoma_City_(CLG-5)_steams_out_of_San_Francisco_Bay_on_16_November_1960_(NH_98663).jpg",
+      "author": "U.S. Navy / Naval Air Station Alameda",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "USS Oklahoma City CLG-5 identificado y visible en 1960; el equipo exacto puede diferir de épocas posteriores."
+    },
+    "game-unit:v:usn_ssn_los_angeles_76": {
+      "file": "An aerial view of the nuclear-powered attack submarine USS LOS ANGELES (SSN-688) - DPLA - e9184b0a78fce19931130f2af731cdb1.jpeg",
+      "label": "USS Los Angeles SSN-688 · fotografía de 1981",
+      "year": "23/11/1981",
+      "source": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_the_nuclear-powered_attack_submarine_USS_LOS_ANGELES_(SSN-688)_-_DPLA_-_e9184b0a78fce19931130f2af731cdb1.jpeg",
+      "author": "AFSC / U.S. Department of Defense (NARA)",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": false,
+      "note": "El submarino SSN-688 está identificado; la imagen de 1981 no acredita configuración idéntica a la ficha de 1976."
+    },
+    "game-unit:v:es_ssk_delfin": {
+      "file": "Submarine (S 61)-Delfin.jpg",
+      "label": "Delfín S-61 · Submarino español",
+      "year": "04/08/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_(S_61)-Delfin.jpg",
+      "author": "Francisco Tevar Baños",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Submarino Delfín S-61 real de la clase Delfín/Daphné, conservado en Torrevieja; fotografía posterior al servicio."
+    },
+    "game-unit:v:fr_ss_daphne": {
+      "file": "Submarine (S 61)-Delfin.jpg",
+      "label": "Daphné · Submarino de familia española",
+      "year": "04/08/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_(S_61)-Delfin.jpg",
+      "author": "Francisco Tevar Baños",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "Delfín S-61 de la Armada española, construido bajo el diseño francés Daphné; no es un submarino operado por la Marine nationale."
+    },
+    "game-unit:v:pns_ss_hangor": {
+      "file": "Submarine (S 61)-Delfin.jpg",
+      "label": "Hangor · Referencia de clase Daphné",
+      "year": "04/08/2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Submarine_(S_61)-Delfin.jpg",
+      "author": "Francisco Tevar Baños",
+      "license": "CC BY 3.0",
+      "exactVariant": false,
+      "note": "La clase Hangor pakistaní procede del diseño francés Daphné; fotografía del español Delfín como referencia de familia, NO del PNS Hangor."
+    },
+    "game-unit:v:jmsdf_ddh_haruna": {
+      "file": "DDH141 Haruna JMSDF(Japanese Navy).jpg",
+      "label": "Haruna DDH-141 · Destructor portahelicópteros",
+      "year": "11/01/2003",
+      "source": "https://commons.wikimedia.org/wiki/File:DDH141_Haruna_JMSDF(Japanese_Navy).jpg",
+      "author": "Kemu64",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Haruna DDH-141 real fotografiado en 2003; puede haber modernizaciones desde 1985."
+    },
+    "game-unit:v:knm_ptg_hauk": {
+      "file": "Norwegian Hauk class MTB in Bergen.jpg",
+      "label": "Clase Hauk · Lanchas noruegas",
+      "year": "25/08/2005 (aproximada)",
+      "source": "https://commons.wikimedia.org/wiki/File:Norwegian_Hauk_class_MTB_in_Bergen.jpg",
+      "author": "U.S. Air Force, autor individual no identificado",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto de dos patrulleras noruegas clase Hauk en Bergen; el autor individual no consta en la fuente."
+    },
+    "game-unit:v:usn_ssbn_franklin": {
+      "file": "USS Benjamin Franklin 1 sep 1985.jpg",
+      "label": "Benjamin Franklin SSBN-640 · submarino de 1985",
+      "year": "01/09/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:USS_Benjamin_Franklin_1_sep_1985.jpg",
+      "author": "U.S. Navy / DN-SC-85-11073",
+      "license": "Dominio público (Gobierno EE. UU.)",
+      "exactVariant": true,
+      "note": "Foto oficial del SSBN-640 navegando el 1 de septiembre de 1985; fecha de archivo distinguida de la captura."
+    },
+    "game-unit:v:ins_ss_gal": {
+      "file": "Hn-INS-Gal-01.jpg",
+      "label": "INS Gal · Submarino israelí preservado",
+      "year": "12/05/2019",
+      "source": "https://commons.wikimedia.org/wiki/File:Hn-INS-Gal-01.jpg",
+      "author": "Bukvoed",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Submarino INS Gal real en museo naval de Haifa; foto de la embarcación preservada."
+    },
+    "game-unit:v:fgs_ptg_tiger": {
+      "file": "German fast attack craft S55 Alk (P6155) at Olpenitz, Germany, on 28 August 1985.jpg",
+      "label": "Tipo 148 Tiger · S55 Alk en 1985",
+      "year": "28/08/1985",
+      "source": "https://commons.wikimedia.org/wiki/File:German_fast_attack_craft_S55_Alk_(P6155)_at_Olpenitz,_Germany,_on_28_August_1985.jpg",
+      "author": "Cobatfor",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Patrullera misilera S55 Alk P6155 de la clase Tiger, fotografiada exactamente en 1985."
     }
   }
 }
