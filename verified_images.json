@@ -1,6 +1,6 @@
 {
-  "version": 15,
-  "description": "Sea Power Atlas, lote 12: 29 nuevas asignaciones de armamento con páginas originales de Wikimedia Commons verificadas, indicando fotografías, esquemas y variantes de familia.",
+  "version": 16,
+  "description": "Sea Power Atlas, lote 13 propuesto: tres referencias de armamento verificadas en Wikimedia Commons (ASM-1, MIM-14 y UPK-23-250).",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -4859,6 +4859,36 @@
       "license": "CC BY-SA 3.0 Francia",
       "exactVariant": false,
       "note": "Misil de sistema Rapier fotografiado aislado en IWM Duxford; no certifica la subvariante FSB o su emplazamiento."
+    },
+    "game-ammo:jasdf_asm-1": {
+      "file": "ASM-1新田原.JPG",
+      "label": "ASM-1 · Misil antibuque japonés Type 80",
+      "year": "2007 (ejemplar expuesto)",
+      "source": "https://commons.wikimedia.org/wiki/File:ASM-1%E6%96%B0%E7%94%B0%E5%8E%9F.JPG",
+      "author": "Gala8357",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Fotografía del Type 80 ASM-1 completo y aislado tomada en la base de Nyutabaru el 2-12-2007; fecha de captura posterior al escenario de 1985."
+    },
+    "game-ammo:usa_mim-14": {
+      "file": "MIM-14 Nike Hercules at Soesterberg.jpg",
+      "label": "MIM-14 Nike Hercules · Misil antiaéreo expuesto",
+      "year": "2016 (pieza de la Guerra Fría)",
+      "source": "https://commons.wikimedia.org/wiki/File:MIM-14_Nike_Hercules_at_Soesterberg.jpg",
+      "author": "LP98",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Misil MIM-14 Nike Hercules en exposición en el Nationaal Militair Museum de Soesterberg, sin asignación a subvariante no documentada."
+    },
+    "game-ammo:wp_upk_23-250": {
+      "file": "UPK-23-250 gun pod Army-2018.jpg",
+      "label": "UPK-23-250 · Contenedor de cañón GSh-23",
+      "year": "2018 (ejemplar de exposición)",
+      "source": "https://commons.wikimedia.org/wiki/File:UPK-23-250_gun_pod_Army-2018.jpg",
+      "author": "Boevaya mashina",
+      "license": "CC BY-SA 4.0",
+      "exactVariant": true,
+      "note": "Contenedor UPK-23-250 fotografiado como equipo independiente en Army-2018; el año de la fotografía no identifica una configuración particular de 1985."
     }
   }
 }
