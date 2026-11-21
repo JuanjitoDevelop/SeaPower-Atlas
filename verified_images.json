@@ -5101,14 +5101,14 @@
       "note": "Kamov Ka-29 soviético documentado en vuelo en 1990."
     },
     "game-unit:a:wp_mig-25pu": {
-      "file": "Russian Air Force MiG-25.jpg",
-      "label": "Mikoyan MiG-25PU",
-      "year": "2003",
-      "source": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force_MiG-25.jpg",
-      "author": "Leonid Faerberg",
-      "license": "GFDL 1.2",
+      "file": "Mikoyan-Gurevich MiG-25PU ’53 blue’ (38094148876).jpg",
+      "label": "Mikoyan MiG-25PU · 53 azul",
+      "year": "2017",
+      "source": "https://commons.wikimedia.org/wiki/File:Mikoyan-Gurevich_MiG-25PU_%E2%80%9953_blue%E2%80%99_(38094148876).jpg",
+      "author": "Alan Wilson",
+      "license": "CC BY-SA 2.0",
       "exactVariant": true,
-      "note": "MiG-25PU biplaza de entrenamiento fotografiado en 2003; modelo expreso de la fuente."
+      "note": "MiG-25PU 53 azul preservado en Park Patriot, Kubinka; fotografía de 2017, no configuración operativa específica de 1985."
     }
   }
 }
