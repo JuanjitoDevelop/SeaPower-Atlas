@@ -1,6 +1,6 @@
 {
-  "version": 16,
-  "description": "Sea Power Atlas, lote 13 propuesto: tres referencias de armamento verificadas en Wikimedia Commons (ASM-1, MIM-14 y UPK-23-250).",
+  "version": 17,
+  "description": "Sea Power Atlas, lote 14: 22 nuevas asignaciones de aeronaves con fuente Commons, autor, fecha, licencia y advertencias de variante; se conservan lotes anteriores.",
   "items": {
     "a6e": {
       "file": "Grumman A-6E Intruder of VA-52 in flight, in 1981 (6379373).jpg",
@@ -4889,6 +4889,226 @@
       "license": "CC BY-SA 4.0",
       "exactVariant": true,
       "note": "Contenedor UPK-23-250 fotografiado como equipo independiente en Army-2018; el año de la fotografía no identifica una configuración particular de 1985."
+    },
+    "game-unit:a:ara_a-4p": {
+      "file": "C-207 Douglas A-4P Skyhawk (7310427820).jpg",
+      "label": "ARA A-4P Skyhawk",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:C-207_Douglas_A-4P_Skyhawk_(7310427820).jpg",
+      "author": "Aeroprints.com",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Douglas A-4P argentino C-207 identificado; ejemplar preservado fotografiado en 2008."
+    },
+    "game-unit:a:ara_dagger": {
+      "file": "IAI Dagger.jpg",
+      "label": "IAI Dagger argentino",
+      "year": "1981",
+      "source": "https://commons.wikimedia.org/wiki/File:IAI_Dagger.jpg",
+      "author": "Horacio Claria",
+      "license": "CC BY 2.5",
+      "exactVariant": true,
+      "note": "Fotografía de la Fuerza Aérea Argentina en 1981."
+    },
+    "game-unit:a:civ_707": {
+      "file": "Pan Am B-707 N415PA.jpg",
+      "label": "Boeing 707 civil (Pan Am)",
+      "year": "Década de 1970",
+      "source": "https://commons.wikimedia.org/wiki/File:Pan_Am_B-707_N415PA.jpg",
+      "author": "Piergiuliano Chesi",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": true,
+      "note": "Boeing 707-321B N415PA de Pan Am; avión de pasajeros real. No implica este operador en la partida."
+    },
+    "game-unit:a:civ_c340": {
+      "file": "Cessna340C-FZOH01.jpg",
+      "label": "Cessna 340",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Cessna340C-FZOH01.jpg",
+      "author": "Ahunt",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Cessna 340 bimotor civil, identificada como tal en la página del archivo."
+    },
+    "game-unit:a:civ_il-18": {
+      "file": "TAROM Ilyushin Il-18 Marmet-1.jpg",
+      "label": "Ilyushin Il-18 (TAROM)",
+      "year": "1980",
+      "source": "https://commons.wikimedia.org/wiki/File:TAROM_Ilyushin_Il-18_Marmet-1.jpg",
+      "author": "Eduard Marmet",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "La foto identifica un Il-18V; la variante del registro genérico Il-18 de Sea Power no está especificada."
+    },
+    "game-unit:a:civ_il-62": {
+      "file": "Ilyushin Il-62 454.jpg",
+      "label": "Ilyushin Il-62",
+      "year": "1973",
+      "source": "https://commons.wikimedia.org/wiki/File:Ilyushin_Il-62_454.jpg",
+      "author": "Piergiuliano Chesi",
+      "license": "CC BY 3.0",
+      "exactVariant": true,
+      "note": "Il-62 de Aeroflot en exposición estática; tipo de avión correctamente identificado."
+    },
+    "game-unit:a:civ_tu-154": {
+      "file": "Tupolev Tu-154.jpg",
+      "label": "Tupolev Tu-154",
+      "year": "2006",
+      "source": "https://commons.wikimedia.org/wiki/File:Tupolev_Tu-154.jpg",
+      "author": "Dmitry A. Mottl",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Tu-154 civil documentado; fotografía posterior a 1985."
+    },
+    "game-unit:a:fr_as-350": {
+      "file": "Un hélicoptère Aérospatiale AS350 B Écureuil (2).JPG",
+      "label": "Aérospatiale AS350 Écureuil",
+      "year": "2014",
+      "source": "https://commons.wikimedia.org/wiki/File:Un_h%C3%A9licopt%C3%A8re_A%C3%A9rospatiale_AS350_B_%C3%89cureuil_(2).JPG",
+      "author": "Jean-Pierre Bazard",
+      "license": "CC BY-SA 3.0",
+      "exactVariant": false,
+      "note": "AS350B civil, misma familia AS350; no acredita configuración operativa francesa de 1985."
+    },
+    "game-unit:a:fr_sa-321": {
+      "file": "Super Frelon 1.jpg",
+      "label": "SA321 Super Frelon",
+      "year": "1985",
+      "source": "https://commons.wikimedia.org/wiki/File:Super_Frelon_1.jpg",
+      "author": "Guillaume Rueda",
+      "license": "CC BY-SA 3.0 / GFDL",
+      "exactVariant": true,
+      "note": "SA321 Super Frelon francés fotografiado sobre cubierta del Clemenceau en 1985."
+    },
+    "game-unit:a:jasdf_f-1": {
+      "file": "Mitsubishi F-1 02.jpg",
+      "label": "Mitsubishi F-1",
+      "year": "2002",
+      "source": "https://commons.wikimedia.org/wiki/File:Mitsubishi_F-1_02.jpg",
+      "author": "Japan Air Self Defense Force",
+      "license": "CC BY 4.0",
+      "exactVariant": true,
+      "note": "Avión de ataque Mitsubishi F-1 de la JASDF."
+    },
+    "game-unit:a:jasdf_t-2": {
+      "file": "T-2 Gifu (13589111533).jpg",
+      "label": "Mitsubishi T-2",
+      "year": "1994",
+      "source": "https://commons.wikimedia.org/wiki/File:T-2_Gifu_(13589111533).jpg",
+      "author": "Rob Schleiffert",
+      "license": "CC BY-SA 2.0",
+      "exactVariant": false,
+      "note": "La fuente muestra un T-2B de Gifu, sin especificación de subvariante en la ficha del juego."
+    },
+    "game-unit:a:pla_q-5": {
+      "file": "Nanchang Q-5.jpg",
+      "label": "Nanchang Q-5 Fantan",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanchang_Q-5.jpg",
+      "author": "Shizhao",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": true,
+      "note": "Q-5 expuesto en museo aeronáutico chino; subvariante de la foto no especificada."
+    },
+    "game-unit:a:pla_q-5a": {
+      "file": "Nanchang Q-5.jpg",
+      "label": "Nanchang Q-5 · familia de Q-5A",
+      "year": "2007",
+      "source": "https://commons.wikimedia.org/wiki/File:Nanchang_Q-5.jpg",
+      "author": "Shizhao",
+      "license": "Dominio público (cesión del autor)",
+      "exactVariant": false,
+      "note": "Fotografía de un Q-5, no demuestra visualmente que sea la subvariante Q-5A."
+    },
+    "game-unit:a:raaf_n22": {
+      "file": "A Philippine Air Force GAF Nomad N22.jpg",
+      "label": "GAF Nomad N22",
+      "year": "2004",
+      "source": "https://commons.wikimedia.org/wiki/File:A_Philippine_Air_Force_GAF_Nomad_N22.jpg",
+      "author": "Philippine Air Force",
+      "license": "Dominio público (Gobierno de Filipinas)",
+      "exactVariant": false,
+      "note": "Mismo modelo australiano GAF Nomad N22, pero ejemplar de Filipinas, no RAAF."
+    },
+    "game-unit:a:raf_victor": {
+      "file": "Handley-Page Victor K.2.jpg",
+      "label": "Handley Page Victor",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:Handley-Page_Victor_K.2.jpg",
+      "author": "Chris Robertshaw",
+      "license": "CC BY 2.0",
+      "exactVariant": false,
+      "note": "Ejemplar Victor K.2 conservado. La ficha RAF Victor no concreta subvariante ni misión."
+    },
+    "game-unit:a:usaf_kc-10": {
+      "file": "A KC-10 Extender in flight.jpg",
+      "label": "KC-10 Extender",
+      "year": "2008",
+      "source": "https://commons.wikimedia.org/wiki/File:A_KC-10_Extender_in_flight.jpg",
+      "author": "Staff Sgt. Aaron Allmon / U.S. Air Force",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Avión cisterna USAF KC-10A en vuelo."
+    },
+    "game-unit:a:usaf_vc-137c": {
+      "file": "VC-137C Air Force One at Berlin-Tempelhof 1987.JPEG",
+      "label": "VC-137C",
+      "year": "1987",
+      "source": "https://commons.wikimedia.org/wiki/File:VC-137C_Air_Force_One_at_Berlin-Tempelhof_1987.JPEG",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "VC-137C SAM 26000 fotografiado en Berlín en 1987."
+    },
+    "game-unit:a:usn_ch-46": {
+      "file": "US Navy 030214-N-4142G-011 A CH-46 \"Sea Knight\" helicopter.jpg",
+      "label": "Boeing Vertol CH-46 Sea Knight",
+      "year": "2003",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Navy_030214-N-4142G-011_A_CH-46_%22Sea_Knight%22_helicopter.jpg",
+      "author": "Photographer's Mate 2nd Class Felix Garza Jr. / U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Helicóptero CH-46 de la US Navy, subvariante no especificada en el registro de Sea Power."
+    },
+    "game-unit:a:usn_ra-5c": {
+      "file": "RA-5C Vigilante armed with AGM-12 Bullpup missiles.jpg",
+      "label": "North American RA-5C Vigilante",
+      "year": "Década de 1960",
+      "source": "https://commons.wikimedia.org/wiki/File:RA-5C_Vigilante_armed_with_AGM-12_Bullpup_missiles.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "RA-5C fotografiado con misiles AGM-12 en configuración de prueba; no es una carga operativa habitual."
+    },
+    "game-unit:a:usn_s-2e": {
+      "file": "S-2E Tracker of VS-37 in flight in June 1970.jpg",
+      "label": "Grumman S-2E Tracker",
+      "year": "1970",
+      "source": "https://commons.wikimedia.org/wiki/File:S-2E_Tracker_of_VS-37_in_flight_in_June_1970.jpg",
+      "author": "U.S. Navy",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "S-2E Tracker de VS-37 fotografiado en vuelo en junio de 1970."
+    },
+    "game-unit:a:wp_ka-29": {
+      "file": "Kamov Ka-29 in 1990 (2).JPEG",
+      "label": "Kamov Ka-29",
+      "year": "1990",
+      "source": "https://commons.wikimedia.org/wiki/File:Kamov_Ka-29_in_1990_(2).JPEG",
+      "author": "U.S. Department of Defense (fotógrafo no identificado)",
+      "license": "Dominio público (Gobierno de EE. UU.)",
+      "exactVariant": true,
+      "note": "Kamov Ka-29 soviético documentado en vuelo en 1990."
+    },
+    "game-unit:a:wp_mig-25pu": {
+      "file": "Russian Air Force MiG-25.jpg",
+      "label": "Mikoyan MiG-25PU",
+      "year": "2003",
+      "source": "https://commons.wikimedia.org/wiki/File:Russian_Air_Force_MiG-25.jpg",
+      "author": "Leonid Faerberg",
+      "license": "GFDL 1.2",
+      "exactVariant": true,
+      "note": "MiG-25PU biplaza de entrenamiento fotografiado en 2003; modelo expreso de la fuente."
     }
   }
 }
