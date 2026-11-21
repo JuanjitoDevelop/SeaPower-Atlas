@@ -8,11 +8,11 @@
   ],
   "counts": {
     "total": 1107,
-    "references": 469,
-    "covered": 468,
-    "exactAssigned": 230,
-    "familyAssigned": 238,
-    "pending": 639,
+    "references": 494,
+    "covered": 493,
+    "exactAssigned": 238,
+    "familyAssigned": 255,
+    "pending": 614,
     "byType": {
       "aircraft": {
         "total": 144,
@@ -28,7 +28,7 @@
       },
       "weapon": {
         "total": 471,
-        "covered": 179
+        "covered": 204
       }
     },
     "unmatchedManifestIds": []
@@ -1554,10 +1554,6 @@
         "Depósito externo de 2270 l."
       ],
       [
-        "is_gabriel_3as",
-        "Gabriel 3AS"
-      ],
-      [
         "it_a-244_ship",
         "IT A 244 SHIP"
       ],
@@ -1574,20 +1570,12 @@
         "it cal 40mm pfhe"
       ],
       [
-        "it_seakiller_2",
-        "Sea Killer 2"
-      ],
-      [
         "jasdf_tank_830_f-1",
         "jasdf tank 830 f-1"
       ],
       [
         "jmsdf_type54",
         "Type 54"
-      ],
-      [
-        "jmsdf_type80",
-        "Type 80"
       ],
       [
         "jsdf_sam1",
@@ -1660,10 +1648,6 @@
       [
         "plan_cal_85mm_lt",
         "85 mm"
-      ],
-      [
-        "plan_hq-61",
-        "HQ-61"
       ],
       [
         "plan_hy-4",
@@ -1802,14 +1786,6 @@
         "GBU-2"
       ],
       [
-        "usaf_m118",
-        "M118"
-      ],
-      [
-        "usaf_pave_spike",
-        "usaf pave spike"
-      ],
-      [
         "usaf_pilot_f-15c",
         "Piloto"
       ],
@@ -1856,14 +1832,6 @@
       [
         "usn_agm-122a",
         "AGM-122A"
-      ],
-      [
-        "usn_alq-99",
-        "USN ALQ 99"
-      ],
-      [
-        "usn_an_slq_25_nixie_decoy",
-        "AN/SLQ-25"
       ],
       [
         "usn_cal_05in",
@@ -2004,10 +1972,6 @@
       [
         "usn_mer_rockeye_6",
         "usn mer rockeye 6"
-      ],
-      [
-        "usn_mk13",
-        "USN MK13"
       ],
       [
         "usn_moss",
@@ -2154,40 +2118,12 @@
         "WP 53 61"
       ],
       [
-        "wp_53-65K",
-        "53-65K"
-      ],
-      [
         "wp_65-76",
         "65-76"
       ],
       [
         "wp_aa-10c",
         "WP AA 10C"
-      ],
-      [
-        "wp_aa-2-2",
-        "AA-2D"
-      ],
-      [
-        "wp_aa-2a",
-        "AA-2B"
-      ],
-      [
-        "wp_aa-2c",
-        "AA-2C"
-      ],
-      [
-        "wp_aa-2d",
-        "AA-2D"
-      ],
-      [
-        "wp_aa-3e",
-        "AA-3E"
-      ],
-      [
-        "wp_aa-3f",
-        "AA-3F"
       ],
       [
         "wp_aa-7c",
@@ -2212,10 +2148,6 @@
       [
         "wp_apr-2",
         "APR-2"
-      ],
-      [
-        "wp_as-12",
-        "AS-12"
       ],
       [
         "wp_as-13",
@@ -2438,10 +2370,6 @@
         "wp pod tangazh elint"
       ],
       [
-        "wp_rbk-250",
-        "RBK-250"
-      ],
-      [
         "wp_rbk-500",
         "RBK-500"
       ],
@@ -2478,28 +2406,12 @@
         "WP S 25 POD"
       ],
       [
-        "wp_s-5",
-        "S-5"
-      ],
-      [
-        "wp_s-8",
-        "S-8"
-      ],
-      [
-        "wp_sa-4",
-        "SA-4"
-      ],
-      [
         "wp_sa-n-10",
         "WP SA N 10"
       ],
       [
         "wp_sa-n-12",
         "WP SA N 12"
-      ],
-      [
-        "wp_sa-n-3",
-        "SA-N-3"
       ],
       [
         "wp_sa-n-3b",
@@ -2576,18 +2488,6 @@
       [
         "wp_ua",
         "WP UA"
-      ],
-      [
-        "wp_ub-16-57",
-        "WP UB 16 57"
-      ],
-      [
-        "wp_ub-16-57KV",
-        "WP UB 16 57KV"
-      ],
-      [
-        "wp_ub-16-57UM",
-        "WP UB 16 57UM"
       ],
       [
         "wp_umgt-1",
